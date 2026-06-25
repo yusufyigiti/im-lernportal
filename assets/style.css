@@ -186,9 +186,10 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.4rem 3rem}
 
 /* ---------- Slide-Viewer (Themen) ---------- */
 .td-split{display:grid;grid-template-columns:1.15fr .85fr;gap:1.6rem;align-items:start;margin-top:1rem}
+.td-slides,.td-text{min-width:0}
 .td-slides{position:sticky;top:120px}
-.slide-viewer{position:relative;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:240px}
-.slide-viewer img{width:100%;height:auto;display:block;cursor:zoom-in}
+.slide-viewer{position:relative;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:200px;max-height:74vh}
+.slide-viewer img{width:100%;height:auto;max-height:74vh;object-fit:contain;display:block;cursor:zoom-in}
 .slide-arrow{
   position:absolute;top:50%;transform:translateY(-50%);
   width:40px;height:40px;border-radius:50%;border:none;cursor:pointer;
