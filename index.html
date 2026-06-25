@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=4">
+<link rel="stylesheet" href="assets/style.css?v=5">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
 </head>
 <body>
@@ -26,19 +26,19 @@
       <span class="cd-lbl">Tage bis zur Klausur</span>
     </div>
   </div>
-  <nav class="tabs" id="tabs">
-    <button class="tab active" data-view="uebersicht">Übersicht</button>
-    <button class="tab" data-view="themen">Themen</button>
-    <button class="tab" data-view="karteikarten">Karteikarten</button>
-    <button class="tab" data-view="test">Test</button>
-    <button class="tab" data-view="uebungen">Übungen</button>
-    <button class="tab" data-view="folien">Folien</button>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Bereiche">
+    <button class="tab active" role="tab" data-view="uebersicht" aria-controls="view-uebersicht" aria-selected="true">Übersicht</button>
+    <button class="tab" role="tab" data-view="themen" aria-controls="view-themen" aria-selected="false" tabindex="-1">Themen</button>
+    <button class="tab" role="tab" data-view="karteikarten" aria-controls="view-karteikarten" aria-selected="false" tabindex="-1">Karteikarten</button>
+    <button class="tab" role="tab" data-view="test" aria-controls="view-test" aria-selected="false" tabindex="-1">Test</button>
+    <button class="tab" role="tab" data-view="uebungen" aria-controls="view-uebungen" aria-selected="false" tabindex="-1">Übungen</button>
+    <button class="tab" role="tab" data-view="folien" aria-controls="view-folien" aria-selected="false" tabindex="-1">Folien</button>
   </nav>
 </header>
 
 <main id="app">
   <!-- ÜBERSICHT -->
-  <section class="view active" id="view-uebersicht">
+  <section class="view active" id="view-uebersicht" role="tabpanel" aria-label="Übersicht">
     <div class="hero">
       <div class="hero-left">
         <h1>Bereit für die Klausur am <span class="accent">21. Juli 2026</span></h1>
@@ -75,7 +75,7 @@
   </section>
 
   <!-- THEMEN -->
-  <section class="view" id="view-themen">
+  <section class="view" id="view-themen" role="tabpanel" aria-label="Themen">
     <div class="themen-layout">
       <aside class="themen-nav" id="themenNav"></aside>
       <div class="themen-content" id="themenContent"></div>
@@ -83,7 +83,7 @@
   </section>
 
   <!-- KARTEIKARTEN -->
-  <section class="view" id="view-karteikarten">
+  <section class="view" id="view-karteikarten" role="tabpanel" aria-label="Karteikarten">
     <div class="kk-toolbar">
       <div class="kk-filter">
         <label>Thema:</label>
@@ -115,7 +115,7 @@
   </section>
 
   <!-- TEST -->
-  <section class="view" id="view-test">
+  <section class="view" id="view-test" role="tabpanel" aria-label="Test">
     <div id="testSetup" class="test-setup">
       <h2 class="section-title">Probetest</h2>
       <p class="lead">Stelle dir deinen Test zusammen. Du bekommst Multiple-Choice-Fragen mit sofortiger Auswertung und Erklärungen.</p>
@@ -155,7 +155,7 @@
   </section>
 
   <!-- ÜBUNGEN -->
-  <section class="view" id="view-uebungen">
+  <section class="view" id="view-uebungen" role="tabpanel" aria-label="Übungen">
     <h2 class="section-title">Übungen & Übungssitzungen</h2>
     <p class="lead">Die Übungsblätter und Sitzungsunterlagen zum Durcharbeiten. Tipp: Die Übungsaufgaben sind oft die beste Vorbereitung auf den Klausurstil — besonders „Sitzung 02 · Fragen".</p>
     <h3 class="td-sub">📝 Übungsblätter</h3>
@@ -165,14 +165,14 @@
   </section>
 
   <!-- FOLIEN -->
-  <section class="view" id="view-folien">
+  <section class="view" id="view-folien" role="tabpanel" aria-label="Folien">
     <h2 class="section-title">Originalfolien & Materialien</h2>
     <p class="lead">Alle Vorlesungsfolien und die drei Fallstudien zum Nachschlagen und Herunterladen.</p>
     <div class="folien-grid" id="folienGrid"></div>
   </section>
 </main>
 
-<div class="lightbox" id="lightbox">
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Folie in Vollbild">
   <button class="lb-close" id="lightboxClose" aria-label="Schließen">✕</button>
   <button class="lb-arrow lb-left" id="lightboxPrev" aria-label="Vorherige Folie">‹</button>
   <img id="lightboxImg" alt="Folie groß">
@@ -184,8 +184,8 @@
   <p>Lernportal Informationsmanagement · Inhalte automatisch aus den Vorlesungsfolien erstellt — bitte im Zweifel mit den Originalfolien abgleichen. Viel Erfolg bei der Klausur! 🍀</p>
 </footer>
 
-<script src="assets/data.js?v=4"></script>
-<script src="assets/slides.js?v=4"></script>
-<script src="assets/app.js?v=4"></script>
+<script defer src="assets/data.js?v=5"></script>
+<script defer src="assets/slides.js?v=5"></script>
+<script defer src="assets/app.js?v=5"></script>
 </body>
 </html>

@@ -17,6 +17,7 @@
   --shadow-lg:0 12px 40px rgba(28,40,70,.12);
   --radius:16px;
   --radius-sm:10px;
+  --stickyTop:108px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -148,7 +149,7 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.4rem 3rem}
 
 /* ---------- Themen ---------- */
 .themen-layout{display:grid;grid-template-columns:230px 1fr;gap:1.4rem;align-items:start}
-.themen-nav{position:sticky;top:120px;display:flex;flex-direction:column;gap:.25rem}
+.themen-nav{position:sticky;top:var(--stickyTop);display:flex;flex-direction:column;gap:.25rem}
 .tn-item{
   text-align:left;border:none;background:none;cursor:pointer;font-family:inherit;
   padding:.6rem .75rem;border-radius:9px;font-size:.88rem;color:var(--text-soft);
@@ -185,31 +186,80 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.4rem 3rem}
 .folioframe{width:100%;height:560px;border:1px solid var(--border);border-radius:var(--radius-sm);margin-top:.6rem;background:var(--surface-2)}
 
 /* ---------- Slide-Viewer (Themen) ---------- */
-.td-split{display:grid;grid-template-columns:1.15fr .85fr;gap:1.6rem;align-items:start;margin-top:1rem}
+.td-split{display:grid;grid-template-columns:1.5fr .9fr;gap:1.6rem;align-items:start;margin-top:1rem}
 .td-slides,.td-text{min-width:0}
-.td-slides{position:sticky;top:120px}
-.slide-viewer{position:relative;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:200px;max-height:74vh}
-.slide-viewer img{width:100%;height:auto;max-height:74vh;object-fit:contain;display:block;cursor:zoom-in}
+.td-slides{position:sticky;top:var(--stickyTop)}
+.view:focus{outline:none}
+
+.slide-viewer{
+  position:relative;background:var(--surface-2);border:1px solid var(--border);
+  border-radius:var(--radius-sm);overflow:hidden;display:flex;align-items:center;justify-content:center;
+  aspect-ratio:1080/764;max-height:calc(100vh - var(--stickyTop) - 120px);
+}
+/* Bühne umschließt exakt das Bild; Canvas liegt deckungsgleich darüber */
+.stage-wrap{position:relative;display:inline-block;line-height:0;max-width:100%;max-height:100%;touch-action:pan-y}
+.slide-viewer img{
+  width:auto;height:auto;max-width:100%;max-height:calc(100vh - var(--stickyTop) - 120px);
+  object-fit:contain;display:block;touch-action:pan-y;
+  -webkit-user-select:none;user-select:none;-webkit-user-drag:none;
+}
+.td-slides:not(.draw-on) .slide-viewer img{cursor:zoom-in}
+.slide-canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;pointer-events:none;border-radius:inherit}
+.td-slides.draw-on .slide-canvas{pointer-events:auto;cursor:crosshair}
+.td-slides.draw-on .stage-wrap,.td-slides.draw-on .slide-viewer img{touch-action:none}
+.td-slides.draw-on .slide-arrow{opacity:.2;pointer-events:none}
+
 .slide-arrow{
   position:absolute;top:50%;transform:translateY(-50%);
-  width:40px;height:40px;border-radius:50%;border:none;cursor:pointer;
-  background:rgba(255,255,255,.86);color:var(--text);font-size:1.5rem;line-height:1;
-  box-shadow:var(--shadow);display:grid;place-items:center;transition:.13s;z-index:2;
+  width:48px;height:48px;border-radius:50%;border:none;cursor:pointer;
+  background:rgba(255,255,255,.9);color:var(--text);font-size:1.6rem;line-height:1;
+  box-shadow:var(--shadow);display:grid;place-items:center;transition:.13s;z-index:3;
 }
 .slide-arrow:hover:not(:disabled){background:#fff;color:var(--primary)}
-.slide-arrow:disabled{opacity:.3;cursor:default}
+.slide-arrow:disabled{opacity:.25;cursor:default}
 .sa-left{left:.6rem}
 .sa-right{right:.6rem}
-.slide-bar{display:flex;align-items:center;justify-content:space-between;margin:.7rem 0;gap:.6rem}
+.slide-bar{display:flex;align-items:center;gap:.6rem;margin:.7rem 0}
 #slideCounter{font-weight:600;color:var(--text-soft);font-size:.9rem}
-.slide-thumbs{display:flex;gap:.45rem;overflow-x:auto;padding:.3rem .1rem .5rem;scrollbar-width:thin}
+.slide-hint{font-size:.78rem;color:var(--muted);margin:0 auto}
+.slide-bar #slideZoom{margin-left:auto}
+
+.slide-thumbs{display:flex;gap:.5rem;overflow-x:auto;padding:.35rem .1rem .55rem;scrollbar-width:thin;
+  scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 16px,#000 calc(100% - 16px),transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 16px,#000 calc(100% - 16px),transparent)}
 .slide-thumbs .thumb{
-  height:62px;width:auto;flex:none;border:2px solid var(--border);border-radius:6px;cursor:pointer;
-  background:#fff;opacity:.72;transition:.12s;
+  height:74px;width:auto;flex:none;border:2px solid var(--border);border-radius:6px;cursor:pointer;
+  background:#fff;opacity:.7;transition:.12s;scroll-snap-align:center;
 }
 .slide-thumbs .thumb:hover{opacity:1}
 .slide-thumbs .thumb.active{border-color:var(--primary);opacity:1;box-shadow:0 0 0 2px var(--primary-soft)}
 .td-text .td-sub:first-child{margin-top:0}
+
+/* ---------- Zeichen-Werkzeugleiste ---------- */
+.draw-tools{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem}
+.dt-group{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;background:var(--surface-2);border:1px solid var(--border);border-radius:99px;padding:.3rem .5rem}
+.dt-btn{min-width:44px;height:44px;padding:0 .55rem;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:1.05rem;cursor:pointer;font-family:inherit;display:grid;place-items:center;transition:.12s}
+.dt-btn:hover{border-color:var(--primary);color:var(--primary)}
+.dt-toggle{font-weight:600;gap:.35rem}
+.dt-toggle[aria-pressed="true"]{background:var(--primary);color:#fff;border-color:var(--primary)}
+.dt-tool.is-active{background:var(--primary-soft);border-color:#bcd2fb;color:var(--primary-dark)}
+.dt-sep{width:1px;height:26px;background:var(--border)}
+.dt-swatch{width:32px;height:32px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px var(--border);background:var(--sw);cursor:pointer;padding:0}
+.dt-swatch.is-active{box-shadow:0 0 0 2px var(--primary)}
+
+/* ---------- Fokus-Modus (Folie groß, Text darunter) ---------- */
+.td-split.focus{grid-template-columns:1fr}
+.td-split.focus .td-slides{position:static}
+.td-split.focus .slide-viewer{max-height:calc(100vh - var(--stickyTop) - 90px)}
+.td-split.focus .slide-viewer img{max-height:calc(100vh - var(--stickyTop) - 90px)}
+#focusToggle.on{background:var(--primary);color:#fff;border-color:var(--primary)}
+
+/* ---------- Toast ---------- */
+.im-toast{position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%) translateY(20px);
+  background:var(--text);color:#fff;padding:.7rem 1.1rem;border-radius:10px;font-size:.86rem;
+  box-shadow:var(--shadow-lg);opacity:0;pointer-events:none;transition:.25s;z-index:200}
+.im-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
 /* ---------- Lightbox ---------- */
 .lightbox{
@@ -225,9 +275,16 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.4rem 3rem}
 .lb-left{left:1.2rem}
 .lb-right{right:1.2rem}
 .lb-counter{position:absolute;bottom:1.1rem;left:50%;transform:translateX(-50%);color:#fff;font-size:.9rem;background:rgba(0,0,0,.4);padding:.3rem .9rem;border-radius:99px}
-@media(max-width:880px){
+/* iPad / Tablet: Folie über Text statt zwei enge Spalten */
+@media(max-width:1100px){
   .td-split{grid-template-columns:1fr}
   .td-slides{position:static}
+  .slide-viewer img{max-height:64vh}
+  .draw-tools{position:sticky;top:var(--stickyTop);z-index:5;background:var(--bg);padding:.4rem 0}
+}
+@media(max-width:560px){
+  .slide-arrow{width:40px;height:40px;font-size:1.3rem}
+  .slide-hint{display:none}
 }
 
 /* ---------- Karteikarten ---------- */
