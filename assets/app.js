@@ -404,6 +404,8 @@
       `<tr><td>${esc(g.term)}</td><td>${esc(g.definition)}</td></tr>`).join("");
     const thumbs = Array.from({ length: slideMax }, (_, i) =>
       `<img class="thumb" data-n="${i + 1}" loading="lazy" decoding="async" width="120" height="85" src="${thumbPath(id, i + 1)}" alt="Folie ${i + 1}">`).join("");
+    const kpList = (t.kernpunkte && t.kernpunkte.length) ? t.kernpunkte : secs.map((s) => s.heading);
+    const kern = kpList.map((k) => `<li>${esc(k)}</li>`).join("");
 
     $("#themenContent").innerHTML = `
       <article class="topic-detail">
@@ -413,56 +415,58 @@
             <span class="td-date">Vorlesung vom ${esc(t.date)} · ${slideMax} Folien</span>
           </div>
           <div class="td-actions">
-            <button class="btn btn-small" id="focusToggle" title="Folie groß / klein">🎯 Fokus</button>
             <button class="btn btn-small" data-kk="${id}">Karteikarten</button>
             <a class="btn btn-small" href="folien/${id}.pdf" target="_blank" rel="noopener">PDF ↗</a>
           </div>
         </div>
-        <div class="td-summary">${esc(t.summary)}</div>
 
-        <div class="td-split">
-          <div class="td-slides">
-            <div class="draw-tools" role="toolbar" aria-label="Zeichenwerkzeuge">
-              <button class="dt-btn dt-toggle" id="dtToggle" aria-pressed="false" title="Auf der Folie zeichnen">✏️ Zeichnen</button>
-              <div class="dt-group" id="dtPanel" hidden>
-                <button class="dt-btn dt-tool is-active" data-tool="pen" title="Stift">✏️</button>
-                <button class="dt-btn dt-tool" data-tool="hl" title="Textmarker">🖍️</button>
-                <button class="dt-btn dt-tool" data-tool="erase" title="Radiergummi">🧽</button>
-                <span class="dt-sep"></span>
-                <button class="dt-swatch is-active" data-color="#e2574c" style="--sw:#e2574c" title="Rot" aria-label="Rot"></button>
-                <button class="dt-swatch" data-color="#2f6df0" style="--sw:#2f6df0" title="Blau" aria-label="Blau"></button>
-                <button class="dt-swatch" data-color="#1aa56d" style="--sw:#1aa56d" title="Grün" aria-label="Grün"></button>
-                <button class="dt-swatch" data-color="#1c2433" style="--sw:#1c2433" title="Schwarz" aria-label="Schwarz"></button>
-                <button class="dt-swatch" data-color="#f2b705" style="--sw:#f2b705" title="Gelb" aria-label="Gelb"></button>
-                <span class="dt-sep"></span>
-                <button class="dt-btn" id="dtUndo" title="Rückgängig">↶</button>
-                <button class="dt-btn" id="dtClear" title="Alles löschen">🗑️</button>
-              </div>
+        <div class="td-slides">
+          <div class="draw-tools" role="toolbar" aria-label="Zeichenwerkzeuge">
+            <button class="dt-btn dt-toggle" id="dtToggle" aria-pressed="false" title="Auf der Folie zeichnen">✏️ Zeichnen</button>
+            <div class="dt-group" id="dtPanel" hidden>
+              <button class="dt-btn dt-tool is-active" data-tool="pen" title="Stift">✏️</button>
+              <button class="dt-btn dt-tool" data-tool="hl" title="Textmarker">🖍️</button>
+              <button class="dt-btn dt-tool" data-tool="erase" title="Radiergummi">🧽</button>
+              <span class="dt-sep"></span>
+              <button class="dt-swatch is-active" data-color="#e2574c" style="--sw:#e2574c" title="Rot" aria-label="Rot"></button>
+              <button class="dt-swatch" data-color="#2f6df0" style="--sw:#2f6df0" title="Blau" aria-label="Blau"></button>
+              <button class="dt-swatch" data-color="#1aa56d" style="--sw:#1aa56d" title="Grün" aria-label="Grün"></button>
+              <button class="dt-swatch" data-color="#1c2433" style="--sw:#1c2433" title="Schwarz" aria-label="Schwarz"></button>
+              <button class="dt-swatch" data-color="#f2b705" style="--sw:#f2b705" title="Gelb" aria-label="Gelb"></button>
+              <span class="dt-sep"></span>
+              <button class="dt-btn" id="dtUndo" title="Rückgängig">↶</button>
+              <button class="dt-btn" id="dtClear" title="Alles löschen">🗑️</button>
             </div>
-
-            <div class="slide-viewer">
-              <button class="slide-arrow sa-left" id="slidePrev" aria-label="Vorherige Folie">‹</button>
-              <div class="stage-wrap" id="stageWrap">
-                <img id="slideImg" alt="Folie" title="Zum Vergrößern tippen">
-                <canvas id="slideCanvas" class="slide-canvas"></canvas>
-              </div>
-              <button class="slide-arrow sa-right" id="slideNext" aria-label="Nächste Folie">›</button>
-            </div>
-
-            <div class="slide-bar">
-              <span id="slideCounter"></span>
-              <span class="slide-hint">← wischen zum Blättern →</span>
-              <button class="btn btn-small" id="slideZoom">⤢ Vergrößern</button>
-            </div>
-            <div class="slide-thumbs" id="slideThumbs">${thumbs}</div>
           </div>
 
-          <div class="td-text">
-            <h3 class="td-sub">📖 Zusammenfassung</h3>
-            ${sections}
-            <h3 class="td-sub">📑 Glossar</h3>
-            <table class="glossary"><tbody>${glossary}</tbody></table>
+          <div class="slide-viewer">
+            <button class="slide-arrow sa-left" id="slidePrev" aria-label="Vorherige Folie">‹</button>
+            <div class="stage-wrap" id="stageWrap">
+              <img id="slideImg" alt="Folie" title="Zum Vergrößern tippen">
+              <canvas id="slideCanvas" class="slide-canvas"></canvas>
+            </div>
+            <button class="slide-arrow sa-right" id="slideNext" aria-label="Nächste Folie">›</button>
           </div>
+
+          <div class="slide-bar">
+            <span id="slideCounter"></span>
+            <span class="slide-hint">← wischen zum Blättern →</span>
+            <button class="btn btn-small" id="slideZoom">⤢ Vergrößern</button>
+          </div>
+          <div class="slide-thumbs" id="slideThumbs">${thumbs}</div>
+        </div>
+
+        <div class="td-text">
+          <h3 class="td-sub">🎯 Kernpunkte</h3>
+          <ul class="kernpunkte">${kern}</ul>
+          <details class="td-more">
+            <summary>📖 Ausführliche Zusammenfassung &amp; Glossar anzeigen</summary>
+            <div class="td-more-body">
+              ${sections}
+              <h3 class="td-sub">📑 Glossar</h3>
+              <table class="glossary"><tbody>${glossary}</tbody></table>
+            </div>
+          </details>
         </div>
       </article>`;
 
@@ -473,8 +477,6 @@
     $("#slideImg").addEventListener("click", openLightbox);
     $("#slideZoom").addEventListener("click", openLightbox);
     $$("#slideThumbs .thumb").forEach((th) => th.addEventListener("click", () => gotoSlide(+th.dataset.n)));
-    const ft = $("#focusToggle");
-    ft.addEventListener("click", () => { $(".td-split").classList.toggle("focus"); ft.classList.toggle("on"); SlideDraw.resync(); });
 
     SlideDraw.mount();
     renderSlide();

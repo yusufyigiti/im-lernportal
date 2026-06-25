@@ -149,6 +149,7 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.4rem 3rem}
 
 /* ---------- Themen ---------- */
 .themen-layout{display:grid;grid-template-columns:230px 1fr;gap:1.4rem;align-items:start}
+.themen-content{min-width:0}
 .themen-nav{position:sticky;top:var(--stickyTop);display:flex;flex-direction:column;gap:.25rem}
 .tn-item{
   text-align:left;border:none;background:none;cursor:pointer;font-family:inherit;
@@ -186,20 +187,20 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.4rem 3rem}
 .folioframe{width:100%;height:560px;border:1px solid var(--border);border-radius:var(--radius-sm);margin-top:.6rem;background:var(--surface-2)}
 
 /* ---------- Slide-Viewer (Themen) ---------- */
-.td-split{display:grid;grid-template-columns:1.5fr .9fr;gap:1.6rem;align-items:start;margin-top:1rem}
 .td-slides,.td-text{min-width:0}
-.td-slides{position:sticky;top:var(--stickyTop)}
+.td-slides{position:static;margin-top:1rem}
+.td-text{margin-top:1.5rem;max-width:80ch}
 .view:focus{outline:none}
 
 .slide-viewer{
   position:relative;background:var(--surface-2);border:1px solid var(--border);
   border-radius:var(--radius-sm);overflow:hidden;display:flex;align-items:center;justify-content:center;
-  aspect-ratio:1080/764;max-height:calc(100vh - var(--stickyTop) - 120px);
+  min-height:300px;max-height:80vh;
 }
 /* Bühne umschließt exakt das Bild; Canvas liegt deckungsgleich darüber */
-.stage-wrap{position:relative;display:inline-block;line-height:0;max-width:100%;max-height:100%;touch-action:pan-y}
+.stage-wrap{position:relative;display:inline-block;line-height:0;max-width:100%;max-height:80vh;touch-action:pan-y}
 .slide-viewer img{
-  width:auto;height:auto;max-width:100%;max-height:calc(100vh - var(--stickyTop) - 120px);
+  width:auto;height:auto;max-width:100%;max-height:80vh;
   object-fit:contain;display:block;touch-action:pan-y;
   -webkit-user-select:none;user-select:none;-webkit-user-drag:none;
 }
@@ -248,12 +249,18 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.4rem 3rem}
 .dt-swatch{width:32px;height:32px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px var(--border);background:var(--sw);cursor:pointer;padding:0}
 .dt-swatch.is-active{box-shadow:0 0 0 2px var(--primary)}
 
-/* ---------- Fokus-Modus (Folie groß, Text darunter) ---------- */
-.td-split.focus{grid-template-columns:1fr}
-.td-split.focus .td-slides{position:static}
-.td-split.focus .slide-viewer{max-height:calc(100vh - var(--stickyTop) - 90px)}
-.td-split.focus .slide-viewer img{max-height:calc(100vh - var(--stickyTop) - 90px)}
-#focusToggle.on{background:var(--primary);color:#fff;border-color:var(--primary)}
+/* ---------- Kernpunkte + ausklappbare Details ---------- */
+.kernpunkte{list-style:none;display:grid;gap:.55rem;margin:.3rem 0 0;padding:0}
+.kernpunkte li{position:relative;padding:.7rem 1rem .7rem 2.5rem;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--primary);border-radius:var(--radius-sm);font-size:.96rem;line-height:1.5}
+.kernpunkte li::before{content:"✓";position:absolute;left:.9rem;top:.66rem;color:var(--primary);font-weight:800}
+.td-more{margin-top:1.4rem;border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden}
+.td-more>summary{cursor:pointer;list-style:none;padding:.85rem 1.1rem;font-weight:600;background:var(--surface-2);display:flex;align-items:center;gap:.55rem;color:var(--text-soft)}
+.td-more>summary::-webkit-details-marker{display:none}
+.td-more>summary::before{content:"▸";color:var(--primary);transition:.15s}
+.td-more[open]>summary::before{transform:rotate(90deg)}
+.td-more[open]>summary{color:var(--text)}
+.td-more-body{padding:1rem 1.2rem}
+.td-more-body .td-sub:first-child{margin-top:0}
 
 /* ---------- Toast ---------- */
 .im-toast{position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%) translateY(20px);
@@ -275,16 +282,13 @@ main{max-width:1200px;margin:0 auto;padding:1.6rem 1.4rem 3rem}
 .lb-left{left:1.2rem}
 .lb-right{right:1.2rem}
 .lb-counter{position:absolute;bottom:1.1rem;left:50%;transform:translateX(-50%);color:#fff;font-size:.9rem;background:rgba(0,0,0,.4);padding:.3rem .9rem;border-radius:99px}
-/* iPad / Tablet: Folie über Text statt zwei enge Spalten */
 @media(max-width:1100px){
-  .td-split{grid-template-columns:1fr}
-  .td-slides{position:static}
-  .slide-viewer img{max-height:64vh}
-  .draw-tools{position:sticky;top:var(--stickyTop);z-index:5;background:var(--bg);padding:.4rem 0}
+  .slide-viewer,.stage-wrap,.slide-viewer img{max-height:68vh}
 }
 @media(max-width:560px){
   .slide-arrow{width:40px;height:40px;font-size:1.3rem}
   .slide-hint{display:none}
+  .kernpunkte li{padding:.6rem .8rem .6rem 2.1rem;font-size:.92rem}
 }
 
 /* ---------- Karteikarten ---------- */
