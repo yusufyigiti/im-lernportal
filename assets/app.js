@@ -95,9 +95,35 @@
     $$("#themenNav .tn-item").forEach((b) => b.addEventListener("click", () => openTopic(b.dataset.topic)));
   }
 
+  const SLIDES = window.IM_SLIDES || {};
+  let slideIdx = 1, slideMax = 1, slideTopic = "01";
+
+  function slidePath(id, n) { return `folien/img/${id}/p${String(n).padStart(3, "0")}.jpg`; }
+
+  function renderSlide() {
+    const img = $("#slideImg");
+    if (!img) return;
+    img.src = slidePath(slideTopic, slideIdx);
+    $("#slideCounter").textContent = `Folie ${slideIdx} / ${slideMax}`;
+    $("#slidePrev").disabled = slideIdx <= 1;
+    $("#slideNext").disabled = slideIdx >= slideMax;
+    $$("#slideThumbs .thumb").forEach((th) => th.classList.toggle("active", +th.dataset.n === slideIdx));
+    const act = $(`#slideThumbs .thumb[data-n="${slideIdx}"]`);
+    if (act) act.scrollIntoView({ block: "nearest", inline: "center" });
+  }
+  function gotoSlide(n) { slideIdx = Math.min(slideMax, Math.max(1, n)); renderSlide(); }
+
+  function openLightbox() {
+    const lb = $("#lightbox");
+    $("#lightboxImg").src = slidePath(slideTopic, slideIdx);
+    $("#lightboxCounter").textContent = `${slideTopic} · Folie ${slideIdx} / ${slideMax}`;
+    lb.classList.add("open");
+  }
+
   function openTopic(id) {
     currentTopic = id;
     const t = DATA[id];
+    slideTopic = id; slideMax = SLIDES[id] || 1; slideIdx = 1;
     $$("#themenNav .tn-item").forEach((b) => b.classList.toggle("active", b.dataset.topic === id));
 
     const sections = t.sections.map((s, i) => `
@@ -109,35 +135,54 @@
     const glossary = t.glossary.map((g) =>
       `<tr><td>${esc(g.term)}</td><td>${esc(g.definition)}</td></tr>`).join("");
 
+    const thumbs = Array.from({ length: slideMax }, (_, i) =>
+      `<img class="thumb" data-n="${i + 1}" loading="lazy" src="${slidePath(id, i + 1)}" alt="Folie ${i + 1}">`).join("");
+
     $("#themenContent").innerHTML = `
       <article class="topic-detail">
         <div class="td-head">
           <div>
             <h2><span style="color:var(--muted);font-weight:700">${id}.</span> ${esc(t.title)}</h2>
-            <span class="td-date">Vorlesung vom ${esc(t.date)}</span>
+            <span class="td-date">Vorlesung vom ${esc(t.date)} · ${slideMax} Folien</span>
           </div>
           <div class="td-actions">
-            <button class="btn btn-small" data-kk="${id}">Karteikarten zu diesem Thema</button>
-            <a class="btn btn-small" href="folien/${id}.pdf" target="_blank" rel="noopener">Folien als PDF ↗</a>
+            <button class="btn btn-small" data-kk="${id}">Karteikarten</button>
+            <a class="btn btn-small" href="folien/${id}.pdf" target="_blank" rel="noopener">PDF ↗</a>
           </div>
         </div>
         <div class="td-summary">${esc(t.summary)}</div>
 
-        <h3 class="td-sub">📖 Zusammenfassung</h3>
-        ${sections}
+        <div class="td-split">
+          <div class="td-slides">
+            <div class="slide-viewer">
+              <button class="slide-arrow sa-left" id="slidePrev" aria-label="Vorherige Folie">‹</button>
+              <img id="slideImg" alt="Folie" title="Zum Vergrößern klicken">
+              <button class="slide-arrow sa-right" id="slideNext" aria-label="Nächste Folie">›</button>
+            </div>
+            <div class="slide-bar">
+              <span id="slideCounter"></span>
+              <button class="btn btn-small" id="slideZoom">⤢ Vergrößern</button>
+            </div>
+            <div class="slide-thumbs" id="slideThumbs">${thumbs}</div>
+          </div>
 
-        <h3 class="td-sub">📑 Glossar</h3>
-        <table class="glossary"><tbody>${glossary}</tbody></table>
-
-        <h3 class="td-sub">🖼️ Originalfolien zur Kontrolle</h3>
-        <object class="folioframe" data="folien/${id}.pdf#view=FitH" type="application/pdf">
-          <p style="padding:1rem">Die Folien können nicht eingebettet werden.
-          <a href="folien/${id}.pdf" target="_blank" rel="noopener">PDF in neuem Tab öffnen ↗</a></p>
-        </object>
+          <div class="td-text">
+            <h3 class="td-sub">📖 Zusammenfassung</h3>
+            ${sections}
+            <h3 class="td-sub">📑 Glossar</h3>
+            <table class="glossary"><tbody>${glossary}</tbody></table>
+          </div>
+        </div>
       </article>`;
 
     $$("#themenContent [data-kk]").forEach((b) =>
       b.addEventListener("click", () => { showView("karteikarten"); setKKTopic(b.dataset.kk); }));
+    $("#slidePrev").addEventListener("click", () => gotoSlide(slideIdx - 1));
+    $("#slideNext").addEventListener("click", () => gotoSlide(slideIdx + 1));
+    $("#slideImg").addEventListener("click", openLightbox);
+    $("#slideZoom").addEventListener("click", openLightbox);
+    $$("#slideThumbs .thumb").forEach((th) => th.addEventListener("click", () => gotoSlide(+th.dataset.n)));
+    renderSlide();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -401,6 +446,30 @@
     $("#folienGrid").innerHTML = lectures + cases;
   }
 
+  function initSlideControls() {
+    const lb = $("#lightbox");
+    const refresh = () => {
+      $("#lightboxImg").src = slidePath(slideTopic, slideIdx);
+      $("#lightboxCounter").textContent = `${slideTopic} · Folie ${slideIdx} / ${slideMax}`;
+    };
+    $("#lightboxClose").addEventListener("click", () => lb.classList.remove("open"));
+    lb.addEventListener("click", (e) => { if (e.target === lb) lb.classList.remove("open"); });
+    $("#lightboxPrev").addEventListener("click", () => { gotoSlide(slideIdx - 1); refresh(); });
+    $("#lightboxNext").addEventListener("click", () => { gotoSlide(slideIdx + 1); refresh(); });
+    document.addEventListener("keydown", (e) => {
+      if (lb.classList.contains("open")) {
+        if (e.key === "Escape") lb.classList.remove("open");
+        else if (e.key === "ArrowRight") { gotoSlide(slideIdx + 1); refresh(); }
+        else if (e.key === "ArrowLeft") { gotoSlide(slideIdx - 1); refresh(); }
+        return;
+      }
+      if ($("#view-themen").classList.contains("active")) {
+        if (e.key === "ArrowRight") gotoSlide(slideIdx + 1);
+        else if (e.key === "ArrowLeft") gotoSlide(slideIdx - 1);
+      }
+    });
+  }
+
   /* ============================================================
      INIT
      ============================================================ */
@@ -410,6 +479,7 @@
   openTopic(IDS[0]);
   initKK();
   initTest();
+  initSlideControls();
   renderUebungen();
   renderFolien();
 
