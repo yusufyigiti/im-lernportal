@@ -335,6 +335,42 @@
   }
 
   /* ============================================================
+     ÜBUNGEN
+     ============================================================ */
+  const UEBUNGEN = [
+    ["ueb_03", "Übung 03"],
+    ["ueb_04", "Übung 04"],
+    ["ueb_05", "Übung 05"],
+    ["ueb_06", "Übung 06 · Innovationsmanagement"],
+    ["ueb_07", "Übung 07 · IT-Controlling"],
+    ["ueb_08", "Übung 08 · Gastvortrag Cloud Computing & digitale Souveränität"]
+  ];
+  const SITZUNGEN = [
+    ["sit_01", "Sitzung 01 · Einführung"],
+    ["sit_02", "Sitzung 02 · Fragen (Aufgabensammlung)"],
+    ["sit_03", "Sitzung 03 · EAM"],
+    ["sit_04", "Sitzung 04 · Organisation & Portfolio"],
+    ["sit_05", "Sitzung 05 · IT-Outsourcing"]
+  ];
+
+  function uebCard(file, title, icon) {
+    return `<div class="folio-card cs">
+      <span class="fc-ico">${icon}</span>
+      <h3>${esc(title)}</h3>
+      <span class="td-date" style="font-size:.78rem;color:var(--muted)">Übungsmaterial</span>
+      <div class="fc-actions">
+        <a class="btn btn-small" href="uebungen/${file}.pdf" target="_blank" rel="noopener">Öffnen ↗</a>
+        <a class="btn btn-small" href="uebungen/${file}.pdf" download>Download</a>
+      </div>
+    </div>`;
+  }
+
+  function renderUebungen() {
+    $("#uebGrid").innerHTML = UEBUNGEN.map(([f, t]) => uebCard(f, t, "📝")).join("");
+    $("#sitGrid").innerHTML = SITZUNGEN.map(([f, t]) => uebCard(f, t, "🗂️")).join("");
+  }
+
+  /* ============================================================
      FOLIEN
      ============================================================ */
   function renderFolien() {
@@ -374,8 +410,9 @@
   openTopic(IDS[0]);
   initKK();
   initTest();
+  renderUebungen();
   renderFolien();
 
   const hash = location.hash.replace("#", "");
-  if (["uebersicht", "themen", "karteikarten", "test", "folien"].includes(hash)) showView(hash);
+  if (["uebersicht", "themen", "karteikarten", "test", "uebungen", "folien"].includes(hash)) showView(hash);
 })();
