@@ -1,0 +1,286 @@
+{
+  "id": "08",
+  "title": "IT-Innovationsmanagement",
+  "date": "20.05.2026",
+  "pdf": "Vorlesungsfolien/IM_08 Innovationsmanagement SS 2026.pdf",
+  "summary": "Die Einheit behandelt das IT-Innovationsmanagement als zentrale Aufgabe des Informationsmanagements. Sie klärt den Innovationsbegriff, die Dimensionen und Arten von Innovation (inkrementell/radikal; Produkt/Prozess/Position/Paradigma), die historische Entwicklung der Innovationsmodelle (vom Technologie-Push über Markt-Pull und Kopplungs-/Vernetzungsmodell bis zu Open Innovation und Co-Creation) sowie konkrete Methoden und Werkzeuge (Gartner Hype Cycle, Design Thinking, Rapid Prototyping/3D-Druck, digitale Zwillinge, VR). Abschließend wird die Rolle der Organisationskultur als Determinante für Kreativität und Innovation betont.",
+  "sections": [
+    {
+      "heading": "Motivation und Lernziele",
+      "points": [
+        "IT-Innovationsmanagement ist Teil des Bereichs 'IT-Strategie und -Governance' im Informationsmanagement-Rahmenmodell.",
+        "Lernziele: zunehmende Bedeutung digitaler Innovation für den Unternehmenserfolg erkennen, etablierte Ansätze und Prozesse verstehen, Methoden und Werkzeuge kennenlernen, die Rolle der Kultur anerkennen.",
+        "Digitales Paradigma 'Innovate - Design - Transform' (Erneuern, Gestalten, Verändern) nach Koch et al. (2016).",
+        "Innovate: IT und Business entwickeln gemeinsam neue Produkte, Dienstleistungen, Geschäfts- und Wertschöpfungsmodelle ('Was kann die IT für geschäftliche Innovationen tun?').",
+        "Design: schnelle und effiziente Lösungen entwickeln, nicht zwingend bauen ('Wie sollten Innovationen umgesetzt werden, um erfolgreich zu sein?').",
+        "Transform: schnelle, aber nachhaltige Reorganisation von Business und IT (Change Management, Prozessverbesserungen) zur Akzeptanz und Umsetzung von Innovationen.",
+        "Unternehmen bauen ihre Marktführerschaft durch die Beherrschung der digitalen Innovation aus."
+      ]
+    },
+    {
+      "heading": "Fundamente: Innovationsbegriff",
+      "points": [
+        "Definition (Roberts 1987): Eine Innovation besteht im Allgemeinen aus jeder Form von Erfindung UND ihrer Verwertung. Faustformel: Innovation = Erfindung (Invention) + Verwertung (Markteinführung/Nutzung).",
+        "Innovationsmanagement (Trott 2016): das Management aller Aktivitäten, die mit dem Prozess der Ideenfindung, der Technologieentwicklung, der Herstellung und der Vermarktung eines neuen (oder verbesserten) Produkts, Herstellungsprozesses oder Equipments verbunden sind.",
+        "Die Rolle des IT-Managements für Innovation ist ZWEIFACH: (1) Management von IT-bezogenen Innovationen und (2) Ermöglichung von Innovation (Management) durch IT.",
+        "Innovationen können auf Komponenten-/Bauteil-Ebene oder auf (Sub-)System-Ebene entstehen (Tidd et al. 2005)."
+      ]
+    },
+    {
+      "heading": "Innovationsarten und Innovationsraum",
+      "points": [
+        "Unterscheidung nach Neuheitsgrad: inkrementell ('das, was wir tun, besser machen') vs. radikal ('neu in der Welt'); dazwischen 'neu im Unternehmen'.",
+        "Beispiele System-Ebene: neue Versionen von Autos/Flugzeugen/Fernsehern (inkrementell), MP3/Download vs. CD/Kassette (neu im Unternehmen), Dampfkraft, IKT-'Revolution', Biotechnologie (radikal).",
+        "Vier Dimensionen der Innovation (4 P, Tidd et al. 2005) spannen einen Innovationsraum auf, jeweils von inkrementell bis radikal:",
+        "Produkt-Innovation: 'Was sind die Produkte und Dienstleistungen, die wir anbieten?'",
+        "Prozess-Innovation: 'Wie machen wir das?'",
+        "Positions-Innovation: 'Wie ist unsere Position auf dem Markt?'",
+        "Paradigma-Innovation: 'Was ist unser Geschäftsmodell?'",
+        "Wichtig: Die Unterscheidungen sind unscharf - die Grenzen zwischen inkrementell und radikal sowie zwischen den Dimensionen sind fließend."
+      ]
+    },
+    {
+      "heading": "Innovationsmodelle und -prozesse: historische Entwicklung",
+      "points": [
+        "Innovationsmodelle haben sich über die Zeit verändert (Rothwell 1994; Meissner und Kotsemir 2016) - fünf Generationen.",
+        "1. Generation - Technologie-Push: Innovation getrieben durch Forschung und Technologie (linearer Prozess von F&E zum Markt).",
+        "2. Generation - Markt-Pull: Innovation getrieben durch Marktnachfrage und Kundenbedürfnisse.",
+        "3. Generation - Kopplungsmodell ('Coupling'): Verbindet Technologie-Push und Markt-Pull als wechselseitigen Prozess.",
+        "4. Generation - Integriertes Modell: funktionale Überschneidung und intensiver Informationsaustausch zwischen den Abteilungen (Graves 1987).",
+        "5. Generation - Vernetzungsmodell / Open Innovation: Innovation als Prozess der Wissensakkumulation bzw. als Lernprozess in Netzwerken.",
+        "Historische Meilensteine: Erfindung des Rades (2000 v. Chr.), erster Dampfzug (1830), erstes Kraftfahrzeug (1885), Farbfernsehen (1950), Telefon (1973), Web (1990), iPhone (2007)."
+      ]
+    },
+    {
+      "heading": "Integriertes Modell und Vernetzungsmodell",
+      "points": [
+        "Integriertes Modell (4. Gen., Graves 1987): Marketing, F&E, Produktentwicklung, Teilefertigung (Lieferanten) und Herstellung überlappen sich; gemeinsame Gruppensitzungen sorgen für intensiven Informationsaustausch und parallele statt sequenzielle Abläufe.",
+        "Vernetzungsmodell (5. Gen., Rothwell 1992): Innovation entsteht durch Wissensakkumulation im Netzwerk aus S&T-Infrastruktur, Wettbewerbern, wichtigen Lieferanten und führenden Kunden.",
+        "Wissensquellen im Netzwerk: Literatur einschließlich Patente, strategische Partnerschaften und Marketingallianzen, Akquisitionen und Kapitalbeteiligungen.",
+        "Innovation wird hier als kontinuierlicher Lernprozess verstanden."
+      ]
+    },
+    {
+      "heading": "Open Innovation und Co-Creation",
+      "points": [
+        "Open Innovation macht die Grenzen des Unternehmens durchlässig - Forschungsprojekte können die Grenze in beide Richtungen überschreiten.",
+        "Definition (Chesbrough et al. 2006): 'the use of purposive inflows and outflows of knowledge to accelerate internal innovation, and expand the markets for external use of innovation, respectively'.",
+        "Open Innovation kombiniert also gezielte Wissens-Zuflüsse (inflows, Outside-in) zur Beschleunigung interner Innovation und Wissens-Abflüsse (outflows, Inside-out) zur Erweiterung externer Märkte.",
+        "Co-Creation: Wertschöpfung durch Kundenwissen - Kunden werden aktiv in den Innovationsprozess eingebunden (Beispiel: LEGO Ideas).",
+        "Gemeinsamkeit Open Innovation / Co-Creation: beide öffnen den Innovationsprozess nach außen. Unterschied: Co-Creation fokussiert speziell die gemeinsame Wertschöpfung mit Kunden/Nutzern, Open Innovation bezieht ein breiteres Spektrum externer Wissensquellen ein."
+      ]
+    },
+    {
+      "heading": "Innovationsmethoden: Gartner Hype Cycle",
+      "points": [
+        "Der Gartner Hype Cycle dient Unternehmen als Quelle zur Identifizierung neuer Technologien (Technologie-Frühaufklärung).",
+        "Phasen: 1. Innovation Trigger (Auslöser), 2. Peak of Inflated Expectations (Gipfel der überzogenen Erwartungen), 3. Trough of Disillusionment (Tal der Enttäuschung), 4. Slope of Enlightenment (Pfad der Erleuchtung), 5. Plateau of Productivity (Plateau der Produktivität).",
+        "Y-Achse: Erwartungen (Expectations); X-Achse: Zeit.",
+        "Verlauf: R&D -> erste Anwender (early adopters) -> Massen-Medien-Hype -> negative Presse -> Methoden und Best Practices entwickeln sich -> High-Growth-Adoption-Phase (20-30% der potenziellen Zielgruppe).",
+        "Anwendung u. a. 'Gartner Hype Cycle für aufkommende Technologien' (z. B. Ausgabe 2023)."
+      ]
+    },
+    {
+      "heading": "Innovationsmethoden: Design Thinking",
+      "points": [
+        "Design Thinking ist ein Prozess UND eine Denkweise, um Lösungen zu schaffen, die aus Nutzersicht überzeugend sind (Brown 2008).",
+        "Drei Erfolgsfaktoren im Überschnitt: Menschliche Werte / Erwünschtheit (Desirability), Wirtschaftlichkeit (Viability) und technische Machbarkeit (Feasibility) - Innovation entsteht in der Schnittmenge.",
+        "Divergentes und konvergentes Denken: 'divergent to create choices, convergent to make choices'; getrennt in Problem Space und Solution Space.",
+        "Grundsatz: 'Make sure you solve the right problem' - das richtige Problem lösen.",
+        "Fünf Phasen (d.school-Modell): Empathize (Empathie) - Define (Definieren) - Ideate (Ideen entwickeln) - Prototype (Prototyp) - Test (Testen).",
+        "Empathize: Recherchieren, Hinterfragen, Perspektiven wechseln, Personas gestalten, Visualisieren.",
+        "Define: Clustering der Erkenntnisse, Priorisieren, Definieren (z. B. 'Max braucht x, um y zu erreichen'), Entscheiden.",
+        "Ideate: Methoden wie Headstand-Methode (Annahmen umdrehen), Einschränkungen/Szenarien (z. B. Budget 1.000 vs. 1.000.000), Crazy 8 (acht Ideen je eine Minute), anschließend Abstimmung."
+      ]
+    },
+    {
+      "heading": "Innovationsmethoden: Prototyping und digitale Werkzeuge",
+      "points": [
+        "Rapid Prototyping (z. B. 3D-Druck) erstellt dreidimensionale Modelle eines Teils/Produkts und kann unerwünschte Entwicklungen vermeiden.",
+        "3D-Druck testet Effizienz eines Designs vor der Massenfertigung; geprüft wird eher Form/Größe als Festigkeit oder Haltbarkeit.",
+        "Prototyping-Prozess: Sammeln von Informationen - Gestaltung - Überprüfung (Prototyp) - Entwicklung - Bewertung (Umsetzung).",
+        "Google-Beispiel - drei Stufen des Prototypings: (1) Skizzieren/Prototyping auf Papier, (2) Digitale Prototypenerstellung (interaktive Erfahrungen ohne kostspielige Entwicklungszeit), (3) Natives Prototyping (echter Code, echte Daten/Geräte/Nutzer zur Validierung).",
+        "IT ermöglicht Innovation: Digitale Zwillinge (digitale Simulationsmodelle) bieten neue Möglichkeiten zur Technologieentwicklung.",
+        "Virtuelle Realität (VR) kann beim Prozess- und Produktdesign helfen.",
+        "Diese Werkzeuge illustrieren die zweite Rolle der IT: 'IT-gestützte Innovation' - die IT ermöglicht und beschleunigt Innovation."
+      ]
+    },
+    {
+      "heading": "Kultur der Innovation",
+      "points": [
+        "Organisationskultur ist eine zentrale Determinante für Innovation - sie kann Kreativität und Innovation sowohl fördern als auch behindern.",
+        "Drei Ebenen der Organisationskultur (Schein 2010), von unsichtbar zu sichtbar: 1. Grundlegende Annahmen (z. B. unbewusstes Verhalten), 2. Explizite/exponierte Werte (z. B. Strategien, Ziele, Philosophien), 3. Artefakte (z. B. sichtbare Organisationsstrukturen oder Prozesse).",
+        "Think with Google - 8 Säulen der Innovation: Have a Mission that Matters, Think Big but Start Small, Strive for Continual Innovation (not Instant Perfection), Look for Ideas Everywhere, Share Everything, Spark with Imagination Fuel with Data, Be a Platform, Never Fail to Fail.",
+        "Google-Praxis: 20% der Arbeitswoche für eigene Projekte; 'what begins with intuition is fueled by insights'.",
+        "Determinanten innovationsfördernder Kultur (Martins und Terblanche 2003): Strategie (Vision/Auftrag, Zielstrebigkeit), Struktur (Flexibilität, Freiheit, kooperative Teams), Unterstützungsmechanismen (Belohnung/Anerkennung, Ressourcen wie Zeit/IT/kreative Mitarbeiter), innovationsförderndes Verhalten (Fehlertoleranz, Ideenfindung, kontinuierliches Lernen, Risikobereitschaft, Unterstützung für den Wandel, Konfliktumgang) und offene Kommunikation (Vertrauen, Meinungsvielfalt, kurze Distanzen).",
+        "Leistungen können durch extrinsische UND intrinsische Belohnungen anerkannt werden."
+      ]
+    },
+    {
+      "heading": "Zusammenfassung",
+      "points": [
+        "Die Rolle des IT-Managements für Innovation umfasst das Management IT-bezogener Innovationen UND die Ermöglichung von Innovation durch IT.",
+        "Wie Innovation getrieben und gestaltet wird, lässt sich historisch in Phasen einteilen - am Anfang trieb die Technologie, heute stehen Innovationsnetzwerke und Open Innovation im Vordergrund.",
+        "Das IT-Innovationsmanagement bietet eine Vielzahl von Methoden und Werkzeugen (Hype Cycle, Design Thinking, Rapid Prototyping, digitale Zwillinge, VR), um den Innovationserfolg zu verbessern.",
+        "Die Organisationskultur umfasst Grundannahmen, exponierte Werte und Artefakte und ist ein wichtiger Faktor für Innovation.",
+        "Hauptliteratur: Tidd & Bessant (2013), Rothwell (1994)."
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "Innovation", "definition": "Jede Form von Erfindung (Invention) und ihrer Verwertung/Markteinführung (Roberts 1987). Erst die wirtschaftliche oder praktische Nutzung macht aus einer Erfindung eine Innovation." },
+    { "term": "Innovationsmanagement", "definition": "Management aller Aktivitäten rund um Ideenfindung, Technologieentwicklung, Herstellung und Vermarktung eines neuen oder verbesserten Produkts, Prozesses oder Equipments (Trott 2016)." },
+    { "term": "Inkrementelle Innovation", "definition": "Schrittweise Verbesserung ('das, was wir tun, besser machen'); geringe Neuheit, baut auf Bestehendem auf." },
+    { "term": "Radikale Innovation", "definition": "Grundlegend neue Innovation ('neu in der Welt'), z. B. Dampfkraft, IKT-Revolution, Biotechnologie; hoher Neuheitsgrad." },
+    { "term": "4 P der Innovation", "definition": "Vier Dimensionen des Innovationsraums nach Tidd et al.: Produkt, Prozess, Position und Paradigma - jeweils inkrementell bis radikal." },
+    { "term": "Paradigma-Innovation", "definition": "Innovation des zugrundeliegenden Geschäftsmodells ('Was ist unser Geschäftsmodell?')." },
+    { "term": "Technologie-Push", "definition": "Innovationsmodell der 1. Generation: Innovation wird durch Forschung und neue Technologie angestoßen (Angebot treibt)." },
+    { "term": "Markt-Pull", "definition": "Innovationsmodell der 2. Generation: Innovation wird durch Marktnachfrage und Kundenbedürfnisse getrieben (Nachfrage zieht)." },
+    { "term": "Kopplungsmodell (Coupling)", "definition": "Innovationsmodell der 3. Generation, das Technologie-Push und Markt-Pull als wechselseitig gekoppelten Prozess verbindet." },
+    { "term": "Integriertes Modell", "definition": "Innovationsmodell der 4. Generation: funktionale Überschneidung der Abteilungen und intensiver Informationsaustausch durch gemeinsame Gruppensitzungen (Graves 1987)." },
+    { "term": "Vernetzungsmodell", "definition": "Innovationsmodell der 5. Generation: Innovation als Prozess der Wissensakkumulation/des Lernens im Netzwerk aus Lieferanten, Kunden, Wettbewerbern und S&T-Infrastruktur (Rothwell 1992)." },
+    { "term": "Open Innovation", "definition": "Gezielte Nutzung von Wissens-Zuflüssen und -Abflüssen, um interne Innovation zu beschleunigen und externe Märkte für Innovation zu erweitern; durchlässige Unternehmensgrenzen (Chesbrough et al. 2006)." },
+    { "term": "Co-Creation", "definition": "Wertschöpfung durch Kundenwissen - aktive Einbindung von Kunden/Nutzern in den Innovationsprozess (Beispiel LEGO Ideas)." },
+    { "term": "Gartner Hype Cycle", "definition": "Modell zur Bewertung neuer Technologien über Zeit mit fünf Phasen: Innovation Trigger, Peak of Inflated Expectations, Trough of Disillusionment, Slope of Enlightenment, Plateau of Productivity." },
+    { "term": "Design Thinking", "definition": "Nutzerzentrierter Innovationsprozess und Denkweise an der Schnittmenge von Desirability, Viability und Feasibility; Phasen: Empathize, Define, Ideate, Prototype, Test (Brown 2008)." },
+    { "term": "Divergentes/Konvergentes Denken", "definition": "Divergent erzeugt Auswahlmöglichkeiten ('create choices'), konvergent trifft Auswahl ('make choices'); zentral für Design Thinking." },
+    { "term": "Persona", "definition": "Fiktive, charakterisierte Vertreterin/Vertreter einer Zielgruppe, um Bedürfnisse, Herausforderungen und Nutzerverhalten greifbar zu machen (Phase Empathize)." },
+    { "term": "Crazy 8", "definition": "Ideate-Methode im Design Thinking: acht Ideen werden in je einer Minute skizziert, um schnell viele Lösungsansätze zu erzeugen." },
+    { "term": "Headstand-Methode", "definition": "Kreativitätstechnik, bei der Annahmen umgedreht werden ('Wie erreiche ich das Gegenteil?'), um anschließend die Ideen wieder umzukehren und Lösungen zu beschleunigen." },
+    { "term": "Rapid Prototyping", "definition": "Schnelle Erstellung von Prototypen (z. B. per 3D-Druck), um Designs früh zu testen und unerwünschte Entwicklungen zu vermeiden; prüft eher Form/Größe als Haltbarkeit." },
+    { "term": "Digitaler Zwilling", "definition": "Digitales Simulationsmodell eines realen Objekts/Systems, das neue Möglichkeiten zur Entwicklung und Erprobung von Technologien bietet." },
+    { "term": "Organisationskultur (Schein)", "definition": "Drei Ebenen von unsichtbar zu sichtbar: grundlegende Annahmen, explizite Werte und Artefakte (Schein 2010)." }
+  ],
+  "flashcards": [
+    { "front": "Wie definiert Roberts (1987) Innovation?", "back": "Innovation = jede Form von Erfindung (Invention) UND ihrer Verwertung. Erst Erfindung plus Verwertung ergibt eine Innovation." },
+    { "front": "Was ist die zweifache Rolle des IT-Managements für Innovation?", "back": "(1) Management von IT-bezogenen Innovationen und (2) Ermöglichung von Innovation (Management) durch IT." },
+    { "front": "Nenne die 4 P / vier Dimensionen der Innovation (Tidd et al.).", "back": "Produkt ('Was bieten wir an?'), Prozess ('Wie machen wir das?'), Position ('Wie ist unsere Marktposition?') und Paradigma ('Was ist unser Geschäftsmodell?') - jeweils inkrementell bis radikal." },
+    { "front": "Unterschied inkrementell vs. radikal?", "back": "Inkrementell = 'das, was wir tun, besser machen' (schrittweise). Radikal = 'neu in der Welt' (grundlegend neu). Dazwischen: 'neu im Unternehmen'." },
+    { "front": "Welche fünf Generationen von Innovationsmodellen gibt es (Rothwell)?", "back": "1. Technologie-Push, 2. Markt-Pull, 3. Kopplungsmodell, 4. Integriertes Modell, 5. Vernetzungsmodell/Open Innovation." },
+    { "front": "Was beschreibt das Kopplungsmodell?", "back": "Die 3. Generation, die Technologie-Push und Markt-Pull als wechselseitig gekoppelten Prozess verbindet (weder rein angebots- noch rein nachfragegetrieben)." },
+    { "front": "Wie definieren Chesbrough et al. (2006) Open Innovation?", "back": "Die gezielte Nutzung von Wissens-Zuflüssen (inflows) und -Abflüssen (outflows), um interne Innovation zu beschleunigen und externe Märkte für Innovation zu erweitern - durchlässige Unternehmensgrenzen." },
+    { "front": "Worin unterscheiden sich Open Innovation und Co-Creation?", "back": "Beide öffnen den Innovationsprozess nach außen. Co-Creation fokussiert speziell die gemeinsame Wertschöpfung mit Kunden/Nutzern; Open Innovation bezieht ein breiteres Spektrum externer Wissensquellen ein." },
+    { "front": "Nenne die fünf Phasen des Gartner Hype Cycle.", "back": "Innovation Trigger, Peak of Inflated Expectations, Trough of Disillusionment, Slope of Enlightenment, Plateau of Productivity." },
+    { "front": "Welche drei Erfolgsfaktoren überschneiden sich im Design Thinking?", "back": "Menschliche Werte/Erwünschtheit (Desirability), Wirtschaftlichkeit (Viability) und technische Machbarkeit (Feasibility) - Innovation entsteht in der Schnittmenge." },
+    { "front": "Nenne die fünf Phasen des Design Thinking.", "back": "Empathize (Empathie), Define (Definieren), Ideate (Ideen entwickeln), Prototype (Prototyp), Test (Testen)." },
+    { "front": "Was bedeutet 'divergent to create choices, convergent to make choices'?", "back": "Divergentes Denken erzeugt viele Auswahlmöglichkeiten/Ideen; konvergentes Denken bewertet und trifft die Auswahl. Beides wird im Problem- und Solution-Space genutzt." },
+    { "front": "Was ist die Crazy-8-Methode?", "back": "Eine Ideate-Technik, bei der acht Ideen in je einer Minute skizziert werden, um schnell viele Lösungsansätze zu generieren; anschließend wird abgestimmt." },
+    { "front": "Wozu dient Rapid Prototyping / 3D-Druck?", "back": "Zum schnellen Erstellen physischer Modelle, um Designs früh zu testen (Form/Größe, nicht Haltbarkeit) und unerwünschte Entwicklungen vor der Massenfertigung zu vermeiden." },
+    { "front": "Welche drei Ebenen der Organisationskultur unterscheidet Schein (2010)?", "back": "Grundlegende Annahmen (unsichtbar), explizite/exponierte Werte und Artefakte (sichtbar) - mit zunehmender Sichtbarkeit." },
+    { "front": "Nenne Determinanten einer innovationsfördernden Organisationskultur (Martins & Terblanche).", "back": "Strategie, Struktur, Unterstützungsmechanismen, innovationsförderndes Verhalten und offene Kommunikation." },
+    { "front": "Was sind digitale Zwillinge im Innovationskontext?", "back": "Digitale Simulationsmodelle realer Objekte/Systeme, die neue Möglichkeiten zur Entwicklung und Erprobung von Technologien bieten - Beispiel für IT-gestützte Innovation." },
+    { "front": "Wofür steht das digitale Paradigma 'Innovate - Design - Transform'?", "back": "Innovate: gemeinsame Entwicklung neuer Produkte/Modelle; Design: schnelle effiziente Lösungen entwickeln; Transform: nachhaltige Reorganisation von Business und IT (Change Management)." }
+  ],
+  "quiz": [
+    {
+      "question": "Wie lässt sich Innovation nach Roberts (1987) am besten beschreiben?",
+      "options": [
+        "Ausschließlich die Erfindung einer neuen Technologie",
+        "Jede Form von Erfindung und ihrer Verwertung",
+        "Die reine Markteinführung eines bestehenden Produkts",
+        "Die Patentierung einer Idee"
+      ],
+      "answer": 1,
+      "explanation": "Roberts (1987) definiert Innovation als jede Form von Erfindung UND ihrer Verwertung. Erfindung allein (ohne Verwertung) genügt nicht."
+    },
+    {
+      "question": "Welche der folgenden gehört NICHT zu den 4 P / Dimensionen der Innovation nach Tidd et al.?",
+      "options": [
+        "Produkt",
+        "Prozess",
+        "Profit",
+        "Paradigma"
+      ],
+      "answer": 2,
+      "explanation": "Die vier Dimensionen sind Produkt, Prozess, Position und Paradigma. 'Profit' gehört nicht dazu (es fehlt zudem 'Position')."
+    },
+    {
+      "question": "Welches Innovationsmodell verbindet Technologie-Push und Markt-Pull zu einem wechselseitigen Prozess?",
+      "options": [
+        "Technologie-Push-Modell",
+        "Kopplungsmodell",
+        "Vernetzungsmodell",
+        "Co-Creation-Modell"
+      ],
+      "answer": 1,
+      "explanation": "Das Kopplungsmodell (3. Generation) koppelt Technologie-Push und Markt-Pull wechselseitig. Das Vernetzungsmodell (5. Gen.) betont Wissensnetzwerke."
+    },
+    {
+      "question": "Wie definieren Chesbrough et al. (2006) Open Innovation?",
+      "options": [
+        "Ausschließliche Nutzung interner Forschungsergebnisse",
+        "Gezielte Nutzung von Wissens-Zuflüssen und -Abflüssen zur Beschleunigung interner und Erweiterung externer Innovation",
+        "Vollständige Auslagerung der Forschung an externe Partner",
+        "Geheimhaltung aller Innovationsprojekte"
+      ],
+      "answer": 1,
+      "explanation": "Open Innovation nutzt gezielte inflows und outflows von Wissen, um interne Innovation zu beschleunigen und externe Märkte zu erweitern; die Unternehmensgrenze wird durchlässig."
+    },
+    {
+      "question": "In welcher Reihenfolge verlaufen die Phasen des Gartner Hype Cycle?",
+      "options": [
+        "Plateau of Productivity - Innovation Trigger - Peak - Trough - Slope",
+        "Innovation Trigger - Peak of Inflated Expectations - Trough of Disillusionment - Slope of Enlightenment - Plateau of Productivity",
+        "Peak - Trough - Innovation Trigger - Plateau - Slope",
+        "Innovation Trigger - Trough - Peak - Plateau - Slope"
+      ],
+      "answer": 1,
+      "explanation": "Der korrekte Verlauf ist: Innovation Trigger, Peak of Inflated Expectations, Trough of Disillusionment, Slope of Enlightenment, Plateau of Productivity."
+    },
+    {
+      "question": "Welche fünf Phasen umfasst der Design-Thinking-Prozess (d.school)?",
+      "options": [
+        "Plan - Do - Check - Act - Review",
+        "Empathize - Define - Ideate - Prototype - Test",
+        "Analyse - Design - Build - Deploy - Maintain",
+        "Sammeln - Clustern - Priorisieren - Bauen - Verkaufen"
+      ],
+      "answer": 1,
+      "explanation": "Der Design-Thinking-Prozess umfasst Empathize, Define, Ideate, Prototype und Test."
+    },
+    {
+      "question": "Welche drei Faktoren überschneiden sich im Design Thinking als Quelle von Innovation?",
+      "options": [
+        "Kosten, Qualität, Zeit",
+        "Desirability, Viability, Feasibility",
+        "Strategie, Struktur, Kultur",
+        "Push, Pull, Coupling"
+      ],
+      "answer": 1,
+      "explanation": "Innovation entsteht in der Schnittmenge aus menschlichen Werten/Erwünschtheit (Desirability), Wirtschaftlichkeit (Viability) und technischer Machbarkeit (Feasibility)."
+    },
+    {
+      "question": "Welche drei Ebenen der Organisationskultur unterscheidet Schein (2010)?",
+      "options": [
+        "Hardware, Software, Brainware",
+        "Grundlegende Annahmen, explizite Werte, Artefakte",
+        "Vision, Mission, Strategie",
+        "Strategie, Struktur, Systeme"
+      ],
+      "answer": 1,
+      "explanation": "Schein (2010) unterscheidet grundlegende Annahmen (unsichtbar), explizite/exponierte Werte und Artefakte (sichtbar)."
+    },
+    {
+      "question": "Was beschreibt die Crazy-8-Methode im Design Thinking?",
+      "options": [
+        "Acht Personas werden definiert",
+        "Acht Ideen werden in je einer Minute skizziert",
+        "Acht Prototypen werden gebaut und getestet",
+        "Acht Wochen Entwicklungszeit pro Idee"
+      ],
+      "answer": 1,
+      "explanation": "Crazy 8 ist eine Ideate-Methode: acht Ideen werden in je einer Minute skizziert, um schnell viele Lösungsansätze zu erzeugen; danach wird abgestimmt."
+    },
+    {
+      "question": "Worin liegt der zentrale Unterschied zwischen Open Innovation und Co-Creation?",
+      "options": [
+        "Co-Creation findet rein intern statt, Open Innovation nur extern",
+        "Co-Creation fokussiert die gemeinsame Wertschöpfung mit Kunden/Nutzern, Open Innovation bezieht breiter externe Wissensquellen ein",
+        "Open Innovation schließt Kunden grundsätzlich aus",
+        "Es gibt keinen Unterschied, beide Begriffe sind synonym"
+      ],
+      "answer": 1,
+      "explanation": "Beide öffnen den Innovationsprozess nach außen. Co-Creation betont speziell die gemeinsame Wertschöpfung mit Kunden/Nutzern, während Open Innovation ein breiteres Spektrum externer Wissens-In- und -Outflows umfasst."
+    }
+  ]
+}

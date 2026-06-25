@@ -1,0 +1,323 @@
+{
+  "id": "02",
+  "title": "IT-Infrastruktur",
+  "date": "15.04.2026",
+  "pdf": "Vorlesungsfolien/IM_02_ITInfrastruktur_SoSe_2026.pdf",
+  "summary": "Die Einheit gibt einen Überblick über die zentralen Komponenten einer IT-Infrastruktur (Clients, Server und Datenzentren, Netzwerke) und zeichnet die Entwicklung von traditionellen Servern über Virtualisierung und Containerisierung bis zum Cloud Computing nach. Sie erläutert Client-Konzepte (Fat vs. Thin Client, TCO, IoT), den Aufbau und Betrieb von Rechenzentren, die Cloud-Service- und Bereitstellungsmodelle (IaaS, CaaS, PaaS, FaaS, SaaS; Public/Private/Hybrid) sowie deren fünf NIST-Charakteristiken. Abschließend werden Managementherausforderungen wie Hardwarekonsolidierung, Cloud-Management und das Sourcing von Infrastrukturleistungen behandelt.",
+  "sections": [
+    {
+      "heading": "Lernziele und Einordnung",
+      "points": [
+        "Überblick über die wichtigsten Komponenten einer IT-Infrastruktur geben können.",
+        "Entwicklung von traditionellen Servern über Virtualisierung zu Cloud Computing kennen.",
+        "Managementherausforderungen im Zusammenhang mit der Bereitstellung der IT-Infrastruktur verstehen.",
+        "Die IT-Infrastruktur ist eine zentrale Schicht im Gesamtrahmen des Informationsmanagements (unter Unternehmensanwendungen, neben IT-Prozessen/Organisation, eingebettet in IT-Strategie, -Governance und -Controlling).",
+        "Teile der Veranstaltung basieren auf einem Foliensatz von Prof. Dr. Nils Urbach."
+      ]
+    },
+    {
+      "heading": "Begriff der IT-Infrastruktur",
+      "points": [
+        "IT-Infrastruktur bezeichnet alle materiellen und immateriellen Güter, die den Betrieb von (Anwendungs-)Software ermöglichen (Patik / OGC 2007, S. 199).",
+        "Sie besteht aus Hardware, Software sowie baulichen Einrichtungen für den Betrieb von Software.",
+        "Hardware: Rechentechnik (Computer, Storage-Systeme), Netzwerktechnik (Switches, Kabel), Peripheriegeräte (Tastatur, Belegleser, Bildschirm, Drucker, Scanner) sowie Geräte zum Betrieb der Hardware (Racks, unterbrechungsfreie Stromversorgungen).",
+        "Immaterieller Bestandteil: Software, vor allem Systemsoftware (z.B. Betriebssysteme).",
+        "Bauliche Einrichtungen: Rechenzentrumsgebäude mit spezieller Klimatechnik, Verkabelung und Schutztechnik.",
+        "Aus Informationsmanagement-Sicht gehören auch Know-how der Mitarbeiter, Organisationsstrukturen sowie Gesetze und Normen dazu."
+      ]
+    },
+    {
+      "heading": "Client-Server-Architektur",
+      "points": [
+        "Eine Client-Server-Architektur ist eine Systemarchitektur für verteilte Anwendungssysteme, bei der Subsysteme (Server) bestimmte Dienste anbieten, die von anderen Subsystemen (Clients) genutzt werden (Fettke).",
+        "Die Begriffe können sich auf Rechner bzw. Rechenkomponenten (Hardware) oder auf Dienste beziehen.",
+        "Die Kommunikation zwischen Client und Server erfolgt nachrichtenorientiert und wird über Protokolle geregelt.",
+        "Die Nutzung der Dienste eines Servers geht immer vom Client aus; der Server entscheidet eigenständig, welche Nutzungsanfragen in welcher Reihenfolge bearbeitet werden.",
+        "Hat in den 1990er-Jahren Großrechner-Architekturen weitgehend abgelöst.",
+        "Spätere Entwicklungen: Virtualisierung, Containerisierung, Cloud, Service-oriented Architectures (SOA), Microservice-Architekturen."
+      ]
+    },
+    {
+      "heading": "Clients: Komponenten und Auswahlkriterien",
+      "points": [
+        "CPU (Central Processing Unit): kümmert sich um die meisten Anweisungen eines Computerprogramms.",
+        "GPU: Grafikprozessoren beschleunigen die Bildverarbeitung und das Training neuronaler Netze.",
+        "RAM (Random Access Memory): ermöglicht sehr schnellen Zugriff auf Daten.",
+        "Speicher: verschiedene Speichersysteme zum Speichern digitaler Daten.",
+        "Schutzklasse: in einigen Anwendungsfällen müssen Geräte widrigen Bedingungen standhalten.",
+        "Auswahlkriterien helfen, das passende Endgerät für den jeweiligen Einsatzzweck zu bestimmen."
+      ]
+    },
+    {
+      "heading": "Total Cost of Ownership (TCO)",
+      "points": [
+        "TCO ist die ganzheitliche Analyse aller mit der Nutzung der IT verbundenen Kosten – von der Beschaffung über den Betrieb und die Nutzung bis zur Entsorgung der IT-Komponenten (Gadatsch und Mayer 2006).",
+        "Ein Desktop-Computer ist im Unternehmen deutlich teurer als privat, weil neben dem Anschaffungspreis Verteilung, Aktualisierung, Support, Sicherheit etc. anfallen.",
+        "Standardisierung von IT/IS kann Komplexität und damit Kosten reduzieren.",
+        "Standardisierung von Software/Konfiguration bringt: Kompatibilität, Sicherheit, leichtere Unterstützung, Lizenzoptimierung, automatische Softwareverteilung.",
+        "Standardisierung der Hardware bringt: weniger Ersatzteile, einfache Fehlersuche, keine Treiberprobleme, Bündelung von Käufen.",
+        "TCO wird im Kapitel zum IT-Controlling vertieft."
+      ]
+    },
+    {
+      "heading": "Fat Client vs. Thin Client",
+      "points": [
+        "Fat Client = voll ausgestattete Workstation; Thin Client = minimaler Arbeitsplatz, der zentrale Server-Ressourcen nutzt.",
+        "Vorteile Fat Client: schnelle Ausführung, gute Benutzerfreundlichkeit, geringer Netzverkehr / geringe Abhängigkeit.",
+        "Nachteile Fat Client: teure Verteilung, Aktualisierung und Unterstützung; teure Hardware (oft ungenutzt); höherer Aufwand für Sicherheit.",
+        "Vorteile Thin Client: einfache Bereitstellung und Wartung (zentral über Updates absicherbar), günstige Client-Hardware, Einsparungen beim Stromverbrauch.",
+        "Nachteile Thin Client: Benutzerfreundlichkeit/gefühlte Latenzzeit, Abhängigkeit vom Netzwerk, hohe Anforderungen an die Server-Hardware.",
+        "Thin-Client-Ansätze: Terminal Server, Virtual Desktop Infrastructure (VDI) & Cloud Desktops, Web Clients/Portale (für SaaS), Tablet-Anwendungen, Zero Clients, Citrix, Linux-Terminals."
+      ]
+    },
+    {
+      "heading": "Internet der Dinge (IoT)",
+      "points": [
+        "IoT (Internet of Things): Konzept, bei dem Komponenten über ein digitales Netzwerk verbunden sind und eine oder mehrere mit der physischen Welt interagieren (IIC).",
+        "Die Digitalisierung physischer Komponenten erzeugt erhebliche Mengen an Daten.",
+        "Merkmale: APIs (Anwendungsprogrammierschnittstellen), Ökosystem (Anwendungen, gemeinsame Nutzung, Cloud-basiert), Personalisierung, Kommunikation (C2T, B2T, T2T), Einsatz von Sensoren und Aktoren.",
+        "Bausteine/Technologien: mobile Geräte, RFID, Sensoren, intelligente Maschinen, Analytik.",
+        "Nutzen: schnellere Entscheidungen, bessere Produkte und Dienstleistungen, Prozessinnovation.",
+        "Edge Computing ist ein zentrales Rechenmodell für IoT: Filtern, Vorverarbeiten und Aggregieren der IoT-Daten erfolgt in Cloud-Zentren in der Nähe der IoT-Geräte (Fazeldehkordi & Grønli 2022)."
+      ]
+    },
+    {
+      "heading": "Server und Rechenzentren",
+      "points": [
+        "Server-Anforderungen gegenüber Desktop-Rechnern: 24/7-Betrieb, Fehler können geschäftskritisch sein, Hot Swap von Komponenten, Skalierbarkeit, mehrere Prozessoren, großer Stauraum.",
+        "Redundanz und Lastausgleich: RAID, redundante Stromversorgung, redundante Prozessoren/Boards, Clustering von Servern, möglichst kein Single Point of Failure.",
+        "Wärme und Strom: Wärme ist oft der begrenzende Faktor für Rechenzentren; Strom erzeugt Wärme (Teufelskreis); Energie (Strom + Kühlung) ist häufig der größte Betriebskostenblock, Anteil steigt rasant.",
+        "Physikalische Speicherung: Racks mit 'Pizzakästen'; Blade-Server mit gemeinsamer Stromversorgung; Ziel ist eine zentrale, autonome Verwaltung.",
+        "Rechenzentrum = Einrichtung zur Unterbringung unternehmenskritischer Computersysteme.",
+        "Physikalisches Layout: intensive Klimatisierung, häufig 19''-Gestelle, erhöhte Decke/Doppelboden für Luftzirkulation, Überkopf-Kabelrinnen, gasbasiertes Feuerlöschsystem, geschützte Gebäude, physische Sicherheit (Wachpersonal, Kameras, biometrischer Zugang), USV, modulare Bauart.",
+        "Betrieb: 24/7-Verwaltung, autonome Ausfallsicherung und Problemerkennung; oft an einem anderen Ort gespiegelt; Berücksichtigung von Emergenzszenarien (z.B. Terroranschläge)."
+      ]
+    },
+    {
+      "heading": "Virtualisierung und Container",
+      "points": [
+        "Viele Unternehmen haben ihre IT-Infrastruktur virtualisiert: traditionelle Serverlandschaften werden zunehmend auf virtualisierte Server umgestellt; ein leistungsstarker Host-Server bietet eine Vielzahl virtualisierter Systeme.",
+        "Vorteile der Virtualisierung: höhere Auslastung der Hardware-Ressourcen, leichtere Bereitstellung, leichtere Verwaltung, schnellerer Wiederaufbau, leichtere Anpassung an den Ressourcenbedarf.",
+        "Virtual Machine (VM): vollwertiger virtueller Rechner mit eigenem Betriebssystem; mehrere VM-Instanzen laufen isoliert und unabhängig auf einem physischen Host.",
+        "Hypervisor (Virtualisierungssoftware) teilt die Ressourcen des Hosts (Speicher, CPU, Netzwerk) unter den VMs auf; Beispiele: VMware, Microsoft, Oracle. VM = Hardware-Virtualisierung.",
+        "Container/Docker: Containerisierung ist eine erweiterte Form der Virtualisierung; ein Container ist eine eigenständige, leichtgewichtige, isolierte Einheit mit allen Ressourcen zur Ausführung der Anwendung (Daten, Libraries, Binaries).",
+        "Container teilen sich den Betriebssystem-Kernel mit anderen Containern auf dem Host, sind portabel (Entwicklungs-PC, Cloud, Rechenzentrum) und ressourcenschonender als klassische VMs (keine eigene Virtualisierungssoftware/kein eigenes Gast-OS nötig).",
+        "Container-Engine = Laufzeitumgebung zum Verwalten, Starten und Stoppen von Containern; Docker ist die bekannteste Open-Source-Container-Engine.",
+        "Wichtig: Virtualisierung hat das Cloud Computing überhaupt erst möglich gemacht."
+      ]
+    },
+    {
+      "heading": "Cloud Computing: Definition und Charakteristiken",
+      "points": [
+        "NIST (Mell und Grance 2011): Cloud Computing ist ein Modell für ubiquitären, bequemen, bedarfsgesteuerten Netzwerkzugriff auf einen gemeinsamen Pool konfigurierbarer Ressourcen (Netzwerke, Server, Speicher, Anwendungen, Dienste), die schnell und mit minimalem Verwaltungsaufwand bereitgestellt und freigegeben werden können.",
+        "BSI-Definition: dynamisch an den Bedarf angepasstes Anbieten, Nutzen und Abrechnen von IT-Dienstleistungen über ein Netz; Angebot/Nutzung ausschließlich über definierte technische Schnittstellen und Protokolle; umfasst Infrastruktur, Plattformen und Software.",
+        "Die fünf NIST-Charakteristiken: On-demand Self-Service, Broad Network Access, Resource Pooling, Rapid Elasticity (Skalierbarkeit), Measured Service (Pay-per-Use).",
+        "Cloud ist gleichermaßen ein Infrastruktur- und ein Sourcing-Thema und wird im Sourcing-Kapitel erneut aufgegriffen."
+      ]
+    },
+    {
+      "heading": "Cloud-Servicemodelle (IaaS, CaaS, PaaS, FaaS, SaaS)",
+      "points": [
+        "IaaS (Infrastructure as a Service): stellt IT-Infrastruktur (Rechenleistung, Speicher, Netz) bereit; Anwender wählt u.a. Betriebssysteme und konfiguriert Infrastruktur (CPU-Kerne, Speichergröße, RAM).",
+        "CaaS (Container as a Service): Betreiben von Containern durch den Cloud-Anbieter; es werden keine VMs verwaltet, sondern Container mit virtuellen Laufzeitumgebungen inkl. Bibliotheken und Konfigurationen; einfache Migration durch Übertragung des Containers.",
+        "PaaS (Platform as a Service): Anwender hat keinen Zugriff mehr auf zugrundeliegende Basisdienste; bereitgestellt werden z.B. Datenbank- und Applikationsserver oder vorkonfigurierte Laufzeitumgebungen für Softwaretechnologien und Programmiersprachen.",
+        "FaaS (Function as a Service / Serverless Computing): Ausführungsumgebung für Code-Bausteine, die Verwaltung der Geschäftslogik verbleibt beim Anwender; Plattformen für gängige Sprachen (Java, Python); Abrechnung typischerweise über Anzahl der Aufrufe und Ausführungszeit; Beispiel: Einbindung von Alexa Skills.",
+        "SaaS (Software as a Service): Softwarelösung über das Internet/den Web-Browser; Anwender benötigt kaum IT-Fachwissen zur Einrichtung/Nutzung (außer Integration mit der Unternehmens-IT, z.B. unternehmensweite Authentifizierung).",
+        "Die Idee wurde bis zu Everything as a Service (XaaS) Sourcing weitergetrieben; je höher das Servicemodell (IaaS -> SaaS), desto mehr Verantwortung liegt beim Anbieter."
+      ]
+    },
+    {
+      "heading": "Cloud-Bereitstellungsmodelle und Markt",
+      "points": [
+        "Bereitstellungsmodelle (Deployment): Public Cloud, Private Cloud, Hybrid Cloud (und Community Cloud).",
+        "Eine Private Cloud kann auf dem Gelände des Anwendungsunternehmens oder beim Cloud-Dienstleister betrieben werden.",
+        "Weltweiter IaaS-Public-Cloud-Marktanteil Q2 2025 (Statista): AWS 39 %, Microsoft Azure 26 %, Google Cloud 17 %, Alibaba Cloud 5 %, Oracle 4 %, Salesforce 3 %, IBM Cloud 3 %, Tencent Cloud 3 %.",
+        "Der Markt ist stark konzentriert (Oligopol der Hyperscaler AWS, Azure, Google)."
+      ]
+    },
+    {
+      "heading": "Cloud Computing: Potenziale und Herausforderungen",
+      "points": [
+        "Potenziale/Vorteile: schnelle Umsetzung, Skalierbarkeit, Kostensenkung durch Skaleneffekte, variable Kosten, Service und Unterstützung, Verfügbarkeit, moderne Lösung, hohes Innovationstempo.",
+        "Herausforderungen: Abhängigkeit vom Anbieter (Vendor Lock-in), Mehrdeutigkeit/Intransparenz der Kostenänderungen, verringerte Anpassungsmöglichkeiten.",
+        "Weitere Herausforderungen: Datenschutz & Datenmissbrauch, Integration in bestehende Infrastruktur, Abhängigkeit von Netzwerkverbindungen, Schatten-IT.",
+        "Cloud-Vorteile (variable statt fixe Kosten) folgen direkt aus den Charakteristiken Measured Service und Rapid Elasticity."
+      ]
+    },
+    {
+      "heading": "Managementherausforderungen: Konsolidierung und Cloud-Management",
+      "points": [
+        "Ausgangssituation: gewachsene Hardware-Landschaft mit vielen Servern, geringer Durchschnittsauslastung, komplexer Netzinfrastruktur und mehreren, nicht verbundenen Datenkopien.",
+        "Ziel der Hardwarekonsolidierung: Komplexität reduzieren, indem Dienste, Applikationen und Datenbanken auf wenige, hochverfügbare und dynamische Systeme zusammengeführt werden (Server, Speicher, Netze).",
+        "Weitere Konsolidierungsarten: Applikationskonsolidierung (Digitalisierung/Integration der Anwendungssysteme, Zentralisierung von Funktionalitäten z.B. via Microservices), Datenkonsolidierung, Prozesskonsolidierung.",
+        "Cloud-Management – Übergang zum Cloud-Betrieb: Anpassung des Kostenmanagements, 'Right-sizing' von VMs, Minimierung von 'Cloud Waste'.",
+        "Management von Cloud-Ressourcen: zentralisierte Plattformen; Vertiefung über EAM (Enterprise Architecture Management) und ITSM (IT Service Management).",
+        "Cloud-Kompetenzzentren: Transformationsprojekte und Vorgabe von Cloud-Standards (Quelle: Tiemeyer 2023).",
+        "These 6 (Handelsware Infrastruktur): IT-Infrastrukturleistungen werden künftig auf freien Märkten/Börsen gehandelt, dynamisch erworben und verbraucht; spezialisierte Anbieter zum Planen, Integrieren und Verwalten cloudbasierter IT-Landschaften gewinnen an Bedeutung."
+      ]
+    },
+    {
+      "heading": "Zusammenfassung und Ausblick",
+      "points": [
+        "Für (IT-)Manager ist grundlegendes Wissen über die IT-Infrastruktur wichtig, besonders zu innovativen Technologien und deren geschäftlichem Nutzen.",
+        "Typische IT-Infrastrukturkomponenten: PCs, Thin Clients, mobile Geräte, Netzwerke und Server.",
+        "Server werden meist in Rechenzentren gehostet und zunehmend virtualisiert; Cloud Computing bietet Möglichkeiten für die Bereitstellung der Infrastruktur.",
+        "Größte Herausforderungen rund um die IT-Infrastruktur: Hardware-Konsolidierung, technologische Innovation und IT-Sourcing.",
+        "Aktuelle Trendbegriffe zum Vertiefen: Cloud-native, Container-Orchestrierung, AI-Infrastruktur, API Economy, Plattform Economy."
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "IT-Infrastruktur", "definition": "Alle materiellen und immateriellen Güter (Hardware, Software, bauliche Einrichtungen), die den Betrieb von Anwendungssoftware ermöglichen; aus IM-Sicht zählen auch Know-how, Organisationsstrukturen sowie Gesetze und Normen dazu." },
+    { "term": "Client-Server-Architektur", "definition": "Systemarchitektur für verteilte Anwendungssysteme, bei der Subsysteme (Server) Dienste anbieten, die von anderen Subsystemen (Clients) genutzt werden; Kommunikation erfolgt nachrichtenorientiert über Protokolle, ausgehend vom Client." },
+    { "term": "Total Cost of Ownership (TCO)", "definition": "Ganzheitliche Analyse aller mit der Nutzung der IT verbundenen Kosten von der Beschaffung über Betrieb und Nutzung bis zur Entsorgung der IT-Komponenten." },
+    { "term": "Fat Client", "definition": "Voll ausgestattete Workstation mit schneller lokaler Ausführung und guter Benutzerfreundlichkeit, aber teurer Verteilung, Aktualisierung, Hardware und höherem Sicherheitsaufwand." },
+    { "term": "Thin Client", "definition": "Minimaler Arbeitsplatz, der zentrale Server-Ressourcen nutzt; günstige Hardware, einfache zentrale Wartung und Stromeinsparung, aber abhängig vom Netzwerk und mit hohen Anforderungen an die Server." },
+    { "term": "Internet of Things (IoT)", "definition": "Konzept, bei dem Komponenten über ein digitales Netzwerk verbunden sind und mit der physischen Welt interagieren; erzeugt große Datenmengen und nutzt Sensoren, Aktoren, RFID und APIs." },
+    { "term": "Edge Computing", "definition": "Rechenmodell für IoT, bei dem Filtern, Vorverarbeiten und Aggregieren von Daten in Cloud-Zentren nahe an den IoT-Geräten erfolgt, statt zentral in der Cloud." },
+    { "term": "Rechenzentrum", "definition": "Einrichtung zur Unterbringung unternehmenskritischer Computersysteme mit intensiver Klimatisierung, 19''-Gestellen, USV, physischer Sicherheit, Feuerlöschsystem und oft gespiegeltem Standort." },
+    { "term": "Virtualisierung", "definition": "Bereitstellung mehrerer virtueller Systeme auf einem physischen Host; führt zu höherer Auslastung, leichterer Bereitstellung und Verwaltung; Grundlage des Cloud Computing." },
+    { "term": "Virtual Machine (VM)", "definition": "Vollwertiger virtueller Rechner mit eigenem Betriebssystem, der isoliert neben anderen VMs auf einem physischen Host läuft (Hardware-Virtualisierung)." },
+    { "term": "Hypervisor", "definition": "Virtualisierungssoftware, die die Ressourcen des physischen Host-Rechners (Speicher, CPU, Netzwerk) unter den verschiedenen VMs aufteilt; z.B. VMware, Microsoft, Oracle." },
+    { "term": "Container / Docker", "definition": "Leichtgewichtige, isolierte Einheit mit allen Ressourcen zur Ausführung einer Anwendung, die sich den OS-Kernel mit anderen Containern teilt; ressourcenschonender und portabler als VMs. Docker ist die bekannteste Container-Engine." },
+    { "term": "Cloud Computing", "definition": "Bedarfsgesteuerter Netzwerkzugriff auf einen gemeinsamen Pool konfigurierbarer IT-Ressourcen, die schnell und mit minimalem Verwaltungsaufwand bereitgestellt und abgerechnet werden (NIST/BSI)." },
+    { "term": "IaaS", "definition": "Infrastructure as a Service: Bereitstellung von IT-Infrastruktur (Rechenleistung, Speicher, Netz); der Anwender wählt Betriebssystem und konfiguriert Ressourcen wie CPU, RAM und Speicher." },
+    { "term": "PaaS", "definition": "Platform as a Service: Bereitstellung von Plattformdiensten (z.B. Datenbank-/Applikationsserver, Laufzeitumgebungen); der Anwender hat keinen Zugriff mehr auf die Basisdienste." },
+    { "term": "FaaS", "definition": "Function as a Service (Serverless Computing): Ausführungsumgebung für einzelne Code-Bausteine; Abrechnung über Anzahl der Aufrufe und Ausführungszeit, Geschäftslogik verbleibt beim Anwender." },
+    { "term": "SaaS", "definition": "Software as a Service: Bereitstellung einer fertigen Softwarelösung über das Internet/den Web-Browser ohne nennenswertes IT-Fachwissen des Anwenders." },
+    { "term": "Hardwarekonsolidierung", "definition": "Zusammenführung von Diensten, Applikationen und Datenbanken auf wenige, hochverfügbare und dynamische Systeme, um Komplexität und Kosten der gewachsenen IT-Landschaft zu reduzieren." },
+    { "term": "Single Point of Failure", "definition": "Einzelkomponente, deren Ausfall das gesamte System lahmlegt; wird durch Redundanz (RAID, redundante Stromversorgung, Clustering) vermieden." }
+  ],
+  "flashcards": [
+    { "front": "Aus welchen Bestandteilen besteht eine IT-Infrastruktur?", "back": "Aus Hardware (Rechen-, Netzwerktechnik, Peripherie, Betriebsgeräte), Software (v.a. Systemsoftware) und baulichen Einrichtungen; aus IM-Sicht zusätzlich Know-how, Organisationsstrukturen sowie Gesetze und Normen." },
+    { "front": "Was kennzeichnet eine Client-Server-Architektur?", "back": "Server bieten Dienste an, die Clients nutzen. Die Kommunikation ist nachrichtenorientiert und protokollgeregelt; die Nutzung geht immer vom Client aus, der Server entscheidet über Reihenfolge der Bearbeitung." },
+    { "front": "Was bedeutet Total Cost of Ownership (TCO)?", "back": "Ganzheitliche Analyse aller IT-Kosten von Beschaffung über Betrieb und Nutzung bis zur Entsorgung – nicht nur der Anschaffungspreis." },
+    { "front": "Warum ist ein Desktop-PC im Unternehmen teurer als privat?", "back": "Wegen der hohen Folgekosten (TCO): Verteilung, Aktualisierung, Support, Sicherheit und Verwaltung übersteigen den reinen Anschaffungspreis deutlich." },
+    { "front": "Nennen Sie Vor- und Nachteile von Thin Clients.", "back": "Vorteile: günstige Hardware, einfache zentrale Wartung/Absicherung, Stromeinsparung. Nachteile: Abhängigkeit vom Netzwerk, gefühlte Latenz/Benutzerfreundlichkeit, hohe Anforderungen an die Server-Hardware." },
+    { "front": "Was ist der Unterschied zwischen einer VM und einem Container?", "back": "Eine VM ist ein vollwertiger virtueller Rechner mit eigenem Betriebssystem und benötigt einen Hypervisor. Ein Container teilt sich den OS-Kernel des Hosts, ist leichtgewichtiger, portabler und ressourcenschonender." },
+    { "front": "Welche Rolle spielt der Hypervisor?", "back": "Der Hypervisor (Virtualisierungssoftware) teilt die Ressourcen des physischen Hosts (CPU, Speicher, Netzwerk) auf die verschiedenen, voneinander isolierten VMs auf." },
+    { "front": "Was ist Docker?", "back": "Die bekannteste Open-Source-Container-Engine – eine Laufzeitumgebung, die Container verwalten, starten und stoppen kann." },
+    { "front": "Wie definiert das NIST Cloud Computing?", "back": "Als Modell für bedarfsgesteuerten Netzwerkzugriff auf einen gemeinsamen Pool konfigurierbarer Ressourcen, die schnell und mit minimalem Verwaltungsaufwand bereitgestellt und freigegeben werden können." },
+    { "front": "Nennen Sie die fünf Charakteristiken von Cloud Computing.", "back": "On-demand Self-Service, Broad Network Access, Resource Pooling, Rapid Elasticity (Skalierbarkeit) und Measured Service (Pay-per-Use)." },
+    { "front": "Welche Cloud-Servicemodelle gibt es?", "back": "IaaS (Infrastruktur), CaaS (Container), PaaS (Plattform), FaaS (Serverless/Funktionen) und SaaS (Software) – Steigerung der Anbieter-Verantwortung von IaaS zu SaaS." },
+    { "front": "Was kennzeichnet FaaS / Serverless Computing?", "back": "Eine Ausführungsumgebung für einzelne Code-Bausteine; Abrechnung über Anzahl der Aufrufe und Ausführungszeit, Geschäftslogik verbleibt beim Anwender (Beispiel: Alexa Skills)." },
+    { "front": "Welche Cloud-Bereitstellungsmodelle gibt es?", "back": "Public Cloud, Private Cloud und Hybrid Cloud (sowie Community Cloud). Eine Private Cloud kann beim Unternehmen oder beim Dienstleister betrieben werden." },
+    { "front": "Nennen Sie Vorteile von Cloud Computing.", "back": "Schnelle Umsetzung, Skalierbarkeit, Kostensenkung durch Skaleneffekte, variable Kosten, Service/Unterstützung, Verfügbarkeit, moderne Lösung und hohes Innovationstempo." },
+    { "front": "Nennen Sie Herausforderungen/Risiken von Cloud Computing.", "back": "Anbieterabhängigkeit (Vendor Lock-in), intransparente Kostenänderungen, geringere Anpassbarkeit, Datenschutz/Datenmissbrauch, Integration in Bestand, Netzabhängigkeit und Schatten-IT." },
+    { "front": "Was ist das Ziel der Hardwarekonsolidierung?", "back": "Komplexität (und Kosten) reduzieren, indem Dienste, Applikationen und Datenbanken auf wenige, hochverfügbare und dynamische Systeme zusammengeführt werden." },
+    { "front": "Warum ist Energie in Rechenzentren so wichtig?", "back": "Wärme ist oft der begrenzende Faktor; Strom erzeugt Wärme (Teufelskreis). Energie (Strom + Kühlung) ist häufig der größte Betriebskostenblock mit rasant steigendem Anteil." },
+    { "front": "Was besagt These 6 'Handelsware Infrastruktur'?", "back": "IT-Infrastrukturleistungen werden künftig als standardisierte Dienstleistung auf freien Märkten/Börsen gehandelt und dynamisch nach Bedarf eingekauft und verbraucht." }
+  ],
+  "quiz": [
+    {
+      "question": "Welche Aussage zur IT-Infrastruktur ist korrekt?",
+      "options": [
+        "Sie umfasst ausschließlich Hardware.",
+        "Sie umfasst materielle und immaterielle Güter, die den Betrieb von Anwendungssoftware ermöglichen.",
+        "Sie umfasst nur Anwendungssoftware, keine Systemsoftware.",
+        "Bauliche Einrichtungen zählen nicht dazu."
+      ],
+      "answer": 1,
+      "explanation": "IT-Infrastruktur bezeichnet alle materiellen und immateriellen Güter (Hardware, v.a. Systemsoftware, bauliche Einrichtungen), die den Betrieb von Anwendungssoftware ermöglichen."
+    },
+    {
+      "question": "Was gilt für die Kommunikation in einer Client-Server-Architektur?",
+      "options": [
+        "Sie geht immer vom Server aus.",
+        "Sie erfolgt nachrichtenorientiert und protokollgeregelt; die Nutzung geht vom Client aus.",
+        "Server und Client kommunizieren ohne Protokolle.",
+        "Der Client entscheidet über die Reihenfolge der Bearbeitung im Server."
+      ],
+      "answer": 1,
+      "explanation": "Die Kommunikation ist nachrichtenorientiert und protokollgeregelt; die Nutzung geht vom Client aus, während der Server eigenständig über die Bearbeitungsreihenfolge entscheidet."
+    },
+    {
+      "question": "Welche Aussage über Thin Clients trifft zu?",
+      "options": [
+        "Sie sind teuer in der Hardware und unabhängig vom Netzwerk.",
+        "Sie sind günstig, zentral wartbar, aber stark netzabhängig.",
+        "Sie benötigen keine Server-Hardware.",
+        "Sie führen Anwendungen vollständig lokal aus."
+      ],
+      "answer": 1,
+      "explanation": "Thin Clients haben günstige Hardware und sind zentral wartbar/absicherbar, sind aber abhängig vom Netzwerk und stellen hohe Anforderungen an die Server-Hardware."
+    },
+    {
+      "question": "Worin unterscheidet sich ein Container von einer klassischen VM?",
+      "options": [
+        "Ein Container hat ein eigenes vollständiges Betriebssystem.",
+        "Ein Container benötigt zwingend einen Hypervisor.",
+        "Ein Container teilt sich den OS-Kernel des Hosts und ist ressourcenschonender.",
+        "Container sind grundsätzlich nicht portabel."
+      ],
+      "answer": 2,
+      "explanation": "Container teilen sich den Betriebssystem-Kernel des Hosts, sind leichtgewichtig, portabel und ressourcenschonender als VMs, die jeweils ein eigenes OS und einen Hypervisor benötigen."
+    },
+    {
+      "question": "Welche fünf Merkmale charakterisieren Cloud Computing nach NIST?",
+      "options": [
+        "On-demand Self-Service, Broad Network Access, Resource Pooling, Rapid Elasticity, Measured Service",
+        "Virtualisierung, Containerisierung, SOA, Microservices, Edge",
+        "IaaS, PaaS, SaaS, CaaS, FaaS",
+        "Public, Private, Hybrid, Community, Multi"
+      ],
+      "answer": 0,
+      "explanation": "Die fünf NIST-Charakteristiken sind On-demand Self-Service, Broad Network Access, Resource Pooling, Rapid Elasticity und Measured Service (Pay-per-Use)."
+    },
+    {
+      "question": "Bei welchem Servicemodell verbleibt die Geschäftslogik beim Anwender, während nur eine Ausführungsumgebung für Code-Bausteine bereitgestellt und nach Aufrufen/Laufzeit abgerechnet wird?",
+      "options": [
+        "IaaS",
+        "PaaS",
+        "FaaS (Serverless)",
+        "SaaS"
+      ],
+      "answer": 2,
+      "explanation": "FaaS (Function as a Service / Serverless Computing) stellt eine Ausführungsumgebung für Code-Bausteine bereit; die Abrechnung erfolgt über Anzahl der Aufrufe und Ausführungszeit, die Geschäftslogik verbleibt beim Anwender."
+    },
+    {
+      "question": "Welcher Anbieter hatte laut Statista im Q2 2025 den größten weltweiten IaaS-Public-Cloud-Marktanteil?",
+      "options": [
+        "Microsoft Azure",
+        "Google Cloud",
+        "AWS",
+        "Alibaba Cloud"
+      ],
+      "answer": 2,
+      "explanation": "AWS lag mit 39 % vor Microsoft Azure (26 %) und Google Cloud (17 %)."
+    },
+    {
+      "question": "Welche der folgenden Punkte ist eine Herausforderung/ein Risiko des Cloud Computing?",
+      "options": [
+        "Variable Kosten",
+        "Skalierbarkeit",
+        "Abhängigkeit vom Anbieter (Vendor Lock-in)",
+        "Hohes Innovationstempo"
+      ],
+      "answer": 2,
+      "explanation": "Anbieterabhängigkeit (Vendor Lock-in) ist eine Herausforderung. Variable Kosten, Skalierbarkeit und Innovationstempo zählen hingegen zu den Vorteilen."
+    },
+    {
+      "question": "Was ist das Hauptziel der Hardwarekonsolidierung?",
+      "options": [
+        "Möglichst viele kleine Server mit geringer Auslastung betreiben",
+        "Komplexität reduzieren, indem Dienste, Applikationen und Datenbanken auf wenige hochverfügbare Systeme zusammengeführt werden",
+        "Daten bewusst mehrfach auf getrennten Systemen ablegen",
+        "Den Netzbetrieb möglichst komplex gestalten"
+      ],
+      "answer": 1,
+      "explanation": "Hardwarekonsolidierung führt Dienste, Applikationen und Datenbanken auf wenige, hochverfügbare und dynamische Systeme zusammen, um Komplexität und Kosten der gewachsenen Landschaft zu senken."
+    },
+    {
+      "question": "Welcher Faktor ist in vielen Rechenzentren der begrenzende Faktor und größte Betriebskostenblock?",
+      "options": [
+        "Die Anzahl der Mitarbeiter",
+        "Energie (Strom und Kühlung/Wärme)",
+        "Die Höhe der Racks",
+        "Die Anzahl der Switches"
+      ],
+      "answer": 1,
+      "explanation": "Wärme ist oft der begrenzende Faktor; Strom erzeugt Wärme (Teufelskreis). Energie (Strom + Kühlung) ist häufig der größte Betriebskostenblock mit steigendem Anteil."
+    }
+  ]
+}

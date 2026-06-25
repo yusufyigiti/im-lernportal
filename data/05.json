@@ -1,0 +1,299 @@
+{
+  "id": "05",
+  "title": "IT-Projekte und IT-Portfolios",
+  "date": "06.05.2026",
+  "pdf": "Vorlesungsfolien/IM_05_ProjektUndPortfoliomanagement_SoSe2026.pdf",
+  "summary": "Einheit 5 behandelt das Management einzelner IT-Projekte sowie die übergeordnete Steuerung mehrerer Projekte im IT-Projektportfolio. Zunächst werden Projektbegriff, Projektmerkmale und Projekttypen (z. B. SW-Entwicklung, IT-Basisinfrastruktur, Referenzarchitektur, Organisationsveränderung) geklärt und die Aufgaben des Projektmanagements im Spannungsfeld von Zeit, Kosten und Qualität (magisches Dreieck) sowie SMARTe Ziele dargestellt. Den Schwerpunkt bildet die Bewertung und Priorisierung von Projektvorschlägen mit Scoring-Modellen/Nutzwertanalyse, paarweisem Vergleich und strategischem Beitrag (Balanced Scorecard). Schließlich wird die Portfolio-Methode auf IS-/Anwendungsportfolios und das IS-Portfoliomanagement als Teil des Enterprise Architecture Managements (EAM) übertragen.",
+  "sections": [
+    {
+      "heading": "Lernziele & Einordnung",
+      "points": [
+        "IT-Projektmanagement und IT-Portfolios bilden Einheit 5 der Vorlesung Informationsmanagement (Dr. Henning Baars, Uni Stuttgart) und ordnen sich in den Bereich 'IT-Projekte & -Portfolios' des Gesamtmodells ein.",
+        "Lernziel 1: Merkmale und Typen von IT-Projekten kennen.",
+        "Lernziel 2: Verschiedene Ansätze zur Auswahl von Projekten verstehen und diskutieren können.",
+        "Lernziel 3: Inhalte und Bedeutung des IT-Portfoliomanagements verstehen.",
+        "Gliederung: Motivation, Grundlagen des IT-Projektmanagements, von IT-Projekten zu IT-Projektportfolios sowie IS-Portfolios und IT-Projektportfolios."
+      ]
+    },
+    {
+      "heading": "Motivation: Probleme des Zeit- und Ressourcenmanagements",
+      "points": [
+        "Das alltägliche Zeit- und Ressourcenmanagement ist mit vielfältigen Problemen behaftet (nach Jacob und McClelland, 2001).",
+        "Typische Probleme: Schwierigkeiten, Projekte rechtzeitig, im Rahmen des Budgets und mit dem richtigen Umfang abzuschließen; zu viel Nacharbeit.",
+        "Probleme in einem Projekt ziehen Probleme in anderen Projekten nach sich; bestehende Projekte sind nicht abgeschlossen, bevor neue eine Verschiebung der Prioritäten erfordern.",
+        "Einige Projekte werden aufgegeben oder abgeschlossen, ohne dass die Organisation den versprochenen Nutzen daraus ziehen kann.",
+        "Projektmanager und Ressourcenmanager haben häufig Konflikte über Prioritäten und Ressourcenverpflichtungen."
+      ]
+    },
+    {
+      "heading": "Projektbegriff und Projektmerkmale",
+      "points": [
+        "Definition (PMI 2008): Ein Projekt ist ein zeitlich begrenztes Unterfangen, um ein einzigartiges Produkt, eine Dienstleistung oder ein Ergebnis zu schaffen.",
+        "Merkmale: vorübergehend mit definiertem Ende, einzigartige Leistung, personelle und finanzielle Einschränkungen, vorgegebene Ziele.",
+        "Weitere Merkmale: sektorenübergreifende Teamarbeit, vorübergehende Organisation erforderlich, 'nie dasselbe', sowie Ungewissheit und Risiko.",
+        "Mögliche Arten von Projekten: Forschungs-, Entwicklungs-, Rationalisierungs-, Instandhaltungs-, Verkaufs- und organisatorische Projekte."
+      ]
+    },
+    {
+      "heading": "Typen von IT-Projekten (nach G. Dern, 2009)",
+      "points": [
+        "SW-Entwicklung: Erstellung neuer Informationssysteme auf Basis leistungsfähiger Vorgehensmodelle, Standardlösungen und Entwicklungsplattformen (z. B. IS für einen neuen digitalen Verkaufskanal für Geschäftskunden).",
+        "IT-Basis-Infrastrukturen: erhebliche Veränderungen/Erneuerungen bei Hardware, Basis-Software oder Netzwerkinfrastrukturen (z. B. Einführung von PaaS inkl. Migrationsaktivitäten zur Ablösung bisheriger Infrastrukturen).",
+        "Referenzarchitektur: Entwicklung von Architekturen, die standardisierend für die IT-Architekturen einer Gruppe von Informationssystemen wirken (z. B. Anbindung von Mobile Devices an operative Backendsysteme für sicheres Buchen, Bestellen, Bezahlen).",
+        "Organisationsveränderungen: Change Management (Änderungsmanagement) zur erfolgreichen Implementierung von Modifikationen an Geschäftsprozessen, Zuständigkeiten und Qualifikationsprofilen (z. B. Migration von dezentralem Einkauf zu einem Zentraleinkauf)."
+      ]
+    },
+    {
+      "heading": "Aufgaben und Ziele des IT-Projektmanagements",
+      "points": [
+        "Projektziele: Festlegung 'SMARTer', klarer und koordinierter Ziele als Grundlage für das Projekt.",
+        "Projektstruktur: Aufbau einer (vorläufigen) Projektstruktur/Projektorganisation mit klarer Definition der notwendigen Rollen, Verantwortlichkeiten und Kompetenzen.",
+        "Projektablauf: Definition von Arbeitsabläufen mit klaren Zwischenergebnissen sowie Anpassung der technischen und organisatorischen Aspekte.",
+        "Projektplanung: realistische Zeit-, Meilenstein- und Kostenplanung von Arbeitspaketen.",
+        "Projektcontrolling: kontinuierliche Überprüfung und frühzeitiges Gegensteuern bei Abweichungen in Zeit, Kosten oder Qualität.",
+        "Projektleitung/-führung: Motivation, Engagement und Zusammenarbeit aller Beteiligten auf Grundlage einer angemessenen Projektkultur."
+      ]
+    },
+    {
+      "heading": "SMARTe Projektziele und das magische Dreieck",
+      "points": [
+        "Spezifisch: projektspezifische Ziele müssen klar definiert werden (nicht vage, sondern so präzise wie möglich).",
+        "Messbar: Ziele müssen messbar sein (Definition von Messbarkeitskriterien).",
+        "Erreichbar (Akzeptiert): Ziele müssen für die Projektmitglieder erreichbar und akzeptiert sein.",
+        "Realistisch: Ziele müssen realistisch/möglich sein.",
+        "Terminiert: Ziele brauchen einen definierten Zeitrahmen mit einem definierten Endpunkt.",
+        "Magisches Dreieck: Projektmanagement bewegt sich im Spannungsfeld von Zeit, Kosten und Qualität (Leistung/Umfang) – die Verbesserung einer Größe geht typischerweise zu Lasten der anderen.",
+        "Die Projektplanung und -durchführung befasst sich mit dem 'Was' (Umfang), dem 'Wie' (Aktivitäten), dem 'Wer' (Leitung) und dem 'Wann' (Zeit)."
+      ]
+    },
+    {
+      "heading": "Von der Investitionsrechnung zur Mehrkriterien-Priorisierung",
+      "points": [
+        "Ausgangsproblem: Es gibt häufig mehr IT-Projekte als Ressourcen, daher müssen Projekte priorisiert werden.",
+        "Eine reine Investitionsrechnung greift oft zu kurz, weil viele Nutzeneffekte (intangible Nutzen), strategische Beiträge und Risiken schwer monetär bewertbar sind.",
+        "Deshalb werden mehrdimensionale Bewertungsverfahren eingesetzt, die finanzielle und nicht-finanzielle Kriterien kombinieren.",
+        "Drei zentrale Bewertungsoptionen werden vorgestellt: Scoring-Modelle/Nutzwertanalyse, paarweiser Vergleich und strategischer Beitrag."
+      ]
+    },
+    {
+      "heading": "Bewertungsoption 1: Scoring-Modelle und Nutzwertanalyse",
+      "points": [
+        "Eine Nutzwertanalyse ist ein strukturiertes, gewichtendes Scoring-Verfahren mit einem systematischen Prozess zur Bestimmung der Kriterien und Gewichte.",
+        "Die relevanten Kriterien werden von den Entscheidungsträgern festgelegt und anschließend anhand einer Gewichtung priorisiert.",
+        "Projektvorschläge werden anhand der Kriterien bewertet (z. B. auf einer Skala 1-100 bzw. Punktstufen) und über die gewichtete Gesamtpunktzahl priorisiert.",
+        "Beispielkriterien: Strategic Impact, Financial Benefit, Intangible Benefit, Business Risk Mitigation, IT Efficiencies – jeweils mit eigener Gewichtung.",
+        "Die addierten (gewichteten) Punkte ergeben den sogenannten Nutzwert, der als Grundlage für den Vergleich von Alternativprojekten dient.",
+        "Bewertung erfolgt durch das Projektteam und die Stakeholder."
+      ]
+    },
+    {
+      "heading": "Bewertungsoption 2: Paarweiser Vergleich",
+      "points": [
+        "Der paarweise Vergleich hilft, subjektive Effekte zu verringern.",
+        "Vorgehen: Vergleich jedes Projekts mit allen anderen Projekten und Bestimmung, ob es weniger wichtig, gleich wichtig oder wichtiger ist.",
+        "Es wird eine Matrix eingerichtet; ermittelt wird die Anzahl der Fälle, in denen ein Projekt als wichtiger eingestuft wird; durch mehrere Entscheider erfolgt anschließend eine Summation.",
+        "Vorteil: genau, spiegelt die Folgen individueller Entscheidungen wider.",
+        "Nachteil: hoher Aufwand (Quelle: CSC Deutschland Akademie, 2006)."
+      ]
+    },
+    {
+      "heading": "Bewertungsoption 3: Strategischer Beitrag (Balanced Scorecard)",
+      "points": [
+        "Sofern das Unternehmen über eine Balanced Scorecard oder ein ähnliches strategieorientiertes Kennzahlensystem verfügt, kann damit der strategische Beitrag der Projekte abgeschätzt werden.",
+        "Die Balanced Scorecard betrachtet vier Perspektiven: Finanzperspektive, Kundenperspektive, (interne) Prozessperspektive sowie Lern- und Wachstumsperspektive.",
+        "Je Perspektive werden strategisches Ziel, Kennzahlen, Zielwerte und Maßnahmen festgelegt; Projekte werden danach bewertet, wie stark sie zur Strategie beitragen.",
+        "Die Balanced Scorecard wird im Controlling-Kapitel der Vorlesung vertieft."
+      ]
+    },
+    {
+      "heading": "Priorisierungsprozess und Projektportfolio-Tabelle",
+      "points": [
+        "Mit einem systematischen Priorisierungsprozess kann eine priorisierte Projektportfoliotabelle erstellt werden.",
+        "Erste Dimension: Abschätzung auf Basis der Priorisierungsmodelle (z. B. BSC / inhaltliche Unternehmensrelevanz, hoch/niedrig).",
+        "Zweite Dimension: Abschätzung auf Basis der zeitlichen Dringlichkeit des Projekts (zeitliche Priorisierung, hoch/niedrig).",
+        "In einer Portfolio-Darstellung wird die Größe der Projekte häufig durch die benötigten Ressourcen abgebildet.",
+        "Ergebnis ist eine Projektportfolio-Tabelle mit Priorität (A/B/C), Projekttitel, Start, Ende und Projektleiter zur Steuerung des Portfolios."
+      ]
+    },
+    {
+      "heading": "Portfolio-Methode und IS-/Anwendungsportfolio",
+      "points": [
+        "Die Portfolio-Methode stammt ursprünglich aus dem Wertpapiergeschäft, um eine aus Risiko und Ertragschancen ausgewogene Wertpapiermischung zu ermitteln.",
+        "In der Unternehmensplanung wurde sie als Marktanteils-Marktwachstums-Matrix eingesetzt (bekannter Vertreter: BCG-Matrix), um Geschäftsfelder/Produkte ausgewogen einzuteilen.",
+        "IS-Projektportfolio: die Gesamtheit aller IS-Projekte eines Betriebs oder Fachbereichs; der Fachbereich bewertet Ziele und Auswirkungen, setzt Prioritäten und stellt Ressourcen bereit (Hansen u. a., 2019).",
+        "Die Reihenfolge der Projekte wird anhand unternehmerischer Kriterien, Projektabhängigkeiten und verfügbarer Ressourcen bestimmt (Projektauswahl).",
+        "In der Praxis wird statt 'IS-Portfolio' oft 'Anwendungs-Portfolio' verwendet."
+      ]
+    },
+    {
+      "heading": "IS-Portfoliomanagement als Teil des EAM",
+      "points": [
+        "IS-Portfoliomanagement ist die systematische Verwaltung und Weiterentwicklung eines IS-Portfolios (Gesamtübersicht aller IS und deren Neu- und Weiterentwicklung).",
+        "Es ist fester Bestandteil gängiger EAM-Frameworks wie TOGAF.",
+        "Das Projektportfolio beschreibt letztlich ein 'Delta' im IS- bzw. Anwendungsportfolio – also die geplanten Veränderungen an der Anwendungslandschaft.",
+        "IS-Portfolios können direkt aus dem EAM abgeleitet werden oder anhand einer strategischen Nutzen-/Wert-Analyse bewertet werden.",
+        "Es gibt verschiedene Ansätze, IT-Portfolios abzuleiten und zu analysieren (Mertens u. a., Grundzüge der Wirtschaftsinformatik, 2023)."
+      ]
+    },
+    {
+      "heading": "Zusammenfassung",
+      "points": [
+        "IT-Projektmanagement ist für Erfolg und Innovationskraft von Unternehmen von großer Bedeutung, muss sich aber mit vielen Herausforderungen auseinandersetzen.",
+        "Projektmanagement umfasst die Aufgaben, Fähigkeiten, Strukturen und Techniken zur Erreichung eines kurzfristigen Ziels im Rahmen des magischen Dreiecks.",
+        "Projektplanung und -durchführung befassen sich mit dem 'Was', 'Wie', 'Wer' und 'Wann' von Projekten.",
+        "Bewertung und Priorisierung von Projektvorschlägen sind grundlegende Aufgaben des Projektportfoliomanagements.",
+        "Der Prozess der Priorisierung kann mehrere Bewertungsdimensionen (z. B. inhaltliche Relevanz und zeitliche Dringlichkeit) und -methoden umfassen."
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "Projekt", "definition": "Ein zeitlich begrenztes Unterfangen, um ein einzigartiges Produkt, eine Dienstleistung oder ein Ergebnis zu schaffen (PMI 2008). Merkmale sind u. a. vorübergehende Dauer, Einzigartigkeit, begrenzte Ressourcen sowie Ungewissheit und Risiko." },
+    { "term": "IT-Projektmanagement", "definition": "Aufgaben, Fähigkeiten, Strukturen und Techniken zur Erreichung eines kurzfristigen (Projekt-)Ziels im Rahmen des magischen Dreiecks aus Zeit, Kosten und Qualität." },
+    { "term": "Magisches Dreieck", "definition": "Spannungsfeld des Projektmanagements aus den drei konkurrierenden Zielgrößen Zeit, Kosten und Qualität (Leistung/Umfang); die Verbesserung einer Größe geht meist zu Lasten der anderen." },
+    { "term": "SMART", "definition": "Kriterien für gute Projektziele: Spezifisch, Messbar, Erreichbar/Akzeptiert, Realistisch und Terminiert (definierter Zeitrahmen mit definiertem Endpunkt)." },
+    { "term": "Projektstruktur / Projektorganisation", "definition": "Vorläufiger Aufbau eines Projekts mit klarer Definition der notwendigen Rollen, Verantwortlichkeiten und Kompetenzen." },
+    { "term": "Projektcontrolling", "definition": "Kontinuierliche Überprüfung des Projektfortschritts und frühzeitiges Gegensteuern bei Abweichungen in Zeit, Kosten oder Qualität." },
+    { "term": "Nutzwertanalyse", "definition": "Strukturiertes, gewichtendes Scoring-Verfahren mit systematischem Prozess zur Bestimmung von Kriterien und Gewichten; die gewichtete Gesamtpunktzahl (Nutzwert) dient als Grundlage für den Vergleich von Alternativprojekten." },
+    { "term": "Scoring-Modell", "definition": "Bewertungsverfahren, bei dem Projektvorschläge anhand mehrerer gewichteter Kriterien (z. B. strategischer Einfluss, finanzieller Nutzen, Risiko) bepunktet und über die gewichtete Punktsumme priorisiert werden." },
+    { "term": "Paarweiser Vergleich", "definition": "Priorisierungsmethode, bei der jedes Projekt mit jedem anderen verglichen wird (weniger/gleich/wichtiger). Vorteil: genau; Nachteil: hoher Aufwand. Reduziert subjektive Effekte durch mehrere Entscheider und Summation." },
+    { "term": "Balanced Scorecard (BSC)", "definition": "Strategieorientiertes Kennzahlensystem mit vier Perspektiven (Finanzen, Kunden, interne Prozesse, Lernen & Wachstum), mit dem der strategische Beitrag von Projekten abgeschätzt werden kann." },
+    { "term": "Intangibler Nutzen", "definition": "Nicht oder nur schwer monetär bewertbarer Nutzen eines Projekts (z. B. verbesserte Servicequalität), der eine reine Investitionsrechnung zur Projektpriorisierung unzureichend macht." },
+    { "term": "Projektportfolio-Tabelle", "definition": "Ergebnis des Priorisierungsprozesses: Übersicht aller Projekte mit Priorität (z. B. A/B/C), Titel, Start, Ende und Projektleiter zur Steuerung des Portfolios." },
+    { "term": "Portfolio-Methode", "definition": "Ursprünglich aus dem Wertpapiergeschäft stammendes Verfahren zur ausgewogenen Mischung von Risiko und Ertragschancen; in der Unternehmensplanung u. a. als Marktanteils-Marktwachstums-Matrix (BCG-Matrix) genutzt." },
+    { "term": "IS-Projektportfolio", "definition": "Gesamtheit aller IS-Projekte eines Betriebs oder Fachbereichs; deren Ziele und Auswirkungen werden bewertet, Prioritäten gesetzt und Ressourcen bereitgestellt (Hansen u. a., 2019)." },
+    { "term": "IS-Portfoliomanagement", "definition": "Systematische Verwaltung und Weiterentwicklung eines IS-Portfolios (Gesamtübersicht aller IS sowie deren Neu- und Weiterentwicklung); in der Praxis oft 'Anwendungs-Portfolio'." },
+    { "term": "EAM (Enterprise Architecture Management)", "definition": "Ganzheitliches Management der Unternehmensarchitektur; das IS-Portfoliomanagement ist Teil des EAM und fester Bestandteil von Frameworks wie TOGAF." },
+    { "term": "Projekttypen (nach Dern)", "definition": "Klassifikation von IT-Projekten in SW-Entwicklung, IT-Basis-Infrastrukturen, Referenzarchitektur und Organisationsveränderungen (Change Management)." }
+  ],
+  "flashcards": [
+    { "front": "Wie definiert das PMI (2008) ein Projekt?", "back": "Ein zeitlich begrenztes Unterfangen, um ein einzigartiges Produkt, eine Dienstleistung oder ein Ergebnis zu schaffen." },
+    { "front": "Nenne vier zentrale Merkmale eines Projekts.", "back": "Vorübergehend (definiertes Ende), einzigartige Leistung, begrenzte personelle/finanzielle Ressourcen, vorgegebene Ziele sowie Ungewissheit und Risiko." },
+    { "front": "Was bilden die drei Ecken des magischen Dreiecks?", "back": "Zeit, Kosten und Qualität (Leistung/Umfang) – die konkurrierenden Zielgrößen des Projektmanagements." },
+    { "front": "Wofür steht das Akronym SMART bei Projektzielen?", "back": "Spezifisch, Messbar, Erreichbar/Akzeptiert, Realistisch, Terminiert." },
+    { "front": "Welche vier 'W-Fragen' beschreiben Projektplanung und -durchführung?", "back": "Was (Umfang), Wie (Aktivitäten), Wer (Leitung) und Wann (Zeit)." },
+    { "front": "Nenne die vier Projekttypen nach G. Dern (2009).", "back": "SW-Entwicklung, IT-Basis-Infrastrukturen, Referenzarchitektur und Organisationsveränderungen (Change Management)." },
+    { "front": "Warum reicht eine reine Investitionsrechnung zur Projektpriorisierung oft nicht aus?", "back": "Weil viele Nutzeneffekte intangibel sind und strategische Beiträge sowie Risiken schwer monetär bewertbar sind; daher braucht es mehrdimensionale Bewertungsverfahren." },
+    { "front": "Was ist eine Nutzwertanalyse?", "back": "Ein strukturiertes, gewichtendes Scoring-Verfahren mit systematischem Prozess zur Bestimmung von Kriterien und Gewichten; die gewichtete Gesamtpunktzahl (Nutzwert) erlaubt den Vergleich von Alternativprojekten." },
+    { "front": "Nenne Beispielkriterien eines Scoring-Modells zur Projektbewertung.", "back": "Strategischer Einfluss (Strategic Impact), finanzieller Nutzen, intangibler Nutzen, Business Risk Mitigation und IT-Effizienz – jeweils gewichtet." },
+    { "front": "Wie funktioniert der paarweise Vergleich und was sind Vor-/Nachteile?", "back": "Jedes Projekt wird mit jedem anderen verglichen (weniger/gleich/wichtiger), in einer Matrix erfasst und summiert. Vorteil: genau; Nachteil: hoher Aufwand. Er verringert subjektive Effekte." },
+    { "front": "Welche vier Perspektiven hat die Balanced Scorecard?", "back": "Finanzperspektive, Kundenperspektive, interne Prozessperspektive sowie Lern- und Wachstumsperspektive." },
+    { "front": "Welche zwei Dimensionen werden bei der Priorisierung eines Projektportfolios häufig kombiniert?", "back": "Die inhaltliche Unternehmensrelevanz (z. B. via BSC) und die zeitliche Dringlichkeit des Projekts." },
+    { "front": "Woher stammt die Portfolio-Methode ursprünglich?", "back": "Aus dem Wertpapiergeschäft, zur Ermittlung einer aus Risiko und Ertragschancen ausgewogenen Wertpapiermischung; bekannter Vertreter in der Unternehmensplanung: BCG-Matrix." },
+    { "front": "Was ist ein IS-Projektportfolio?", "back": "Die Gesamtheit aller IS-Projekte eines Betriebs/Fachbereichs; deren Ziele und Auswirkungen werden bewertet, Prioritäten gesetzt und Ressourcen bereitgestellt." },
+    { "front": "In welchem übergeordneten Managementansatz ist das IS-Portfoliomanagement verankert?", "back": "Im Enterprise Architecture Management (EAM); es ist fester Bestandteil von Frameworks wie TOGAF." },
+    { "front": "Was beschreibt das Projektportfolio im Verhältnis zum Anwendungsportfolio?", "back": "Es beschreibt ein 'Delta' im IS- bzw. Anwendungsportfolio, also die geplanten Veränderungen an der Anwendungslandschaft." },
+    { "front": "Was ist das Ergebnis eines systematischen Priorisierungsprozesses?", "back": "Eine priorisierte Projektportfolio-Tabelle mit Priorität (z. B. A/B/C), Titel, Start, Ende und Projektleiter." }
+  ],
+  "quiz": [
+    {
+      "question": "Wie definiert das PMI (2008) ein Projekt?",
+      "options": [
+        "Eine dauerhafte Linienorganisation zur Erbringung von Routineleistungen",
+        "Ein zeitlich begrenztes Unterfangen, um ein einzigartiges Produkt, eine Dienstleistung oder ein Ergebnis zu schaffen",
+        "Die kontinuierliche Wartung bestehender Informationssysteme",
+        "Ein unbegrenztes Programm zur fortlaufenden Prozessoptimierung"
+      ],
+      "answer": 1,
+      "explanation": "Laut PMI (2008) ist ein Projekt ein zeitlich begrenztes (vorübergehendes) Unterfangen zur Schaffung eines einzigartigen Produkts, einer Dienstleistung oder eines Ergebnisses."
+    },
+    {
+      "question": "Welche drei Größen bilden das 'magische Dreieck' des Projektmanagements?",
+      "options": [
+        "Strategie, Struktur und Kultur",
+        "Zeit, Kosten und Qualität",
+        "Risiko, Rendite und Liquidität",
+        "Mensch, Technik und Organisation"
+      ],
+      "answer": 1,
+      "explanation": "Das magische Dreieck beschreibt das Spannungsfeld aus Zeit, Kosten und Qualität (Leistung/Umfang); die Verbesserung einer Größe geht meist zu Lasten der anderen."
+    },
+    {
+      "question": "Wofür steht das 'M' im SMART-Kriterium für Projektziele?",
+      "options": [
+        "Motivierend",
+        "Machbar",
+        "Messbar",
+        "Modular"
+      ],
+      "answer": 2,
+      "explanation": "SMART steht für Spezifisch, Messbar, Erreichbar/Akzeptiert, Realistisch und Terminiert. 'M' bedeutet messbar – Ziele müssen anhand von Messbarkeitskriterien überprüfbar sein."
+    },
+    {
+      "question": "Welche der folgenden ist KEIN Projekttyp nach G. Dern (2009)?",
+      "options": [
+        "SW-Entwicklung",
+        "IT-Basis-Infrastrukturen",
+        "Referenzarchitektur",
+        "Daueroutsourcing des Rechenzentrums"
+      ],
+      "answer": 3,
+      "explanation": "Dern (2009) unterscheidet SW-Entwicklung, IT-Basis-Infrastrukturen, Referenzarchitektur und Organisationsveränderungen. Ein dauerhaftes Outsourcing ist kein eigener Projekttyp dieser Klassifikation."
+    },
+    {
+      "question": "Was ist eine Nutzwertanalyse?",
+      "options": [
+        "Ein rein finanzielles Verfahren, das ausschließlich den Kapitalwert berechnet",
+        "Ein strukturiertes, gewichtendes Scoring-Verfahren mit systematischer Bestimmung von Kriterien und Gewichten",
+        "Eine Methode zur Schätzung des Projektrisikos über Monte-Carlo-Simulation",
+        "Ein Verfahren zur Aufbauorganisation von Projektteams"
+      ],
+      "answer": 1,
+      "explanation": "Die Nutzwertanalyse ist ein strukturiertes, gewichtendes Scoring-Verfahren; die addierten gewichteten Punkte ergeben den Nutzwert als Grundlage für den Vergleich von Alternativprojekten."
+    },
+    {
+      "question": "Was ist der zentrale Nachteil des paarweisen Vergleichs zur Projektpriorisierung?",
+      "options": [
+        "Er ist ungenau und ignoriert individuelle Entscheidungen",
+        "Er ist mit hohem Aufwand verbunden",
+        "Er benötigt zwingend eine Balanced Scorecard",
+        "Er liefert nur monetäre Ergebnisse"
+      ],
+      "answer": 1,
+      "explanation": "Der paarweise Vergleich ist genau und spiegelt die Folgen individueller Entscheidungen wider (Vorteil), ist aber mit hohem Aufwand verbunden (Nachteil)."
+    },
+    {
+      "question": "Welche vier Perspektiven umfasst die Balanced Scorecard, mit der der strategische Beitrag von Projekten abgeschätzt werden kann?",
+      "options": [
+        "Finanzen, Kunden, interne Prozesse, Lernen & Wachstum",
+        "Zeit, Kosten, Qualität, Risiko",
+        "Beschaffung, Produktion, Vertrieb, Verwaltung",
+        "Hardware, Software, Netzwerk, Daten"
+      ],
+      "answer": 0,
+      "explanation": "Die Balanced Scorecard betrachtet die Finanz-, Kunden-, interne Prozess- sowie Lern- und Wachstumsperspektive – jeweils mit strategischem Ziel, Kennzahlen, Zielwerten und Maßnahmen."
+    },
+    {
+      "question": "Welche zwei Dimensionen werden bei der Erstellung einer priorisierten Projektportfolio-Tabelle typischerweise kombiniert?",
+      "options": [
+        "Hardwarekosten und Lizenzkosten",
+        "Inhaltliche Unternehmensrelevanz und zeitliche Dringlichkeit",
+        "Anzahl Mitarbeiter und Anzahl Standorte",
+        "Marktanteil und Marktwachstum"
+      ],
+      "answer": 1,
+      "explanation": "Der Priorisierungsprozess kombiniert die inhaltliche Abschätzung (z. B. via BSC / Unternehmensrelevanz) mit der zeitlichen Dringlichkeit des Projekts; die Projektgröße wird oft über die benötigten Ressourcen dargestellt."
+    },
+    {
+      "question": "In welchem übergeordneten Managementansatz ist das IS-Portfoliomanagement verankert?",
+      "options": [
+        "Im Enterprise Architecture Management (EAM), z. B. TOGAF",
+        "Im IT-Service-Management nach ITIL",
+        "Im klassischen Qualitätsmanagement nach ISO 9000",
+        "Im operativen Tagesgeschäft der Linienorganisation"
+      ],
+      "answer": 0,
+      "explanation": "Das IS-Portfoliomanagement ist Teil des EAM und fester Bestandteil gängiger EAM-Frameworks wie TOGAF."
+    },
+    {
+      "question": "Woher stammt die Portfolio-Methode ursprünglich?",
+      "options": [
+        "Aus dem Personalmanagement",
+        "Aus dem Wertpapiergeschäft (ausgewogene Mischung aus Risiko und Ertragschancen)",
+        "Aus der Softwareentwicklung",
+        "Aus dem Qualitätsmanagement"
+      ],
+      "answer": 1,
+      "explanation": "Die Portfolio-Methode stammt aus dem Wertpapiergeschäft (ausgewogene Wertpapiermischung) und wurde in der Unternehmensplanung u. a. als Marktanteils-Marktwachstums-Matrix (BCG-Matrix) genutzt."
+    }
+  ]
+}

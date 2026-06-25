@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Informationsmanagement · Klausur-Lernportal</title>
+<meta name="description" content="Lernportal für die Klausur Informationsmanagement (Uni Stuttgart) – Zusammenfassungen, Karteikarten, Probetest und Originalfolien.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-badge">IM</span>
+      <div class="brand-text">
+        <strong>Informationsmanagement</strong>
+        <span>Klausur-Lernportal · Uni Stuttgart · Dr. Baars</span>
+      </div>
+    </div>
+    <div class="countdown-mini" id="countdownMini" title="Verbleibende Zeit bis zur Klausur">
+      <span class="cd-num" id="cdMiniDays">–</span>
+      <span class="cd-lbl">Tage bis zur Klausur</span>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-view="uebersicht">Übersicht</button>
+    <button class="tab" data-view="themen">Themen</button>
+    <button class="tab" data-view="karteikarten">Karteikarten</button>
+    <button class="tab" data-view="test">Test</button>
+    <button class="tab" data-view="folien">Folien</button>
+  </nav>
+</header>
+
+<main id="app">
+  <!-- ÜBERSICHT -->
+  <section class="view active" id="view-uebersicht">
+    <div class="hero">
+      <div class="hero-left">
+        <h1>Bereit für die Klausur am <span class="accent">21. Juli 2026</span></h1>
+        <p class="lead">Alle Vorlesungen kompakt aufbereitet: ausführliche Zusammenfassungen, Karteikarten zum Selbstabfragen, ein Probetest und die Originalfolien zum Nachschlagen — alles auf einer Seite.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-goto="themen">Themen lernen</button>
+          <button class="btn btn-ghost" data-goto="test">Test starten</button>
+        </div>
+      </div>
+      <div class="countdown-big" id="countdownBig">
+        <div class="cd-unit"><span id="cdDays">–</span><label>Tage</label></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><span id="cdHours">–</span><label>Std</label></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><span id="cdMins">–</span><label>Min</label></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><span id="cdSecs">–</span><label>Sek</label></div>
+      </div>
+    </div>
+
+    <div class="stats" id="stats"></div>
+
+    <h2 class="section-title">Themenübersicht</h2>
+    <div class="topic-grid" id="topicGrid"></div>
+
+    <div class="tips">
+      <h2 class="section-title">Lerntipps</h2>
+      <div class="tips-grid">
+        <div class="tip"><h3>1 · Verstehen</h3><p>Gehe pro Tag 1–2 Themen im Reiter <em>Themen</em> durch. Vergleiche dabei mit den Originalfolien rechts.</p></div>
+        <div class="tip"><h3>2 · Abfragen</h3><p>Nutze die <em>Karteikarten</em> aktiv: erst antworten, dann umdrehen. Markiere Lücken als „nochmal".</p></div>
+        <div class="tip"><h3>3 · Prüfen</h3><p>Mache regelmäßig den <em>Test</em>. Wiederhole gezielt die Themen mit den meisten Fehlern.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THEMEN -->
+  <section class="view" id="view-themen">
+    <div class="themen-layout">
+      <aside class="themen-nav" id="themenNav"></aside>
+      <div class="themen-content" id="themenContent"></div>
+    </div>
+  </section>
+
+  <!-- KARTEIKARTEN -->
+  <section class="view" id="view-karteikarten">
+    <div class="kk-toolbar">
+      <div class="kk-filter">
+        <label>Thema:</label>
+        <select id="kkTopic"></select>
+      </div>
+      <div class="kk-controls">
+        <button class="btn btn-small" id="kkShuffle">Mischen</button>
+        <button class="btn btn-small" id="kkReset">Fortschritt zurücksetzen</button>
+      </div>
+    </div>
+    <div class="kk-progress"><div class="kk-progress-bar" id="kkProgressBar"></div></div>
+    <div class="kk-stage">
+      <button class="kk-arrow" id="kkPrev" aria-label="Zurück">‹</button>
+      <div class="flashcard" id="flashcard">
+        <div class="flashcard-inner" id="flashcardInner">
+          <div class="flashcard-face flashcard-front"><span class="kk-tag" id="kkTagFront"></span><p id="kkFront"></p><span class="kk-hint">Klicken zum Umdrehen</span></div>
+          <div class="flashcard-face flashcard-back"><span class="kk-tag" id="kkTagBack"></span><p id="kkBack"></p></div>
+        </div>
+      </div>
+      <button class="kk-arrow" id="kkNext" aria-label="Weiter">›</button>
+    </div>
+    <div class="kk-meta">
+      <span id="kkCounter">–</span>
+      <div class="kk-rate">
+        <button class="btn btn-small btn-bad" id="kkAgain">Nochmal üben</button>
+        <button class="btn btn-small btn-good" id="kkKnown">Gewusst ✓</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEST -->
+  <section class="view" id="view-test">
+    <div id="testSetup" class="test-setup">
+      <h2 class="section-title">Probetest</h2>
+      <p class="lead">Stelle dir deinen Test zusammen. Du bekommst Multiple-Choice-Fragen mit sofortiger Auswertung und Erklärungen.</p>
+      <div class="test-options">
+        <div class="to-row">
+          <label>Themen:</label>
+          <div class="to-topics" id="testTopics"></div>
+        </div>
+        <div class="to-row">
+          <label>Anzahl Fragen:</label>
+          <select id="testCount">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="30">30</option>
+            <option value="0">Alle</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn btn-primary" id="testStart">Test starten</button>
+    </div>
+
+    <div id="testRun" class="test-run" hidden>
+      <div class="test-head">
+        <div class="test-progress"><div class="test-progress-bar" id="testProgressBar"></div></div>
+        <span id="testCounter"></span>
+      </div>
+      <div class="test-question" id="testQuestion"></div>
+      <div class="test-answers" id="testAnswers"></div>
+      <div class="test-explain" id="testExplain" hidden></div>
+      <div class="test-foot">
+        <span class="test-tag" id="testTag"></span>
+        <button class="btn btn-primary" id="testNext" disabled>Weiter</button>
+      </div>
+    </div>
+
+    <div id="testResult" class="test-result" hidden></div>
+  </section>
+
+  <!-- FOLIEN -->
+  <section class="view" id="view-folien">
+    <h2 class="section-title">Originalfolien & Materialien</h2>
+    <p class="lead">Alle Vorlesungsfolien und die drei Fallstudien zum Nachschlagen und Herunterladen.</p>
+    <div class="folien-grid" id="folienGrid"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Lernportal Informationsmanagement · Inhalte automatisch aus den Vorlesungsfolien erstellt — bitte im Zweifel mit den Originalfolien abgleichen. Viel Erfolg bei der Klausur! 🍀</p>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

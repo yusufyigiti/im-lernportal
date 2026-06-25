@@ -1,0 +1,338 @@
+{
+  "id": "12",
+  "title": "IT Service Management",
+  "date": "24.06.2026",
+  "pdf": "Vorlesungsfolien/IM_12_ITServiceManagementSoSe2026.pdf",
+  "summary": "Die Einheit behandelt das IT-Service-Management (ITSM) als prozess- und dienstleistungsorientierten Ansatz, bei dem die IT-Abteilung qualitativ hochwertige IT-Services erbringt, die an Geschäftsanforderungen ausgerichtet sind. Motiviert wird ITSM durch reale Großausfälle (CrowdStrike, GitLab, Meta), deren Ursachen überwiegend organisatorisch/prozessual und nicht rein technisch sind. Im Zentrum steht ITIL als De-facto-Standard mit seinem Service Value System (SVS), den vier Dimensionen, sieben Leitprinzipien, der Service-Wertschöpfungskette und den ITIL-Praktiken (u. a. Incident, Problem, Change, Configuration Management). Ergänzend werden Service-Definition (Nutzen, Garantie, Wert) sowie Service Level Agreements (SLAs) als kennzahlenbasierte Vereinbarungen behandelt.",
+  "sections": [
+    {
+      "heading": "Motivation: IT-Betrieb ist mehr als Infrastruktur",
+      "points": [
+        "IT-Betrieb umfasst weit mehr als die Bereitstellung und Wartung von Infrastrukturkomponenten - entscheidend sind Prozesse und Organisation.",
+        "Beispiel CrowdStrike (2024): fehlerhaftes Sicherheitsupduate verursachte Blue Screens auf >8 Mio. Windows-Rechnern weltweit; rund die Hälfte der deutschen Unternehmen betroffen, im Schnitt 10 Stunden lahmgelegt; Krankenhäuser und Banken im Notbetrieb. Kernfrage: Darf man Updates gleichzeitig auf Millionen Systeme ausrollen? -> Change Management.",
+        "Beispiel GitLab (2017): ein Entwickler loeschte versehentlich die Produktionsdatenbank (Fat-Finger-Incident); 18 Stunden Wiederherstellung, Verlust von ca. 5000 Projekten, 5000 Kommentaren und ~700 Nutzern -> Incident-, Problem- und Continuity Management; 'Wann ist ein Backup kein Backup?'.",
+        "Beispiel Meta (2021): eine fehlerhafte IP-Routing-Aenderung legte Facebook, Instagram, WhatsApp, Mapillary und Oculus bis zu 7 Stunden lahm -> Configuration Management.",
+        "Aktuell haeufen sich Vorfaelle, bei denen KI-Agenten Daten loeschen oder Systeme lahmlegen (Infrastructure-as-Code, automatisierte Konfiguration).",
+        "Die grosse Mehrheit der Ausfaelle hat ihren Ursprung in menschlichen und verfahrenstechnischen Problemen, nicht in rein technischen Ursachen; auch die Ausfalldauer haengt wesentlich von nichttechnischen Faktoren ab (Quelle: Schaaf 2011)."
+      ]
+    },
+    {
+      "heading": "Wandel zur serviceorientierten IT-Abteilung",
+      "points": [
+        "Frueher: technologieorientierte IT-Abteilung (Fokus auf Technik/Systeme).",
+        "Heute: dienstleistungsorientierte IT-Abteilung (Fokus auf Services und Kundennutzen).",
+        "Treiber dieser Entwicklung: Industrialisierung der IT, Automatisierung und Standardisierung der Leistungserbringung, zunehmender Kosten- und Wettbewerbsdruck.",
+        "IT-Dienste entstehen an einer marktaehnlichen Schnittstelle zwischen IT und Unternehmen; die IT-Dienstleistung wird zum 'gehandelten' Objekt.",
+        "Es gibt interne und externe Lieferanten sowie interne Kunden (Geschaeftseinheiten/Fachabteilungen) und externe Kunden auf internem bzw. externem Markt.",
+        "Ein IT-Service ist eine Kombination aus internen und/oder externen Dienstleistungen und Produkten (Sachleistungen) (Tiemeyer 2020)."
+      ]
+    },
+    {
+      "heading": "Was ist IT-Service-Management (ITSM)?",
+      "points": [
+        "ITSM zielt darauf ab, qualitativ hochwertige IT-Dienstleistungen zu erbringen, die den Erwartungen der Kunden und Nutzenden (inkl. interner Kunden/Fachabteilungen) entsprechen.",
+        "Dies geschieht durch Definition und Einfuehrung von Managementprozessen, die alle Aspekte des Service-Lebenszyklus abdecken: Planung, Markteinfuehrung und Auslieferung, operative Unterstuetzung, Aendern und Verbessern.",
+        "ITSM bedeutet den Ausgleich zwischen geschaeftlichen und IT-Anforderungen: bester Nutzen fuer Kunden bei gleichzeitig effizienter IT-Organisation.",
+        "Wichtig: Nicht alle Geschaeftsanforderungen sind wirtschaftlich oder technisch machbar.",
+        "ITIL-Definition: 'IT-Servicemanagement ist die Implementierung und Verwaltung von qualitativ hochwertigen IT-Services, die den Anforderungen des Unternehmens entsprechen. Es wird durch eine geeignete Mischung aus Menschen, Prozessen und Informationstechnologie durchgefuehrt.' (ITIL-Glossar 2011)."
+      ]
+    },
+    {
+      "heading": "Der Service-Begriff: Nutzen, Garantie und Wert",
+      "points": [
+        "Definition (OGC 2007): Eine Dienstleistung ist ein Mittel zur Schaffung von Wert fuer Kunden, indem sie unterstuetzt werden, ihre Ziele zu erreichen, ohne dass der Kunde fuer die mit dem Dienst verbundenen spezifischen Kosten und Risiken verantwortlich ist.",
+        "Nutzen (Utility): Warum sollte ein Kunde an der Dienstleistung interessiert sein? - der funktionale Mehrwert.",
+        "Garantie (Warranty): Wie kann der Anbieter garantieren, dass die vereinbarte Qualitaet eingehalten wird? - vorbehaltlich von Service Level Agreements (SLAs).",
+        "Wert = Nutzen + Garantie aus Sicht des Kunden/Unternehmens.",
+        "Weiterentwicklung des Service-Begriffs in ITIL 4 (AXELOS 2019): von 'delivering value' (Wert liefern) zu 'value co-creation' - gemeinsame Wertschoepfung von Anbieter und Kunde."
+      ]
+    },
+    {
+      "heading": "Prozessorientierung im ITSM",
+      "points": [
+        "Merkmale wohldefinierter Prozesse: zusammenhaengende Aktivitaeten, eindeutig definierte Schnittstellen, messbare und wiederholbare Ergebnisse.",
+        "Grundidee des Prozessansatzes: Kontrolle der anfallenden Aufgaben durch Prozesse und Verfahren.",
+        "Vorteile: bessere Ausrichtung auf die Ziele, Standardisierung von Prozessen, Verfahren und Werkzeugen, klare Zustaendigkeiten/Verantwortlichkeiten, Steigerung von Effektivitaet und Effizienz.",
+        "Bestandteile einer Prozessbeschreibung: 1) Zielsetzung, 2) Input, 3) Output (gewuenschtes Ergebnis), 4) Aktivitaeten, 5) Rollen und Verantwortlichkeiten, 6) Erfolgsfaktoren und KPIs, 7) Schnittstellen zu anderen Prozessen."
+      ]
+    },
+    {
+      "heading": "Incident Management und Service Desk",
+      "points": [
+        "Incident Management ist der Kernprozess der Service-Desk-Funktion; ein Incident ist eine (drohende) Stoerung/Unterbrechung eines IT-Dienstes.",
+        "Zielsetzung: Wiederherstellung der vereinbarten Dienstleistung so schnell wie moeglich, Minimierung der Unterbrechung des Geschaeftsbetriebs.",
+        "Input: Ereignis oder Benachrichtigung (z. B. durch Benutzer), das das Auftreten eines Vorfalls anzeigt. Output: Stoerung behoben, Dienst wiederhergestellt, vollstaendige Aufzeichnung der Stoerung.",
+        "Aktivitaeten: Protokollierung, Klassifizierung + Prioritaetensetzung, First-Level-Unterstuetzung, funktionale und/oder hierarchische Eskalation, Aufloesung, Schliessung.",
+        "Rollen: Prozessverantwortlicher, Vorfall-Manager (Incident Manager), Koordinator fuer grosse Zwischenfaelle (Major Incident), Agent, Benutzer.",
+        "KPIs: First-Level-Aufklaerungsquote (pro Kategorie/Prioritaet), durchschnittliche Loesungszeit, Anzahl der SLA-Verletzungen und deren Auswirkungen.",
+        "Beispiel Mehrstufen-Support: 1350 Anrufe/Monat; Level 1 loest ~40-57 %, Level 2 ~69 %, Level 3 ~88 %; insgesamt werden ca. 99 % geloest. Hoehere Level bedeuten laengere Wartezeit und laengere Bearbeitungsdauer."
+      ]
+    },
+    {
+      "heading": "Wichtige ITSM-Prozesse im Ueberblick",
+      "points": [
+        "Incident Management: schnelle Wiederherstellung des Dienstes nach einer Stoerung (Symptombehandlung).",
+        "Problem Management: Ermittlung und Beseitigung der zugrunde liegenden Ursachen (Root Cause) von Incidents zur Vermeidung kuenftiger Stoerungen.",
+        "Change Management / Change Control: kontrollierte Steuerung von Aenderungen (z. B. Frage, ob Updates gleichzeitig auf Millionen Systeme ausgerollt werden duerfen); risikobasierte Changes statt starrer Change Advisory Boards in modernen Ansaetzen.",
+        "Configuration Management (Service Configuration Management): Verwaltung der Konfigurationselemente und ihrer Beziehungen (Beispiel Meta-Routing-Ausfall).",
+        "Service Continuity Management / Business Continuity: Sicherstellung der Fortfuehrung des Geschaeftsbetriebs und Wiederherstellung nach Notfaellen (Backup-/Disaster-Recovery-Strategien).",
+        "Weitere Service-Management-Praktiken: Service Level Management, Availability Management, Capacity & Performance Management, Service Request Management, Release Management, Monitoring & Event Management, Service Desk, Service Catalogue Management, Service Design, IT Asset Management."
+      ]
+    },
+    {
+      "heading": "IT Infrastructure Library (ITIL) - Grundlagen",
+      "points": [
+        "ITIL ist eine Sammlung von Best Practices zur Umsetzung von IT-Service-Management und hat sich zum De-facto-Standard entwickelt.",
+        "Ziel: IT-Dienste und Geschaeftsanforderungen in Einklang bringen (Business-IT-Alignment).",
+        "Laut Folien ist seit Januar 2026 ITIL v5 die aktuelle Version; seit Fruehjahr 2026 ITIL v6 mit ganzheitlichem Digital Product and Service Management (DPSM) und 'AI native' Ausrichtung.",
+        "Relevanz: fuehrendes ITSM-Framework, bewaehrte Best Practices, konsequente Service- und (seit ca. 10 Jahren) Wertschoepfungsorientierung, viele Beratungshaeuser, Schulungen und zertifizierte Berater.",
+        "Die 'Sprache von ITIL' hat sich durchgesetzt und schafft eine gemeinsame Kommunikationsgrundlage.",
+        "ITIL ist Basis vieler ITSM-Werkzeuge: ServiceNow, Jira Service Management, BMC u. a."
+      ]
+    },
+    {
+      "heading": "ITIL Service Value System (SVS) und Schluesselkomponenten",
+      "points": [
+        "Das ITIL Service Value System (SVS) / Dienstleistungs- und Wertesystem beschreibt, wie alle Komponenten und Aktivitaeten zusammenwirken, um Wert zu schaffen.",
+        "Schluesselkomponenten des SVS: ITIL-Service-Wertschoepfungskette (Service Value Chain, das Betriebsmodell), ITIL-Praktiken (auch ITIL-Prozesse genannt), ITIL-Leitprinzipien, Governance (System zur Steuerung und Kontrolle der Organisation) und Kontinuierliche Verbesserung (Continual Improvement).",
+        "Die Service-Wertschoepfungskette besteht aus sechs Aktivitaeten (z. B. Plan, Improve, Engage, Design & Transition, Obtain/Build, Deliver & Support).",
+        "ITIL-Praktiken werden in drei Gruppen unterteilt: General Management Practices, Service Management Practices und Technical Management Practices."
+      ]
+    },
+    {
+      "heading": "Die vier Dimensionen von ITIL",
+      "points": [
+        "ITIL definiert vier Dimensionen, um einen ganzheitlichen Ansatz fuer das Service Management zu gewaehrleisten.",
+        "1. Organisation und Menschen (Organizations and People).",
+        "2. Informationen und Technologie (Information and Technology) - Informations- und Technologieprodukte.",
+        "3. Partner und Lieferanten (Partners and Suppliers).",
+        "4. Wertstroeme und Prozesse (Value Streams and Processes).",
+        "Alle vier Dimensionen muessen ausgewogen beruecksichtigt werden, damit Services effektiv und effizient erbracht werden (Axelos 2019)."
+      ]
+    },
+    {
+      "heading": "Die sieben ITIL-Leitprinzipien",
+      "points": [
+        "1. Habe den Wert im Fokus (Focus on value): direkt oder indirekt Wert generieren.",
+        "2. Beginne dort, wo man steht (Start where you are): wichtige Capabilities pflegen und verbessern, wo noetig.",
+        "3. Iterativer Fortschritt mit Feedback (Progress iteratively with feedback): in kleinen Schritten verbessern und Fortschritt messen.",
+        "4. Zusammenarbeit und Transparenz foerdern (Collaborate and promote visibility): transparente Arbeit in Teams, mit Stakeholdern und Partnern.",
+        "5. Ganzheitlich denken und arbeiten (Think and work holistically): am Service als Ganzes arbeiten, Aktivitaeten auf Wertschoepfung konzentrieren.",
+        "6. Auf Einfachheit und Praktikabilitaet achten (Keep it simple and practical): richtige Groesse und richtiger Einsatz von Prozessen, Werkzeugen und Ressourcen.",
+        "7. Optimieren und automatisieren (Optimize and automate): erst menschliche Arbeit optimieren, dann sinnvoll automatisieren (nicht zu Lasten der Nutzenden)."
+      ]
+    },
+    {
+      "heading": "Aktuelle Entwicklungen: Agile, DevOps und AI",
+      "points": [
+        "Traditionelles ITSM -> aktuelles ITSM: Stabilitaet -> Stabilitaet + Geschwindigkeit.",
+        "Prozesse -> Value Streams (Wertstroeme).",
+        "Service Desk -> Self-Service & Automation.",
+        "Change Advisory Boards -> risk-based Changes (risikobasierte Aenderungen).",
+        "Getrennte Entwicklungs- und Betriebseinheiten -> DevOps-Teams (funktionsuebergreifend).",
+        "Trends, die ITIL praegen: agile/schlanke Ablaeufe mit aktiver Kundeneinbindung, 'foederale' Einbettung der IT in alle Unternehmensteile, Zusammenruecken von Softwareentwicklung und IT Operations (DevOps), funktionsuebergreifende Teams sowie Cloud-Infrastrukturen fuer hohe Flexibilitaet.",
+        "Infrastructure-as-Code ermoeglicht zunehmend, dass KI-Agenten Initialisierung, Konfiguration, Steuerung und Skalierung uebernehmen - mit neuen Herausforderungen bei Kontrolle und Fehlerausbreitung."
+      ]
+    },
+    {
+      "heading": "Service Level Agreements (SLAs)",
+      "points": [
+        "Definition: SLAs sind kennzahlenbasierte vertragliche Vereinbarungen zwischen Kunde und Dienstanbieter zur Servicequalitaet.",
+        "Zielsetzung: das Verhaeltnis zwischen Kunde und Anbieter schriftlich regeln.",
+        "Parteien: innerhalb eines Unternehmens (interne Regelung) oder zwischen Unternehmen (Vertrag).",
+        "Inhalt: Leistung inkl. Preis pro Mengeneinheit und Menge pro Zeitfenster in definierter Qualitaet ('Service Level'); Referenzmasse und Messverfahren; Ansprechpartner, Termine, Fristen (z. B. bei Eskalation).",
+        "Beispiel Service Desk: 'Der Service Desk ist zu 96 % eines Tages von Montag bis Freitag, 07:00-20:00 Uhr, fuer 12 Monate verfuegbar.'",
+        "Typische Struktur eines SLA (Buchsein et al. 2007): Zweck, Aenderungshistorie, ausfuehrliche Dienstbeschreibung, Zustaendigkeiten von Anbieter und Empfaenger, Verfuegbarkeit und Dienstzeiten, Supportzeiten, Durchsatz/Reaktionszeiten, Behandlung von Aenderungen, Kontinuitaet und Sicherheit, Preisgestaltung, Monitoring und Berichterstattung, rechtliche Konsequenzen bei Nichteinhaltung, Art/Haeufigkeit der Ueberpruefungen.",
+        "Verwandt: OLA (Operational Level Agreement) als interne Vereinbarung, die ein SLA stuetzt."
+      ]
+    },
+    {
+      "heading": "IT-Sicherheit und Business Continuity Management",
+      "points": [
+        "Sicherheit und Business Continuity Management sind zentrale Querschnittsfunktionen des Unternehmens.",
+        "Eine sichere und stabile IT wird zur geschaeftskritischsten Ressource; IT-Sicherheitsvorfaelle koennen geschaeftsgefaehrdende Folgen haben.",
+        "83 % der Sicherheitsverletzungen gehen auf externe Akteure mit meist finanziellen Motiven zurueck (Verizon DBIR 2023).",
+        "Bei 74 % der Angriffe wurden Bedienfehler, Missbrauch von Nutzerrechten, gestohlene Anmeldedaten oder Social Engineering ausgenutzt.",
+        "Durchschnittliche Auswirkungen der Cyberkriminalitaet: ca. 4,45 Mio. USD pro Unternehmen und Jahr (IBM-Report).",
+        "These: Die Digitalisierung ist auch ein Risiko - IT-Sicherheit und BCM werden zu wesentlichen Aufgaben des digitalen Unternehmens; eingeuebte IT-Notfallkonzepte sind wichtiger Bestandteil der Krisenvorsorge (BSI)."
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "IT-Service-Management (ITSM)", "definition": "Implementierung und Verwaltung qualitativ hochwertiger IT-Services, die den Anforderungen des Unternehmens entsprechen, durch eine geeignete Mischung aus Menschen, Prozessen und Informationstechnologie." },
+    { "term": "IT-Service / Dienstleistung", "definition": "Ein Mittel zur Schaffung von Wert fuer Kunden, indem diese bei der Erreichung ihrer Ziele unterstuetzt werden, ohne dass der Kunde die spezifischen Kosten und Risiken managen muss (ITIL 4: Ermoeglichung gemeinsamer Wertschoepfung / value co-creation)." },
+    { "term": "Nutzen (Utility)", "definition": "Der funktionale Mehrwert eines Service - die Antwort auf die Frage, warum ein Kunde an der Dienstleistung interessiert sein sollte ('fit for purpose')." },
+    { "term": "Garantie (Warranty)", "definition": "Die Zusicherung, dass der Anbieter die vereinbarte Qualitaet einhaelt ('fit for use'), typischerweise geregelt durch SLAs." },
+    { "term": "ITIL (IT Infrastructure Library)", "definition": "Eine Sammlung von Best Practices fuer das IT-Service-Management und De-facto-Standard, der IT-Dienste und Geschaeftsanforderungen in Einklang bringt." },
+    { "term": "Service Value System (SVS)", "definition": "ITIL-Dienstleistungs- und Wertesystem, das beschreibt, wie alle Komponenten zusammenwirken, um Wert zu schaffen; umfasst Service-Wertschoepfungskette, Praktiken, Leitprinzipien, Governance und kontinuierliche Verbesserung." },
+    { "term": "Vier Dimensionen von ITIL", "definition": "Ganzheitlicher Rahmen aus: Organisation und Menschen, Informationen und Technologie, Partner und Lieferanten, Wertstroeme und Prozesse." },
+    { "term": "ITIL-Leitprinzipien", "definition": "Sieben Kerngedanken von ITIL 4: Fokus auf Wert, dort beginnen wo man steht, iterativer Fortschritt mit Feedback, Zusammenarbeit und Transparenz, ganzheitlich denken/arbeiten, Einfachheit/Praktikabilitaet, Optimieren und Automatisieren." },
+    { "term": "Service-Wertschoepfungskette (Service Value Chain)", "definition": "Operatives Betriebsmodell von ITIL, das aus sechs Aktivitaeten besteht (u. a. Plan, Improve, Engage, Design & Transition, Obtain/Build, Deliver & Support)." },
+    { "term": "ITIL-Praktiken", "definition": "Konkrete Faehigkeiten/Prozesse, unterteilt in General Management Practices, Service Management Practices und Technical Management Practices (z. B. Incident, Problem, Change Control)." },
+    { "term": "Incident Management", "definition": "Prozess zur schnellstmoeglichen Wiederherstellung eines vereinbarten Dienstes nach einer Stoerung, um die Unterbrechung des Geschaeftsbetriebs zu minimieren; Kernprozess des Service Desk." },
+    { "term": "Problem Management", "definition": "Prozess zur Ermittlung und Beseitigung der zugrunde liegenden Ursachen (Root Cause) von Incidents, um kuenftige Stoerungen zu vermeiden." },
+    { "term": "Change Management / Change Control", "definition": "Prozess zur kontrollierten, risikobewerteten Steuerung von Aenderungen an IT-Services und Infrastruktur (z. B. Rollout-Strategie von Updates)." },
+    { "term": "Configuration Management", "definition": "Verwaltung der Konfigurationselemente (CIs) und ihrer Beziehungen, um Transparenz und Kontrolle ueber die IT-Landschaft sicherzustellen (relevant z. B. beim Meta-Routing-Ausfall)." },
+    { "term": "Service Continuity / Business Continuity Management", "definition": "Querschnittsfunktion zur Sicherstellung der Fortfuehrung des Geschaeftsbetriebs und Wiederherstellung nach Notfaellen durch Backup-, Notfall- und Disaster-Recovery-Konzepte." },
+    { "term": "Service Desk", "definition": "Zentrale Anlaufstelle (Single Point of Contact) fuer Nutzende; Funktion, in der u. a. Incident Management und Service Request Management ausgefuehrt werden, oft mit Mehrstufen-Support (Level 1-3)." },
+    { "term": "Service Level Agreement (SLA)", "definition": "Kennzahlenbasierte vertragliche Vereinbarung zwischen Kunde und Dienstanbieter ueber die Servicequalitaet (Service Level, Verfuegbarkeit, Reaktionszeiten, Konsequenzen bei Nichteinhaltung)." },
+    { "term": "OLA (Operational Level Agreement)", "definition": "Interne Vereinbarung zwischen Einheiten desselben Anbieters, die zur Einhaltung eines gegenueber dem Kunden zugesagten SLA beitraegt." },
+    { "term": "Eskalation", "definition": "Weitergabe eines Vorfalls; funktional (an spezialisierte/hoehere Support-Level wie Level 2/3) oder hierarchisch (an Management) bei Schwere oder SLA-Risiko." },
+    { "term": "DevOps", "definition": "Zusammenfuehrung von Softwareentwicklung (Development) und IT-Betrieb (Operations) in funktionsuebergreifenden Teams zur Verbindung von Stabilitaet und Geschwindigkeit." },
+    { "term": "Infrastructure-as-Code (IaC)", "definition": "Bereitstellung und Konfiguration von IT-Infrastruktur ueber maschinenlesbare Konfigurationsdateien; ermoeglicht Automatisierung und zunehmend den Einsatz von KI-Agenten." }
+  ],
+  "flashcards": [
+    { "front": "Worauf zielt IT-Service-Management (ITSM) ab?", "back": "Auf die Erbringung qualitativ hochwertiger IT-Dienstleistungen, die den Erwartungen der (auch internen) Kunden entsprechen - durch Managementprozesse, die den gesamten Service-Lebenszyklus abdecken (Planung, Auslieferung, operative Unterstuetzung, Aendern/Verbessern)." },
+    { "front": "Warum braucht man ITSM (zentrale Begruendung der Folien)?", "back": "Weil ein grosser Teil der Serviceunterbrechungen organisatorische und prozessuale statt rein technische Ursachen hat - und auch die Ausfalldauer wesentlich von nichttechnischen Faktoren abhaengt." },
+    { "front": "Wie wird ein IT-Service definiert (OGC/ITIL)?", "back": "Als Mittel zur Schaffung von Wert fuer Kunden, indem diese bei der Erreichung ihrer Ziele unterstuetzt werden, ohne dass der Kunde die spezifischen Kosten und Risiken managen muss. In ITIL 4: Ermoeglichung gemeinsamer Wertschoepfung (value co-creation)." },
+    { "front": "Was bedeuten Nutzen, Garantie und Wert?", "back": "Nutzen (Utility): warum der Kunde interessiert ist (funktionaler Mehrwert). Garantie (Warranty): Zusicherung der vereinbarten Qualitaet, geregelt ueber SLAs. Wert = Nutzen + Garantie aus Kundensicht." },
+    { "front": "Welche drei realen Ausfaelle nennen die Folien und welchem Prozess sind sie zugeordnet?", "back": "CrowdStrike-Update (2024) -> Change Management; GitLab-DB-Loeschung (2017, Fat-Finger) -> Incident/Problem/Continuity Management; Meta-Routing-Ausfall (2021) -> Configuration Management." },
+    { "front": "Nenne die sieben Bestandteile einer Prozessbeschreibung.", "back": "1. Zielsetzung, 2. Input, 3. Output, 4. Aktivitaeten, 5. Rollen und Verantwortlichkeiten, 6. Erfolgsfaktoren und KPIs, 7. Schnittstellen zu anderen Prozessen." },
+    { "front": "Was ist die Zielsetzung des Incident Managements?", "back": "Wiederherstellung der vereinbarten Dienstleistung so schnell wie moeglich und Minimierung der Unterbrechung des Geschaeftsbetriebs." },
+    { "front": "Welche Aktivitaeten umfasst das Incident Management?", "back": "Protokollierung, Klassifizierung + Prioritaetensetzung, First-Level-Unterstuetzung, funktionale und/oder hierarchische Eskalation, Aufloesung, Schliessung." },
+    { "front": "Nenne typische KPIs des Incident Managements.", "back": "First-Level-Aufklaerungsquote, durchschnittliche Loesungszeit (je Kategorie/Prioritaet) und Anzahl der SLA-Verletzungen samt deren Auswirkungen." },
+    { "front": "Was ist ITIL und welchen Status hat es?", "back": "ITIL (IT Infrastructure Library) ist eine Sammlung von Best Practices fuer ITSM und der De-facto-Standard; es bringt IT-Dienste und Geschaeftsanforderungen in Einklang." },
+    { "front": "Aus welchen Schluesselkomponenten besteht das ITIL Service Value System (SVS)?", "back": "Service-Wertschoepfungskette (Betriebsmodell), ITIL-Praktiken, ITIL-Leitprinzipien, Governance und kontinuierliche Verbesserung." },
+    { "front": "Nenne die vier Dimensionen von ITIL.", "back": "1. Organisation und Menschen, 2. Informationen und Technologie, 3. Partner und Lieferanten, 4. Wertstroeme und Prozesse." },
+    { "front": "Nenne die sieben ITIL-Leitprinzipien.", "back": "Fokus auf Wert; dort beginnen, wo man steht; iterativer Fortschritt mit Feedback; Zusammenarbeit und Transparenz foerdern; ganzheitlich denken und arbeiten; auf Einfachheit/Praktikabilitaet achten; optimieren und automatisieren." },
+    { "front": "Wie veraendert sich ITSM durch Agile/DevOps (traditionell -> aktuell)?", "back": "Stabilitaet -> Stabilitaet + Geschwindigkeit; Prozesse -> Value Streams; Service Desk -> Self-Service & Automation; Change Advisory Boards -> risk-based Changes; getrennte Entwicklung/Betrieb -> DevOps-Teams." },
+    { "front": "Was ist ein SLA und was regelt es?", "back": "Ein Service Level Agreement ist eine kennzahlenbasierte vertragliche Vereinbarung zwischen Kunde und Dienstanbieter ueber die Servicequalitaet - inkl. Service Level, Messverfahren, Ansprechpartner, Fristen und Konsequenzen bei Nichteinhaltung." },
+    { "front": "Nenne ein SLA-Beispiel aus den Folien (Verfuegbarkeit Service Desk).", "back": "'Der Service Desk ist zu 96 % eines Tages von Montag bis Freitag, 07:00-20:00 Uhr, fuer 12 Monate verfuegbar.'" },
+    { "front": "Warum ist Prozessorientierung im ITSM vorteilhaft?", "back": "Bessere Zielausrichtung, Standardisierung von Prozessen/Verfahren/Werkzeugen, klare Zustaendigkeiten/Verantwortlichkeiten sowie Steigerung von Effektivitaet und Effizienz." },
+    { "front": "Was ist der Unterschied zwischen Incident und Problem Management?", "back": "Incident Management stellt den Dienst schnellstmoeglich wieder her (Symptom). Problem Management ermittelt und beseitigt die zugrunde liegende Ursache (Root Cause), um kuenftige Incidents zu vermeiden." }
+  ],
+  "quiz": [
+    {
+      "question": "Worin liegen laut Vorlesung die Ursachen der Mehrheit von IT-Dienstausfaellen?",
+      "options": [
+        "In menschlichen und verfahrenstechnischen (organisatorisch-prozessualen) Problemen",
+        "Ausschliesslich in defekter Hardware",
+        "In zu geringer Rechenleistung der Server",
+        "In fehlenden Lizenzen fuer Software"
+      ],
+      "answer": 0,
+      "explanation": "Die Folien betonen (Schaaf 2011): Ein grosser Teil der Serviceunterbrechungen hat organisatorische und prozessuale, nicht rein technische Ursachen; auch die Ausfalldauer haengt wesentlich von nichttechnischen Faktoren ab."
+    },
+    {
+      "question": "Welcher ITSM-Prozess wird in den Folien dem CrowdStrike-Ausfall zugeordnet?",
+      "options": [
+        "Change Management",
+        "Capacity Management",
+        "Service Level Management",
+        "Knowledge Management"
+      ],
+      "answer": 0,
+      "explanation": "Die Leitfrage 'Darf man Updates gleichzeitig auf Millionen Systeme ausrollen?' verweist auf das Change Management (kontrollierte, risikobewertete Aenderungssteuerung)."
+    },
+    {
+      "question": "Wie wird ein Service nach OGC/ITIL definiert?",
+      "options": [
+        "Als Mittel zur Wertschaffung fuer Kunden, ohne dass der Kunde die spezifischen Kosten und Risiken tragen muss",
+        "Als physisches Produkt, das verkauft wird",
+        "Als reines Software-Lizenzmodell",
+        "Als die Summe aller Hardwarekomponenten eines Rechenzentrums"
+      ],
+      "answer": 0,
+      "explanation": "Ein Service ist ein Mittel zur Schaffung von Wert, indem Kunden bei der Erreichung ihrer Ziele unterstuetzt werden, ohne fuer die spezifischen Kosten und Risiken verantwortlich zu sein (ITIL 4: value co-creation)."
+    },
+    {
+      "question": "Was beschreibt die 'Garantie' (Warranty) eines Service?",
+      "options": [
+        "Die Zusicherung, dass die vereinbarte Qualitaet eingehalten wird - geregelt durch SLAs",
+        "Den funktionalen Mehrwert, warum ein Kunde interessiert ist",
+        "Die einmaligen Anschaffungskosten der Hardware",
+        "Die Garantiezeit der Hardwarehersteller"
+      ],
+      "answer": 0,
+      "explanation": "Garantie (Warranty) bezeichnet die Zusicherung der vereinbarten Qualitaet ('fit for use'), typischerweise abgesichert durch Service Level Agreements; der funktionale Mehrwert ist hingegen der Nutzen (Utility)."
+    },
+    {
+      "question": "Welche der folgenden ist KEIN Bestandteil einer ITIL-Prozessbeschreibung?",
+      "options": [
+        "Die Boersenkursentwicklung des Anbieters",
+        "Zielsetzung des Prozesses",
+        "Rollen und Verantwortlichkeiten",
+        "Schnittstellen zu anderen Prozessen"
+      ],
+      "answer": 0,
+      "explanation": "Die sieben Bestandteile sind Zielsetzung, Input, Output, Aktivitaeten, Rollen/Verantwortlichkeiten, Erfolgsfaktoren/KPIs und Schnittstellen. Die Boersenkursentwicklung gehoert nicht dazu."
+    },
+    {
+      "question": "Was ist das primaere Ziel des Incident Managements?",
+      "options": [
+        "Die vereinbarte Dienstleistung schnellstmoeglich wiederherzustellen und die Geschaeftsunterbrechung zu minimieren",
+        "Die dauerhafte Beseitigung der Grundursache einer Stoerung",
+        "Die strategische Ausrichtung der gesamten IT",
+        "Die Verhandlung von Lieferantenvertraegen"
+      ],
+      "answer": 0,
+      "explanation": "Incident Management zielt auf die schnellstmoegliche Wiederherstellung des Dienstes ab. Die Beseitigung der Grundursache ist Aufgabe des Problem Managements."
+    },
+    {
+      "question": "Aus welchen Komponenten besteht das ITIL Service Value System (SVS)?",
+      "options": [
+        "Service-Wertschoepfungskette, Praktiken, Leitprinzipien, Governance und kontinuierliche Verbesserung",
+        "Nur Incident-, Problem- und Change Management",
+        "Hardware, Software und Netzwerk",
+        "Vertrieb, Marketing und Buchhaltung"
+      ],
+      "answer": 0,
+      "explanation": "Das SVS umfasst die Service-Wertschoepfungskette (Betriebsmodell), die ITIL-Praktiken, die Leitprinzipien, die Governance und die kontinuierliche Verbesserung."
+    },
+    {
+      "question": "Welche vier Dimensionen definiert ITIL fuer einen ganzheitlichen Ansatz?",
+      "options": [
+        "Organisation/Menschen; Informationen/Technologie; Partner/Lieferanten; Wertstroeme/Prozesse",
+        "Plan, Build, Run, Optimize",
+        "Strategie, Taktik, Operativ, Kontrolle",
+        "Hardware, Software, Daten, Netzwerk"
+      ],
+      "answer": 0,
+      "explanation": "Die vier Dimensionen sind: Organisation und Menschen, Informationen und Technologie, Partner und Lieferanten sowie Wertstroeme und Prozesse (Axelos 2019)."
+    },
+    {
+      "question": "Welche Aussage zu den ITIL-Leitprinzipien ist korrekt?",
+      "options": [
+        "'Optimieren und Automatisieren' bedeutet: erst die menschliche Arbeit optimieren, dann sinnvoll automatisieren",
+        "Man sollte immer komplett bei Null beginnen und Bestehendes verwerfen",
+        "Automatisierung hat stets Vorrang vor jeder Optimierung",
+        "Transparenz gegenueber Stakeholdern ist zu vermeiden"
+      ],
+      "answer": 0,
+      "explanation": "Das Prinzip 'Optimieren und Automatisieren' verlangt, zuerst die menschliche Arbeit/Prozesse zu optimieren und dann sinnvoll zu automatisieren - nicht zu Lasten der Nutzenden. 'Beginne, wo du stehst' widerspricht zudem dem Verwerfen von Bestehendem."
+    },
+    {
+      "question": "Welche Veraenderung kennzeichnet modernes ITSM gegenueber dem traditionellen Ansatz?",
+      "options": [
+        "Von Change Advisory Boards hin zu risk-based Changes und von getrennten Einheiten zu DevOps-Teams",
+        "Von Self-Service zurueck zu rein manuellem Service Desk",
+        "Von Wertstroemen zurueck zu starren Einzelprozessen",
+        "Von Geschwindigkeit hin zu reiner Stabilitaet ohne Tempo"
+      ],
+      "answer": 0,
+      "explanation": "Aktuelles ITSM ist gepraegt von Agile/DevOps: Stabilitaet + Geschwindigkeit, Value Streams, Self-Service & Automation, risk-based Changes und DevOps-Teams statt getrennter Entwicklungs- und Betriebseinheiten."
+    },
+    {
+      "question": "Was ist ein Service Level Agreement (SLA)?",
+      "options": [
+        "Eine kennzahlenbasierte vertragliche Vereinbarung zwischen Kunde und Anbieter ueber die Servicequalitaet",
+        "Ein Quellcode-Repository fuer die Softwareentwicklung",
+        "Ein technisches Netzwerkprotokoll",
+        "Eine reine Marketingbroschuere ohne verbindliche Inhalte"
+      ],
+      "answer": 0,
+      "explanation": "Ein SLA regelt schriftlich und kennzahlenbasiert die Servicequalitaet zwischen Kunde und Dienstanbieter (Service Level, Messverfahren, Fristen, Konsequenzen bei Nichteinhaltung)."
+    },
+    {
+      "question": "Welchem ITSM-Prozess ordnen die Folien den Meta-/Facebook-Ausfall von 2021 zu?",
+      "options": [
+        "Configuration Management",
+        "Incident Management",
+        "Service Level Management",
+        "Supplier Management"
+      ],
+      "answer": 0,
+      "explanation": "Der globale Ausfall durch eine fehlerhafte IP-Routing-Aenderung wird dem Configuration Management zugeordnet ('Wie kann eine Routing-Aenderung drei globale Plattformen gleichzeitig lahmlegen?')."
+    }
+  ]
+}

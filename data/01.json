@@ -1,0 +1,293 @@
+{
+  "id": "01",
+  "title": "Einführung, Motivation und Grundbegriffe",
+  "date": "08.04.2026",
+  "pdf": "Vorlesungsfolien/IM_01_Einführung_SoSe_2026.pdf",
+  "summary": "Die erste Vorlesung motiviert die Relevanz des Informationsmanagements (IM) anhand der transformativen Wirkung der IT auf ganze Branchen (Beispiel Videoverleih: von der VHS-Empfehlung über DVD-Versand bis zur Streaming-Flatrate). Sie führt die Grundbegriffe Digitalisierung und digitale Transformation ein, grenzt den schillernden Begriff Informationsmanagement anhand von Stellenanzeigen und wissenschaftlichen Definitionen ab und stellt das Drei-Ebenen-Modell des IM (Wollnik/Krcmar) sowie die Unterscheidung von strategischem und operativem IM vor. Abschließend werden der Ordnungsrahmen der Veranstaltung (nach Riempp et al. 2008) und zehn Leitthesen zur Zukunft des IT-Managements präsentiert.",
+  "sections": [
+    {
+      "heading": "Organisatorisches und Einordnung der Veranstaltung",
+      "points": [
+        "Dozent: Dr. Henning Baars (Akademischer Oberrat), Lehrstuhl für ABWL und Wirtschaftsinformatik 1 der Universität Stuttgart; wissenschaftliche Mitarbeiterin und Übungsleiterin: Lara Kollikowski.",
+        "Veranstaltung 'Informationsmanagement': SoSe, 2. Fachsemester WI (Vertiefung WI 1) bzw. Kompetenzfeld IM BWL; Aufbau aus Vorlesung + Übung.",
+        "Schriftliche Prüfung: 60 Minuten (BWL) bzw. 90 Minuten (WI).",
+        "Übung dienstags 15:45-17:15 Uhr (Keplerstr. 17, K2, Hörsaal M 17.25); erste Sitzung 14.04.2026. Inhalt: Wiederholung/Diskussion der Vorlesung anhand von Klausuraufgaben, drei übergreifende Fallstudien, Vertiefungen, Beantwortung studentischer Fragen.",
+        "Unterlagen werden über ILIAS bereitgestellt; Fragen über Mail, Diskussionsforum und Sprechstunde.",
+        "Weitere Veranstaltungen der Professur: Business Intelligence (WiSe), Seminar, KI-Praktikum, IV-Praktikum."
+      ]
+    },
+    {
+      "heading": "Agenda / Themen der Vorlesung im Überblick",
+      "points": [
+        "1. Einführung, Motivation und Grundbegriffe",
+        "2. IT-Infrastruktur",
+        "3. Unternehmensanwendungen und Enterprise Architecture Management",
+        "4. IT-Organisation",
+        "5. IT-Projektmanagement und IT-Portfolios",
+        "6. IT-Outsourcing",
+        "7. IT Service Management",
+        "8. Innovationsmanagement",
+        "9. IT-Governance",
+        "10. IT-Strategie",
+        "Die Veranstaltung deckt damit Management von IT-Infrastruktur und Unternehmensanwendungen, Gestaltung der IT-Organisation, Beschaffung von IT-Produkten/-Dienstleistungen, IT-Projektportfolio sowie IT-Strategie, IT-Controlling und IT-Governance ab."
+      ]
+    },
+    {
+      "heading": "Prolog: Relevanz des IM am Beispiel Videoverleih",
+      "points": [
+        "Ausgangspunkt ist eine Klausuraufgabe aus dem WS 2003/2004: Eine bundesweit aktive Videothekenkette mit hervorragender Marktposition (starke Einkaufskonditionen, gute Kontakte zu Filmhändlern) soll eine strategische Ist-Analyse der IT durchführen.",
+        "Zur Bewertung standen Projekte wie 'Streaming Video' im Internet, Neuentwicklung der Filmverwaltung inkl. Integration mit dem Rechnungswesen sowie Online-Reservierungen/Bestellungen.",
+        "Damalige Studierendenantworten unterschätzten die Entwicklung massiv: 'Streaming-Video ist von der Qualität nicht brauchbar', 'nur für eine kleine Gruppe von Techies interessant', 'Internet ist nicht das Kerngeschäft'.",
+        "Evolution des Videoverleihs und transformative Wirkung der IT (vier Stufen): (1) datenbankgestützte VHS-Verleihempfehlungen (Blockbuster Inc.), (2) internetbasierter Versand bestellter DVDs/Blu-rays (Netflix, Lovefilm), (3) Downloads & Pay per View (iTunes, Amazon Prime), (4) Streaming-Flatrates (Netflix, Disney+, WOW/Sky, Apple TV+, Paramount+ usw.).",
+        "Kernfragen der Lektion: Was zeichnet das Produkt 'Video' aus? Hätte man die Entwicklung antizipieren können? Welche Maßnahmen wären sinnvoll gewesen und warum wurden sie nicht ergriffen? Was ist der nächste Entwicklungsschritt?",
+        "Lerneffekt: Disruption ist nicht auf eine Branche beschränkt - betroffen sind potenziell auch Bibliotheken, Buchgroßhändler, Sprachschulen, Anwaltskanzleien, Musiker/Produzenten, Schauspieler usw."
+      ]
+    },
+    {
+      "heading": "Digitalisierung",
+      "points": [
+        "Ursprünglicher Wortsinn (engl. digitization): Umwandlung von analogen Daten (durch kontinuierliche Funktionen repräsentiert) in digitale Daten (durch Zeichen repräsentiert), die von heute gebräuchlichen Rechnern verarbeitet werden können (Hansen, Mendling & Neumann 2019, S. 45).",
+        "Seit Mitte der 2010er Jahre auch als Synonym für den zunehmenden IT-Einsatz zur Erzielung von Fortschritten durch veränderte Prozesse und neuartige Konzepte in Wirtschaft und Gesellschaft.",
+        "Bedeutungswandel des Begriffs 'digital': wird oft mit 'Informationstechnik' oder 'rechnerunterstützt' gleichgesetzt.",
+        "Wichtige Klausurunterscheidung: 'digitization' (technische Umwandlung analog->digital) versus 'digitalization/digitale Transformation' (veränderte Geschäftsprozesse und Modelle)."
+      ]
+    },
+    {
+      "heading": "Digitale Transformation",
+      "points": [
+        "Weite Definition (Matt, Hess, Benlian & Wiesböck 2016): Digitale Transformation betrifft die Veränderungen, die digitale Technologien im Geschäftsmodell eines Unternehmens hervorrufen und die zu veränderten Produkten, organisatorischen Strukturen oder zur Automatisierung von Prozessen führen.",
+        "Engere (aber weitreichendere) Definition (Kemper & Morar 2018): Veränderungsprozess durch die Digitalisierung in privaten, gesellschaftlichen und unternehmerischen Bereichen - primär über horizontale, offene Netzwerke statt vertikale, geschlossene Strukturen.",
+        "Strukturwandel: von konventioneller Wertschöpfung (lineare Kette Zulieferer -> Unternehmen -> Kunden) hin zum Wertschöpfungsnetzwerk mit vielen Partnern.",
+        "Betrachtet wird der gesamte Lebenszyklus des Produktes/der Dienstleistung: Vorphase -> Entstehung -> Nutzung -> Recycling (Kemper & Morar 2018).",
+        "Zentrale Anschlussfrage: Wie kann Informationsmanagement diese Transformation unterstützen?"
+      ]
+    },
+    {
+      "heading": "Was ist Informationsmanagement? Befunde aus Stellenanzeigen",
+      "points": [
+        "Der Begriff 'Informationsmanagement' wird in der Praxis sehr heterogen verwendet - Stellenanzeigen zeigen ein breites Spektrum.",
+        "Variante 1 (Business Intelligence/Analytics): Teamleiter verantwortet IM/SAP BI und SAP Analytics, plant und steuert fachliche Anforderungen, wägt Kosten-/Nutzenaspekte ab, betreut SAP-Basis und Archiv-/Dokumentenmanagement.",
+        "Variante 2 (Wissensmanagement): Dokumentierung/Archivierung vorhandenen Wissens, Optimierung der Inhaltssuche, Anwenderunterstützung, strategische Entwicklung des Wissensmanagements.",
+        "Variante 3 (Content-Management): Analyse/Strukturierung von Informationen und Arbeitsabläufen, redaktionelle Aufbereitung in einem CMS (mehrsprachig), Pflege von Kundeninformationen.",
+        "Variante 4 (IT-/Produktmanagement, agil): Schnittstelle zwischen IT-Management und Entwicklung, Übersetzung von Business-Anforderungen in User-Stories/IT-Requirements, Steuerung von Scrum-/Sprint-/Release-Management.",
+        "Variante 5 (Enterprise Applications): 'Head of Information Management Design & Development' leitet Entwicklung/Pflege der Unternehmensanwendungen (u. a. SAP) mit agilen Methoden.",
+        "Variante 6 (IT-Projektmanagement): Senior Project Manager plant und leitet komplexe IT-Projekte mit (inter-)nationalen/virtuellen Teams, berät Fachbereiche, verantwortet Lösungsarchitektur und Rollout.",
+        "Variante 7 (strategische IT-Leitung): 'Leiter Informationsmanagement' treibt IT-Strategie, Prozessmanagement, Projekt-Portfoliomanagement, Ressourcenmanagement, IT-Richtlinien, Sourcing und Zentralisierung der IT-Organisationen voran.",
+        "Fazit: 'Informationsmanagement' reicht von Datenanalyse über Wissens-/Content-Management bis zur strategischen Steuerung der gesamten IT-Funktion."
+      ]
+    },
+    {
+      "heading": "Ebenen des Informationsmanagements (Wollnik nach Krcmar)",
+      "points": [
+        "Klassisches Drei-Ebenen-Modell, das das IM hierarchisch strukturiert.",
+        "Oberste Ebene: Ebene des Informationseinsatzes - Verwendung von Information zur Aufgabenerfüllung im Unternehmen.",
+        "Mittlere Ebene: Ebene der Informations- und Kommunikationssysteme (Anwendungssysteme).",
+        "Unterste Ebene: Ebene der Infrastrukturen der Informationsverarbeitung und Kommunikation (Hardware, Netze, Basissoftware).",
+        "Zwischen den Ebenen besteht ein Wechselspiel: jede obere Ebene stellt Anforderungen an die darunterliegende; jede untere Ebene erbringt Unterstützungsleistungen für die darüberliegende.",
+        "Quelle: Wollnik nach Krcmar."
+      ]
+    },
+    {
+      "heading": "Definitionen: Strategisches vs. operatives IM (Tiemeyer 2020)",
+      "points": [
+        "Strategisches IM: umfasst alle Aktivitäten, die eine optimale Zuweisung und Nutzung der IT-Ressourcen eines Unternehmens gewährleisten.",
+        "Strategisches IM umfasst die Verwaltung von Informationen, von Informationssystemen und von Informationstechnologien sowie die übergreifenden Governance-Funktionen.",
+        "Operatives IM: hat die Aufgabe, die IT im Unternehmen, die IT-Infrastrukturen und die Datensicherheit bereitzustellen.",
+        "Bei der Bereitstellung soll der Fokus auf solche IT gelegt werden, die geeignet ist, die Erfolgspotenziale des Unternehmens zu sichern und weiter auszubauen.",
+        "Merksatz: Strategisches IM = Zuweisung/Nutzung von IT-Ressourcen + Governance; operatives IM = Bereitstellung von IT, Infrastruktur und Datensicherheit."
+      ]
+    },
+    {
+      "heading": "Wie das IM helfen kann: Theorien, Frameworks, Konzepte",
+      "points": [
+        "Mit Theorien: z. B. DeLone and McLean IS Success Model (2003) zur Messung des Erfolgs von Informationssystemen sowie die Diffusion-of-Innovations-Theorie (Verbreitung von Innovationen).",
+        "Mit Best-Practice-Frameworks: etablierte Referenzmodelle/Rahmenwerke für das IT-Management.",
+        "Mit pragmatischen Konzepten: z. B. Portfolio-Matrix Wettbewerbsposition (hoch/mittel/niedrig) gegen Ressourcenstärke zur Positionierung von IT-Vorhaben.",
+        "Mit übergreifenden Strukturen/Ordnungsrahmen, die die einzelnen Aufgabenfelder des IM systematisch verbinden."
+      ]
+    },
+    {
+      "heading": "Ordnungsrahmen der Veranstaltung (nach Riempp et al. 2008)",
+      "points": [
+        "Der Aufbau der Vorlesung folgt einem integrierten Ordnungsrahmen zur Strukturierung und Bewertung des strategischen IT/IS-Managements.",
+        "Oberster Bezugspunkt: Geschäftsstrategie sowie Menschen & Kultur; daraus abgeleitet IT-Strategie und IT-Governance.",
+        "Querschnittsfunktionen: IT-Controlling und IT-Innovationsmanagement.",
+        "Kernprozess: Beschaffung von Produkten & Dienstleistungen (von Lieferanten) -> IT-Projekte & IT-Portfolios -> Lieferung von Produkten & Dienstleistungen (an Kunden).",
+        "Unterstützende Schichten: IT-Prozesse & Organisation, Unternehmensanwendungen & Enterprise Architecture sowie IT-Infrastruktur als Basis.",
+        "Die einzelnen Kapitel der Vorlesung sind den Bausteinen dieses Rahmens zugeordnet."
+      ]
+    },
+    {
+      "heading": "Zehn Leitthesen zur Zukunft des IT-Managements",
+      "points": [
+        "These 1 - Kein Business ohne IT: IT ist der zentrale und unverzichtbare Treiber unternehmerischer Wertschöpfung.",
+        "These 2 - Entwicklung und Betrieb nicht entscheidend: IT-Management folgt dem Paradigma 'Innovate-Design-Transformation'.",
+        "These 3 - Schatten-IT als gelebte Praxis: IT-Innovationen werden in interdisziplinären Teams in den Fachabteilungen erarbeitet.",
+        "These 4 - Innovationen durch Netzwerke: Aus strategischen Lieferanten werden Innovationspartner.",
+        "These 5 - Den User im Blick: Entwicklungsprozesse sind agil, endbenutzerzentriert und mit dem Betrieb verschmolzen.",
+        "These 6 - Handelsware Infrastruktur: IT-Infrastrukturleistungen werden auf freien Märkten gehandelt und nach Bedarf eingekauft.",
+        "These 7 - Digitalisierung als Risiko: Security und Business Continuity Management sind zentrale Querschnittsfunktionen.",
+        "These 8 - Transformierbare IT-Landschaften: IT-Architekturen sind standardisiert, modular, flexibel, ubiquitär, elastisch, kostengünstig und sicher.",
+        "These 9 - Das Aus für die IT-Abteilung: IT-Experten werden Teil der Fachabteilungen und durch ein dediziertes Vorstandsressort koordiniert.",
+        "These 10 - Demografie, Digital Natives und individuelles Unternehmertum: Mitarbeiter:innen werden zum strategischen Wettbewerbsfaktor."
+      ]
+    },
+    {
+      "heading": "Grundlegende Literatur und Wiederholungsfragen",
+      "points": [
+        "Urbach, N. & Ahlemann, F. (2016/2019): IT-Management im Zeitalter der Digitalisierung / IT Management in the Digital Age.",
+        "Tiemeyer, E. (2021): Handbuch IT-Management, Hanser-Verlag.",
+        "Laudon, K. & Laudon, J. (2022): Management Information Systems: Managing the Digital Firm, 17th Global Edition, Pearson.",
+        "Hauptquellen u. a.: Carr, N. (2003) 'IT doesn't matter' (HBR); Riempp, Müller & Ahlemann (2008) zum Ordnungsrahmen; Tiemeyer (2020) Handbuch IT-Management.",
+        "Wiederholungsfragen: Inwieweit ist IT für Unternehmen von Bedeutung? Was wird unter Digitalisierung und digitaler Transformation verstanden? Was ist Informationsmanagement? Welche Rolle spielt das IM im Rahmen von Digitalisierung und digitaler Transformation?"
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "Informationsmanagement (IM)", "definition": "Managementdisziplin, die alle Aktivitäten zur optimalen Zuweisung und Nutzung der IT-Ressourcen eines Unternehmens umfasst - einschließlich der Verwaltung von Informationen, Informationssystemen und Informationstechnologien sowie übergreifender Governance-Funktionen." },
+    { "term": "Strategisches IM", "definition": "Teil des IM, der die optimale Zuweisung und Nutzung der IT-Ressourcen gewährleistet und die Verwaltung von Informationen, Systemen, Technologien sowie die Governance-Funktionen umfasst." },
+    { "term": "Operatives IM", "definition": "Teil des IM mit der Aufgabe, die IT, die IT-Infrastrukturen und die Datensicherheit bereitzustellen, mit Fokus auf IT, die die Erfolgspotenziale des Unternehmens sichert und ausbaut." },
+    { "term": "Digitalisierung (digitization)", "definition": "Im ursprünglichen Sinn die Umwandlung analoger Daten (kontinuierliche Funktionen) in digitale, zeichenbasierte Daten, die Rechner verarbeiten können; seit den 2010er Jahren auch Synonym für zunehmenden IT-Einsatz zur Erzielung von Fortschritten durch veränderte Prozesse und Konzepte." },
+    { "term": "Digitale Transformation", "definition": "Veränderungsprozess, bei dem digitale Technologien das Geschäftsmodell eines Unternehmens verändern - mit Folgen für Produkte, Organisationsstrukturen oder der Automatisierung von Prozessen (Matt et al. 2016)." },
+    { "term": "Ebenen-Modell des IM (Wollnik/Krcmar)", "definition": "Drei-Ebenen-Modell des IM: Ebene des Informationseinsatzes, Ebene der Informations- und Kommunikationssysteme und Ebene der Infrastrukturen; obere Ebenen stellen Anforderungen, untere erbringen Unterstützungsleistungen." },
+    { "term": "Informations- und Kommunikationssysteme", "definition": "Mittlere Ebene des IM-Modells; die Anwendungssysteme, die Informationen verarbeiten und die Kommunikation im Unternehmen unterstützen." },
+    { "term": "IT-Infrastruktur", "definition": "Unterste Ebene des IM-Modells und Basisschicht des Ordnungsrahmens; umfasst Hardware, Netze und Basissoftware der Informationsverarbeitung und Kommunikation." },
+    { "term": "Wertschöpfungsnetzwerk", "definition": "Im Zuge der digitalen Transformation an die Stelle der linearen Wertschöpfungskette tretende Struktur, in der ein Unternehmen über horizontale, offene Netzwerke mit vielen Partnern zusammenarbeitet." },
+    { "term": "Schatten-IT", "definition": "IT-Lösungen und -Innovationen, die außerhalb der zentralen IT-Abteilung - z. B. in interdisziplinären Teams der Fachabteilungen - erarbeitet und betrieben werden (These 3)." },
+    { "term": "Ordnungsrahmen (nach Riempp et al. 2008)", "definition": "Integrierter Rahmen zur Strukturierung und Bewertung des strategischen IT/IS-Managements; verknüpft Geschäftsstrategie, IT-Strategie/-Governance, Controlling, Innovationsmanagement, IT-Projekte/-Portfolios, Prozesse/Organisation, Unternehmensanwendungen und Infrastruktur." },
+    { "term": "DeLone and McLean IS Success Model (2003)", "definition": "Theoretisches Modell zur Messung des Erfolgs von Informationssystemen, das als Beispiel dafür dient, wie Theorien das IM unterstützen können." },
+    { "term": "Diffusion of Innovations Theory", "definition": "Theorie zur Erklärung der Verbreitung (Diffusion) von Innovationen über die Zeit; im IM als Erklärungsansatz für die Annahme neuer Technologien genutzt." },
+    { "term": "Enterprise Architecture", "definition": "Schicht im Ordnungsrahmen, die Unternehmensanwendungen und deren Architektur betrifft und Geschäfts- mit IT-Strukturen integriert (vertieft in Kapitel 3)." },
+    { "term": "Business Continuity Management", "definition": "Querschnittsfunktion zur Sicherstellung der Fortführung des Geschäftsbetriebs; zusammen mit Security zentrale Antwort auf das Risiko der Digitalisierung (These 7)." }
+  ],
+  "flashcards": [
+    { "front": "Was versteht man unter Digitalisierung im ursprünglichen Wortsinn?", "back": "Die Umwandlung von analogen Daten, die durch kontinuierliche Funktionen repräsentiert sind, in digitale, zeichenbasierte Daten, die von heute gebräuchlichen Rechnern verarbeitet werden können (engl. digitization)." },
+    { "front": "Wodurch unterscheidet sich die digitale Transformation von der reinen Digitalisierung?", "back": "Die digitale Transformation betrifft die Veränderungen, die digitale Technologien am Geschäftsmodell hervorrufen - veränderte Produkte, Organisationsstrukturen oder Prozessautomatisierung (Matt et al. 2016). Reine Digitalisierung (digitization) ist dagegen die technische Umwandlung analog -> digital." },
+    { "front": "Definieren Sie strategisches Informationsmanagement (nach Tiemeyer 2020).", "back": "Das strategische IM umfasst alle Aktivitäten, die eine optimale Zuweisung und Nutzung der IT-Ressourcen eines Unternehmens gewährleisten. Es umfasst die Verwaltung von Informationen, Informationssystemen und Informationstechnologien sowie die übergreifenden Governance-Funktionen." },
+    { "front": "Was ist die Aufgabe des operativen Informationsmanagements?", "back": "Die IT im Unternehmen, die IT-Infrastrukturen und die Datensicherheit bereitzustellen - mit Fokus auf IT, die geeignet ist, die Erfolgspotenziale des Unternehmens zu sichern und auszubauen." },
+    { "front": "Nennen Sie die drei Ebenen des IM nach Wollnik/Krcmar.", "back": "1. Ebene des Informationseinsatzes, 2. Ebene der Informations- und Kommunikationssysteme, 3. Ebene der Infrastrukturen der Informationsverarbeitung und Kommunikation. Obere Ebenen stellen Anforderungen, untere erbringen Unterstützungsleistungen." },
+    { "front": "Skizzieren Sie die vier Stufen der Evolution des Videoverleihs als Beispiel für die transformative Wirkung der IT.", "back": "1. Datenbankgestützte VHS-Verleihempfehlungen (Blockbuster), 2. Internetbasierter Versand bestellter DVDs/Blu-rays (Netflix, Lovefilm), 3. Downloads & Pay per View (iTunes, Amazon Prime), 4. Streaming-Flatrates (Netflix, Disney+, WOW, Apple TV+, Paramount+ usw.)." },
+    { "front": "Welche Lehre zieht das Videotheken-Beispiel für das IM?", "back": "Disruptive technologische Entwicklungen werden oft unterschätzt (vgl. Studierendenantworten 2003/2004), sind nicht auf eine Branche beschränkt und machen eine strategische Ist-Analyse der IT auch bei guter Marktposition notwendig." },
+    { "front": "Wie verändert die digitale Transformation die Wertschöpfung?", "back": "Sie ersetzt die konventionelle lineare Wertschöpfungskette (Zulieferer -> Unternehmen -> Kunden) durch Wertschöpfungsnetzwerke mit vielen Partnern - primär über horizontale, offene Netzwerke statt vertikale, geschlossene Strukturen (Kemper & Morar 2018)." },
+    { "front": "Auf welchem Ordnungsrahmen baut die Veranstaltung auf und was sind seine zentralen Bausteine?", "back": "Auf dem Ordnungsrahmen nach Riempp et al. (2008): Geschäftsstrategie und Menschen & Kultur, IT-Strategie/-Governance, IT-Controlling, IT-Innovationsmanagement, Beschaffung, IT-Projekte & -Portfolios, Lieferung, IT-Prozesse & Organisation, Unternehmensanwendungen & Enterprise Architecture sowie IT-Infrastruktur." },
+    { "front": "Was besagt These 1 der zehn Leitthesen?", "back": "'Kein Business ohne IT' - IT ist der zentrale und unverzichtbare Treiber unternehmerischer Wertschöpfung." },
+    { "front": "Was beschreibt die These 'Schatten-IT als gelebte Praxis'?", "back": "These 3: IT-Innovationen werden zunehmend in interdisziplinären Teams in den Fachabteilungen (statt allein in der zentralen IT) erarbeitet." },
+    { "front": "Welche zwei Funktionen werden in These 7 als zentrale Antwort auf das Risiko der Digitalisierung genannt?", "back": "Security und Business Continuity Management - sie sind zentrale Querschnittsfunktionen des Unternehmens." },
+    { "front": "Nennen Sie zwei Theorien, mit denen das IM unterstützt werden kann.", "back": "Das DeLone and McLean IS Success Model (2003) und die Diffusion of Innovations Theory." },
+    { "front": "Welche unterschiedlichen Bedeutungen von 'Informationsmanagement' zeigen die Stellenanzeigen?", "back": "Sehr heterogen: Business Intelligence/Analytics, Wissensmanagement, Content-Management (CMS), agiles IT-/Produktmanagement, Entwicklung von Unternehmensanwendungen, IT-Projektmanagement und strategische IT-Leitung." },
+    { "front": "Welche zehn Kapitel umfasst die Vorlesung Informationsmanagement?", "back": "1. Einführung/Grundbegriffe, 2. IT-Infrastruktur, 3. Unternehmensanwendungen & EAM, 4. IT-Organisation, 5. IT-Projektmanagement & IT-Portfolios, 6. IT-Outsourcing, 7. IT Service Management, 8. Innovationsmanagement, 9. IT-Governance, 10. IT-Strategie." },
+    { "front": "Was wird in der Vorlesung mit dem Wechselspiel der IM-Ebenen ausgedrückt?", "back": "Jede obere Ebene stellt Anforderungen an die darunterliegende, und jede untere Ebene erbringt Unterstützungsleistungen für die darüberliegende - so sind Informationseinsatz, Systeme und Infrastruktur miteinander gekoppelt." }
+  ],
+  "quiz": [
+    {
+      "question": "Was beschreibt 'Digitalisierung' im ursprünglichen Wortsinn (digitization)?",
+      "options": [
+        "Die Veränderung des Geschäftsmodells durch digitale Technologien",
+        "Die Umwandlung analoger Daten in digitale, zeichenbasierte Daten, die Rechner verarbeiten können",
+        "Die Auslagerung von IT-Leistungen an externe Anbieter",
+        "Die agile Entwicklung endbenutzerzentrierter Software"
+      ],
+      "answer": 1,
+      "explanation": "Im ursprünglichen Sinn meint Digitalisierung (digitization) die technische Umwandlung analoger (kontinuierlicher) Daten in digitale, zeichenbasierte Daten. Die Veränderung des Geschäftsmodells ist dagegen die digitale Transformation."
+    },
+    {
+      "question": "Wie definieren Matt, Hess, Benlian & Wiesböck (2016) digitale Transformation?",
+      "options": [
+        "Als reine Umwandlung von analogen in digitale Daten",
+        "Als Bereitstellung von IT-Infrastruktur und Datensicherheit",
+        "Als Veränderungen, die digitale Technologien am Geschäftsmodell bewirken (Produkte, Strukturen, Prozessautomatisierung)",
+        "Als Verwaltung von Informationen, Systemen und Technologien inklusive Governance"
+      ],
+      "answer": 2,
+      "explanation": "Nach Matt et al. (2016) betrifft die digitale Transformation die Veränderungen, die digitale Technologien am Geschäftsmodell hervorrufen und die zu veränderten Produkten, Organisationsstrukturen oder Prozessautomatisierung führen."
+    },
+    {
+      "question": "Welche Aussage beschreibt das operative Informationsmanagement (Tiemeyer 2020) korrekt?",
+      "options": [
+        "Es gewährleistet die optimale Zuweisung der IT-Ressourcen und die Governance",
+        "Es stellt die IT, die IT-Infrastrukturen und die Datensicherheit bereit",
+        "Es ist ausschließlich für die Geschäftsstrategie zuständig",
+        "Es befasst sich nur mit Wissens- und Content-Management"
+      ],
+      "answer": 1,
+      "explanation": "Die Aufgabe des operativen IM ist die Bereitstellung der IT, der IT-Infrastrukturen und der Datensicherheit. Die optimale Ressourcenzuweisung und Governance gehören zum strategischen IM."
+    },
+    {
+      "question": "Welche Reihenfolge gibt die Evolution des Videoverleihs (transformative Wirkung der IT) korrekt wieder?",
+      "options": [
+        "Streaming-Flatrate -> DVD-Versand -> VHS-Empfehlung -> Downloads",
+        "VHS-Empfehlung -> DVD-Versand -> Downloads/Pay per View -> Streaming-Flatrate",
+        "Downloads -> Streaming-Flatrate -> VHS-Empfehlung -> DVD-Versand",
+        "DVD-Versand -> VHS-Empfehlung -> Streaming-Flatrate -> Downloads"
+      ],
+      "answer": 1,
+      "explanation": "Die Folien zeigen die Stufen: datenbankgestützte VHS-Verleihempfehlungen (Blockbuster) -> internetbasierter DVD-/Blu-ray-Versand (Netflix, Lovefilm) -> Downloads & Pay per View (iTunes, Amazon Prime) -> Streaming-Flatrates."
+    },
+    {
+      "question": "Welche drei Ebenen unterscheidet das klassische IM-Modell nach Wollnik/Krcmar?",
+      "options": [
+        "Strategie-, Taktik- und Operative Ebene",
+        "Geschäfts-, Daten- und Sicherheitsebene",
+        "Ebene des Informationseinsatzes, der Informations-/Kommunikationssysteme und der Infrastrukturen",
+        "Hardware-, Software- und Netzwerkebene"
+      ],
+      "answer": 2,
+      "explanation": "Das Modell nach Wollnik (nach Krcmar) unterscheidet die Ebene des Informationseinsatzes, die Ebene der Informations- und Kommunikationssysteme und die Ebene der Infrastrukturen der Informationsverarbeitung und Kommunikation."
+    },
+    {
+      "question": "Auf welchem Ordnungsrahmen baut der Aufbau der Veranstaltung auf?",
+      "options": [
+        "Auf dem Rahmen nach Riempp et al. (2008)",
+        "Auf dem ITIL-Service-Lebenszyklus",
+        "Auf dem DeLone and McLean IS Success Model",
+        "Auf dem Zachman Framework"
+      ],
+      "answer": 0,
+      "explanation": "Der Aufbau der Vorlesung folgt dem Ordnungsrahmen nach Riempp et al. (2008), der u. a. Geschäfts-/IT-Strategie, Governance, Controlling, Projekte/Portfolios, Anwendungen und Infrastruktur verbindet."
+    },
+    {
+      "question": "Welche These der zehn Leitthesen lautet 'Kein Business ohne IT'?",
+      "options": [
+        "These 5",
+        "These 1",
+        "These 7",
+        "These 10"
+      ],
+      "answer": 1,
+      "explanation": "These 1 lautet 'Kein Business ohne IT': IT ist der zentrale und unverzichtbare Treiber unternehmerischer Wertschöpfung."
+    },
+    {
+      "question": "Was wird mit dem Begriff 'Schatten-IT' (These 3) bezeichnet?",
+      "options": [
+        "Eingekaufte Infrastrukturleistungen vom freien Markt",
+        "Security- und Business-Continuity-Funktionen",
+        "IT-Innovationen, die in interdisziplinären Teams der Fachabteilungen entstehen",
+        "Ein dediziertes IT-Vorstandsressort"
+      ],
+      "answer": 2,
+      "explanation": "These 3 ('Schatten-IT als gelebte Praxis') besagt, dass IT-Innovationen in interdisziplinären Teams in den Fachabteilungen - außerhalb der zentralen IT - erarbeitet werden."
+    },
+    {
+      "question": "Welches Modell wird in der Vorlesung als Beispiel für eine Theorie zur Unterstützung des IM genannt?",
+      "options": [
+        "Das DeLone and McLean IS Success Model (2003)",
+        "Das Wasserfallmodell",
+        "Das Magische Dreieck des Projektmanagements",
+        "Das OSI-Schichtenmodell"
+      ],
+      "answer": 0,
+      "explanation": "Neben der Diffusion of Innovations Theory wird das DeLone and McLean IS Success Model (2003) als Theorie genannt, mit der das IM unterstützt werden kann."
+    },
+    {
+      "question": "Welche Kernbotschaft vermitteln die unterschiedlichen Stellenanzeigen zum 'Informationsmanagement'?",
+      "options": [
+        "Informationsmanagement meint ausschließlich Business Intelligence",
+        "Der Begriff wird einheitlich nur für IT-Infrastruktur verwendet",
+        "Der Begriff ist heterogen und reicht von Datenanalyse über Wissens-/Content-Management bis zur strategischen IT-Leitung",
+        "Informationsmanagement bezieht sich nur auf Datensicherheit"
+      ],
+      "answer": 2,
+      "explanation": "Die Anzeigen zeigen ein breites, heterogenes Spektrum: BI/Analytics, Wissensmanagement, CMS/Content, agiles IT-/Produktmanagement, Unternehmensanwendungen, Projektmanagement und strategische IT-Leitung."
+    }
+  ]
+}

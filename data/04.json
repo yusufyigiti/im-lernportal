@@ -1,0 +1,332 @@
+{
+  "id": "04",
+  "title": "IT-Organisation",
+  "date": "29.04.2026",
+  "pdf": "Vorlesungsfolien/IM_04_ITOrganisation_SoSe2026.pdf",
+  "summary": "Die Einheit behandelt die organisatorische Verankerung der IT im Unternehmen entlang zweier Perspektiven: der Vogelperspektive (Wo werden IT-Dienstleistungen erbracht? – intern, Shared Service Center oder extern) und der internen Perspektive (Wie sind IT-Abteilungen strukturiert? – dezentral, zentral als eigenständiger Bereich oder Stab, Matrix). Zentrale Grundbegriffe sind Aufbau-/Ablauforganisation sowie Cost- und Profitcenter. Den Kern bildet der Paradigmenwechsel der IT-Organisation von 'Plan-Build-Run' über 'Source-Make-Deliver' (Industrialisierung) bis hin zu 'Innovate-Design-Transform' (Digitalisierung), inklusive Phänomenen wie Demand-Supply-Trennung und Schatten-IT.",
+  "sections": [
+    {
+      "heading": "Lernziele & Einordnung",
+      "points": [
+        "IT-Organisation ist Einheit 4 der Vorlesung Informationsmanagement (Dr. Henning Baars, Uni Stuttgart) und ordnet sich in den Bereich 'IT-Prozesse & Organisation' des Gesamtmodells ein.",
+        "Lernziel 1: Verständnis dafür, WO die IT-bezogenen Leistungen erbracht werden (Vogelperspektive).",
+        "Lernziel 2: Verständnis dafür, WIE die IT intern strukturiert werden kann (interne Perspektive).",
+        "Lernziel 3: Verstehen des Paradigmenwechsels in IT-Organisationen der letzten Jahre.",
+        "Die Einheit ist eng mit IT-Strategie & -Governance, IT-Controlling, IT-Outsourcing und Projektmanagement verzahnt."
+      ]
+    },
+    {
+      "heading": "Grundbegriffe: Organisation, Aufbau- und Ablauforganisation",
+      "points": [
+        "Organisation (BWL): das formale Regelwerk eines arbeitsteiligen Systems; mehrere Personen arbeiten mit Kontinuität in einem arbeitsteiligen Prozess an einer gemeinsamen Aufgabe infolge eines gemeinsamen Ziels.",
+        "Aufbauorganisation: gliedert ein Unternehmen in Teileinheiten (Stellenbildung), ordnet diesen Aufgaben und Kompetenzen zu und ermöglicht so die Koordination der Organisationseinheiten – die 'Statik' der Organisation.",
+        "Ablauforganisation: regelt demgegenüber die zeitlich-logischen Abläufe und Prozesse – die 'Dynamik' der Organisation (Komplement zur Aufbauorganisation).",
+        "Kernfrage der IT-Organisation: Wer ist für die IT verantwortlich und wer entscheidet in der Unternehmensleitung über die IT? Daran schließt die Frage zentrale vs. dezentrale Führung an."
+      ]
+    },
+    {
+      "heading": "Cost-Center vs. Profit-Center",
+      "points": [
+        "Zwei Leitfragen: Wer bestimmt über die IT-Ressourcen? Wie wird die IT finanziell bzw. budgetär geführt (Cost- oder Profit-Center)?",
+        "Cost-Center: eigenständige Organisationseinheit, die Leistungen für andere interne Abteilungen anbietet (üblicherweise KEIN Marktzugang) und für die eine gesonderte Planung, Erfassung und Kontrolle der Kosten besteht (Abrechnungsbezirk). Verantwortung = nur Kostenverantwortung.",
+        "Profit-Center: eigenständige Organisationseinheit, deren Leitung nicht nur Kostenverantwortung trägt, sondern auch für den Erfolg der Einheit verantwortlich ist (operative Gewinnverantwortung).",
+        "Im Profit-Center werden Dienstleistungen den anderen Abteilungen zu internen Verrechnungspreisen angeboten.",
+        "Quelle: Hansen (2019), S. 79–80; Johanning (2019)."
+      ]
+    },
+    {
+      "heading": "Vogelperspektive: Die drei IT-Organisationstypen",
+      "points": [
+        "Frage: WO werden die IT-Dienstleistungen erstellt? Drei wichtigste IT-Organisationstypen.",
+        "1) Interne IT-Abteilung: Leistungserstellung innerhalb des Unternehmens.",
+        "2) Gemeinsames Dienstleistungszentrum (Shared Service Center, SSC): Bündelung interner Dienstleistungen in einem Verantwortungsbereich.",
+        "3) Externer IT-Anbieter: Bezug von außen – wird im Kapitel IT-Outsourcing vertieft.",
+        "Mischungen dieser Stile sind in der Praxis üblich; reine Formen sind selten."
+      ]
+    },
+    {
+      "heading": "Shared Service Center (SSC)",
+      "points": [
+        "Definition: Ein SSC konzentriert in einer Organisation ehemals dezentral durchgeführte interne Dienstleistungen in EINEM organisatorischen Verantwortungsbereich (Basis: Gabler Wirtschaftslexikon).",
+        "Für die IT bedeutet das eine konsolidierte und zentralisierte IT-Abteilung, üblicherweise in größeren Konzernen.",
+        "Charakter: 'internes' Outsourcing – es entsteht eine Beziehung zwischen Kunden (Fachabteilungen) und Dienstleistern (SSC).",
+        "Merkmale: Zentralisierung der IT-Dienste, eigene Verwaltung (manchmal Ausgliederung), Standardisierung von Prozessen.",
+        "Interne Verträge (interne SLAs) sichern Leistung und Qualität ab."
+      ]
+    },
+    {
+      "heading": "Drei SSC-Modelle: Kostenstelle, Dienstleistungszentrum, Profit-Center",
+      "points": [
+        "Kostenstelle: kein Marktzugang, ausschließlich interne Dienstleistungen, Bereitstellung von IT-Diensten zum niedrigstmöglichen Preis; Kontrollparameter = Kostenplan; Auswirkung: vollständige Kostenkontrolle, aber hoher Koordinierungsaufwand und Herausforderungen bei der Priorisierung.",
+        "Dienstleistungszentrum: Fokus auf den internen Markt, individuelle externe Dienstleistungen möglich, optimale Unterstützung der Abteilung (Business Enabler); Kontrollparameter = Kostendeckung; Auswirkung: hohe Effizienz und Wirksamkeit, aber Risiko unkontrollierten Wachstums.",
+        "Profit-Center: uneingeschränkter Zugang zum externen Markt, Binnenmarkt möglich, Entwicklung wettbewerbsfähiger Produkte und aktiver Beitrag zur Umsatzgenerierung; Kontrollparameter = Gewinn; Auswirkung: hohe Effizienz und Wirksamkeit, aber Risiko, das globale Optimum nicht zu erreichen.",
+        "Quelle: Ertl et al. (2010)."
+      ]
+    },
+    {
+      "heading": "Interne Perspektive: Dezentralisierte IT-Abteilung",
+      "points": [
+        "IT als Unterabteilungen der einzelnen Bereiche (Marketing/Vertrieb, Produktion, Finanzen, Buchhaltung haben je eigene IT), nominell unter CIO/CEO.",
+        "Vorteil: Nähe zum Geschäft und gute 'Business-IT-Ausrichtung' (Alignment).",
+        "Herausforderung 1: Kontrolle der Kosten.",
+        "Herausforderung 2: Kontrolle der Redundanz – z. B. doppelte Entwicklung, mehrfache/uneinheitliche Lizenzvergabe.",
+        "Grundtyp nach Johanning (2019)."
+      ]
+    },
+    {
+      "heading": "Interne Perspektive: Zentralisierte IT (eigenständiger Bereich vs. Stab)",
+      "points": [
+        "Zentrale IT als eigenständiger Bereich: eine zentrale IT-Abteilung auf gleicher Ebene wie Marketing, Produktion, Finanzen unter dem CEO.",
+        "Zentrale IT als Stabsabteilung: die IT ist als Stab direkt an die Unternehmensleitung (CEO) angebunden, neben den Linienbereichen.",
+        "Vorteile der Zentralisierung: hohe Synergieeffekte bei Entwicklung und Betrieb, Normung/Standardisierung, Größenvorteile (Economies of Scale).",
+        "Herausforderungen: Verständnis für die Fachlichkeit und den Markt schwächer; höhere Zahl an Schnittstellen zu anderen Bereichen → mehr Komplexität und 'Verzettelungsgefahr'.",
+        "Mischungen der reinen Stile sind üblich; der Grad der Zentralisierung kann je IT-Funktion unterschiedlich sein."
+      ]
+    },
+    {
+      "heading": "Matrixorganisation der IT",
+      "points": [
+        "Wird Projektzuordnung auf die zentrale Struktur gelegt, ergibt sich eine Matrix (Matrixorganisation).",
+        "Vertikale Dimension: Linien-/Fachbereiche (Marketing/Vertrieb, Produktion, Finanzen, Buchhaltung) mit ihrer IT unter dem CIO.",
+        "Horizontale Dimension: bereichsübergreifende Projekte (Projekt 1, 2, 3), die Ressourcen aus mehreren Bereichen bündeln.",
+        "Vorteil: kombiniert Fachnähe mit projektbezogener Koordination; typische Mehrfach-Weisungsbeziehung der Matrix."
+      ]
+    },
+    {
+      "heading": "Vor- und Nachteile: eigenständiger Bereich vs. Stabsabteilung",
+      "points": [
+        "Vorteile eigenständiger Bereich: größere Flexibilität und Schnelligkeit bei Entscheidungen, mehr Autonomie und Eigenverantwortung.",
+        "Vorteil: größere Bedeutung der IT → weniger Gefahr, dass strategische Potenziale nicht erkannt werden.",
+        "Bei Stabsabteilung eher Argwohn aus den Fachabteilungen wegen der direkten Anbindung an die Unternehmensleitung.",
+        "Nachteile eigenständiger Bereich: latente Tendenz zum Bereichsegoismus (Bereich nimmt sich selbst zu wichtig); Risiko der Entfernung von der Gesamtausrichtung des Unternehmens; Konflikte und Kompetenzgerangel mit Fachbereichen."
+      ]
+    },
+    {
+      "heading": "Paradigma 1: Plan – Build – Run (traditionell)",
+      "points": [
+        "Traditionelles Paradigma der IT-Organisation: Planen (Plan), Bauen (Build), Ausführen (Run); Quelle: Keller (2007), Zarnekow/Brenner (2007).",
+        "Plan: Entwicklung einer Strategie, Architektur-Planung (Infrastruktur, Anwendungen), Haushalts-/Budgetplanung, organisatorische Planung; Methoden: Portfolio-Analyse, SWOT, Prozessmodellierung, kritische Erfolgsfaktoren.",
+        "Build: Projektleitung, Entwicklung von Informationssystemen und IT-Infrastruktur (Planung, Entwurf, Umsetzung); Methoden: Projektmanagement, Prozess- und Entwicklungsmethoden.",
+        "Run: Produktionsmanagement, Benutzerunterstützung, Wartung, Krisen- und Katastrophenmanagement; Methoden: Überwachung von Hardware und Software.",
+        "Querschnittsfunktionen über alle Phasen: Controlling, Qualitätsmanagement, Sicherheitsmanagement, Personalmanagement, Technologiemanagement.",
+        "SLA (Service Level Agreement) regelt vereinbarte Servicequalität."
+      ]
+    },
+    {
+      "heading": "Demand-Supply-Paradigma & Industrialisierung (Source-Make-Deliver)",
+      "points": [
+        "Demand-Supply-Paradigma: Trennung der IT in eine nachfrageorientierte (Demand, Schnittstelle zum Business) und eine angebotsorientierte (Supply, Leistungserbringung) Seite; Quelle: Johanning (2019), S. 202.",
+        "Industrialisiertes Paradigma: Source – Make – Deliver (Beschaffen, Herstellen, Liefern); analog zur industriellen Produktion; Quelle: Zarnekow/Brenner (2007).",
+        "Merkmale: marktorientierte Schnittstellen zu internen und externen Kunden; serviceorientiertes IT-Management.",
+        "Abnehmende vertikale Integration und zunehmende Zuliefernetze (wie in der Produktion); Kommoditisierung traditioneller IT-Produkte.",
+        "Interne IT-Angebote werden mit Marktlösungen verglichen und vergleichbar gemacht (Benchmarking).",
+        "Traditionelle Organisationsstrukturen sind nur bedingt geeignet, diesen Wandel zu bewältigen."
+      ]
+    },
+    {
+      "heading": "Digitales Paradigma: Innovate – Design – Transform",
+      "points": [
+        "Digitales Paradigma: Erneuern (Innovate) – Gestalten (Design) – Verändern (Transform); Quelle: Koch et al. (2016).",
+        "Innovate: IT und Business streben gemeinsame Entwicklung neuer Produkte, Dienstleistungen, Geschäfts- und Wertschöpfungsmodelle an. Leitfrage: Was kann die IT tun, um geschäftliche Innovationen und Erfolge zu erzielen?",
+        "Design: schnelle und effiziente Lösungen entwickeln (nicht unbedingt selbst bauen/herstellen). Leitfrage: Wie sollten Innovationen umgesetzt werden, um erfolgreich zu sein?",
+        "Transform: schnelle, aber nachhaltige Reorganisation von Business und IT zur Akzeptanz und Umsetzung von Innovationen (Change Management, Prozessverbesserungen). Leitfrage: Welche Organisationsstruktur ist geeignet, um innovative Produkte/Dienstleistungen im Wettbewerb zu positionieren?"
+      ]
+    },
+    {
+      "heading": "Digitalisierung & Schatten-IT",
+      "points": [
+        "These 3: Schatten-IT als gelebte Praxis – IT-Innovationen werden in interdisziplinären Teams in den Fachabteilungen erarbeitet.",
+        "Tendenz zur Verschmelzung von Business und IT statt klarer Trennung.",
+        "Schatten-IT bezeichnet von Fachbereichen ohne formale Einbindung der IT-Abteilung beschaffte/betriebene Systeme – Chance (Innovation, Geschwindigkeit) und Risiko (Sicherheit, Governance) zugleich.",
+        "Aktuelle Diskussion (Action Time): Auswirkungen generativer KI / KI-gestützter Code-Generierung auf die IT-Organisation."
+      ]
+    },
+    {
+      "heading": "Zusammenfassung",
+      "points": [
+        "Drei Alternativen, IT-Dienstleistungen zu beziehen: intern, Shared Services, extern.",
+        "Intern kann die IT dezentral, als eigenständiger Bereich (Abteilung oder Stab) oder als Matrix organisiert werden – jede mit eigenen Vor- und Nachteilen.",
+        "IT-Organisationen erleben einen Paradigmenwechsel von 'Plan, Build, Run' zu 'Source, Make, Deliver' und möglicherweise 'Innovate, Design, Transform'.",
+        "Zentrale Spannungsfelder: Zentralisierung (Synergie, Standardisierung) vs. Dezentralisierung (Business-Nähe, Alignment) sowie Cost- vs. Profit-Center-Steuerung."
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "Organisation (BWL)", "definition": "Das formale Regelwerk eines arbeitsteiligen Systems: mehrere Personen arbeiten mit Kontinuität in einem arbeitsteiligen Prozess an einer gemeinsamen Aufgabe infolge eines gemeinsamen Ziels." },
+    { "term": "Aufbauorganisation", "definition": "Gliedert ein Unternehmen in Teileinheiten (Stellenbildung), ordnet diesen Aufgaben und Kompetenzen zu und ermöglicht die Koordination der Organisationseinheiten ('Statik' der Organisation)." },
+    { "term": "Ablauforganisation", "definition": "Regelt die zeitlich-logischen Abläufe und Prozesse innerhalb der Organisation ('Dynamik'); Komplement zur Aufbauorganisation." },
+    { "term": "Cost-Center", "definition": "Eigenständige Organisationseinheit, die Leistungen für andere interne Abteilungen anbietet (üblicherweise kein Marktzugang) und für die eine gesonderte Planung, Erfassung und Kontrolle der Kosten besteht; trägt nur Kostenverantwortung (Abrechnungsbezirk)." },
+    { "term": "Profit-Center", "definition": "Eigenständige Organisationseinheit, deren Leitung neben der Kostenverantwortung auch für den Erfolg der Einheit verantwortlich ist (operative Gewinnverantwortung); Leistungen werden zu internen Verrechnungspreisen angeboten." },
+    { "term": "Interne Verrechnungspreise", "definition": "Preise, zu denen eine interne Einheit (z. B. Profit-Center oder SSC) ihre Leistungen anderen Abteilungen desselben Unternehmens in Rechnung stellt." },
+    { "term": "Shared Service Center (SSC)", "definition": "Organisationsform, die ehemals dezentral durchgeführte interne Dienstleistungen in einem organisatorischen Verantwortungsbereich konzentriert; für die IT eine konsolidierte, zentralisierte IT-Abteilung ('internes Outsourcing')." },
+    { "term": "Internes Outsourcing", "definition": "Bündelung von Leistungen in einer eigenen, oft ausgegliederten internen Einheit (SSC), wodurch eine Kunden-Dienstleister-Beziehung innerhalb des Konzerns entsteht." },
+    { "term": "Dezentralisierte IT-Abteilung", "definition": "IT als Unterabteilungen der einzelnen Fachbereiche; Vorteil: Geschäftsnähe und Business-IT-Alignment; Herausforderung: Kosten- und Redundanzkontrolle (z. B. doppelte Entwicklung, Lizenzvergabe)." },
+    { "term": "Zentralisierte IT-Abteilung", "definition": "IT als eigenständiger Bereich oder Stabsabteilung; Vorteil: Synergieeffekte, Normung, Größenvorteile; Herausforderung: geringere Fachnähe, mehr Schnittstellen und Komplexität." },
+    { "term": "Stabsabteilung", "definition": "Organisationseinheit ohne eigene Weisungsbefugnis in der Linie, direkt an die Unternehmensleitung (CEO) angebunden; kann Argwohn der Fachabteilungen wegen der Leitungsnähe hervorrufen." },
+    { "term": "Matrixorganisation", "definition": "Struktur mit zwei Weisungsdimensionen: Fach-/Linienbereiche (vertikal) und bereichsübergreifende Projekte (horizontal); entsteht durch Projektzuordnung in der zentralen IT-Struktur." },
+    { "term": "CIO (Chief Information Officer)", "definition": "Oberste verantwortliche Leitungsrolle für die IT eines Unternehmens; verantwortet IT-Ressourcen und IT-Entscheidungen in der Unternehmensleitung." },
+    { "term": "SLA (Service Level Agreement)", "definition": "Vereinbarung, die die zu erbringende Servicequalität (Leistung und Qualität) zwischen Dienstleister und Kunde – auch intern – verbindlich festlegt." },
+    { "term": "Plan-Build-Run", "definition": "Traditionelles IT-Organisationsparadigma: Planen (Strategie/Architektur/Budget), Bauen (Projekte/Systementwicklung) und Ausführen (Betrieb/Wartung/Support), umrahmt von Querschnittsfunktionen." },
+    { "term": "Querschnittsfunktionen", "definition": "Phasenübergreifende Funktionen im Plan-Build-Run-Modell: Controlling, Qualitätsmanagement, Sicherheitsmanagement, Personalmanagement und Technologiemanagement." },
+    { "term": "Demand-Supply-Paradigma", "definition": "Trennung der IT in eine nachfrageorientierte Demand-Seite (Schnittstelle zum Business) und eine angebotsorientierte Supply-Seite (Leistungserbringung)." },
+    { "term": "Source-Make-Deliver", "definition": "Industrialisiertes IT-Paradigma (Beschaffen, Herstellen, Liefern) analog zur Produktion: marktorientierte Schnittstellen, serviceorientiertes Management, abnehmende vertikale Integration, Kommoditisierung." },
+    { "term": "Innovate-Design-Transform", "definition": "Digitales IT-Paradigma: gemeinsame Innovation von Business und IT (Innovate), Gestaltung/Umsetzung von Lösungen (Design) und nachhaltige Reorganisation (Transform, Change Management)." },
+    { "term": "Schatten-IT", "definition": "Von Fachbereichen ohne formale Einbindung der IT-Abteilung beschaffte oder betriebene IT-Systeme; in der Digitalisierung 'gelebte Praxis' und Treiber der Verschmelzung von Business und IT." },
+    { "term": "Kommoditisierung", "definition": "Entwicklung, bei der traditionelle IT-Produkte zu austauschbaren Standardgütern (Commodities) werden, die am Markt verglichen und bezogen werden können." }
+  ],
+  "flashcards": [
+    { "front": "Was beschreibt die Aufbauorganisation?", "back": "Die Gliederung des Unternehmens in Teileinheiten (Stellenbildung), die Zuordnung von Aufgaben und Kompetenzen sowie die Koordination der Organisationseinheiten – die 'Statik' der Organisation." },
+    { "front": "Worin unterscheiden sich Aufbau- und Ablauforganisation?", "back": "Aufbauorganisation regelt die Struktur (Stellen, Aufgaben, Kompetenzen = Statik), Ablauforganisation regelt die zeitlich-logischen Prozesse/Abläufe (= Dynamik)." },
+    { "front": "Definiere Cost-Center.", "back": "Eigenständige Organisationseinheit ohne Marktzugang, die interne Leistungen erbringt und für die Kosten gesondert geplant, erfasst und kontrolliert werden; trägt nur Kostenverantwortung." },
+    { "front": "Definiere Profit-Center.", "back": "Eigenständige Einheit, deren Leitung neben Kostenverantwortung auch operative Gewinnverantwortung trägt; Leistungen werden zu internen Verrechnungspreisen angeboten." },
+    { "front": "Welche drei IT-Organisationstypen gibt es (Vogelperspektive)?", "back": "1) Interne IT-Abteilung, 2) Gemeinsames Dienstleistungszentrum (Shared Service Center), 3) Externer IT-Anbieter (Outsourcing). Mischformen sind üblich." },
+    { "front": "Was ist ein Shared Service Center (SSC)?", "back": "Eine Organisationsform, die ehemals dezentrale interne Dienstleistungen in einem Verantwortungsbereich konzentriert – für die IT eine zentralisierte, konsolidierte IT-Abteilung ('internes Outsourcing')." },
+    { "front": "Welche drei SSC-Modelle gibt es und nach welchem Parameter werden sie gesteuert?", "back": "Kostenstelle (Kostenplan), Dienstleistungszentrum (Kostendeckung), Profit-Center (Gewinn). Marktzugang steigt von keinem über internen Fokus bis uneingeschränkt extern." },
+    { "front": "Vorteile und Herausforderungen der dezentralisierten IT-Abteilung?", "back": "Vorteil: Geschäftsnähe und gute Business-IT-Ausrichtung. Herausforderung: Kontrolle von Kosten und Redundanz (doppelte Entwicklung, Lizenzvergabe)." },
+    { "front": "Vorteile der zentralisierten IT?", "back": "Hohe Synergieeffekte bei Entwicklung und Betrieb, Normung/Standardisierung und Größenvorteile (Economies of Scale)." },
+    { "front": "Herausforderungen der zentralisierten IT?", "back": "Geringeres Verständnis für Fachlichkeit und Markt sowie höhere Zahl an Schnittstellen → mehr Komplexität und Verzettelungsgefahr." },
+    { "front": "Wie entsteht eine Matrixorganisation in der IT?", "back": "Durch Überlagerung der zentralen Struktur (Fach-/Linienbereiche unter dem CIO) mit bereichsübergreifenden Projekten – zwei Weisungsdimensionen (Linie x Projekt)." },
+    { "front": "Nenne Vor- und Nachteile der IT als eigenständiger Bereich.", "back": "Vorteile: mehr Flexibilität, Autonomie, Eigenverantwortung, höhere strategische Bedeutung. Nachteile: Bereichsegoismus, Entfernung von der Gesamtausrichtung, Konflikte mit Fachbereichen." },
+    { "front": "Was bedeutet das Paradigma Plan-Build-Run?", "back": "Traditionelles IT-Modell: Plan (Strategie/Architektur/Budget), Build (Projekte/Systementwicklung), Run (Betrieb/Wartung/Support) – mit Querschnittsfunktionen." },
+    { "front": "Welche Querschnittsfunktionen umrahmen Plan-Build-Run?", "back": "Controlling, Qualitätsmanagement, Sicherheitsmanagement, Personalmanagement und Technologiemanagement." },
+    { "front": "Was kennzeichnet das industrialisierte Paradigma Source-Make-Deliver?", "back": "Marktorientierte Schnittstellen, serviceorientiertes Management, abnehmende vertikale Integration mit Zuliefernetzen, Kommoditisierung und Vergleichbarkeit interner Angebote mit dem Markt." },
+    { "front": "Wofür stehen die Phasen von Innovate-Design-Transform?", "back": "Innovate = gemeinsame Innovation von Business und IT; Design = effiziente Umsetzung von Lösungen; Transform = nachhaltige Reorganisation (Change Management) zur Positionierung im Wettbewerb." },
+    { "front": "Was ist das Demand-Supply-Paradigma?", "back": "Aufteilung der IT in eine Demand-Seite (nachfrage-/businessorientierte Schnittstelle) und eine Supply-Seite (angebotsorientierte Leistungserbringung)." },
+    { "front": "Was versteht man unter Schatten-IT?", "back": "Von Fachbereichen ohne formale Einbindung der IT-Abteilung beschaffte/betriebene Systeme; laut These 3 'gelebte Praxis' und Treiber der Verschmelzung von Business und IT." },
+    { "front": "Wie lautet der Paradigmenwechsel der IT-Organisation in einem Satz?", "back": "Von 'Plan, Build, Run' über das industrialisierte 'Source, Make, Deliver' hin zum digitalen 'Innovate, Design, Transform'." }
+  ],
+  "quiz": [
+    {
+      "question": "Welches Merkmal trifft auf ein Cost-Center (im Gegensatz zum Profit-Center) zu?",
+      "options": [
+        "Es trägt operative Gewinnverantwortung",
+        "Es hat üblicherweise keinen Marktzugang und trägt nur Kostenverantwortung",
+        "Es bietet Leistungen vorrangig am externen Markt an",
+        "Es entwickelt wettbewerbsfähige Produkte zur Umsatzgenerierung"
+      ],
+      "answer": 1,
+      "explanation": "Ein Cost-Center erbringt interne Leistungen ohne Marktzugang; für ihn werden Kosten gesondert geplant/kontrolliert. Gewinnverantwortung und Marktzugang kennzeichnen das Profit-Center."
+    },
+    {
+      "question": "Welche drei IT-Organisationstypen unterscheidet die 'Vogelperspektive'?",
+      "options": [
+        "Plan, Build, Run",
+        "Dezentral, Zentral, Matrix",
+        "Interne IT-Abteilung, Shared Service Center, externer IT-Anbieter",
+        "Kostenstelle, Dienstleistungszentrum, Profit-Center"
+      ],
+      "answer": 2,
+      "explanation": "Die Vogelperspektive (WO werden Dienstleistungen erbracht?) unterscheidet interne IT-Abteilung, Shared Service Center und externen Anbieter. Mischformen sind üblich."
+    },
+    {
+      "question": "Was ist ein zentrales Merkmal eines Shared Service Centers?",
+      "options": [
+        "Es verteilt IT-Leistungen wieder dezentral in die Fachbereiche",
+        "Es konzentriert ehemals dezentrale interne Dienstleistungen in einem Verantwortungsbereich ('internes Outsourcing')",
+        "Es ist gleichbedeutend mit dem Bezug von einem externen Anbieter",
+        "Es verzichtet auf interne Verträge und SLAs"
+      ],
+      "answer": 1,
+      "explanation": "Das SSC bündelt vormals dezentrale interne Dienste zentral; es entsteht eine Kunden-Dienstleister-Beziehung, abgesichert durch interne Verträge/SLAs ('internes Outsourcing')."
+    },
+    {
+      "question": "Welches SSC-Modell wird über die Kostendeckung gesteuert und fokussiert den internen Markt (Business Enabler)?",
+      "options": [
+        "Kostenstelle",
+        "Dienstleistungszentrum",
+        "Profit-Center",
+        "Stabsabteilung"
+      ],
+      "answer": 1,
+      "explanation": "Das Dienstleistungszentrum fokussiert den internen Markt mit dem Ziel der Kostendeckung und optimaler Unterstützung der Abteilungen; Kostenstelle = Kostenplan, Profit-Center = Gewinn."
+    },
+    {
+      "question": "Was ist der Hauptvorteil einer dezentralisierten IT-Abteilung?",
+      "options": [
+        "Hohe Synergieeffekte und Größenvorteile",
+        "Maximale Standardisierung und Normung",
+        "Nähe zum Geschäft und gute Business-IT-Ausrichtung",
+        "Geringe Zahl an Schnittstellen"
+      ],
+      "answer": 2,
+      "explanation": "Dezentrale IT sitzt in den Fachbereichen und ist nah am Geschäft (gutes Alignment). Synergie und Standardisierung sind dagegen Vorteile der zentralen IT."
+    },
+    {
+      "question": "Welche Herausforderung ist typisch für eine zentralisierte IT?",
+      "options": [
+        "Doppelte Entwicklung in den Fachbereichen",
+        "Geringeres Verständnis für Fachlichkeit/Markt und mehr Schnittstellen/Komplexität",
+        "Fehlende Größenvorteile",
+        "Keine Möglichkeit zur Standardisierung"
+      ],
+      "answer": 1,
+      "explanation": "Zentrale IT erzielt Synergien, leidet aber unter geringerer Fachnähe und vielen Schnittstellen (Komplexität, Verzettelungsgefahr). Doppelentwicklung ist ein Problem der dezentralen IT."
+    },
+    {
+      "question": "Wie entsteht eine Matrixorganisation der IT?",
+      "options": [
+        "Durch vollständige Auslagerung der IT an einen externen Anbieter",
+        "Durch Überlagerung der zentralen Struktur mit bereichsübergreifenden Projekten",
+        "Durch Auflösung der CIO-Rolle",
+        "Durch Umwandlung jeder Fachabteilung in ein Profit-Center"
+      ],
+      "answer": 1,
+      "explanation": "Legt man Projektzuordnungen quer über die zentrale Fach-/Linienstruktur (unter dem CIO), entsteht die zweidimensionale Matrix (Linie x Projekt)."
+    },
+    {
+      "question": "Welche Aufgaben gehören im Paradigma Plan-Build-Run zur Run-Phase?",
+      "options": [
+        "Strategieentwicklung und Architektur-Planung",
+        "Projektleitung und Systementwicklung",
+        "Produktionsmanagement, Benutzerunterstützung, Wartung",
+        "SWOT- und Portfolio-Analyse"
+      ],
+      "answer": 2,
+      "explanation": "Run umfasst den Betrieb: Produktionsmanagement, Benutzerunterstützung, Wartung sowie Krisen-/Katastrophenmanagement. Strategie/Architektur = Plan, Projekte = Build."
+    },
+    {
+      "question": "Welche Querschnittsfunktion gehört NICHT zum Rahmen von Plan-Build-Run?",
+      "options": [
+        "Sicherheitsmanagement",
+        "Qualitätsmanagement",
+        "Vertriebsmanagement",
+        "Controlling"
+      ],
+      "answer": 2,
+      "explanation": "Die genannten Querschnittsfunktionen sind Controlling, Qualitäts-, Sicherheits-, Personal- und Technologiemanagement. 'Vertriebsmanagement' zählt nicht dazu."
+    },
+    {
+      "question": "Welche Aussage beschreibt das industrialisierte Paradigma Source-Make-Deliver korrekt?",
+      "options": [
+        "Erhöhung der vertikalen Integration und Verzicht auf Zulieferer",
+        "Abnehmende vertikale Integration, Zuliefernetze und Kommoditisierung der IT-Produkte",
+        "Rückkehr zu rein interner Leistungserstellung ohne Marktvergleich",
+        "Auflösung jeglicher Kundenschnittstellen"
+      ],
+      "answer": 1,
+      "explanation": "Source-Make-Deliver überträgt Produktionslogik auf die IT: marktorientierte Schnittstellen, abnehmende vertikale Integration mit Zuliefernetzen und Kommoditisierung; interne Angebote werden mit dem Markt verglichen."
+    },
+    {
+      "question": "Wofür steht die Transform-Phase im digitalen Paradigma Innovate-Design-Transform?",
+      "options": [
+        "Gemeinsame Ideenfindung von Business und IT",
+        "Effiziente Entwicklung von Lösungen ohne sie zwingend zu bauen",
+        "Schnelle, aber nachhaltige Reorganisation von Business und IT (Change Management)",
+        "Überwachung von Hardware und Software"
+      ],
+      "answer": 2,
+      "explanation": "Transform meint die nachhaltige Reorganisation von Business und IT zur Akzeptanz und Umsetzung von Innovationen (Change Management, Prozessverbesserungen). Innovieren = Innovate, Lösungsgestaltung = Design."
+    },
+    {
+      "question": "Was besagt 'These 3: Schatten-IT als gelebte Praxis'?",
+      "options": [
+        "IT-Innovationen entstehen ausschließlich in einer zentralen IT-Abteilung",
+        "IT-Innovationen werden in interdisziplinären Teams in den Fachabteilungen erarbeitet; Business und IT verschmelzen",
+        "Schatten-IT muss vollständig verboten werden",
+        "Schatten-IT ist nur ein Sicherheitsrisiko ohne jeden Nutzen"
+      ],
+      "answer": 1,
+      "explanation": "Die These beschreibt, dass IT-Innovationen zunehmend in den Fachbereichen interdisziplinär entstehen und Business und IT verschmelzen – Schatten-IT als gelebte Praxis der Digitalisierung."
+    }
+  ]
+}
