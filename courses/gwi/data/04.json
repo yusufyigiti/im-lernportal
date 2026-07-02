@@ -1,0 +1,306 @@
+{
+  "id": "04",
+  "title": "Informationssysteme 2",
+  "pdf": "courses/gwi/folien/04.pdf",
+  "summary": "Diese Vorlesung baut auf der Klassifikation von Informationssystemen (IS) nach Unternehmensebenen und Funktionsbereichen auf und zeigt deren Schwächen: getrennte Datenbestände und fehlende Verknüpfung. Als Lösung wird der Integrationsgedanke eingeführt, der zu unternehmensweiten und unternehmensübergreifenden Informationssystemen führt. Als zentrales Beispiel dienen ERP-Systeme (Enterprise Resource Planning), deren Definition, Architektur, Merkmale und Herausforderungen ausführlich behandelt werden.",
+  "sections": [
+    {
+      "heading": "Qualifikationsziele der Vorlesung",
+      "points": [
+        "Erläutern können, was in der Wirtschaftsinformatik unter Integration verstanden wird und warum integrierte Informationssysteme angestrebt werden.",
+        "Charakteristika unternehmensweiter und unternehmensübergreifender Informationssysteme beschreiben können.",
+        "Merkmale und Herausforderungen von ERP-Systemen beschreiben können."
+      ]
+    },
+    {
+      "heading": "Wiederholung: Klassifikation von IS",
+      "points": [
+        "IS lassen sich nach Unternehmensebenen klassifizieren: operative Ebene (Mitarbeiter), Management-Ebene (mittleres Management) und strategische Ebene (Geschäftsführung).",
+        "Den Ebenen zugeordnete Systemtypen: Transaktionssysteme/operative Systeme (TPS), Managementinformationssysteme (MIS), Entscheidungsunterstützungssysteme (DSS) und Unterstützungssysteme für die Führungsebene (ESS).",
+        "Alternativ werden IS nach Funktionsbereichen klassifiziert, z. B. Finanz- und Rechnungswesen, Vertrieb und Marketing, Produktion sowie Personalwesen.",
+        "Quelle der Klassifikationen: Laudon et al. 2010."
+      ]
+    },
+    {
+      "heading": "Probleme der Klassifikation nach Unternehmensebenen",
+      "points": [
+        "Die IS der einzelnen Organisationsebenen sind voneinander abhängig, da Daten zwischen ihnen ausgetauscht werden müssen.",
+        "Ohne Verknüpfung können auf einzelnen Ebenen Daten fehlen oder fehlerhaft/falsch sein.",
+        "Fehlende oder fehlerhafte Daten beeinflussen letztlich die Entscheidungen des Managements negativ.",
+        "Sinnvoll wäre eine vertikale Verknüpfung der Systeme über die Ebenen hinweg, damit Daten mühelos ausgetauscht werden."
+      ]
+    },
+    {
+      "heading": "Probleme der Klassifikation nach Funktionsbereichen",
+      "points": [
+        "Jeder Funktionsbereich hat meist eine eigene Datenbasis, obwohl mehrere Bereiche die gleichen Daten benötigen (Datenredundanz).",
+        "Die Funktionsbereiche weisen Entscheidungs- und Ablaufzusammenhänge auf und bilden sogenannte Geschäftsprozesse.",
+        "Sinnvoll wäre daher eine horizontale Verknüpfung der IS über die Bereichsgrenzen hinweg.",
+        "Ergebnis beider Betrachtungen: Statt IS nach Bereichen zu unterteilen, ist eine unternehmensweite (integrierte) Betrachtung sinnvoller."
+      ]
+    },
+    {
+      "heading": "Integration in der Wirtschaftsinformatik",
+      "points": [
+        "Definition (Laudon et al. 2010): Integration bezeichnet die Verknüpfung von Menschen, Aufgaben und Technik zu einem einheitlichen Ganzen.",
+        "Ziel: den durch Arbeitsteilung und Spezialisierung entstandenen Funktions-, Prozess- und Abteilungsgrenzen entgegenzuwirken.",
+        "Integration hebt die künstlichen Grenzen zwischen Ebenen und Bereichen auf.",
+        "Ergebnis sind unternehmensweite bzw. integrierte Informationssysteme."
+      ]
+    },
+    {
+      "heading": "Vorgehensweisen bei der Integration",
+      "points": [
+        "Zwei Vorgehensweisen werden unterschieden (Kurbel 2011).",
+        "1. Nachträgliche Integration existierender Systeme, auch bekannt als Enterprise Application Integration (EAI); wird in der Vorlesung nicht weiter betrachtet.",
+        "2. Neuentwicklung bzw. Neubeschaffung von IS, die von vornherein unternehmensweit ausgerichtet sind.",
+        "Der zweite Weg steht im Fokus der weiteren Vorlesung (z. B. ERP-Systeme)."
+      ]
+    },
+    {
+      "heading": "Unternehmensweite Informationssysteme",
+      "points": [
+        "Definition (Laudon et al. 2010): Systeme, mit denen Aktivitäten, Entscheidungen und Kenntnisse über viele verschiedene Funktionen, Ebenen und Geschäftseinheiten hinweg koordiniert werden können.",
+        "Sie bestehen aus verschiedenen integrierten Softwaremodulen und einer zentralen Datenbank.",
+        "Die zentrale Datenbank ermöglicht, dass viele unterschiedliche Geschäftsprozesse und Funktionsbereiche Daten unternehmensweit gemeinsam nutzen.",
+        "Sie realisieren sowohl die vertikale (Ebenen) als auch die horizontale (Funktionsbereiche) Verknüpfung."
+      ]
+    },
+    {
+      "heading": "Exkurs: Datenhierarchie und Datenbank",
+      "points": [
+        "Informationen von Anwendungssystemen werden als Daten dargestellt, die hierarchisch angeordnet werden können.",
+        "Ein Bit (0 oder 1) ist die kleinste Dateneinheit; eine festgelegte Bitfolge bildet ein Byte (8 Bit), das ein Zeichen codiert.",
+        "Ein Datenelement (Folge von Bytes) beschreibt eine Eigenschaft (Attribut), z. B. den Namen.",
+        "Inhaltlich zusammenhängende Datenelemente bilden einen Datensatz; gleichartige Datensätze bilden eine Datendatei; zusammengehörende Dateien bilden eine Datenbank.",
+        "Hierarchie: Bit -> Byte -> Datenelement (Attribut) -> Datensatz -> Datei -> Datenbank."
+      ]
+    },
+    {
+      "heading": "Unternehmensübergreifende Informationssysteme",
+      "points": [
+        "In einer weiteren Integrationsstufe lassen sich unternehmensweite Systeme zu unternehmensübergreifenden Systemen weiterentwickeln.",
+        "Definition (Laudon et al. 2010): IS, die den Informationsfluss über Unternehmensgrenzen hinweg automatisieren.",
+        "Sie verbinden ein Unternehmen mit Endkunden, Distributoren, Lieferanten und gelegentlich sogar Wettbewerbern.",
+        "Es bestehen Überschneidungen mit dem Themenfeld E-Business (Abts und Mülder 2010)."
+      ]
+    },
+    {
+      "heading": "Exkurs: E-Business",
+      "points": [
+        "E-Business nutzt Internet- und Kommunikationstechnologien für unternehmensinterne und -übergreifende Geschäftsprozesse.",
+        "Ziel ist die elektronische Abwicklung von der Beschaffung bis zum Absatz.",
+        "Teilbereiche: E-Commerce (Kunden), E-Procurement (Beschaffung/Lieferanten), Supply-Chain-Management, E-Logistic (Logistik), E-Government (Staat), E-Recruiting (Mitarbeiter), E-Finance (Banken) und E-CRM.",
+        "Quelle: Abts und Mülder 2010, S. 139."
+      ]
+    },
+    {
+      "heading": "Beispiele unternehmensweiter Informationssysteme",
+      "points": [
+        "ERP-Systeme (Enterprise Resource Planning) - Kurzvorstellung in dieser Vorlesung.",
+        "CRM-Systeme (Customer Relationship Management) - intensive Besprechung in der nächsten Vorlesung.",
+        "SCM-Systeme (Supply Chain Management) - aus Zeitgründen nicht besprochen.",
+        "Wissensmanagement-Systeme und Systeme für die (Gruppen-)Zusammenarbeit - aus Zeitgründen nicht besprochen."
+      ]
+    },
+    {
+      "heading": "ERP-Systeme: Definition",
+      "points": [
+        "Ein ERP-System ist eine integrierte Software, die auf Basis standardisierter Module alle oder wesentliche Teile der Geschäftsprozesse aus betriebswirtschaftlicher Sicht informationstechnisch unterstützt (Hesseler und Görtz 2008).",
+        "Es liefert aktuelle Informationen auf Basis erfasster und verarbeiteter Daten und ermöglicht so eine unternehmensweite Planung, Steuerung und Kontrolle.",
+        "Definition (Hansen und Neumann 2009): integriertes Anwendungspaket, das die operativen Prozesse in allen wesentlichen Funktionsbereichen unterstützt (Finanz- und Rechnungswesen, Personalwirtschaft, Materialwirtschaft, Produktion, Vertrieb).",
+        "Die Integration wird von einer zentralen Datenbank getragen, wodurch Datenredundanzen vermieden und integrierte Geschäftsprozesse ermöglicht werden."
+      ]
+    },
+    {
+      "heading": "Architektur eines ERP-Systems",
+      "points": [
+        "Im Zentrum steht eine zentrale Datenbank, auf die alle Funktionsbereiche zugreifen (Laudon et al. 2010).",
+        "Finanz- und Rechnungswesen liefert/nutzt Daten wie Barbestand, Außenbestände, Kundenkredit und Einnahmen.",
+        "Personalwesen: Arbeitsstunden, Arbeitskosten, Qualifikationen.",
+        "Produktion: Materialien, Produktionspläne, Liefertermine, Einkäufe.",
+        "Vertrieb und Marketing: Aufträge, Verkaufsvorhersagen, Rücksendungswünsche, Preisänderungen."
+      ]
+    },
+    {
+      "heading": "Merkmale von ERP-Systemen",
+      "points": [
+        "Innerbetriebliche Integration durch gemeinsame Daten: verschiedene Abteilungen greifen auf die gleichen Informationen zu, die nur einmal in einer gemeinsamen Datenbank eingegeben werden müssen und ohne Systemwechsel bzw. Zeitverzug austauschbar sind.",
+        "Zugriffsbeschränkung: ein rollenbasiertes Berechtigungssystem sorgt dafür, dass Personen nur auf die für ihre Position notwendigen Daten zugreifen können.",
+        "Überbetriebliche Integration: ERP-Systeme können mit Lieferanten, Einzelhändlern bzw. SCM- und CRM-Systemen verbunden werden, sind also nicht nur innerbetrieblich.",
+        "Managementunterstützung: spezielle Analyse-Werkzeuge führen Geschäftsprozess-Informationen zusammen (Aggregation) und unterstützen die Entscheidungsfindung.",
+        "Standardsoftware mit Erweiterungsmöglichkeiten (Customizing): branchenneutral entwickelt, aber durch branchenspezifische Elemente oder Programmierschnittstellen erweiterbar. Marktführer in Deutschland: SAP."
+      ]
+    },
+    {
+      "heading": "Herausforderungen von ERP-Systemen",
+      "points": [
+        "Aufwendige Einführung mit hohen Kosten, großem Zeitaufwand und notwendiger Erfahrung.",
+        "Anpassung von Arbeitsweisen und Geschäftsprozessen sowie unternehmensweite Ermittlung von Zugriffsberechtigungen und Informationsbedarfen.",
+        "Einheitliche Datendefinitionen müssen geschaffen werden.",
+        "Vorteile werden oft erst später realisiert; Änderungen sind aufgrund der starken Integration eher schwierig durchführbar.",
+        "Wettbewerbsvorteile durch spezielle Geschäftsprozesse gehen möglicherweise verloren, da einheitliche Standardprozesse eingeführt werden."
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "Integration", "definition": "Verknüpfung von Menschen, Aufgaben und Technik zu einem einheitlichen Ganzen, um den durch Arbeitsteilung und Spezialisierung entstandenen Funktions-, Prozess- und Abteilungsgrenzen entgegenzuwirken." },
+    { "term": "Vertikale Verknüpfung", "definition": "Verbindung von Informationssystemen über die Unternehmensebenen hinweg (operativ, Management, strategisch), damit Daten mühelos zwischen den Ebenen ausgetauscht werden können." },
+    { "term": "Horizontale Verknüpfung", "definition": "Verbindung von Informationssystemen über die Funktionsbereichsgrenzen hinweg (z. B. zwischen Vertrieb, Produktion, Rechnungswesen)." },
+    { "term": "Unternehmensweites Informationssystem", "definition": "System aus integrierten Softwaremodulen und einer zentralen Datenbank, das Aktivitäten, Entscheidungen und Kenntnisse über verschiedene Funktionen, Ebenen und Geschäftseinheiten hinweg koordiniert." },
+    { "term": "Unternehmensübergreifendes Informationssystem", "definition": "Informationssystem, das den Informationsfluss über Unternehmensgrenzen hinweg automatisiert und ein Unternehmen mit Endkunden, Distributoren, Lieferanten und teils Wettbewerbern verbindet." },
+    { "term": "ERP-System (Enterprise Resource Planning)", "definition": "Integrierte Standardsoftware, die auf Basis standardisierter Module alle wesentlichen Geschäftsprozesse eines Unternehmens betriebswirtschaftlich unterstützt und über eine zentrale Datenbank eine unternehmensweite Planung, Steuerung und Kontrolle ermöglicht." },
+    { "term": "Enterprise Application Integration (EAI)", "definition": "Nachträgliche Integration bereits existierender, getrennter Informationssysteme; eine der zwei Vorgehensweisen bei der Integration." },
+    { "term": "Zentrale Datenbank", "definition": "Gemeinsam genutzte Datenbasis eines integrierten Informationssystems, die Datenredundanzen vermeidet und die gemeinsame Nutzung von Daten durch verschiedene Bereiche ermöglicht." },
+    { "term": "Customizing", "definition": "Anpassung und Erweiterung einer branchenneutralen Standardsoftware durch branchenspezifische Elemente oder neue Funktionen über Programmierschnittstellen." },
+    { "term": "Rollenbasiertes Berechtigungssystem", "definition": "Teil eines ERP-Systems, das über Zugriffsbeschränkungen dafür sorgt, dass Personen nur auf die für ihre Position notwendigen Daten zugreifen können." },
+    { "term": "Geschäftsprozess", "definition": "Zusammenhang von Entscheidungen und Abläufen, der über Funktionsbereichsgrenzen hinweg entsteht und eine bereichsübergreifende Verknüpfung erforderlich macht." },
+    { "term": "Datenredundanz", "definition": "Mehrfache Speicherung derselben Daten in getrennten Datenbeständen verschiedener Funktionsbereiche; wird durch eine zentrale Datenbank vermieden." },
+    { "term": "E-Business", "definition": "Nutzung von Internet- und Kommunikationstechnologien für unternehmensinterne und -übergreifende Geschäftsprozesse zur elektronischen Abwicklung von der Beschaffung bis zum Absatz." },
+    { "term": "Datenhierarchie", "definition": "Hierarchische Anordnung von Daten: Bit, Byte (Zeichen), Datenelement (Attribut), Datensatz, Datendatei und Datenbank." },
+    { "term": "Bit", "definition": "Kleinste Dateneinheit, die ein Computer verarbeiten kann; nimmt den Wert 0 oder 1 an." },
+    { "term": "Byte", "definition": "Festgelegte Bitfolge aus 8 Bit, mit der einzelne Zeichen codiert werden (z. B. der Buchstabe J im ASCII-Zeichensatz)." },
+    { "term": "SAP", "definition": "Marktführer für ERP-Systeme in Deutschland." }
+  ],
+  "kernpunkte": [
+    "Die Klassifikation von IS nach Unternehmensebenen und nach Funktionsbereichen hat Schwächen, weil getrennte Datenbestände und fehlende Verknüpfungen zu redundanten oder fehlerhaften Daten führen.",
+    "Vertikale (über Ebenen) und horizontale (über Funktionsbereiche) Verknüpfung sind sinnvoll, um Daten mühelos auszutauschen.",
+    "Integration bedeutet die Verknüpfung von Menschen, Aufgaben und Technik zu einem einheitlichen Ganzen, um Funktions-, Prozess- und Abteilungsgrenzen entgegenzuwirken.",
+    "Unternehmensweite IS koordinieren über Funktionen, Ebenen und Geschäftseinheiten hinweg und stützen sich auf integrierte Softwaremodule und eine zentrale Datenbank.",
+    "Unternehmensübergreifende IS erweitern diesen Ansatz über die Unternehmensgrenzen hinweg und überschneiden sich mit dem E-Business.",
+    "ERP-Systeme sind das zentrale Beispiel: integrierte Standardsoftware mit zentraler Datenbank, die alle wesentlichen betrieblichen Funktionsbereiche unterstützt.",
+    "Kernmerkmale von ERP-Systemen sind innerbetriebliche Integration durch gemeinsame Daten, Zugriffsbeschränkung, überbetriebliche Integration, Managementunterstützung und Customizing.",
+    "Zentrale Herausforderungen sind die aufwendige und teure Einführung, spät realisierte Vorteile, erschwerte Änderungen und der mögliche Verlust prozessbedingter Wettbewerbsvorteile."
+  ],
+  "flashcards": [
+    { "front": "Wie wird Integration in der Wirtschaftsinformatik definiert?", "back": "Als Verknüpfung von Menschen, Aufgaben und Technik zu einem einheitlichen Ganzen, um den durch Arbeitsteilung und Spezialisierung entstandenen Funktions-, Prozess- und Abteilungsgrenzen entgegenzuwirken." },
+    { "front": "Welches Problem hat die Klassifikation nach Unternehmensebenen?", "back": "Die IS der Ebenen sind voneinander abhängig; ohne vertikale Verknüpfung fehlen oder verfälschen sich Daten, was letztlich Managemententscheidungen beeinträchtigt." },
+    { "front": "Welches Problem hat die Klassifikation nach Funktionsbereichen?", "back": "Jeder Bereich hat meist eine eigene Datenbasis (Redundanz), obwohl mehrere Bereiche dieselben Daten benötigen; zudem bilden die Bereiche bereichsübergreifende Geschäftsprozesse." },
+    { "front": "Was ist eine vertikale Verknüpfung von IS?", "back": "Die Verbindung von IS über die Unternehmensebenen hinweg (operativ, Management, strategisch)." },
+    { "front": "Was ist eine horizontale Verknüpfung von IS?", "back": "Die Verbindung von IS über die Funktionsbereichsgrenzen hinweg (z. B. zwischen Vertrieb, Produktion und Rechnungswesen)." },
+    { "front": "Welche zwei Vorgehensweisen bei der Integration werden unterschieden?", "back": "1. Nachträgliche Integration existierender Systeme (Enterprise Application Integration). 2. Neuentwicklung bzw. Neubeschaffung von IS, die von vornherein unternehmensweit ausgerichtet sind." },
+    { "front": "Was ist ein unternehmensweites Informationssystem?", "back": "Ein System aus integrierten Softwaremodulen und einer zentralen Datenbank, das Aktivitäten, Entscheidungen und Kenntnisse über verschiedene Funktionen, Ebenen und Geschäftseinheiten hinweg koordiniert." },
+    { "front": "Was ist ein unternehmensübergreifendes Informationssystem?", "back": "Ein IS, das den Informationsfluss über Unternehmensgrenzen hinweg automatisiert und ein Unternehmen mit Endkunden, Distributoren, Lieferanten und teils Wettbewerbern verbindet." },
+    { "front": "Was ist ein ERP-System?", "back": "Eine integrierte Standardsoftware, die auf Basis standardisierter Module die wesentlichen Geschäftsprozesse betriebswirtschaftlich unterstützt und über eine zentrale Datenbank eine unternehmensweite Planung, Steuerung und Kontrolle ermöglicht." },
+    { "front": "Welche Funktionsbereiche unterstützt ein ERP-System typischerweise?", "back": "Finanz- und Rechnungswesen, Personalwirtschaft, Materialwirtschaft, Produktion und Vertrieb." },
+    { "front": "Wodurch wird die Integration in einem ERP-System getragen?", "back": "Durch eine zentrale Datenbank, wodurch Datenredundanzen vermieden und integrierte Geschäftsprozesse ermöglicht werden." },
+    { "front": "Nenne die Kernmerkmale von ERP-Systemen.", "back": "Innerbetriebliche Integration durch gemeinsame Daten, Zugriffsbeschränkung (rollenbasiertes Berechtigungssystem), überbetriebliche Integration, Managementunterstützung und Customizing (Standardsoftware mit Erweiterungen)." },
+    { "front": "Was bedeutet Customizing bei ERP-Systemen?", "back": "Die branchenneutrale Standardsoftware wird durch branchenspezifische Elemente erweitert oder über Programmierschnittstellen mit neuen Funktionen ergänzt." },
+    { "front": "Wer ist Marktführer für ERP-Systeme in Deutschland?", "back": "SAP." },
+    { "front": "Nenne drei Herausforderungen von ERP-Systemen.", "back": "Aufwendige und teure Einführung (Anpassung von Prozessen, einheitliche Datendefinitionen), spät realisierte Vorteile und erschwerte Änderungen, sowie möglicher Verlust prozessbedingter Wettbewerbsvorteile durch einheitliche Standardprozesse." },
+    { "front": "Wie lautet die Datenhierarchie vom Kleinsten zum Größten?", "back": "Bit -> Byte (Zeichen) -> Datenelement (Attribut) -> Datensatz -> Datendatei -> Datenbank." },
+    { "front": "Was ist E-Business und womit überschneidet es sich?", "back": "Nutzung von Internet- und Kommunikationstechnologien für unternehmensinterne und -übergreifende Geschäftsprozesse zur elektronischen Abwicklung von Beschaffung bis Absatz; es überschneidet sich mit unternehmensübergreifenden Informationssystemen." }
+  ],
+  "quiz": [
+    {
+      "question": "Wie wird Integration in der Wirtschaftsinformatik definiert?",
+      "options": [
+        "Als Verknüpfung von Menschen, Aufgaben und Technik zu einem einheitlichen Ganzen",
+        "Als Aufteilung von IS nach Unternehmensebenen",
+        "Als reine Vernetzung von Hardwarekomponenten",
+        "Als Auslagerung von IT-Aufgaben an externe Dienstleister"
+      ],
+      "answer": 0,
+      "explanation": "Integration bezeichnet die Verknüpfung von Menschen, Aufgaben und Technik zu einem einheitlichen Ganzen, um Funktions-, Prozess- und Abteilungsgrenzen entgegenzuwirken (Laudon et al. 2010)."
+    },
+    {
+      "question": "Welches Problem weist die Klassifikation nach Funktionsbereichen auf?",
+      "options": [
+        "Sie erfordert zu leistungsstarke Hardware",
+        "Jeder Bereich hat meist eine eigene Datenbasis, obwohl mehrere Bereiche dieselben Daten benötigen",
+        "Sie ist nur für Kleinunternehmen geeignet",
+        "Sie verhindert die Bildung von Geschäftsprozessen"
+      ],
+      "answer": 1,
+      "explanation": "Die getrennten Datenbasen führen zu Redundanz, obwohl mehrere Funktionsbereiche dieselben Daten benötigen; zudem bilden die Bereiche bereichsübergreifende Geschäftsprozesse."
+    },
+    {
+      "question": "Was beschreibt eine vertikale Verknüpfung von Informationssystemen?",
+      "options": [
+        "Die Verbindung über Funktionsbereiche hinweg",
+        "Die Verbindung mit externen Lieferanten",
+        "Die Verbindung über die Unternehmensebenen hinweg",
+        "Die Verbindung mehrerer Datenbanken auf einem Server"
+      ],
+      "answer": 2,
+      "explanation": "Die vertikale Verknüpfung verbindet die IS über die Unternehmensebenen (operativ, Management, strategisch) hinweg, damit keine Daten fehlen oder fehlerhaft sind."
+    },
+    {
+      "question": "Welche zwei Vorgehensweisen bei der Integration werden unterschieden?",
+      "options": [
+        "Zentrale und dezentrale Datenhaltung",
+        "Nachträgliche Integration (EAI) und Neuentwicklung/-beschaffung unternehmensweiter Systeme",
+        "Interne und externe Programmierung",
+        "Hardware- und Softwareintegration"
+      ],
+      "answer": 1,
+      "explanation": "Unterschieden werden die nachträgliche Integration existierender Systeme (Enterprise Application Integration) und die Neuentwicklung bzw. Neubeschaffung von vornherein unternehmensweit ausgerichteter Systeme (Kurbel 2011)."
+    },
+    {
+      "question": "Was kennzeichnet ein unternehmensübergreifendes Informationssystem?",
+      "options": [
+        "Es automatisiert den Informationsfluss über Unternehmensgrenzen hinweg",
+        "Es ist auf eine einzelne Abteilung beschränkt",
+        "Es verzichtet vollständig auf eine Datenbank",
+        "Es dient ausschließlich der strategischen Ebene"
+      ],
+      "answer": 0,
+      "explanation": "Unternehmensübergreifende IS automatisieren den Informationsfluss über Unternehmensgrenzen hinweg und verbinden das Unternehmen mit Kunden, Distributoren, Lieferanten und teils Wettbewerbern."
+    },
+    {
+      "question": "Was trägt in einem ERP-System die Integration und vermeidet Datenredundanzen?",
+      "options": [
+        "Ein dezentrales Netz getrennter Datenbanken",
+        "Eine zentrale Datenbank",
+        "Ein externer Cloud-Speicher",
+        "Ein rollenbasiertes Berechtigungssystem"
+      ],
+      "answer": 1,
+      "explanation": "Die Integration wird von einer zentralen Datenbank getragen, wodurch Datenredundanzen vermieden und integrierte Geschäftsprozesse ermöglicht werden (Hansen und Neumann 2009)."
+    },
+    {
+      "question": "Welche Aussage über Customizing bei ERP-Systemen ist korrekt?",
+      "options": [
+        "Es bedeutet den vollständigen Verzicht auf Standardsoftware",
+        "Es beschreibt das rollenbasierte Berechtigungssystem",
+        "Es meint die branchenspezifische Erweiterung branchenneutraler Standardsoftware",
+        "Es steht für die automatische Aggregation von Managementdaten"
+      ],
+      "answer": 2,
+      "explanation": "Customizing meint, dass die branchenneutral entwickelte Standardsoftware durch branchenspezifische Elemente oder über Programmierschnittstellen mit neuen Funktionen erweitert wird."
+    },
+    {
+      "question": "Welche der folgenden ist eine Herausforderung von ERP-Systemen?",
+      "options": [
+        "Vorteile werden erst später realisiert und Änderungen sind schwierig",
+        "Die Einführung ist stets kostenlos und schnell",
+        "Daten müssen mehrfach in getrennten Datenbanken erfasst werden",
+        "Abteilungen können nicht auf gemeinsame Daten zugreifen"
+      ],
+      "answer": 0,
+      "explanation": "Zu den Herausforderungen zählen die aufwendige, teure Einführung, spät realisierte Vorteile und aufgrund der starken Integration schwierig durchführbare Änderungen."
+    },
+    {
+      "question": "Wie lautet die Datenhierarchie vom Kleinsten zum Größten?",
+      "options": [
+        "Datenbank -> Datei -> Datensatz -> Byte -> Bit",
+        "Bit -> Byte -> Datenelement -> Datensatz -> Datei -> Datenbank",
+        "Byte -> Bit -> Datensatz -> Datei -> Datenbank",
+        "Datenelement -> Bit -> Byte -> Datei -> Datenbank"
+      ],
+      "answer": 1,
+      "explanation": "Die Hierarchie lautet: Bit (0/1), Byte (Zeichen), Datenelement (Attribut), Datensatz, Datendatei und schließlich Datenbank (Laudon et al. 2010)."
+    },
+    {
+      "question": "Wer ist laut Vorlesung Marktführer für ERP-Systeme in Deutschland?",
+      "options": [
+        "Oracle",
+        "Microsoft",
+        "SAP",
+        "IBM"
+      ],
+      "answer": 2,
+      "explanation": "In der Vorlesung wird SAP als Marktführer für ERP-Systeme in Deutschland genannt."
+    }
+  ]
+}

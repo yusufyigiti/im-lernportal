@@ -1,0 +1,272 @@
+{
+  "id": "03",
+  "title": "Grundlagen der Beschaffung",
+  "pdf": "courses/eib/folien/03.pdf",
+  "summary": "Das Kapitel führt in die Beschaffung als betriebliche Realgüterphase mit unmittelbarem Bezug zu den Märkten ein und grenzt sie vom Absatz ab. Es systematisiert die sechs Einsatzfelder der Beschaffung (Personal, Potentialgüter, immaterielle Güter, externe Informationen, Finanzmittel und Material) und stellt die Materialbeschaffung als vorherrschendes Teilgebiet des Tagesgeschäfts heraus. Anschließend werden die Materialarten gegliedert und das beschaffungspolitische Instrumentarium des Beschaffungsmarketings mit seinen vier Politikbereichen vorgestellt.",
+  "sections": [
+    {
+      "heading": "Beschaffung und Absatz",
+      "points": [
+        "Beschaffung und Absatz sind Realgüterphasen und stehen in unmittelbarer Verbindung zu den Märkten.",
+        "Zur Regelung der Marktbeziehungen dient das betriebliche Marketing (auf der Beschaffungsseite das Beschaffungsmarketing, auf der Absatzseite das Absatzmarketing).",
+        "Die Beschaffung sichert die Versorgung des Betriebes mit den zur Leistungserstellung benötigten Gütern und Ressourcen."
+      ]
+    },
+    {
+      "heading": "Einsatzfelder der Beschaffung (Überblick)",
+      "points": [
+        "Die Beschaffung umfasst sechs Einsatzfelder: Personal, Maschinen/materielle Potentialgüter, immaterielle Güter, externe Informationen, Finanzmittel und Material.",
+        "1. Personalbeschaffung, 2. Maschinen und andere materielle Potentialgüter, 3. Immaterielle Güter, 4. Externe Informationen, 5. Finanzmittel, 6. Materialbeschaffung.",
+        "Die Materialbeschaffung ist das vorherrschende Teilgebiet der Beschaffung im Tagesgeschäft."
+      ]
+    },
+    {
+      "heading": "Personalbeschaffung und Potentialgüter",
+      "points": [
+        "Personalbeschaffung: Besonderheiten liegen in der rechtlichen Gestaltung, da Arbeitsrecht und Tarifvertrag mit den Wünschen der Arbeitnehmer und den Zielen der betrieblichen Produktionsbereiche vereint werden müssen.",
+        "Wegen dieser Besonderheiten ist eine organisatorische Trennung von den übrigen Beschaffungsaufgaben und die Zuweisung an eine eigene Personalabteilung sinnvoll.",
+        "Maschinen und andere materielle Potentialgüter: Statt einzelne Leistungen zu beschaffen, wird das zur Realisierung der Produktion notwendige Potentialgut selbst beschafft."
+      ]
+    },
+    {
+      "heading": "Immaterielle Güter, Informationen und Finanzmittel",
+      "points": [
+        "Immaterielle Güter: Beschaffung von Rechten wie Urheberrechten, Patentrechten und Markenrechten.",
+        "Externe Informationen: dienen der Planung, Implementierung, Steuerung und Kontrolle des Güterprozesses.",
+        "Der Informationsprozess ist Teil der betrieblichen Führung; diese stellt die Informationen bereit, bereitet sie auf, verwendet sie und gibt sie weiter.",
+        "Finanzmittel: werden über Finanzabteilung und Kapitalmarkt beschafft."
+      ]
+    },
+    {
+      "heading": "Materialbeschaffung und Gliederung der Materialarten",
+      "points": [
+        "Die Materialbeschaffung ist das im Tagesgeschäft vorherrschende Teilgebiet der Beschaffung.",
+        "Materialarten sind: Rohstoffe, Hilfsstoffe, Betriebsstoffe, Handelswaren sowie in den weiteren Produktionsprozess einfließende Halb- und Fertigfabrikate.",
+        "Gliederung des Oberbegriffs MATERIAL: Werkstoffe (Rohstoffe, Hilfsstoffe, Halb- und Fertigfabrikate/Vorprodukte), Betriebsstoffe (u. a. Energie, sonstige Betriebsstoffe) und Handelswaren.",
+        "Werkstoffe gehen substanziell in das Erzeugnis ein, Betriebsstoffe werden im Produktionsprozess verbraucht, Handelswaren werden unverändert weiterverkauft."
+      ]
+    },
+    {
+      "heading": "Das beschaffungspolitische Instrumentarium",
+      "points": [
+        "Beschaffungsmarketing umfasst die Beziehungen des Betriebes zu seinen Beschaffungsmärkten sowie alle beschaffungsmarktorientierten betrieblichen Entscheidungen.",
+        "Das beschaffungspolitische Instrumentarium besteht aus vier Bereichen: Beschaffungsprogrammpolitik, Beschaffungskonditionenpolitik, Kommunikationspolitik und Bezugspolitik.",
+        "Es bildet das Pendant zum absatzseitigen Marketing-Mix, gerichtet auf die Beschaffungsmärkte."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Beschaffung",
+      "definition": "Betriebliche Realgüterphase mit unmittelbarem Marktbezug, die den Betrieb mit den zur Leistungserstellung benötigten Gütern und Ressourcen (Personal, Potentialgüter, Rechte, Informationen, Finanzmittel, Material) versorgt."
+    },
+    {
+      "term": "Realgüterphase",
+      "definition": "Phase des betrieblichen Güterprozesses, die reale Güter betrifft und in unmittelbarer Verbindung zu den Märkten steht; sowohl Beschaffung als auch Absatz sind Realgüterphasen."
+    },
+    {
+      "term": "Beschaffungsmarketing",
+      "definition": "Marktorientierte Gestaltung der Beziehungen des Betriebes zu seinen Beschaffungsmärkten; umfasst alle beschaffungsmarktorientierten betrieblichen Entscheidungen."
+    },
+    {
+      "term": "Potentialgüter",
+      "definition": "Materielle Güter wie Maschinen, die zur Realisierung der Produktion selbst beschafft werden, anstatt nur einzelne Leistungen zuzukaufen."
+    },
+    {
+      "term": "Immaterielle Güter",
+      "definition": "Nicht-körperliche Güter in Form von Rechten, z. B. Urheberrechte, Patentrechte und Markenrechte."
+    },
+    {
+      "term": "Materialbeschaffung",
+      "definition": "Vorherrschendes Teilgebiet der Beschaffung im Tagesgeschäft, das die Versorgung mit Rohstoffen, Hilfsstoffen, Betriebsstoffen, Handelswaren sowie Halb- und Fertigfabrikaten sicherstellt."
+    },
+    {
+      "term": "Werkstoffe",
+      "definition": "Materialart, die substanziell in das Erzeugnis eingeht; umfasst Rohstoffe, Hilfsstoffe sowie Halb- und Fertigfabrikate (Vorprodukte)."
+    },
+    {
+      "term": "Rohstoffe",
+      "definition": "Werkstoffe, die als Hauptbestandteil unmittelbar in das Erzeugnis eingehen und dessen Substanz bilden."
+    },
+    {
+      "term": "Hilfsstoffe",
+      "definition": "Werkstoffe, die zwar in das Erzeugnis eingehen, aber nur einen untergeordneten, ergänzenden Bestandteil bilden."
+    },
+    {
+      "term": "Betriebsstoffe",
+      "definition": "Materialart, die nicht in das Erzeugnis eingeht, sondern im Produktionsprozess verbraucht wird (z. B. Energie und sonstige Betriebsstoffe)."
+    },
+    {
+      "term": "Handelswaren",
+      "definition": "Fremdbezogene Güter, die ohne wesentliche Be- oder Verarbeitung unverändert weiterverkauft werden."
+    },
+    {
+      "term": "Halb- und Fertigfabrikate (Vorprodukte)",
+      "definition": "Bereits vorgefertigte Güter, die als Werkstoffe in den weiteren Produktionsprozess einfließen."
+    },
+    {
+      "term": "Beschaffungspolitisches Instrumentarium",
+      "definition": "Gesamtheit der beschaffungspolitischen Instrumente: Beschaffungsprogrammpolitik, Beschaffungskonditionenpolitik, Kommunikationspolitik und Bezugspolitik."
+    },
+    {
+      "term": "Beschaffungsprogrammpolitik",
+      "definition": "Instrument des Beschaffungsmarketings, das über Art, Qualität und Umfang der zu beschaffenden Güter (das Beschaffungssortiment) entscheidet."
+    },
+    {
+      "term": "Beschaffungskonditionenpolitik",
+      "definition": "Instrument des Beschaffungsmarketings, das die Konditionen des Bezugs wie Preise, Rabatte, Zahlungs- und Lieferbedingungen gestaltet."
+    },
+    {
+      "term": "Bezugspolitik",
+      "definition": "Instrument des Beschaffungsmarketings, das die Wege und die Organisation des Güterbezugs vom Beschaffungsmarkt zum Betrieb festlegt."
+    }
+  ],
+  "kernpunkte": [
+    "Beschaffung und Absatz sind Realgüterphasen mit unmittelbarem Marktbezug, deren Marktbeziehungen durch betriebliches Marketing geregelt werden.",
+    "Die Beschaffung umfasst sechs Einsatzfelder: Personal, materielle Potentialgüter, immaterielle Güter, externe Informationen, Finanzmittel und Material.",
+    "Die Materialbeschaffung ist das im Tagesgeschäft vorherrschende Teilgebiet der Beschaffung.",
+    "Materialarten sind Rohstoffe, Hilfsstoffe, Betriebsstoffe, Handelswaren sowie Halb- und Fertigfabrikate.",
+    "Der Oberbegriff Material gliedert sich in Werkstoffe, Betriebsstoffe und Handelswaren.",
+    "Das beschaffungspolitische Instrumentarium besteht aus Beschaffungsprogramm-, Beschaffungskonditionen-, Kommunikations- und Bezugspolitik."
+  ],
+  "flashcards": [
+    {
+      "front": "Was sind Beschaffung und Absatz und in welcher Beziehung stehen sie zu den Märkten?",
+      "back": "Beide sind Realgüterphasen und stehen in unmittelbarer Verbindung zu den Märkten; ihre Marktbeziehungen werden durch betriebliches Marketing geregelt."
+    },
+    {
+      "front": "Nenne die sechs Einsatzfelder der Beschaffung.",
+      "back": "1. Personalbeschaffung, 2. Maschinen/materielle Potentialgüter, 3. Immaterielle Güter, 4. Externe Informationen, 5. Finanzmittel, 6. Materialbeschaffung."
+    },
+    {
+      "front": "Warum wird die Personalbeschaffung organisatorisch von den übrigen Beschaffungsaufgaben getrennt?",
+      "back": "Wegen der rechtlichen Besonderheiten (Arbeitsrecht, Tarifvertrag müssen mit Arbeitnehmerwünschen und Produktionszielen vereint werden); daher ist eine eigene Personalabteilung sinnvoll."
+    },
+    {
+      "front": "Was versteht man bei der Beschaffung unter Potentialgütern?",
+      "back": "Materielle Güter wie Maschinen, die zur Realisierung der Produktion selbst beschafft werden, statt nur einzelne Leistungen zuzukaufen."
+    },
+    {
+      "front": "Was zählt zu den immateriellen Gütern der Beschaffung?",
+      "back": "Rechte, z. B. Urheberrechte, Patentrechte und Markenrechte."
+    },
+    {
+      "front": "Wozu dienen externe Informationen in der Beschaffung?",
+      "back": "Zur Planung, Implementierung, Steuerung und Kontrolle des Güterprozesses; der Informationsprozess ist Teil der betrieblichen Führung."
+    },
+    {
+      "front": "Welches Teilgebiet der Beschaffung ist im Tagesgeschäft vorherrschend?",
+      "back": "Die Materialbeschaffung."
+    },
+    {
+      "front": "Welche Materialarten werden unterschieden?",
+      "back": "Rohstoffe, Hilfsstoffe, Betriebsstoffe, Handelswaren sowie Halb- und Fertigfabrikate."
+    },
+    {
+      "front": "In welche drei Hauptgruppen gliedert sich der Oberbegriff Material?",
+      "back": "Werkstoffe, Betriebsstoffe und Handelswaren."
+    },
+    {
+      "front": "Was umfasst die Gruppe der Werkstoffe?",
+      "back": "Rohstoffe, Hilfsstoffe sowie Halb- und Fertigfabrikate (Vorprodukte)."
+    },
+    {
+      "front": "Was ist Beschaffungsmarketing?",
+      "back": "Es umfasst die Beziehungen des Betriebes zu seinen Beschaffungsmärkten sowie alle beschaffungsmarktorientierten betrieblichen Entscheidungen."
+    },
+    {
+      "front": "Aus welchen vier Bereichen besteht das beschaffungspolitische Instrumentarium?",
+      "back": "Beschaffungsprogrammpolitik, Beschaffungskonditionenpolitik, Kommunikationspolitik und Bezugspolitik."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Welche Aussage über Beschaffung und Absatz ist richtig?",
+      "options": [
+        "Beide sind Realgüterphasen in unmittelbarer Verbindung zu den Märkten.",
+        "Beide sind reine Nominalgüterphasen ohne Marktbezug.",
+        "Nur der Absatz steht in Verbindung zu den Märkten.",
+        "Nur die Beschaffung ist eine Realgüterphase."
+      ],
+      "answer": 0,
+      "explanation": "Laut Folie sind Beschaffung und Absatz Realgüterphasen in unmittelbarer Verbindung zu den Märkten; das betriebliche Marketing regelt die Marktbeziehungen."
+    },
+    {
+      "question": "Welches der folgenden Felder gehört NICHT zu den sechs Einsatzfeldern der Beschaffung?",
+      "options": [
+        "Personalbeschaffung",
+        "Immaterielle Güter",
+        "Absatzwerbung",
+        "Finanzmittel"
+      ],
+      "answer": 2,
+      "explanation": "Die sechs Einsatzfelder sind Personal, Potentialgüter, immaterielle Güter, externe Informationen, Finanzmittel und Material. Absatzwerbung gehört zum Absatz, nicht zur Beschaffung."
+    },
+    {
+      "question": "Warum ist eine organisatorische Trennung der Personalbeschaffung von den übrigen Beschaffungsaufgaben sinnvoll?",
+      "options": [
+        "Weil Personal keine Ressource des Betriebes ist.",
+        "Wegen rechtlicher Besonderheiten wie Arbeitsrecht und Tarifvertrag.",
+        "Weil Personal über den Kapitalmarkt beschafft wird.",
+        "Weil Personalbeschaffung zum Absatzmarketing zählt."
+      ],
+      "answer": 1,
+      "explanation": "Arbeitsrecht und Tarifvertrag müssen mit den Wünschen der Arbeitnehmer und den Zielen der Produktionsbereiche vereint werden; deshalb ist eine eigene Personalabteilung sinnvoll."
+    },
+    {
+      "question": "Was sind immaterielle Güter im Sinne der Beschaffung?",
+      "options": [
+        "Rohstoffe und Hilfsstoffe",
+        "Maschinen und Anlagen",
+        "Rechte wie Urheber-, Patent- und Markenrechte",
+        "Energie und Betriebsstoffe"
+      ],
+      "answer": 2,
+      "explanation": "Immaterielle Güter sind Rechte, z. B. Urheberrechte, Patentrechte und Markenrechte."
+    },
+    {
+      "question": "Welche Materialart geht substanziell als Werkstoff in das Erzeugnis ein?",
+      "options": [
+        "Handelswaren",
+        "Rohstoffe",
+        "Energie",
+        "Sonstige Betriebsstoffe"
+      ],
+      "answer": 1,
+      "explanation": "Rohstoffe zählen zu den Werkstoffen und gehen als Hauptbestandteil in das Erzeugnis ein, während Betriebsstoffe verbraucht und Handelswaren unverändert weiterverkauft werden."
+    },
+    {
+      "question": "In welche drei Hauptgruppen wird der Oberbegriff Material gegliedert?",
+      "options": [
+        "Rohstoffe, Hilfsstoffe, Betriebsstoffe",
+        "Werkstoffe, Betriebsstoffe, Handelswaren",
+        "Personal, Kapital, Material",
+        "Energie, Vorprodukte, Rechte"
+      ],
+      "answer": 1,
+      "explanation": "Laut Gliederung der Materialarten teilt sich Material in Werkstoffe (Rohstoffe, Hilfsstoffe, Halb- und Fertigfabrikate), Betriebsstoffe und Handelswaren."
+    },
+    {
+      "question": "Welches Teilgebiet der Beschaffung ist im Tagesgeschäft vorherrschend?",
+      "options": [
+        "Die Finanzmittelbeschaffung",
+        "Die Personalbeschaffung",
+        "Die Materialbeschaffung",
+        "Die Beschaffung immaterieller Güter"
+      ],
+      "answer": 2,
+      "explanation": "Die Materialbeschaffung wird auf der Folie ausdrücklich als vorherrschendes Teilgebiet der Beschaffung im Tagesgeschäft bezeichnet."
+    },
+    {
+      "question": "Aus welchen vier Instrumenten besteht das beschaffungspolitische Instrumentarium?",
+      "options": [
+        "Produkt-, Preis-, Distributions- und Kommunikationspolitik",
+        "Beschaffungsprogramm-, Beschaffungskonditionen-, Kommunikations- und Bezugspolitik",
+        "Personal-, Finanz-, Informations- und Materialpolitik",
+        "Rohstoff-, Hilfsstoff-, Betriebsstoff- und Handelswarenpolitik"
+      ],
+      "answer": 1,
+      "explanation": "Das beschaffungspolitische Instrumentarium umfasst Beschaffungsprogrammpolitik, Beschaffungskonditionenpolitik, Kommunikationspolitik und Bezugspolitik."
+    }
+  ]
+}

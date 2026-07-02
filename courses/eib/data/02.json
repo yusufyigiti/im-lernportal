@@ -1,0 +1,430 @@
+{
+  "id": "02",
+  "title": "Methodik und Theorie der BWL",
+  "pdf": "courses/eib/folien/02.pdf",
+  "summary": "Dieses Kapitel behandelt die wissenschaftstheoretischen Grundlagen der Betriebswirtschaftslehre: ihr theoretisches und pragmatisches Wissenschaftsziel, das Menschenbild des homo oeconomicus, die vier Entscheidungssituationen nach dem Informationsstand sowie die empirischen Forschungsmethoden. Ein Schwerpunkt liegt auf den ressourcen- und marktorientierten Strategieansaetzen (Resource Based View, Market Based View nach Porter) und insbesondere auf den drei zentralen Ansaetzen der Neuen Institutionenoekonomik: dem Verfuegungsrechteansatz, dem Transaktionskostenansatz und dem Agenturansatz. Ziel ist es, die BWL als angewandte Wissenschaft methodisch und theoretisch einzuordnen.",
+  "sections": [
+    {
+      "heading": "Wissenschaftskonzeption der BWL: Theorie und Empirie",
+      "points": [
+        "Die BWL verfolgt zwei Wissenschaftsziele, die einander ergaenzen.",
+        "Theoretisches Wissenschaftsziel: Beschreibung von Unternehmen, Erklaerung ihrer Funktionsweise mit gesetzesaehnlichen Aussagen sowie Prognosen aufgrund der erkannten Zusammenhaenge.",
+        "Pragmatisches Wissenschaftsziel: Formulierung praktisch umsetzbarer Handlungsanweisungen fuer die betriebliche Praxis.",
+        "Aus dem pragmatischen Ziel folgt das Selbstverstaendnis der BWL als angewandte Wissenschaft.",
+        "Quelle: Hill, Fehlbaum, Ulrich (1994), S. 34 ff."
+      ]
+    },
+    {
+      "heading": "Menschenbild: Der homo oeconomicus",
+      "points": [
+        "Der homo oeconomicus handelt in einer Situation knapper Mittel, seine Handlungsspielraeume sind begrenzt.",
+        "Er verfuegt ueber ein Praeferenzsystem, das gegeben und konstant ist.",
+        "Er trifft seine Entscheidungen in einem Handlungsraum, der alle verfuegbaren Handlungsoptionen und deren Konsequenzen enthaelt.",
+        "Er entscheidet auf Basis von Praeferenzen im Kontext geltender Restriktionen und maximiert dabei ausschliesslich den eigenen Nutzen, ohne (in der engsten Fassung) Ruecksicht auf Interessen Dritter zu nehmen.",
+        "Alternative Menschenbilder: homo agens (von Mises 1940) und homo sociologicus (Dahrendorf 1965).",
+        "Quelle: Freiling, Reckenfelderbaeumer (2010), S. 8."
+      ]
+    },
+    {
+      "heading": "Der Mensch handelt: Makro-, Meso- und Mikrostruktur",
+      "points": [
+        "Handeln wird auf drei Ebenen betrachtet: Makrostruktur (Wirtschaftssystem), Mesostruktur (Unternehmung) und Mikrostruktur (individueller Akteur).",
+        "Makroebene: Wirtschaftssystem, Institutionen (z. B. Eigentumsrechte/NIO), technologische Leistungsfaehigkeit des Landes, Gewaehrleistung und Sicherheit des Privateigentums, innerer/aeusserer Frieden, Zustand der natuerlichen Umwelt.",
+        "Mesoebene: Unternehmung als Hierarchie und Weisungen, Markt (MBV) mit Wettbewerb und Preis sowie Unternehmenskooperation (Konsens).",
+        "Mikroebene: Akteur mit Zielen und Praeferenzen (Zeitpraeferenz/Zins, Rangfolge der Gueter), Mittel/Ressourcen, wirtschaftliche Kalkulation, Handlungsrestriktionen (Budget, Gebote, Verbote, Rechte Dritter) sowie Entscheidung unter Risiko und Sicherheit.",
+        "System-Ziele und universelle Beurteilungsprinzipien: Effizienz und Wirtschaftlichkeitsprinzip, Resilienz/Flexibilitaet, Innovation, Legalitaet/Legitimitaet/Akzeptanz sowie Ethik (Prinzip Verantwortung, Nachhaltigkeit).",
+        "Ergebnis des Handelns wird bewertet nach Kosten, Ertrag, Gewinn, Verlust und Innovation (radikal vs. inkremental)."
+      ]
+    },
+    {
+      "heading": "Entscheidungssituationen in der BWL",
+      "points": [
+        "Die Entscheidungssituation haengt vom Informationsstand ueber die Konsequenzen des Handelns ab.",
+        "Vollkommene Information: Konsequenzen sind vollstaendig bekannt = Entscheidung bei sicheren Erwartungen (Sicherheit).",
+        "Unvollkommene Information mit bekannter Eintrittswahrscheinlichkeit: Entscheidung unter Risiko; Regeln: mu-/Bayes-Prinzip, mu-sigma-Prinzip, Bernoulli-Prinzip.",
+        "Unvollkommene Information mit unbekannter Eintrittswahrscheinlichkeit: Entscheidung bei unsicheren Erwartungen (Ungewissheit); Regeln: Laplace-Regel, Minimax-Regel, Maximax-Regel, Hurwicz-Regel, Savage-Niehans-Regel.",
+        "Der vierte Fall (unvollkommene Information, Konsequenzen unbestimmt) beschreibt vollstaendige Unsicherheit.",
+        "Quelle: in Anlehnung an Woehe, Doering (2010), S. 91-106."
+      ]
+    },
+    {
+      "heading": "Forschungsmethoden der BWL (Empirie)",
+      "points": [
+        "Empirische Forschung gliedert sich in Datenerhebung und Datenauswertung.",
+        "Datenerhebung: passive Feldstudien (Beobachtungen, Befragungen), aktive Feldstudien (Feldforschung, Aktionsforschung) und Laborexperimente.",
+        "Datenauswertung: statistische Verfahren (Haeufigkeitsverteilungen, Korrelationsanalysen, Regressionsanalysen, Varianzanalysen) sowie Simulation.",
+        "Passive Feldstudien greifen nicht in das Geschehen ein, aktive Feldstudien manipulieren gezielt Variablen im realen Feld.",
+        "Quelle: Hill, Fehlbaum, Ulrich (1994), S. 49 ff."
+      ]
+    },
+    {
+      "heading": "Resource Based View of the Firm (RBV)",
+      "points": [
+        "Der RBV erklaert Wettbewerbsvorteile aus den unternehmensinternen Ressourcen (Inside-out-Perspektive).",
+        "Ressourcenhierarchie: Ressourcen i. e. S. (physisches Kapital, Humankapital, Managementteam, organisationales Kapital, Technologie, finanzielle Ressourcen, Reputation, Unternehmenskultur), darauf aufbauend Routinen i. w. S./Kernkompetenzen, Dynamic Capabilities und visionaer-prospektive Faehigkeiten.",
+        "Ein verteidigungsfaehiger Wettbewerbsvorteil entsteht durch Ressourcenheterogenitaet, Spezifitaet, erschwerte Imitation, erschwerte Substitution und geeignete Organisation des Ressourceneinsatzes.",
+        "Voraussetzung fuer die unternehmerische Rente sind Appropriierbarkeit (Aneignbarkeit der Ertraege) und Wert fuer Kunden.",
+        "Beispiel Honda: Kernkompetenz Brennraumgestaltung/Motorenbau fuehrt ueber Kernprodukte (Motoren) zu Endprodukten in verschiedenen Geschaeftsfeldern (PKW, Motorrad, Boote).",
+        "Quelle: Burr (2017), S. 145-151."
+      ]
+    },
+    {
+      "heading": "Oekonomische Renten und ressourcenorientierte Strategie",
+      "points": [
+        "Renten werden erzielt, wenn die mithilfe der Ressourcen erwirtschafteten Erloese ueber den Opportunitaetskosten dieser Ressourcen liegen.",
+        "Arten von Renten: Ricardo-Renten (Knappheitsrenten), Quasi-Renten (Rente durch Spezifitaet), Schumpeter-Renten (basieren auf Innovationsgewinnen) und Monopol-Renten (Marktmacht, Produkt-Markt-Kombinationen).",
+        "Strategie nach Lebenszyklus der Kompetenzen: Entstehungsphase (Kompetenzen aufbauen und weiterentwickeln), Wachstumsphase (Kompetenzen pflegen und erhalten), Reifephase (Kompetenzen verwerten), Altersphase (nach Moeglichkeiten der Ressourcenfreisetzung suchen).",
+        "Die strategische Empfehlung ergibt sich aus strategischer Relevanz und relativer Eigenkompetenz.",
+        "Quelle: Burr (2017), S. 136, 182."
+      ]
+    },
+    {
+      "heading": "Market Based View nach Porter",
+      "points": [
+        "Der MBV erklaert Wettbewerbsvorteile aus der Marktstruktur (Outside-in-Perspektive).",
+        "Die fuenf Wettbewerbskraefte (Five Forces): Bedrohung durch neue/potenzielle Konkurrenten, Verhandlungsstaerke der Abnehmer (Kunden), Verhandlungsstaerke der Lieferanten (Zulieferer), Bedrohung durch Ersatzprodukte (Substitute) und Rivalitaet unter den bestehenden Unternehmen der Branche.",
+        "Drei generische Strategien nach Porter: umfassende Kostenfuehrerschaft (Kostenvorsprung, branchenweit), Differenzierung (Singularitaet aus Sicht des Kaeufers, branchenweit) und Konzentration auf Schwerpunkte (Fokus, beschraenkt auf ein Segment).",
+        "Dimensionen: strategischer Vorteil (Kostenvorsprung vs. Singularitaet) und strategisches Zielobjekt (branchenweit vs. ein Segment).",
+        "Quelle: Burr (2017), S. 155-156."
+      ]
+    },
+    {
+      "heading": "Verfuegungsrechteansatz (Property Rights Theorie)",
+      "points": [
+        "Erkenntnisinteresse: Welche Auswirkungen haben Gestaltung und Verteilung von Verfuegungsrechten auf das Verhalten oekonomischer Akteure, und wie lassen sich Entstehung, Verteilung und Wandel dieser Rechte erklaeren?",
+        "Grundannahmen: individuelle Nutzenmaximierung; Verfuegungsrechte umfassen usus (Nutzung), usus fructus (Fruchtziehung/Ertrag), abusus (Veraenderung/Veraeusserung) und die Uebertragung dieser Rechte.",
+        "Unklar definierte Verfuegungsrechte haben externe Effekte (Externalitaeten) zur Folge; Anbahnung, Formulierung, Durchsetzung und Kontrolle verursachen Transaktionskosten.",
+        "Kernaussage: Akteure etablieren solche Verfuegungsrechtestrukturen, die ihren Nettonutzen maximieren, d. h. die Summe aus Transaktionskosten und externen Effekten minimieren (Effizienz, Anreize).",
+        "Anwendungsbereiche: oeffentliches Eigentum, Haftungsregeln im Umweltschutz, staatliche Regulierung, Organisationsstrukturen, Anreizsysteme, Patentrecht.",
+        "Quelle: Burr (2017), S. 124-127."
+      ]
+    },
+    {
+      "heading": "Transaktionskostenansatz",
+      "points": [
+        "Erkenntnisinteresse: Welche Transaktionen lassen sich mit welchen institutionellen Arrangements (Markt - Kooperation - Hierarchie) effizient abwickeln?",
+        "Verhaltensannahmen der Akteure: begrenzte Rationalitaet und Opportunismus.",
+        "Charakteristika von Transaktionstypen: spezifische Investitionen (Spezifitaet), Unsicherheit und Haeufigkeit der Transaktion.",
+        "Kernaussage: Das effiziente Arrangement ist dasjenige, das (bei konstanten Produktionskosten) die geringsten Transaktionskosten verursacht.",
+        "Anwendungsbereiche: Unternehmensgrenzen, konkret Make-or-Buy-Entscheidungen wie Outsourcing, Kooperation oder Eigenfertigung.",
+        "Quelle: Burr (2004), S. 127-131; Burr et al. (2011), S. 9-17."
+      ]
+    },
+    {
+      "heading": "Agenturansatz (Agency Theorie)",
+      "points": [
+        "Erkenntnisinteresse: Gestaltung der Beziehung zwischen Auftraggeber (Prinzipal) und Auftragnehmer (Agent).",
+        "Grundannahmen: individuelle Nutzenmaximierung und opportunistisches Verhalten; der Prinzipal ist risikoneutral, der Agent risikoavers.",
+        "Agenturprobleme: hidden characteristics / adverse selection (vor Vertragsschluss), hidden action / moral hazard (nach Vertragsschluss, nicht beobachtbares Handeln) und hidden intention / hold up (Ausnutzen spezifischer Investitionen).",
+        "Agenturkosten (Agency Kosten): beim Prinzipal Kontroll- und Residualkosten, beim Agenten Garantiekosten.",
+        "Kernaussage: Design effizienter Anreiz-, Kontroll- und Informationsmechanismen, die die Agency-Kosten senken.",
+        "Anwendungsbereiche: Gestaltung von Anreiz- und Kontrollsystemen sowie die Trennung von Eigentum und Kontrolle (Eigentuemer vs. Manager).",
+        "Quelle: Burr (2004), S. 131-134."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Theoretisches Wissenschaftsziel",
+      "definition": "Ziel der BWL, Unternehmen zu beschreiben, ihre Funktionsweise mit gesetzesaehnlichen Aussagen zu erklaeren und aufgrund erkannter Zusammenhaenge Prognosen zu treffen."
+    },
+    {
+      "term": "Pragmatisches Wissenschaftsziel",
+      "definition": "Ziel der BWL, praktisch umsetzbare Handlungsanweisungen fuer die betriebliche Praxis zu formulieren; begruendet die BWL als angewandte Wissenschaft."
+    },
+    {
+      "term": "Homo oeconomicus",
+      "definition": "Modellhaftes Menschenbild eines rein rationalen, ausschliesslich eigennutzmaximierenden Akteurs mit gegebenem, konstantem Praeferenzsystem, der bei knappen Mitteln unter Restriktionen entscheidet."
+    },
+    {
+      "term": "Homo agens",
+      "definition": "Von Mises (1940) gepraegtes Menschenbild des zielgerichtet handelnden Menschen als Alternative zum homo oeconomicus."
+    },
+    {
+      "term": "Entscheidung unter Sicherheit",
+      "definition": "Entscheidungssituation bei vollkommener Information, in der die Konsequenzen des Handelns vollstaendig bekannt sind (sichere Erwartungen)."
+    },
+    {
+      "term": "Entscheidung unter Risiko",
+      "definition": "Entscheidungssituation bei unvollkommener Information, in der die Eintrittswahrscheinlichkeiten der Konsequenzen bekannt sind; Regeln u. a. Bayes-, mu-sigma- und Bernoulli-Prinzip."
+    },
+    {
+      "term": "Entscheidung bei unsicheren Erwartungen (Ungewissheit)",
+      "definition": "Entscheidungssituation bei unvollkommener Information, in der die Eintrittswahrscheinlichkeiten unbekannt sind; Regeln u. a. Laplace, Minimax, Maximax, Hurwicz und Savage-Niehans."
+    },
+    {
+      "term": "Resource Based View (RBV)",
+      "definition": "Strategieansatz (Inside-out), der Wettbewerbsvorteile aus wertvollen, heterogenen und schwer imitierbaren internen Ressourcen und Kompetenzen des Unternehmens erklaert."
+    },
+    {
+      "term": "Kernkompetenz",
+      "definition": "Buendel von Faehigkeiten und Routinen, das den Kundennutzen stiftet, schwer imitierbar ist und Zugang zu mehreren Maerkten eroeffnet (im Honda-Beispiel: Brennraumgestaltung)."
+    },
+    {
+      "term": "Oekonomische Rente",
+      "definition": "Ertrag, der entsteht, wenn die mithilfe von Ressourcen erwirtschafteten Erloese ueber den Opportunitaetskosten dieser Ressourcen liegen; Arten: Ricardo-, Quasi-, Schumpeter- und Monopol-Rente."
+    },
+    {
+      "term": "Market Based View (MBV) / Five Forces",
+      "definition": "Strategieansatz nach Porter (Outside-in), der die Attraktivitaet einer Branche und Wettbewerbsvorteile aus fuenf Wettbewerbskraeften ableitet: neue Konkurrenten, Abnehmer, Lieferanten, Substitute und interne Rivalitaet."
+    },
+    {
+      "term": "Generische Strategien nach Porter",
+      "definition": "Drei grundlegende Wettbewerbsstrategien: Kostenfuehrerschaft, Differenzierung und Konzentration auf Schwerpunkte (Fokus)."
+    },
+    {
+      "term": "Verfuegungsrechte (Property Rights)",
+      "definition": "Rechte an Guetern: usus (Nutzung), usus fructus (Fruchtziehung/Ertrag), abusus (Veraenderung/Veraeusserung) und das Recht der Uebertragung dieser Rechte."
+    },
+    {
+      "term": "Externe Effekte (Externalitaeten)",
+      "definition": "Auswirkungen wirtschaftlichen Handelns auf Dritte, die nicht ueber den Markt vergueltet werden; entstehen v. a. bei unklar definierten Verfuegungsrechten."
+    },
+    {
+      "term": "Transaktionskosten",
+      "definition": "Kosten der Anbahnung, Vereinbarung, Durchsetzung, Kontrolle und Anpassung von Transaktionen; massgeblich fuer die Wahl zwischen Markt, Kooperation und Hierarchie."
+    },
+    {
+      "term": "Institutionelle Arrangements",
+      "definition": "Koordinationsformen wirtschaftlicher Transaktionen entlang eines Kontinuums von Markt ueber Kooperation bis Hierarchie (Unternehmen)."
+    },
+    {
+      "term": "Begrenzte Rationalitaet",
+      "definition": "Verhaltensannahme, dass Akteure zwar rational handeln wollen, dies aber nur eingeschraenkt koennen (unvollstaendige Information, begrenzte Verarbeitungskapazitaet)."
+    },
+    {
+      "term": "Agenturansatz (Agency Theorie)",
+      "definition": "Ansatz zur Gestaltung der Beziehung zwischen risikoneutralem Prinzipal (Auftraggeber) und risikoaversem Agent (Auftragnehmer) unter Informationsasymmetrie und Opportunismus."
+    },
+    {
+      "term": "Moral Hazard (hidden action)",
+      "definition": "Agenturproblem nach Vertragsschluss: Der Prinzipal kann das Handeln des Agenten nicht beobachten, sodass dieser sich opportunistisch verhalten kann."
+    },
+    {
+      "term": "Adverse Selection (hidden characteristics)",
+      "definition": "Agenturproblem vor Vertragsschluss: Der Prinzipal kennt verborgene Eigenschaften des Agenten nicht und waehlt dadurch moeglicherweise den falschen Vertragspartner aus."
+    },
+    {
+      "term": "Agency-Kosten",
+      "definition": "Kosten der Prinzipal-Agent-Beziehung: Kontroll- und Residualkosten beim Prinzipal sowie Garantiekosten (Signalisierungs-/Bindungskosten) beim Agenten."
+    }
+  ],
+  "kernpunkte": [
+    "Die BWL verfolgt ein theoretisches (beschreiben, erklaeren, prognostizieren) und ein pragmatisches (Handlungsanweisungen) Wissenschaftsziel und versteht sich als angewandte Wissenschaft.",
+    "Der homo oeconomicus ist das Modell eines rein rationalen, eigennutzmaximierenden Akteurs mit konstantem Praeferenzsystem, der unter Knappheit und Restriktionen entscheidet.",
+    "Entscheidungssituationen unterscheiden sich nach dem Informationsstand in Sicherheit, Risiko (Wahrscheinlichkeiten bekannt) und Ungewissheit (Wahrscheinlichkeiten unbekannt).",
+    "Empirische BWL-Forschung kombiniert Datenerhebung (Feldstudien, Laborexperimente) mit Datenauswertung (Statistik, Simulation).",
+    "Der Resource Based View erklaert Wettbewerbsvorteile aus internen Ressourcen und Kernkompetenzen, der Market Based View nach Porter aus den fuenf Wettbewerbskraeften der Branche.",
+    "Der Verfuegungsrechteansatz besagt, dass Akteure Rechtestrukturen etablieren, die ihren Nettonutzen maximieren, indem sie Transaktionskosten und externe Effekte minimieren.",
+    "Der Transaktionskostenansatz bestimmt das effiziente institutionelle Arrangement (Markt, Kooperation, Hierarchie) anhand der geringsten Transaktionskosten.",
+    "Der Agenturansatz zielt auf effiziente Anreiz-, Kontroll- und Informationsmechanismen, um Agency-Kosten aus Informationsasymmetrien zwischen Prinzipal und Agent zu senken."
+  ],
+  "flashcards": [
+    {
+      "front": "Nenne die beiden Wissenschaftsziele der BWL.",
+      "back": "Theoretisches Wissenschaftsziel (Beschreibung, Erklaerung mit gesetzesaehnlichen Aussagen, Prognose) und pragmatisches Wissenschaftsziel (praktisch umsetzbare Handlungsanweisungen)."
+    },
+    {
+      "front": "Wodurch versteht sich die BWL als angewandte Wissenschaft?",
+      "back": "Durch ihr pragmatisches Wissenschaftsziel, das auf praktisch umsetzbare Handlungsanweisungen fuer die Praxis abzielt."
+    },
+    {
+      "front": "Welche vier Eigenschaften kennzeichnen den homo oeconomicus?",
+      "back": "Handeln bei knappen Mitteln/begrenzten Spielraeumen, gegebenes und konstantes Praeferenzsystem, vollstaendiger Handlungsraum mit bekannten Konsequenzen, ausschliessliche Maximierung des eigenen Nutzens unter Restriktionen."
+    },
+    {
+      "front": "Welche alternativen Menschenbilder werden dem homo oeconomicus gegenuebergestellt?",
+      "back": "Homo agens (von Mises 1940) und homo sociologicus (Dahrendorf 1965)."
+    },
+    {
+      "front": "Wie unterscheiden sich Entscheidung unter Risiko und unter Ungewissheit?",
+      "back": "Bei Risiko sind die Eintrittswahrscheinlichkeiten der Konsequenzen bekannt, bei Ungewissheit (unsichere Erwartungen) sind sie unbekannt."
+    },
+    {
+      "front": "Nenne Entscheidungsregeln bei Ungewissheit (unsichere Erwartungen).",
+      "back": "Laplace-Regel, Minimax-Regel, Maximax-Regel, Hurwicz-Regel und Savage-Niehans-Regel."
+    },
+    {
+      "front": "Nenne die Entscheidungsprinzipien unter Risiko.",
+      "back": "mu-/Bayes-Prinzip, mu-sigma-Prinzip und Bernoulli-Prinzip."
+    },
+    {
+      "front": "Welche Forschungsmethoden zur Datenerhebung kennt die BWL?",
+      "back": "Passive Feldstudien (Beobachtungen, Befragungen), aktive Feldstudien (Feldforschung, Aktionsforschung) und Laborexperimente."
+    },
+    {
+      "front": "Was besagt der Resource Based View?",
+      "back": "Wettbewerbsvorteile entstehen aus internen, heterogenen, spezifischen und schwer imitierbaren Ressourcen und Kernkompetenzen (Inside-out-Perspektive)."
+    },
+    {
+      "front": "Nenne die vier Arten oekonomischer Renten.",
+      "back": "Ricardo-Renten (Knappheit), Quasi-Renten (Spezifitaet), Schumpeter-Renten (Innovation) und Monopol-Renten (Marktmacht)."
+    },
+    {
+      "front": "Welche fuenf Wettbewerbskraefte nennt Porter?",
+      "back": "Potenzielle neue Konkurrenten, Verhandlungsstaerke der Abnehmer, Verhandlungsstaerke der Lieferanten, Bedrohung durch Substitute und Rivalitaet unter bestehenden Unternehmen."
+    },
+    {
+      "front": "Welche drei generischen Strategien nennt Porter?",
+      "back": "Umfassende Kostenfuehrerschaft, Differenzierung und Konzentration auf Schwerpunkte (Fokus)."
+    },
+    {
+      "front": "Welche Teilrechte umfassen Verfuegungsrechte?",
+      "back": "Usus (Nutzung), usus fructus (Fruchtziehung/Ertrag), abusus (Veraenderung/Veraeusserung) und die Uebertragung dieser Rechte."
+    },
+    {
+      "front": "Was ist die Kernaussage des Verfuegungsrechteansatzes?",
+      "back": "Akteure etablieren solche Verfuegungsrechtestrukturen, die ihren Nettonutzen maximieren, d. h. die Summe aus Transaktionskosten und externen Effekten minimieren."
+    },
+    {
+      "front": "Welche drei Charakteristika von Transaktionstypen sind entscheidend?",
+      "back": "Spezifische Investitionen (Spezifitaet), Unsicherheit und Haeufigkeit der Transaktion."
+    },
+    {
+      "front": "Was ist die Kernaussage des Transaktionskostenansatzes?",
+      "back": "Das effiziente institutionelle Arrangement (Markt, Kooperation oder Hierarchie) ist dasjenige, das bei konstanten Produktionskosten die geringsten Transaktionskosten verursacht."
+    },
+    {
+      "front": "Nenne die drei Agenturprobleme.",
+      "back": "Hidden characteristics / adverse selection, hidden action / moral hazard und hidden intention / hold up."
+    },
+    {
+      "front": "Wie sind Prinzipal und Agent hinsichtlich Risiko charakterisiert und welche Agency-Kosten entstehen?",
+      "back": "Prinzipal ist risikoneutral (Kontroll- und Residualkosten), Agent ist risikoavers (Garantiekosten)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Welche Aussage beschreibt das theoretische Wissenschaftsziel der BWL?",
+      "options": [
+        "Beschreibung von Unternehmen, Erklaerung mit gesetzesaehnlichen Aussagen und Prognose",
+        "Formulierung praktisch umsetzbarer Handlungsanweisungen",
+        "Minimierung der Transaktionskosten im Unternehmen",
+        "Maximierung des Nettonutzens der Verfuegungsrechte"
+      ],
+      "answer": 0,
+      "explanation": "Das theoretische Wissenschaftsziel umfasst Beschreibung, Erklaerung mit gesetzesaehnlichen Aussagen und Prognose. Handlungsanweisungen gehoeren zum pragmatischen Ziel."
+    },
+    {
+      "question": "Welche Eigenschaft trifft auf den homo oeconomicus NICHT zu?",
+      "options": [
+        "Er verfuegt ueber ein gegebenes und konstantes Praeferenzsystem",
+        "Er handelt in einer Situation knapper Mittel",
+        "Er beruecksichtigt in der engsten Fassung stets die Interessen Dritter",
+        "Er maximiert ausschliesslich seinen eigenen Nutzen"
+      ],
+      "answer": 2,
+      "explanation": "Der homo oeconomicus maximiert ausschliesslich den eigenen Nutzen und nimmt in der engsten Fassung keine Ruecksicht auf die Interessen Dritter."
+    },
+    {
+      "question": "Bei welcher Entscheidungssituation sind die Eintrittswahrscheinlichkeiten der Konsequenzen bekannt?",
+      "options": [
+        "Entscheidung bei sicheren Erwartungen",
+        "Entscheidung unter Risiko",
+        "Entscheidung bei unsicheren Erwartungen",
+        "Entscheidung bei vollstaendiger Unsicherheit"
+      ],
+      "answer": 1,
+      "explanation": "Bei der Entscheidung unter Risiko sind die Eintrittswahrscheinlichkeiten bekannt; angewandt werden u. a. Bayes-, mu-sigma- und Bernoulli-Prinzip."
+    },
+    {
+      "question": "Welche Regel gehoert zu den Entscheidungen bei unsicheren Erwartungen (Ungewissheit)?",
+      "options": [
+        "Bernoulli-Prinzip",
+        "Bayes-Prinzip",
+        "Hurwicz-Regel",
+        "mu-sigma-Prinzip"
+      ],
+      "answer": 2,
+      "explanation": "Die Hurwicz-Regel gehoert (neben Laplace, Minimax, Maximax und Savage-Niehans) zu den Regeln bei unsicheren Erwartungen. Bayes-, Bernoulli- und mu-sigma-Prinzip gelten fuer Entscheidungen unter Risiko."
+    },
+    {
+      "question": "Welche Perspektive nimmt der Resource Based View ein?",
+      "options": [
+        "Outside-in (Marktstruktur bestimmt den Erfolg)",
+        "Inside-out (interne Ressourcen bestimmen den Erfolg)",
+        "Ausschliesslich transaktionskostenbasiert",
+        "Ausschliesslich prinzipal-agent-basiert"
+      ],
+      "answer": 1,
+      "explanation": "Der RBV erklaert Wettbewerbsvorteile aus internen Ressourcen und Kompetenzen (Inside-out). Die Outside-in-Sicht entspricht dem Market Based View nach Porter."
+    },
+    {
+      "question": "Welche Rente basiert auf Innovationsgewinnen?",
+      "options": [
+        "Ricardo-Rente",
+        "Quasi-Rente",
+        "Schumpeter-Rente",
+        "Monopol-Rente"
+      ],
+      "answer": 2,
+      "explanation": "Schumpeter-Renten basieren auf Innovationsgewinnen. Ricardo-Renten sind Knappheitsrenten, Quasi-Renten entstehen durch Spezifitaet, Monopol-Renten durch Marktmacht."
+    },
+    {
+      "question": "Welche der folgenden Kraefte gehoert NICHT zu Porters fuenf Wettbewerbskraeften?",
+      "options": [
+        "Verhandlungsstaerke der Lieferanten",
+        "Bedrohung durch Ersatzprodukte",
+        "Verhandlungsstaerke der Abnehmer",
+        "Hoehe der internen Transaktionskosten"
+      ],
+      "answer": 3,
+      "explanation": "Die Transaktionskosten gehoeren nicht zu den Five Forces. Diese sind: neue Konkurrenten, Abnehmer, Lieferanten, Substitute und interne Rivalitaet."
+    },
+    {
+      "question": "Was bezeichnet 'usus fructus' im Verfuegungsrechteansatz?",
+      "options": [
+        "Das Recht, ein Gut zu nutzen",
+        "Das Recht auf Fruchtziehung bzw. Ertrag aus einem Gut",
+        "Das Recht, ein Gut zu veraendern oder zu veraeussern",
+        "Das Recht, Verfuegungsrechte zu uebertragen"
+      ],
+      "answer": 1,
+      "explanation": "Usus fructus ist das Recht auf Fruchtziehung/Ertrag. Usus = Nutzung, abusus = Veraenderung/Veraeusserung, hinzu kommt das Uebertragungsrecht."
+    },
+    {
+      "question": "Was ist die Kernaussage des Transaktionskostenansatzes?",
+      "options": [
+        "Das Arrangement mit den geringsten Transaktionskosten ist bei konstanten Produktionskosten das effiziente",
+        "Akteure maximieren ihren Nettonutzen durch geeignete Verfuegungsrechte",
+        "Effiziente Anreiz- und Kontrollmechanismen senken die Agency-Kosten",
+        "Wettbewerbsvorteile entstehen aus schwer imitierbaren Ressourcen"
+      ],
+      "answer": 0,
+      "explanation": "Der Transaktionskostenansatz waehlt bei konstanten Produktionskosten das institutionelle Arrangement (Markt, Kooperation, Hierarchie) mit den geringsten Transaktionskosten."
+    },
+    {
+      "question": "Welche Verhaltensannahmen gelten im Transaktionskostenansatz fuer die Akteure?",
+      "options": [
+        "Vollstaendige Rationalitaet und Altruismus",
+        "Begrenzte Rationalitaet und Opportunismus",
+        "Risikoneutralitaet und Kooperationsbereitschaft",
+        "Konstante Praeferenzen und vollstaendige Information"
+      ],
+      "answer": 1,
+      "explanation": "Der Transaktionskostenansatz unterstellt begrenzte Rationalitaet und Opportunismus als Verhaltensannahmen der Akteure."
+    },
+    {
+      "question": "Welches Agenturproblem tritt nach Vertragsschluss durch nicht beobachtbares Handeln auf?",
+      "options": [
+        "Hidden characteristics / adverse selection",
+        "Hidden action / moral hazard",
+        "Hidden intention / hold up",
+        "Adverse Appropriierbarkeit"
+      ],
+      "answer": 1,
+      "explanation": "Hidden action / moral hazard beschreibt das nicht beobachtbare Handeln des Agenten nach Vertragsschluss. Adverse selection tritt vor Vertragsschluss auf, hold up betrifft spezifische Investitionen."
+    },
+    {
+      "question": "Wie sind Prinzipal und Agent hinsichtlich ihrer Risikoeinstellung annahmegemaess charakterisiert?",
+      "options": [
+        "Beide sind risikoneutral",
+        "Prinzipal risikoavers, Agent risikoneutral",
+        "Prinzipal risikoneutral, Agent risikoavers",
+        "Beide sind risikoavers"
+      ],
+      "answer": 2,
+      "explanation": "Im Agenturansatz wird der Prinzipal als risikoneutral und der Agent als risikoavers angenommen."
+    }
+  ]
+}

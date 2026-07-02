@@ -1,0 +1,175 @@
+{
+  "id": "04",
+  "title": "Grundlagen der Produktionswirtschaft",
+  "pdf": "courses/eib/folien/04.pdf",
+  "summary": "Der Foliensatz führt in die Produktionswirtschaft als betriebliche Funktion ein und klärt den Produktionsbegriff nach Bea et al. Er behandelt die Ziele der Produktionswirtschaft (Sachziel und Teilziele), die Systematik der Produktionsfaktoren (Elementarfaktoren und dispositive Faktoren) sowie die Grundlagen der Produktionsstrategie mittels Umwelt- und Unternehmensanalyse. Den Schwerpunkt bildet die Produktionsprogrammplanung bei knappen Ressourcen, die als lineares Optimierungsproblem formuliert und mit der Simplex-Methode gelöst wird.",
+  "sections": [
+    {
+      "heading": "Produktionsbegriff",
+      "points": [
+        "Allgemeine Definition: Herstellung, Fabrikation oder Fertigung von Gütern, wobei sowohl Sachgüter als auch Dienstleistungen umfasst sind.",
+        "In der BWL wird Produktion als eine betriebliche Funktion verstanden, die neben weiteren Funktionen wie Beschaffung und Absatz steht.",
+        "Definition nach Bea et al.: Unter Produktion werden der industrielle Abbau von Material, die Be- und Verarbeitung (einschließlich Teilefertigung, Montage und Konfektion) sowie die Ausführung von Dienstleistungen verstanden.",
+        "Der Produktionsbegriff ist damit breit angelegt und schließt ausdrücklich auch Dienstleistungen ein, nicht nur die klassische Sachgüterfertigung."
+      ]
+    },
+    {
+      "heading": "Ziele der Produktionswirtschaft",
+      "points": [
+        "Sachziel: In Abstimmung mit den nachgefragten Sach- und Dienstleistungen erstellt ein Betrieb sein Produktionsprogramm.",
+        "Die Erfüllung des Sachziels erfolgt mengen-, qualitäts- und zeitgerecht an einem bestimmten Ort.",
+        "Produktionswirtschaftliche Teilziele lassen sich aus den übergeordneten Unternehmungszielen ableiten.",
+        "Teilziele können miteinander in Konflikt stehen (Zielkonflikte), zum Beispiel die Senkung der Produktionskosten auf ein Minimum gegenüber einer Verbesserung der Produktqualität."
+      ]
+    },
+    {
+      "heading": "Produktionsfaktoren",
+      "points": [
+        "Produktionsfaktoren werden in zwei Gruppen unterteilt: Elementarfaktoren und dispositive Faktoren.",
+        "Elementarfaktoren umfassen die Werkstoffe, die Betriebsmittel und die ausführende menschliche Arbeit.",
+        "Dispositive Faktoren umfassen die dispositive menschliche Arbeit, die der Betriebs- und Geschäftsleitung entspricht.",
+        "Die dispositiven Faktoren dienen der Umsetzung des betrieblich Gewollten und beinhalten die Aufgaben Planung und Organisation.",
+        "Diese Faktorsystematik geht auf die Produktionsfaktorenlehre nach Gutenberg zurück und ordnet die Faktoren nach ihrer Funktion im Leistungsprozess."
+      ]
+    },
+    {
+      "heading": "Produktionsstrategie",
+      "points": [
+        "Zur Ermittlung von Produktionsstrategien nehmen Unternehmen zwei Analysen vor: die Umweltanalyse und die Unternehmensanalyse.",
+        "Umweltanalyse: Sie liefert Informationen über die Unternehmensumwelt, zum Beispiel über die Auftragslage, Nachfrage- sowie Angebotsänderungen bei den Lieferanten, Entwicklungen der Technik und das Verhalten der Konkurrenten.",
+        "Unternehmensanalyse: Sie dient der Ermittlung der Potenziale des Produktionssystems zur Entscheidung über Strategien.",
+        "Gegenstände der Unternehmensanalyse sind zum Beispiel das Produktionsprogramm, die Organisationstypen der Fertigung und die Auslastung von Kapazitäten.",
+        "Aus dem Zusammenspiel von externer (Umwelt) und interner (Unternehmen) Analyse werden geeignete Produktionsstrategien abgeleitet."
+      ]
+    },
+    {
+      "heading": "Produktionsprogrammplanung",
+      "points": [
+        "Entscheidungsobjekte sind die Produkte (P1 bis Pn) mit ihrem jeweiligen Zielbeitrag pro Einheit, zum Beispiel dem Deckungsbeitrag (Erlös minus variable Kosten).",
+        "Diese Zielbeiträge bilden die Grundlage für die Entscheidung über die Verwendung der knappen Ressourcen.",
+        "Mehrere knappe Ressourcen bzw. Kapazitäten (Personal, Finanzen, Anlagen, Rohstoffe) und deren Interdependenzen führen zu Planungsproblemen.",
+        "Simultan müssen mehrere Engpässe bzw. Restriktionen berücksichtigt werden, da die Entscheidungsobjekte die Kapazitäten in unterschiedlichem Maße binden.",
+        "Gesucht sind die Planmengen (X1 bis Xn) innerhalb einer zu optimierenden Zielfunktion.",
+        "Beispiele für Optimierungskriterien sind die Maximierung des Gewinnes oder die Maximierung des Deckungsbeitrages."
+      ]
+    },
+    {
+      "heading": "Lineare Optimierung mit der Simplex-Methode",
+      "points": [
+        "Die Produktionsprogrammplanung wird als lineares Optimierungsproblem formuliert und mit der Simplex-Methode gelöst.",
+        "Zielfunktion (Gewinnmaximierung): G = Summe der (d_j mal x_j) minus fixe Kosten K^f, maximieren.",
+        "Kapazitätsbeschränkungen als Nebenbedingung: Summe der (a_ij mal x_j) kleiner gleich b_i, für i = 1 bis m.",
+        "Absatzbeschränkungen: x_j kleiner gleich h_j (Absatzhöchstmenge), für j = 1 bis n.",
+        "Nichtnegativitätsbedingung: x_j groesser gleich 0, für j = 1 bis n (Produktionsmengen können nicht negativ sein).",
+        "Symbole: K^f = fixe Kosten, d_j = Deckungsbeitrag je Stück für Produkt j, x_j = Produktionsmenge für Produkt j, a_ij = Menge Einsatzgüter i zur Fertigung einer Produkteinheit j, h_j = Absatzhöchstmenge.",
+        "Grafische Lösung: Die Nebenbedingungen spannen einen Raum zulässiger Lösungen auf; die optimale Lösung liegt in einer Ecke dieses Lösungsraums, in der die Zielfunktion G* ihren Höchstwert erreicht."
+      ]
+    }
+  ],
+  "glossary": [
+    {"term": "Produktion", "definition": "Herstellung, Fabrikation oder Fertigung von Gütern; nach Bea et al. der industrielle Abbau von Material, die Be- und Verarbeitung sowie die Ausführung von Dienstleistungen."},
+    {"term": "Produktionswirtschaft", "definition": "Betriebliche Funktion, die sich mit der Planung, Steuerung und Kontrolle der Leistungserstellung befasst und ein Produktionsprogramm mengen-, qualitäts- und zeitgerecht erfüllt."},
+    {"term": "Sachziel", "definition": "Ziel, in Abstimmung mit der Nachfrage ein Produktionsprogramm zu erstellen und mengen-, qualitäts- und zeitgerecht an einem bestimmten Ort zu erfüllen."},
+    {"term": "Produktionswirtschaftliche Teilziele", "definition": "Aus den Unternehmungszielen abgeleitete Ziele der Produktion, die miteinander in Konflikt stehen können (z.B. Kostensenkung versus Qualitätsverbesserung)."},
+    {"term": "Produktionsfaktoren", "definition": "Einsatzgüter des Produktionsprozesses, die in Elementarfaktoren und dispositive Faktoren unterteilt werden."},
+    {"term": "Elementarfaktoren", "definition": "Werkstoffe, Betriebsmittel und ausführende menschliche Arbeit; die unmittelbar am Leistungsprozess beteiligten Faktoren."},
+    {"term": "Dispositive Faktoren", "definition": "Dispositive menschliche Arbeit der Betriebs- und Geschäftsleitung zur Umsetzung des betrieblich Gewollten; umfasst Planung und Organisation."},
+    {"term": "Werkstoffe", "definition": "Elementarfaktor; die für die Produktion eingesetzten Materialien wie Roh-, Hilfs- und Betriebsstoffe."},
+    {"term": "Betriebsmittel", "definition": "Elementarfaktor; die zur Produktion genutzten Anlagen, Maschinen und Einrichtungen."},
+    {"term": "Umweltanalyse", "definition": "Analyse zur Gewinnung von Informationen über die Unternehmensumwelt, z.B. Auftragslage, Nachfrage- und Angebotsänderungen, Technikentwicklung und Konkurrenzverhalten."},
+    {"term": "Unternehmensanalyse", "definition": "Analyse zur Ermittlung der Potenziale des Produktionssystems (z.B. Produktionsprogramm, Organisationstypen der Fertigung, Kapazitätsauslastung) als Grundlage der Strategieentscheidung."},
+    {"term": "Produktionsprogrammplanung", "definition": "Planung, welche Produkte in welchen Mengen (Planmengen) unter Berücksichtigung knapper Ressourcen und Restriktionen hergestellt werden, um eine Zielfunktion zu optimieren."},
+    {"term": "Deckungsbeitrag", "definition": "Zielbeitrag pro Einheit; berechnet als Erlös minus variable Kosten und dient als Grundlage für die Verwendung knapper Ressourcen."},
+    {"term": "Ressourceninterdependenz", "definition": "Wechselseitige Abhängigkeit mehrerer knapper Ressourcen (Personal, Finanzen, Anlagen, Rohstoffe), die simultan berücksichtigt werden muss und zu Planungsproblemen führt."},
+    {"term": "Lineare Optimierung", "definition": "Verfahren zur Bestimmung optimaler Planmengen unter linearen Nebenbedingungen; klassisch gelöst mit der Simplex-Methode."},
+    {"term": "Simplex-Methode", "definition": "Rechenverfahren der linearen Optimierung, das den Raum zulässiger Lösungen systematisch nach der optimalen Ecklösung durchsucht."},
+    {"term": "Zielfunktion", "definition": "Mathematischer Ausdruck des Optimierungskriteriums, z.B. Gewinnmaximierung G = Summe(d_j·x_j) − K^f → max."},
+    {"term": "Nebenbedingungen", "definition": "Restriktionen des Optimierungsproblems: Kapazitätsbeschränkungen, Absatzbeschränkungen und Nichtnegativitätsbedingung."},
+    {"term": "Raum zulässiger Lösungen", "definition": "In der grafischen Lösung der von den Nebenbedingungen begrenzte Bereich, innerhalb dessen die optimale Lösung (Ecklösung) gesucht wird."}
+  ],
+  "kernpunkte": [
+    "Produktion umfasst nach Bea et al. den industriellen Abbau von Material, die Be- und Verarbeitung sowie die Ausführung von Dienstleistungen und ist in der BWL eine betriebliche Funktion.",
+    "Das Sachziel der Produktionswirtschaft ist die mengen-, qualitäts- und zeitgerechte Erfüllung des Produktionsprogramms an einem bestimmten Ort.",
+    "Produktionsfaktoren gliedern sich in Elementarfaktoren (Werkstoffe, Betriebsmittel, ausführende Arbeit) und dispositive Faktoren (Leitung, Planung, Organisation).",
+    "Die Produktionsstrategie wird auf Basis einer Umweltanalyse (externe Faktoren) und einer Unternehmensanalyse (interne Potenziale) ermittelt.",
+    "In der Produktionsprogrammplanung werden bei mehreren knappen und interdependenten Ressourcen die optimalen Planmengen simultan bestimmt.",
+    "Der Deckungsbeitrag (Erlös minus variable Kosten) je Einheit ist der zentrale Zielbeitrag für die Verwendung knapper Ressourcen.",
+    "Das Planungsproblem wird als lineare Optimierung mit Zielfunktion und Nebenbedingungen formuliert und mit der Simplex-Methode gelöst."
+  ],
+  "flashcards": [
+    {"front": "Wie definieren Bea et al. Produktion?", "back": "Als den industriellen Abbau von Material, die Be- und Verarbeitung (einschließlich Teilefertigung, Montage und Konfektion) und die Ausführung von Dienstleistungen."},
+    {"front": "Was ist Produktion in der BWL?", "back": "Eine betriebliche Funktion neben anderen Funktionen wie Beschaffung und Absatz."},
+    {"front": "Was ist das Sachziel der Produktionswirtschaft?", "back": "In Abstimmung mit den nachgefragten Sach- und Dienstleistungen ein Produktionsprogramm zu erstellen und mengen-, qualitäts- und zeitgerecht an einem bestimmten Ort zu erfüllen."},
+    {"front": "Woraus lassen sich produktionswirtschaftliche Teilziele ableiten und welches Problem kann auftreten?", "back": "Sie lassen sich aus den Unternehmungszielen ableiten und können miteinander in Konflikt stehen (z.B. Kostensenkung versus Qualitätsverbesserung)."},
+    {"front": "In welche zwei Gruppen werden Produktionsfaktoren unterteilt?", "back": "In Elementarfaktoren und dispositive Faktoren."},
+    {"front": "Welche drei Elementarfaktoren gibt es?", "back": "Werkstoffe, Betriebsmittel und ausführende menschliche Arbeit."},
+    {"front": "Was umfassen die dispositiven Faktoren?", "back": "Die dispositive menschliche Arbeit (Betriebs- und Geschäftsleitung) zur Umsetzung des betrieblich Gewollten, konkret Planung und Organisation."},
+    {"front": "Welche zwei Analysen dienen der Ermittlung von Produktionsstrategien?", "back": "Die Umweltanalyse und die Unternehmensanalyse."},
+    {"front": "Was liefert die Umweltanalyse?", "back": "Informationen über die Unternehmensumwelt, z.B. Auftragslage, Nachfrage- und Angebotsänderungen bei Lieferanten, Technikentwicklung und Konkurrenzverhalten."},
+    {"front": "Was ist Gegenstand der Unternehmensanalyse?", "back": "Die Ermittlung der Potenziale des Produktionssystems, z.B. Produktionsprogramm, Organisationstypen der Fertigung und Kapazitätsauslastung."},
+    {"front": "Was ist der Zielbeitrag eines Produkts in der Produktionsprogrammplanung, und wie wird er meist berechnet?", "back": "Der Beitrag pro Einheit zur Zielerreichung, meist der Deckungsbeitrag = Erlös minus variable Kosten."},
+    {"front": "Warum führt die Produktionsprogrammplanung zu Planungsproblemen?", "back": "Weil mehrere knappe Ressourcen (Personal, Finanzen, Anlagen, Rohstoffe) mit Interdependenzen existieren, die simultan als Engpässe berücksichtigt werden müssen und von den Produkten unterschiedlich stark gebunden werden."},
+    {"front": "Was wird in der Produktionsprogrammplanung gesucht?", "back": "Die Planmengen (X1 bis Xn) innerhalb einer zu optimierenden Zielfunktion."},
+    {"front": "Nenne zwei Beispiele für Optimierungskriterien der Zielfunktion.", "back": "Maximierung des Gewinnes und Maximierung des Deckungsbeitrages."},
+    {"front": "Mit welchem Verfahren wird das lineare Optimierungsproblem gelöst?", "back": "Mit der Simplex-Methode (lineare Optimierung)."},
+    {"front": "Wie lautet die Zielfunktion der Gewinnmaximierung?", "back": "G = Summe von (d_j mal x_j) minus fixe Kosten K^f, zu maximieren."},
+    {"front": "Welche drei Arten von Nebenbedingungen gibt es bei der linearen Optimierung?", "back": "Kapazitätsbeschränkungen, Absatzbeschränkungen und die Nichtnegativitätsbedingung."},
+    {"front": "Was bedeuten die Symbole d_j, x_j und h_j?", "back": "d_j = Deckungsbeitrag je Stück für Produkt j, x_j = Produktionsmenge für Produkt j, h_j = Absatzhöchstmenge."}
+  ],
+  "quiz": [
+    {
+      "question": "Was zählt nach der Definition von Bea et al. NICHT ausdrücklich zur Produktion?",
+      "options": ["Der industrielle Abbau von Material", "Die Be- und Verarbeitung", "Die Ausführung von Dienstleistungen", "Die Finanzierung von Investitionen"],
+      "answer": 3,
+      "explanation": "Bea et al. nennen den industriellen Abbau von Material, die Be- und Verarbeitung sowie die Ausführung von Dienstleistungen. Die Finanzierung gehört nicht zum Produktionsbegriff."
+    },
+    {
+      "question": "Wie erfolgt die Erfüllung des Sachziels der Produktionswirtschaft?",
+      "options": ["Ausschließlich kostenminimal", "Mengen-, qualitäts- und zeitgerecht an einem bestimmten Ort", "Nur mengengerecht", "Unabhängig von der Nachfrage"],
+      "answer": 1,
+      "explanation": "Das Sachziel wird in Abstimmung mit der Nachfrage mengen-, qualitäts- und zeitgerecht an einem bestimmten Ort erfüllt."
+    },
+    {
+      "question": "Welche Faktoren gehören zu den Elementarfaktoren?",
+      "options": ["Planung, Organisation und Leitung", "Werkstoffe, Betriebsmittel und ausführende menschliche Arbeit", "Nachfrage, Angebot und Konkurrenz", "Personal, Finanzen und Anlagen"],
+      "answer": 1,
+      "explanation": "Elementarfaktoren sind Werkstoffe, Betriebsmittel und die ausführende menschliche Arbeit. Planung und Organisation gehören zu den dispositiven Faktoren."
+    },
+    {
+      "question": "Was umfassen die dispositiven Faktoren?",
+      "options": ["Rohstoffe und Maschinen", "Die dispositive menschliche Arbeit der Betriebs- und Geschäftsleitung (Planung, Organisation)", "Die ausführende menschliche Arbeit", "Absatz- und Beschaffungsmärkte"],
+      "answer": 1,
+      "explanation": "Dispositive Faktoren sind die dispositive menschliche Arbeit der Betriebs- und Geschäftsleitung zur Umsetzung des betrieblich Gewollten und umfassen Planung und Organisation."
+    },
+    {
+      "question": "Welche Aussage zur Umweltanalyse ist korrekt?",
+      "options": ["Sie ermittelt die internen Potenziale des Produktionssystems", "Sie liefert Informationen über die Unternehmensumwelt wie Auftragslage und Konkurrenzverhalten", "Sie legt die Nichtnegativitätsbedingung fest", "Sie berechnet den Deckungsbeitrag"],
+      "answer": 1,
+      "explanation": "Die Umweltanalyse liefert Informationen über die Unternehmensumwelt, z.B. Auftragslage, Nachfrage- und Angebotsänderungen, Technikentwicklung und Konkurrenzverhalten. Die internen Potenziale ermittelt die Unternehmensanalyse."
+    },
+    {
+      "question": "Wie wird der Deckungsbeitrag je Einheit berechnet?",
+      "options": ["Erlös plus fixe Kosten", "Erlös minus variable Kosten", "Variable Kosten minus fixe Kosten", "Gewinn plus variable Kosten"],
+      "answer": 1,
+      "explanation": "Der Deckungsbeitrag ergibt sich als Erlös minus variable Kosten und bildet den Zielbeitrag pro Einheit."
+    },
+    {
+      "question": "Warum entstehen in der Produktionsprogrammplanung Planungsprobleme?",
+      "options": ["Weil es nur eine einzige Ressource gibt", "Weil mehrere knappe Ressourcen mit Interdependenzen simultan als Restriktionen zu berücksichtigen sind", "Weil keine Zielfunktion existiert", "Weil die Produkte keine Kapazitäten binden"],
+      "answer": 1,
+      "explanation": "Mehrere knappe Ressourcen (Personal, Finanzen, Anlagen, Rohstoffe) und ihre Interdependenzen müssen simultan als Engpässe berücksichtigt werden, wobei die Produkte die Kapazitäten unterschiedlich stark binden."
+    },
+    {
+      "question": "Mit welchem Verfahren wird das Optimierungsproblem der Produktionsprogrammplanung gelöst?",
+      "options": ["ABC-Analyse", "Simplex-Methode der linearen Optimierung", "SWOT-Analyse", "Break-even-Analyse"],
+      "answer": 1,
+      "explanation": "Das lineare Optimierungsproblem wird mit der Simplex-Methode gelöst."
+    },
+    {
+      "question": "Was besagt die Nichtnegativitätsbedingung?",
+      "options": ["Die Kosten dürfen nicht negativ sein", "Die Produktionsmengen x_j müssen größer gleich 0 sein", "Der Gewinn muss positiv sein", "Die Kapazität muss vollständig ausgelastet sein"],
+      "answer": 1,
+      "explanation": "Die Nichtnegativitätsbedingung lautet x_j größer gleich 0, da Produktionsmengen nicht negativ sein können."
+    }
+  ]
+}

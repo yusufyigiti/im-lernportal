@@ -1,0 +1,272 @@
+{
+  "id": "13",
+  "title": "Requirements Engineering",
+  "pdf": "courses/gwi/folien/13.pdf",
+  "summary": "Requirements Engineering (RE) ist eine Schlüsseldisziplin der Systementwicklung und umfasst das ingenieurmäßige Vorgehen, um ein gemeinsames Verständnis zwischen Fachabteilung und IT über die Anforderungen an ein IT-System zu schaffen. RE setzt sich aus Requirements Analysis (Anforderungsanalyse: Ermitteln, Dokumentieren, Prüfen und Abstimmen) und Requirements Management (Anforderungsverwaltung: Management von Änderungen und Pflege der Spezifikation) zusammen. Unklare Ziele und Anforderungen sind der häufigste Grund für gescheiterte IT-Projekte, weshalb RE als Produktgestaltungsdisziplin die Problemstellungen, Lösungen und Anforderungen mit allen relevanten Stakeholdern definiert und abstimmt.",
+  "sections": [
+    {
+      "heading": "Motivation: Anforderungen als Erfolgsfaktor",
+      "points": [
+        "Unklare Ziele und unklare Anforderungen sind laut GPM/PA-Consulting-Studie mit Abstand der häufigste Grund für ineffiziente bzw. gescheiterte Projekte (38 Nennungen, vor fehlender Management-Unterstützung mit 20).",
+        "Laut Standish Chaos Report haben 42 % der gescheiterten Projekte direkt mit dem Anforderungsmanagement zu tun.",
+        "Direkte Probleme sind u. a. unvollständige Anforderungen (13 %), unzureichende Partizipation der Anwender (12 %), Änderung der Anforderungen (9 %) und nicht mehr benötigte Features (8 %).",
+        "Indirekte Probleme (58 %) sind z. B. unrealistische Erwartungen (10 %), fehlende Ressourcen (11 %), fehlende Managementunterstützung (9 %) und mangelhafte Planung (8 %).",
+        "Klare Anforderungen sind somit ein Haupterfolgsfaktor der IT."
+      ]
+    },
+    {
+      "heading": "Definition und Aufbau des Requirements Engineering",
+      "points": [
+        "Requirements Engineering bedeutet ein ingenieurmäßiges Vorgehen zur Ermittlung eines gemeinsamen Verständnisses zwischen Fachabteilung und IT für die Anforderungen an ein IT-System.",
+        "RE = Requirements Analysis (Anforderungsanalyse) + Requirements Management (Anforderungsverwaltung).",
+        "Requirements Analysis umfasst das Ermitteln/Erheben, Beschreiben/Dokumentieren, Abstimmen und Prüfen von Anforderungen an ein IT-System.",
+        "Requirements Management umfasst das Management der Änderungen von Anforderungen und die Pflege ihrer Spezifikation/Dokumentation.",
+        "RE ist eine Schlüsseldisziplin der Systementwicklung.",
+        "Einsatzfelder: Entwicklung von Software & Systemen, Entscheidungsfindung (z. B. Make or Buy, Portfolio- und Demand Management), Management/Verbesserung von Prozessen und Organisationen sowie Auswahl von Produkten, Lieferanten und Systemen."
+      ]
+    },
+    {
+      "heading": "RE als kooperativer Prozess und als Produktgestaltung",
+      "points": [
+        "RE ist ein kooperativer, iterativer und inkrementeller Prozess (nach Pohl u. Rupp 2015).",
+        "Ziele: Alle relevanten Anforderungen sind bekannt und im erforderlichen Detaillierungsgrad verstanden.",
+        "Die involvierten Stakeholder (insbes. Kunden & Entwickler) erzielen eine ausreichende Übereinstimmung über die bekannten Anforderungen.",
+        "Alle Anforderungen sind konform zu den Dokumentations-/Spezifikationsvorschriften dokumentiert bzw. spezifiziert.",
+        "Voraussetzung: das Verstehen der zu lösenden Probleme, um das Risiko zu minimieren, dass das Produkt nicht den Kundenbedürfnissen entspricht.",
+        "RE ist Produktgestaltung (Lauenroth 2015): Es ist eine gestaltende Disziplin, die Problemstellungen, Lösungen und Anforderungen mit allen Stakeholdern definiert und abstimmt (Problemraum → Lösungsraum). Es gibt keine lösungsneutrale Anforderung."
+      ]
+    },
+    {
+      "heading": "Was sind Anforderungen? Definitionen",
+      "points": [
+        "Anforderungen beschreiben die Eigenschaften, die ein Produkt zur Befriedigung von Bedürfnissen bzw. zur Lösung eines bestimmten Problems aufweisen muss (Produkt = Ergebnis eines Entwicklungsprozesses).",
+        "Robertson & Robertson (2012): 'A requirement is something that the product must do [...] or a quality it must have.'",
+        "Eine Anforderung ist eine Bedingung (condition) oder Fähigkeit (capability), die von mindestens einem Stakeholder zur Lösung eines Problems oder zur Erreichung eines Ziels benötigt wird.",
+        "Sie ist zugleich etwas, das ein System (z. B. Anwendungssystem, Informationssystem, SW-System) erfüllen oder besitzen muss.",
+        "Grundlage: IEEE Std 610.12-1990 bzw. ISO/IEC/IEEE 24765 (2010), Glinz (2014)."
+      ]
+    },
+    {
+      "heading": "Drei Arten von Produktanforderungen",
+      "points": [
+        "Produktfunktionen = funktionale Anforderungen ('Fähigkeiten'): Beschreiben, wie das Produkt auf bestimmte Eingaben bzw. in bestimmten Situationen reagieren soll (z. B. mit bestimmten Ausgaben).",
+        "Qualitätsmerkmale = nicht-funktionale Anforderungen ('Bedingungen'): Definieren eine qualitative Eigenschaft wie Verfügbarkeit oder Performance, die einzelne Produktfunktionen oder das gesamte Produkt aufweisen sollen.",
+        "Randbedingungen (Rahmenbedingungen, 'design constraints'): Organisatorische oder technologische Vorgaben wie die Nutzung von Standards oder zu verwendende Hardwareplattformen, die die Art und Weise der Realisierung einschränken.",
+        "Diese Klassifikation entspricht unterschiedlichen Perspektiven auf das Produkt (nach Schockert 2017)."
+      ]
+    },
+    {
+      "heading": "Trennung von Anforderung und Lösung (Nutzen)",
+      "points": [
+        "Der Nutzen ist stabiler als (Produkt-)Funktionen und Qualitätsmerkmale: Der Nutzen bleibt gleich, aber die Lösungen ändern sich.",
+        "Beispiel Mobilität: Nutzen 'Schnell, komfortabel und sicher von A nach B kommen' bleibt konstant, von der Postkutsche (1885) über Carsharing bis Uber (2018).",
+        "Das Erkennen des Nutzens öffnet Möglichkeiten für neue Lösungen.",
+        "Ziel der Anforderungsermittlung ist die Beschreibung des Kundennutzens: ein positiv formulierter, produktbezogener Kundenvorteil, aber unabhängig von der Umsetzung in ein spezifisches Produkt."
+      ]
+    },
+    {
+      "heading": "Kundennutzen (customer need)",
+      "points": [
+        "Jeder einzelne Nutzen/Nutzeffekt repräsentiert einen 'potential benefit to a customer'.",
+        "Er äußert sich durch ein gelöstes Problem oder eine realisierte Chance/Möglichkeit ('opportunity'), allgemein durch eine Verbesserung 'to a more desirable state'.",
+        "Er wird positiv ausgedrückt und beschreibt genau einen Aspekt ('issue').",
+        "Er kann bewusst ('explicit') oder latent (un-/unterbewusst, unbekannt) sein.",
+        "Er ist grundsätzlich unabhängig von spezifischen Produkten und deren Eigenschaften (es müssen mehrere Lösungen möglich sein).",
+        "Er muss aber Bezug zum Scope haben, um handlungsleitend für die Ableitung von Lösungen zu sein."
+      ]
+    },
+    {
+      "heading": "Aufgaben zur Erstellung einer Anforderungsspezifikation",
+      "points": [
+        "Der Prozess beginnt mit dem Projektauftrag und endet mit der Realisierung; die acht Kernaufgaben laufen dazwischen ab.",
+        "1. Requirements Engineering initialisieren (Projektziele, Projektfokus).",
+        "2. System- und Kontextabgrenzung (Abgrenzung IT-Systeme, Geschäftsprozesse, System-/Datenschnittstellen, Interessengruppen/Stakeholder).",
+        "3. Anforderungen ermitteln (Quality Function Deployment, Priorisierung, funktionale/nicht-funktionale Anforderungen und Schnittstellen analysieren).",
+        "4. Anforderungen dokumentieren (Aufbau/Inhalt eines Anforderungsdokuments, natürlichsprachig dokumentieren).",
+        "5. Anforderungen modellieren (Use Cases, Datenflussdiagramm, E-R-Diagramme, Aktivitätsdiagramm, State Charts, Klassendiagramme, UML).",
+        "6. Anforderungen prüfen (Qualitätsaspekte, Prinzipien und Techniken der Anforderungsprüfung).",
+        "7. Anforderungen abstimmen (Konfliktidentifikation, Konfliktanalyse, Konfliktauflösung).",
+        "8. Anforderungen verwalten (Attributierung, Traceability, Konfigurationsmanagement, Anforderungsänderungen)."
+      ]
+    },
+    {
+      "heading": "Stakeholder, Kunden und System-/Kontextabgrenzung",
+      "points": [
+        "Stakeholder = Person/Organisation, die direkt oder indirekt Einfluss auf die Anforderungen an das Produkt hat, weil sie von System, Entwicklung, Einsatz oder Betrieb betroffen ist (Glinz 2014).",
+        "Kunde = Person/Organisation, die ein Produkt/eine Dienstleistung empfängt ('receives') oder empfangen könnte (ISO 9000:2015); extern oder intern, z. B. Verbraucher, Klient, (End-)Anwender, Käufer, Nutzer, Nutznießer.",
+        "Der Kunde ist derjenige, der vom Produkt/der Dienstleistung profitiert bzw. den wesentlichen Nutzen hat.",
+        "System- und Kontextabgrenzung definiert den Scope als Basis der Entwicklung: Systemgrenze (was ist das System), Kontextgrenze (relevanter Kontext), dazwischen die Grauzone, außerhalb die irrelevante Umgebung.",
+        "Typische Fragen: Was soll entwickelt werden, was nicht? Wer und was muss in die Entwicklung einbezogen werden?"
+      ]
+    },
+    {
+      "heading": "Anforderungen ermitteln und dokumentieren",
+      "points": [
+        "Ermittlungsmethoden: 'Go to Gemba' (Ort des Geschehens) hilft beim Verständnis der Anforderungen.",
+        "Erheben und dokumentieren der Stimme des Kunden sowie Einbezug möglichst aller Stakeholder; Kreativitätsmethoden unterstützen die Ermittlung.",
+        "Hinterfragen hilft, die 'wirklichen' Anforderungen zu verstehen, z. B. mit der 6W-Tabelle (Warum? Was? Wie (viel)? Wer? Wann? Wo?).",
+        "Zweck der Dokumentation: Ordnen von Gedanken, Einholen von Feedback, Grundlage für Entwicklung und Einarbeitung, rechtliche Verbindlichkeit.",
+        "Formen der Spezifikation: modellbasiert (eindeutig, aber nur für einzelne Funktionen), natürlichsprachlich (umfassend, aber ggf. uneindeutig), Mischformen.",
+        "Das Ergebnis ist wichtig für Umsetzung und Rechtssicherheit, der Prozess wichtig für das Team."
+      ]
+    },
+    {
+      "heading": "Dokumentations- und Modellierungsmethoden",
+      "points": [
+        "User Story: Anforderungsschablone nach dem Muster 'Als <Kunde> möchte ich <Produktfunktion (Was?)>, so dass <Kundennutzen (Warum?)>'.",
+        "Epics folgen dem gleichen Aufbau, haben aber höheren Umfang und bilden eher den Scope eines (Teil-)Entwicklungsprojektes ab; in agilen Projekten werden User Stories im Product Backlog festgehalten.",
+        "Kontextdiagramm (modellbasiert): System zentral in der Mitte, Rechtecke drum herum sind 'Terminatoren' (Quellen & Senken von Informationen), Pfeile zeigen den materiellen wie immateriellen Informationsfluss; schärft die Systemgrenze mit Fokus auf die Schnittstellen.",
+        "Use-Case-Diagramm (Anwendungsfalldiagramm): beschreibt Funktionalitäten eines Systems und dessen Beziehung zur Umgebung (Interaktion mit Stakeholdern) aus externer Nutzungssicht; grenzt das System ab und zeigt eine grobe Funktionsabdeckung.",
+        "Beispiel Hotelmanagementsystem: Akteure wie Gast, Rezeption, Reinigung, Meldebehörde, Fremdenverkehrsverein mit Use Cases wie 'Zimmer reservieren', 'Anreise bearbeiten', 'Abreise bearbeiten'."
+      ]
+    },
+    {
+      "heading": "Anforderungen prüfen und abstimmen",
+      "points": [
+        "Priorisierungstechniken für den Kundennutzen: Ein-Kriterium-Klassifikation/MoSCoW-Rule, direkte Priorisierung auf Ordinalskala, Konstantsummenverteilung, paarweiser Vergleich, Analytic Hierarchy Process (AHP), Qualitätsplan (QFD).",
+        "Priorisierung von Produktanforderungen: Kano-Modell zur Kategorisierung, User Stories & Maximum Value Table, House of Quality (HoQ)-Matrix.",
+        "Priorisierung von Entwicklungsvorgaben: Design Planning Table (QFD), Wiegers'sche Priorisierungsmatrix, Dach des HoQ (Abhängigkeiten), Schwierigkeit und Effizienz der Umsetzung.",
+        "Grundsatz (ISO 16355-1): Priorisierung soll von der Gruppe erfolgen, die die Information 'besitzt' – Kundenbedürfnisse werden vom Kunden priorisiert.",
+        "Priorisierungskriterien: Zeit vs. Kosten vs. Qualität; Kosten sind ohne Bezug zu konkreten Lösungen nicht valide beurteilbar; ggf. zusätzlich nach Dringlichkeit priorisieren.",
+        "Vier Wege zu entscheiden (Abstimmung): Konsens (wichtige, komplexe Entscheidungen in kleinen Gruppen), Voting (wenn kein Konsens erreichbar, Mehrheit setzt sich durch), Subgroup/Komitee (Komitee hat Expertise und ist allein betroffen), Einzelperson (Notfälle, eine Person hat alle Informationen)."
+      ]
+    },
+    {
+      "heading": "Anforderungen verwalten (Requirements Management)",
+      "points": [
+        "Praktisch notwendig ist die Verwaltung und Pflege aller Anforderungsartefakte über den gesamten Lebenszyklus des Systems.",
+        "Kernaufgaben: Management von Änderungen von Anforderungen, Verfolgbarkeit ('Traceability') von Anforderungen und ihrer Umsetzung, Versionierung von Anforderungen und ihrer Dokumentation.",
+        "Das Requirements Management ist flankierend zu allen anderen Aktivitäten – aber man kann nur das verwalten, was vorher gestaltet wurde.",
+        "Requirements-Tools unterstützen die Organisation/Verwaltung von Informationen (Attribute wie ID, Autor, Status), die Fortschrittskontrolle/Verfolgung und die Generierung von Berichten/Sichten.",
+        "Grenze: Tools schreiben und ermitteln keine Anforderungen und etablieren keine Prozesse – 'A Fool with a Tool remains a fool ... only his foolishness is automated' (Reihenfolge: Mensch → Methoden → Tool).",
+        "Rollen im RE tragen viele Bezeichnungen (IT-Koordinator, Key User, Business Analyst, Anforderungsmanager, Tester u. a.) mit Aufgaben wie analysieren, dokumentieren, bewerten, Umsetzung begleiten und kontrollieren."
+      ]
+    }
+  ],
+  "glossary": [
+    {"term": "Requirements Engineering (RE)", "definition": "Ingenieurmäßiges Vorgehen zur Ermittlung eines gemeinsamen Verständnisses zwischen Fachabteilung und IT über die Anforderungen an ein IT-System; besteht aus Requirements Analysis und Requirements Management."},
+    {"term": "Requirements Analysis (Anforderungsanalyse)", "definition": "Umfasst das Ermitteln/Erheben, Beschreiben/Dokumentieren, Abstimmen und Prüfen von Anforderungen an ein IT-System."},
+    {"term": "Requirements Management (Anforderungsverwaltung)", "definition": "Management der Änderungen von Anforderungen und Pflege ihrer Spezifikation/Dokumentation über den gesamten Lebenszyklus, flankierend zu allen anderen Aktivitäten."},
+    {"term": "Anforderung (Requirement)", "definition": "Eine Bedingung (condition) oder Fähigkeit (capability), die von mindestens einem Stakeholder zur Lösung eines Problems bzw. zur Erreichung eines Ziels benötigt wird und die ein System erfüllen oder besitzen muss."},
+    {"term": "Funktionale Anforderung (Produktfunktion)", "definition": "Eine 'Fähigkeit', die beschreibt, wie das Produkt auf bestimmte Eingaben bzw. in bestimmten Situationen reagieren soll (z. B. mit bestimmten Ausgaben)."},
+    {"term": "Nicht-funktionale Anforderung (Qualitätsmerkmal)", "definition": "Eine 'Bedingung', die eine qualitative Eigenschaft wie Verfügbarkeit oder Performance definiert, die einzelne Produktfunktionen oder das gesamte Produkt aufweisen sollen."},
+    {"term": "Randbedingung (design constraint)", "definition": "Organisatorische oder technologische Vorgabe (z. B. Nutzung von Standards, Hardwareplattformen), die die Art und Weise der Realisierung des Produkts einschränkt."},
+    {"term": "Kundennutzen (customer need)", "definition": "Positiv formulierter, produktbezogener Kundenvorteil, der genau einen Aspekt beschreibt, bewusst oder latent sein kann und unabhängig von einem spezifischen Produkt ist, aber Bezug zum Scope hat."},
+    {"term": "Stakeholder", "definition": "Person oder Organisation, die direkt oder indirekt Einfluss auf die Anforderungen an das Produkt hat, weil sie von System, Entwicklung, Einsatz oder Betrieb betroffen ist."},
+    {"term": "Kunde", "definition": "Person oder Organisation, die ein Produkt/eine Dienstleistung empfängt oder empfangen könnte und den wesentlichen Nutzen daraus hat (extern oder intern)."},
+    {"term": "System- und Kontextabgrenzung", "definition": "Definition des Scope: Festlegung von Systemgrenze und Kontextgrenze (mit Grauzone und irrelevanter Umgebung), um zu klären, was entwickelt wird und wer/was einzubeziehen ist."},
+    {"term": "Kontextdiagramm", "definition": "Modellbasierte Darstellung mit dem System in der Mitte und 'Terminatoren' (Quellen/Senken) drumherum; Pfeile zeigen den Informationsfluss und schärfen die Systemgrenze mit Fokus auf die Schnittstellen."},
+    {"term": "Use Case (Anwendungsfall)", "definition": "Beschreibt die Funktionalitäten eines Systems und dessen Beziehung zur Umgebung (Interaktion mit Stakeholdern) aus externer Nutzungssicht; ein Use-Case-Diagramm grenzt das System ab."},
+    {"term": "User Story", "definition": "Natürlichsprachige Anforderungsschablone nach dem Muster 'Als <Kunde> möchte ich <Produktfunktion>, so dass <Kundennutzen>'; in agilen Projekten im Product Backlog festgehalten."},
+    {"term": "Epic", "definition": "Anforderung im gleichen Aufbau wie eine User Story, aber mit höherem Umfang; bildet eher den Scope eines (Teil-)Entwicklungsprojektes ab."},
+    {"term": "Traceability (Verfolgbarkeit)", "definition": "Nachvollziehbarkeit von Anforderungen und ihrer Umsetzung über den gesamten Lebenszyklus, Teil des Requirements Management."},
+    {"term": "6W-Tabelle", "definition": "Fragetechnik zur Anforderungsermittlung mit den Fragen Warum? Was? Wie (viel)? Wer? Wann? Wo?, um die wirklichen Anforderungen zu verstehen."},
+    {"term": "MoSCoW-Rule", "definition": "Ein-Kriterium-Klassifikation zur Priorisierung von Anforderungen (Must, Should, Could, Won't)."},
+    {"term": "Go to Gemba", "definition": "Ermittlungsmethode, bei der man an den 'Ort des Geschehens' geht, um die Anforderungen und die Stimme des Kunden besser zu verstehen."}
+  ],
+  "kernpunkte": [
+    "Unklare Ziele und Anforderungen sind der häufigste Grund für gescheiterte IT-Projekte, daher sind klare Anforderungen ein Haupterfolgsfaktor der IT.",
+    "Requirements Engineering setzt sich aus Requirements Analysis (Ermitteln, Dokumentieren, Prüfen, Abstimmen) und Requirements Management (Änderungen, Pflege) zusammen.",
+    "Es gibt drei Arten von Produktanforderungen: funktionale Anforderungen (Produktfunktionen), nicht-funktionale Anforderungen (Qualitätsmerkmale) und Randbedingungen (design constraints).",
+    "Der Kundennutzen ist ein positiv formulierter, produktbezogener Vorteil, der unabhängig von einem spezifischen Produkt ist und stabiler bleibt als konkrete Lösungen.",
+    "RE ist eine Produktgestaltungsdisziplin, die Problemstellungen, Lösungen und Anforderungen mit allen Stakeholdern definiert und abstimmt – es gibt keine lösungsneutrale Anforderung.",
+    "Die Anforderungsspezifikation entsteht in acht Aufgaben von der Initialisierung über System-/Kontextabgrenzung, Ermitteln, Dokumentieren, Modellieren, Prüfen und Abstimmen bis zum Verwalten.",
+    "Modellbasierte Methoden wie Kontextdiagramm und Use-Case-Diagramm schärfen die Systemgrenze und zeigen Schnittstellen bzw. Funktionsabdeckung.",
+    "Software-Tools können methodisches Vorgehen unterstützen, aber nicht ersetzen: Mensch → Methoden → Tool."
+  ],
+  "flashcards": [
+    {"front": "Woraus setzt sich Requirements Engineering zusammen?", "back": "Aus Requirements Analysis (Anforderungsanalyse: Ermitteln, Dokumentieren, Prüfen, Abstimmen) und Requirements Management (Anforderungsverwaltung: Management von Änderungen und Pflege der Spezifikation)."},
+    {"front": "Was ist der häufigste Grund für gescheiterte IT-Projekte?", "back": "Unklare Ziele und unklare Anforderungen (laut GPM/PA-Consulting-Studie mit 38 Nennungen der Spitzenreiter); 42 % gescheiterter Projekte hängen laut Standish Chaos Report direkt mit dem Anforderungsmanagement zusammen."},
+    {"front": "Definiere 'Anforderung' (Requirement).", "back": "Eine Bedingung (condition) oder Fähigkeit (capability), die von mindestens einem Stakeholder zur Lösung eines Problems oder zur Erreichung eines Ziels benötigt wird und die ein System erfüllen oder besitzen muss."},
+    {"front": "Nenne die drei Arten von Produktanforderungen.", "back": "1. Funktionale Anforderungen (Produktfunktionen, 'Fähigkeiten'), 2. nicht-funktionale Anforderungen (Qualitätsmerkmale, 'Bedingungen'), 3. Randbedingungen (Rahmenbedingungen, 'design constraints')."},
+    {"front": "Was sind funktionale Anforderungen?", "back": "Produktfunktionen bzw. 'Fähigkeiten', die beschreiben, wie das Produkt auf bestimmte Eingaben bzw. in bestimmten Situationen reagieren soll (z. B. mit bestimmten Ausgaben)."},
+    {"front": "Was sind nicht-funktionale Anforderungen?", "back": "Qualitätsmerkmale bzw. 'Bedingungen', die eine qualitative Eigenschaft wie Verfügbarkeit oder Performance definieren, die Produktfunktionen oder das gesamte Produkt aufweisen sollen."},
+    {"front": "Was sind Randbedingungen (design constraints)?", "back": "Organisatorische oder technologische Vorgaben (z. B. Nutzung von Standards, bestimmte Hardwareplattformen), die die Art und Weise einschränken, wie das Produkt realisiert werden kann."},
+    {"front": "Was zeichnet den Kundennutzen aus?", "back": "Er ist ein positiv formulierter, produktbezogener Kundenvorteil, beschreibt genau einen Aspekt, kann bewusst oder latent sein, ist unabhängig von einem spezifischen Produkt, muss aber Bezug zum Scope haben."},
+    {"front": "Warum ist der Nutzen stabiler als Produktfunktionen?", "back": "Der Nutzen bleibt gleich, während sich die Lösungen ändern (Beispiel Mobilität: 'schnell, komfortabel und sicher von A nach B kommen' von der Postkutsche bis Uber). Das Erkennen des Nutzens öffnet Möglichkeiten für neue Lösungen."},
+    {"front": "Nenne die acht Aufgaben zur Erstellung einer Anforderungsspezifikation.", "back": "1. RE initialisieren, 2. System- und Kontextabgrenzung, 3. Anforderungen ermitteln, 4. dokumentieren, 5. modellieren, 6. prüfen, 7. abstimmen, 8. verwalten (Input: Projektauftrag, Output: Realisierung)."},
+    {"front": "Was ist der Unterschied zwischen Stakeholder und Kunde?", "back": "Stakeholder = jede Person/Organisation mit direktem/indirektem Einfluss auf die Anforderungen (betroffen von System/Entwicklung/Betrieb). Kunde = Person/Organisation, die das Produkt empfängt und den wesentlichen Nutzen hat."},
+    {"front": "Was leistet die System- und Kontextabgrenzung?", "back": "Sie definiert den Scope als Basis der Entwicklung durch Festlegung von Systemgrenze und Kontextgrenze (mit Grauzone und irrelevanter Umgebung) und klärt: Was wird entwickelt, wer/was ist einzubeziehen?"},
+    {"front": "Was ist ein Kontextdiagramm?", "back": "Eine modellbasierte Darstellung mit dem System in der Mitte und 'Terminatoren' (Quellen/Senken von Informationen) drumherum; Pfeile zeigen den Informationsfluss und schärfen die Systemgrenze mit Fokus auf Schnittstellen."},
+    {"front": "Wie ist eine User Story aufgebaut?", "back": "'Als <Kunde> möchte ich <Produktfunktion (Was?)>, so dass <Kundennutzen (Warum?)>'. In agilen Projekten wird sie meist im Product Backlog festgehalten."},
+    {"front": "Nenne die vier Wege, Anforderungen abzustimmen/zu entscheiden.", "back": "Konsens, Voting, Subgroup/Komitee und Einzelperson – je nach Situation (Gruppengröße, Informationsstand, Betroffenheit, Dringlichkeit)."},
+    {"front": "Welche Kernaufgaben hat das Requirements Management?", "back": "Management von Änderungen, Verfolgbarkeit (Traceability) von Anforderungen und ihrer Umsetzung sowie Versionierung von Anforderungen und ihrer Dokumentation über den gesamten Lebenszyklus."},
+    {"front": "Was ist die Grenze von RE-Software-Tools?", "back": "Tools schreiben und ermitteln keine Anforderungen und etablieren keine Prozesse ('A Fool with a Tool remains a fool'). Reihenfolge: Mensch → Methoden → Tool."},
+    {"front": "Was leistet ein Use-Case-Diagramm?", "back": "Es beschreibt die Funktionalitäten eines Systems und dessen Beziehung zur Umgebung (Interaktion mit Stakeholdern) aus externer Nutzungssicht und grenzt das System mit grober Funktionsabdeckung ab."},
+    {"front": "Warum ist RE eine Produktgestaltungsdisziplin?", "back": "Weil RE mit allen Stakeholdern Problemstellungen, Lösungen und Anforderungen definiert und abstimmt (Problemraum → Lösungsraum). Anforderungen detaillieren Lösungen – es gibt keine lösungsneutrale Anforderung (Lauenroth)."}
+  ],
+  "quiz": [
+    {
+      "question": "Was ist laut Studie der häufigste Grund für gescheiterte bzw. ineffiziente IT-Projekte?",
+      "options": ["Unklare Ziele und unklare Anforderungen", "Ressourcenmangel", "Fehlende Management-Unterstützung", "Kein Projektcontrolling"],
+      "answer": 0,
+      "explanation": "Unklare Ziele und unklare Anforderungen stehen mit 38 Nennungen an der Spitze der GPM/PA-Consulting-Studie, deutlich vor fehlender Management-Unterstützung (20)."
+    },
+    {
+      "question": "Aus welchen zwei Teilen besteht das Requirements Engineering?",
+      "options": ["Requirements Design und Requirements Testing", "Requirements Analysis und Requirements Management", "Anforderungsermittlung und Anforderungsmodellierung", "Lastenheft und Pflichtenheft"],
+      "answer": 1,
+      "explanation": "RE = Requirements Analysis (Anforderungsanalyse) + Requirements Management (Anforderungsverwaltung)."
+    },
+    {
+      "question": "Welche der folgenden ist eine nicht-funktionale Anforderung (Qualitätsmerkmal)?",
+      "options": ["Das System soll eine Rechnung erzeugen", "Das System soll eine Verfügbarkeit von 99,9 % aufweisen", "Das System soll auf Plattform X laufen (Vorgabe)", "Der Nutzer soll ein Zimmer reservieren können"],
+      "answer": 1,
+      "explanation": "Verfügbarkeit ist ein Qualitätsmerkmal (nicht-funktionale Anforderung). Rechnung erzeugen und Zimmer reservieren sind funktionale Anforderungen; die Plattformvorgabe ist eine Randbedingung."
+    },
+    {
+      "question": "Wodurch zeichnet sich der Kundennutzen (customer need) aus?",
+      "options": ["Er ist stets an ein konkretes Produkt gebunden", "Er wird negativ als Problem formuliert und beschreibt mehrere Aspekte", "Er ist positiv formuliert, unabhängig vom spezifischen Produkt und hat Bezug zum Scope", "Er ist immer bewusst und explizit bekannt"],
+      "answer": 2,
+      "explanation": "Der Kundennutzen ist ein positiv formulierter, produktbezogener Vorteil, unabhängig von einem spezifischen Produkt (mehrere Lösungen möglich), beschreibt genau einen Aspekt und kann bewusst oder latent sein, muss aber Bezug zum Scope haben."
+    },
+    {
+      "question": "Welche Aussage zur Trennung von Anforderung und Lösung ist korrekt?",
+      "options": ["Produktfunktionen sind stabiler als der Nutzen", "Der Nutzen ist stabiler als Funktionen und Qualitätsmerkmale, die Lösungen ändern sich", "Nutzen und Lösung sind identisch", "Randbedingungen bestimmen den Nutzen"],
+      "answer": 1,
+      "explanation": "Der Nutzen bleibt gleich, während sich die Lösungen ändern (Beispiel: von A nach B kommen – Postkutsche bis Uber). Das Erkennen des Nutzens öffnet Möglichkeiten für neue Lösungen."
+    },
+    {
+      "question": "Welche Reihenfolge der Aufgaben zur Erstellung einer Anforderungsspezifikation ist richtig?",
+      "options": ["Ermitteln → Initialisieren → Verwalten → Prüfen", "Initialisieren → System-/Kontextabgrenzung → Ermitteln → Dokumentieren → Modellieren → Prüfen → Abstimmen → Verwalten", "Modellieren → Ermitteln → Abstimmen → Dokumentieren", "Dokumentieren → Prüfen → Ermitteln → Verwalten"],
+      "answer": 1,
+      "explanation": "Vom Projektauftrag bis zur Realisierung laufen die acht Aufgaben in dieser Reihenfolge: initialisieren, abgrenzen, ermitteln, dokumentieren, modellieren, prüfen, abstimmen, verwalten."
+    },
+    {
+      "question": "Wie unterscheiden sich Stakeholder und Kunde?",
+      "options": ["Sie sind Synonyme", "Ein Stakeholder hat Einfluss auf die Anforderungen (betroffen), der Kunde profitiert vom Produkt/Nutzen", "Der Kunde ist immer intern, der Stakeholder immer extern", "Nur Kunden dürfen Anforderungen priorisieren"],
+      "answer": 1,
+      "explanation": "Stakeholder = Person/Organisation mit direktem/indirektem Einfluss auf die Anforderungen (weil betroffen). Kunde = Person/Organisation, die das Produkt empfängt und den wesentlichen Nutzen hat. Der Kunde ist eine Teilmenge der Stakeholder."
+    },
+    {
+      "question": "Was ist ein 'Terminator' in einem Kontextdiagramm?",
+      "options": ["Der Endzustand eines State Charts", "Eine Schnittstelle zur Umwelt als Quelle oder Senke von Informationen", "Ein Use Case im Systeminneren", "Ein Priorisierungskriterium"],
+      "answer": 1,
+      "explanation": "Im Kontextdiagramm stehen die Rechtecke um das zentrale System für 'Terminatoren', d. h. Schnittstellen zur Umwelt im Sinne von Quellen und Senken von Informationen; Pfeile zeigen den Informationsfluss."
+    },
+    {
+      "question": "Welches Muster folgt eine User Story?",
+      "options": ["'Wenn <Bedingung>, dann <Aktion>'", "'Als <Kunde> möchte ich <Produktfunktion>, so dass <Kundennutzen>'", "'Das System muss <Funktion> innerhalb von <Zeit>'", "'Gegeben <Zustand>, wenn <Ereignis>, dann <Ergebnis>'"],
+      "answer": 1,
+      "explanation": "Die User-Story-Schablone lautet 'Als <Kunde> möchte ich <Produktfunktion (Was?)>, so dass <Kundennutzen (Warum?)>' und wird in agilen Projekten im Product Backlog festgehalten."
+    },
+    {
+      "question": "Welche Aussage zu RE-Software-Tools trifft zu?",
+      "options": ["Tools ersetzen das methodische Vorgehen vollständig", "Tools ermitteln und schreiben Anforderungen selbständig", "Tools können methodisches Vorgehen unterstützen, aber nicht ersetzen (Mensch → Methoden → Tool)", "Ohne Tool ist kein Requirements Management möglich"],
+      "answer": 2,
+      "explanation": "Tools unterstützen Organisation, Verfolgung und Berichte, ermitteln aber keine Anforderungen und etablieren keine Prozesse ('A Fool with a Tool remains a fool'). Die Reihenfolge lautet Mensch → Methoden → Tool."
+    },
+    {
+      "question": "Wann eignet sich die Abstimmung per 'Voting' besonders?",
+      "options": ["Wenn eine Einzelperson alle Informationen hat", "Wenn kein Konsens in vernünftiger Zeit erreichbar scheint und die Mehrheit die Maßnahmen ausführen kann", "Nur in Notfällen", "Wenn ausschließlich ein Komitee betroffen ist"],
+      "answer": 1,
+      "explanation": "Voting eignet sich, wenn kein Konsens in vernünftiger Zeit erreichbar ist, ein einheitlicher Informationsstand herrscht und die Mehrheit die Maßnahmen auch gegen die Minderheit durchsetzen kann."
+    },
+    {
+      "question": "Welche Aktivität gehört zum Requirements Management (Anforderungen verwalten)?",
+      "options": ["Quality Function Deployment", "Traceability (Verfolgbarkeit) und Versionierung von Anforderungen", "Go to Gemba", "Erstellen eines Use-Case-Diagramms"],
+      "answer": 1,
+      "explanation": "Requirements Management umfasst Management von Änderungen, Traceability (Verfolgbarkeit) und Versionierung von Anforderungen über den gesamten Lebenszyklus – flankierend zu allen anderen Aktivitäten."
+    }
+  ]
+}

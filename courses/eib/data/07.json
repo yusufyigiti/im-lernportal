@@ -1,0 +1,349 @@
+{
+  "id": "07",
+  "title": "Grundlagen des Innovationsmanagements",
+  "pdf": "courses/eib/folien/07.pdf",
+  "summary": "Der Foliensatz führt in die zentralen Begriffe und Zusammenhänge des Innovationsmanagements ein. Behandelt werden die Abgrenzung von Invention und Innovation, die Arten von Innovationen (Produkt-/Prozess-, radikal/inkremental, architektural/modular), der Innovations- und FuE-Prozess sowie die Motive fuer private und oeffentliche FuE. Ein Schwerpunkt liegt auf dem System der intellektuellen Eigentumsrechte (Patente, Urheberrecht, Warenzeichen, Geschaeftsgeheimnisse) als Schutz gegen Nachahmung. Abschliessend wird das Venture Management mit Zielen, Gestaltungsansaetzen und Scheiterungsursachen dargestellt.",
+  "sections": [
+    {
+      "heading": "Invention versus Innovation",
+      "points": [
+        "Invention (Erfindung) ist die erstmalige technische Realisierung einer neuen Problemloesung bzw. einer neuen Idee; sie ist das Ergebnis von Forschung und Entwicklung (FuE, R&D).",
+        "Innovation im engeren Sinne ist die erstmalige wirtschaftliche Nutzung/Markteinfuehrung einer Invention, also die Einfuehrung eines neuen Produktes am Markt (Produktinnovation) oder eines neuen Prozesses in der Fertigung (Prozessinnovation).",
+        "Kurzformel: Innovation = Invention + wirtschaftliche Verwertung. Eine Invention ohne Markt- bzw. Produktionsverwertung bleibt eine reine Erfindung.",
+        "Inventionen koennen geplant (aus gezielter FuE) oder ungeplant (Serendipitaets-Effekt = zufaellige Entdeckung) entstehen.",
+        "Der Innovationsbegriff wird sowohl in der Volkswirtschaftslehre als auch in der Betriebswirtschaftslehre verwendet (Quelle: Burr 2004, S. 22-27; Burr 2017, S. 24-27).",
+        "Im Prozess kann eine Invention verworfen werden oder weiter verfolgt werden; anschliessend drohen technischer Misserfolg oder oekonomischer Misserfolg, ansonsten Erfolg."
+      ]
+    },
+    {
+      "heading": "Arten von Innovationen",
+      "points": [
+        "Prozessinnovation vs. Produktinnovation: Prozessinnovation betrifft neue Verfahren/Ablaeufe in der Fertigung, Produktinnovation betrifft neue oder verbesserte Produkte am Markt.",
+        "Sachgutinnovation vs. Dienstleistungsinnovation: Unterscheidung nach der Art des Innovationsgegenstands (physisches Gut oder Dienstleistung).",
+        "Radikale vs. inkrementale Innovation: Radikale Innovationen bringen grundlegend Neues mit starker Wirkung, inkrementale Innovationen sind schrittweise Verbesserungen mit schwacher Wirkung.",
+        "Architekturelle vs. modulare Innovation: Unterscheidung nach der Wirkung auf die Verknuepfung der Komponenten bzw. auf deren Kernkonzepte (Quelle: Henderson/Clark 1990).",
+        "Grundlage: Burr (2017), S. 23 f."
+      ]
+    },
+    {
+      "heading": "Integrale vs. modulare Produktarchitekturen (Henderson/Clark 1990)",
+      "points": [
+        "Die Typologie kombiniert zwei Dimensionen: die Wirkung auf die Kernkonzepte der einzelnen Komponenten und die Wirkung auf die Verknuepfung/Relation der Komponenten zueinander.",
+        "Inkrementale Innovation: schwache Wirkung auf Kernkonzepte UND schwache Wirkung auf die Verknuepfung der Komponenten.",
+        "Modulare Innovation: starke Wirkung auf die Kernkonzepte einzelner Komponenten, aber die Art der Verknuepfung zwischen den Komponenten bleibt weitgehend unveraendert.",
+        "Architekturelle Innovation (Architectural Innovation): schwache Wirkung auf die Kernkonzepte, aber starke Wirkung auf die Verknuepfung/Anordnung der Komponenten.",
+        "Radikale Innovation: starke Wirkung sowohl auf die Kernkonzepte als auch auf die Verknuepfung der Komponenten.",
+        "Merksatz: Es kommt nicht nur darauf an, WAS sich in den Komponenten aendert, sondern auch, WIE die Komponenten zueinander in Beziehung stehen."
+      ]
+    },
+    {
+      "heading": "Der Innovationsprozess im weiteren Sinne",
+      "points": [
+        "Der Innovationsprozess i.w.S. umfasst die Aktivitaeten Forschung und Entwicklung, Markteinfuehrung, Marktdurchsetzung sowie die Konkurrenz durch Nachahmung.",
+        "Zugeordnete Ergebnisse: FuE fuehrt zur Invention; die Markteinfuehrung ergibt die Innovation im engeren Sinne; die Marktdurchsetzung fuehrt zur Diffusion; die Nachahmung durch Konkurrenten fuehrt zur Imitation.",
+        "Diffusion bezeichnet die Ausbreitung/Durchsetzung der Innovation am Markt.",
+        "Imitation bezeichnet die Nachahmung durch Wettbewerber und ist der Grund, weshalb Schutzrechte benoetigt werden.",
+        "Quelle: Burr (2017), S. 28."
+      ]
+    },
+    {
+      "heading": "Phasen des FuE-Prozesses",
+      "points": [
+        "Der FuE-Prozess gliedert sich in vier Phasen: Grundlagenforschung, Technologieentwicklung, Vorentwicklung sowie Produkt- und Prozessentwicklung.",
+        "Ueber die Phasen hinweg nimmt die Problem- und Anwendungsorientierung zu; die Produkt- und Marktnaehe steigt.",
+        "Zugleich nimmt der Charakter eines privaten Gutes zu: Am Anfang (Grundlagenforschung) hat Wissen eher oeffentlichen Gutscharakter, am Ende (Produktentwicklung) ist es exklusiv aneignbar.",
+        "Die Grundlagenforschung ist am weitesten vom Markt entfernt, die Produkt- und Prozessentwicklung am naechsten.",
+        "Quelle: Burr (2017), S. 27-30, in Anlehnung an Specht/Beckmann (1996)."
+      ]
+    },
+    {
+      "heading": "Motive fuer private und oeffentliche FuE",
+      "points": [
+        "Motive fuer privatwirtschaftlich finanzierte FuE: Erzielung von Wettbewerbsvorteilen sowie Verbesserung der Gewinnsituation.",
+        "Motive fuer oeffentlich gefoerderte FuE: externe Effekte der Grundlagenforschung (positive Spillovers auf Dritte, die dem Erfinder nicht verguetet werden).",
+        "Weiteres Motiv der oeffentlichen Foerderung: Eigenschaften der Grundlagenforschung als oeffentliches Gut (Nelson 1959, Arrow 1962).",
+        "Begruendung: Wegen externer Effekte und oeffentlichem Gutscharakter wuerde privat zu wenig in Grundlagenforschung investiert (Marktversagen), daher oeffentliche Foerderung.",
+        "Quelle: Burr (2017), S. 31-34."
+      ]
+    },
+    {
+      "heading": "Intellektuelle Eigentumsrechte: Zielsetzung",
+      "points": [
+        "Kernproblem, das das System intellektueller Property Rights loesen soll: Der Erzeuger einer Information/Idee kann sich oft nicht alle Ertraege aneignen, die die Idee generiert (z. B. wegen Imitation durch Wettbewerber).",
+        "Ursache liegt in Besonderheiten des Gutes Information: Kopierbarkeit zu Grenzkosten nahe oder gleich Null sowie oeffentlicher Gutscharakter von Information.",
+        "Ziel der Schutzrechte: Schutz gegen Nachahmung, um dem Erfinder Gewinnaneignungsmoeglichkeiten und damit Anreize fuer kreative Taetigkeit zu geben.",
+        "Vier zentrale Schutzinstrumente: Patente, Urheberrecht (Copyright), Warenzeichen (Trademarks) und Geschaeftsgeheimnisse (Trade Secrets).",
+        "Quelle: Burr (2017), S. 87-96."
+      ]
+    },
+    {
+      "heading": "a) Patente",
+      "points": [
+        "Das Patentwesen ist ein System von Anreizen und Belohnungen; der Inhaber erhaelt ein gesetzlich garantiertes (zeitlich befristetes) Monopol und kann andere von der Nutzung ausschliessen.",
+        "Drei Erteilungsvoraussetzungen: die Erfindung muss (1) neu, (2) nuetzlich und (3) nicht-offensichtlich fuer einen Fachmann des betreffenden Gebiets sein.",
+        "Anwendungs- und Entscheidungsregeln: Prioritaet nach 'zuerst angemeldet' vs. 'zuerst entdeckt'; die Erfindung muss ausgereift sein und funktionieren.",
+        "Vorteil einzelwirtschaftlich: Anreiz zu Investitionen in die kommerzielle Weiterentwicklung einer Erfindung zu einem marktgaengigen Produkt (Schutz vor Imitatoren).",
+        "Vorteil gesamtwirtschaftlich: Definition exklusiver Property Rights schafft Gewinnaneignungsmoeglichkeiten und Anreize fuer kreative Taetigkeit.",
+        "Nachteile: Das Patent begruendet faktisch ein gesetzlich abgesichertes Monopol (reduzierte Outputmenge fuehrt zu Wohlfahrtsverlust); bei einem 'Patentrennen' koennen zu viele Ressourcen investiert werden (Wohlfahrtsverluste).",
+        "Patentdauer, -umfang und die Wirkung auf die Kartellbildung sind in der oekonomischen Literatur sehr umstritten (Vgl. Besen/Raskind 1991)."
+      ]
+    },
+    {
+      "heading": "b) Urheberrecht (Copyright)",
+      "points": [
+        "Schutz kuenstlerischer Werke; Dauer in der Regel Lebenszeit des Autors plus 70 Jahre.",
+        "Voraussetzungen: Das Werk muss original sein, Ausdruck intellektueller Aktivitaet sein und in eine der Schutzkategorien fallen.",
+        "Schutzkategorien: Literatur, Musikwerke, Buehnenwerke (inkl. Begleitmusik), Pantomime und choreographische Arbeiten, Bilder/Graphiken/Skulpturen, Filme und andere audiovisuelle Werke, Musikaufnahmen.",
+        "Zusatzbedingung: Der Beantrager des Copyrights muss der Autor des Werkes sein.",
+        "Der Inhaber erhaelt fuenf grundlegende Rechte: Reproduktion des Werkes; Erstellung abgeleiteter Werke; Distribution von Kopien; oeffentliche Auffuehrung von Literatur-, Musik- und Buehnenwerken; oeffentliches Zeigen/Ausstellen von Werken, Bildern und Graphiken.",
+        "Marktlicher Transfer erfolgt ebenfalls ueber Lizenzvergabe.",
+        "Schutz vor Urheberrechtsverletzungen ueber Sanktionen: z. B. Erstattung entgangener Gewinne an den Rechteinhaber, Beschlagnahmung, Geld- und Gefaengnisstrafen."
+      ]
+    },
+    {
+      "heading": "c) Warenzeichen (Trademarks)",
+      "points": [
+        "Hauptfunktion: Ermoeglicht die Identifizierung von Produkten und ihrer Herkunft (Produktdifferenzierung).",
+        "Die Eintragung schuetzt das Warenzeichen vor Imitation und gibt dem Anbieter einen Anreiz, in den Aufbau des Warenzeichens (z. B. durch Werbung) zu investieren.",
+        "Zusatznutzen: Schutz des Konsumenten vor irrefuehrend markierten Produkten.",
+        "Voraussetzung fuer die Eintragung ist die Unterscheidbarkeit; allgemeine Begriffe und Beschreibungen sind ausgeschlossen.",
+        "Nicht registrierbar sind in der Regel auch in der Umgangssprache uebliche Gueterbezeichnungen, geographische Orte und Namen.",
+        "Sanktionierung: gerichtliche Anordnung, Schadensersatz fuer entgangene Gewinne und Verkaeufe des Geschaedigten sowie Tragung der Gebuehren und Gerichtskosten durch das ueberfuehrte Unternehmen."
+      ]
+    },
+    {
+      "heading": "d) Geschaeftsgeheimnisse (Trade Secrets)",
+      "points": [
+        "Definition (Milgrom 1989): jede Formel, jedes Muster, jede Vorrichtung oder Zusammenstellung von Informationen, die im Geschaeft genutzt wird und einen Vorteil gegenueber Wettbewerbern verschafft, die sie nicht kennen oder nutzen.",
+        "Beispiele: chemische Formeln, Kundenlisten, wettbewerbsrelevante Charakteristika von Prozessinnovationen (da diese durch Patente kaum zu schuetzen sind).",
+        "Anerkennungsanforderungen der Gerichte: Die Information muss wertvoll sein, im Unternehmen genutzt werden und bei anderen Unternehmen nicht allgemein bekannt sein.",
+        "Zusaetzlich muss das Unternehmen hinreichende Aufwendungen betrieben haben, um das Geheimnis geheim zu halten.",
+        "Sanktionen bei Diebstahl oder Spionage (durch Konkurrenten oder eigene Mitarbeiter): gerichtliche Anordnungen und Schadensersatz.",
+        "Besondere Merkmale gegenueber Patenten/Copyrights: keine Verpflichtung zur Offenlegung der Inhalte (Offenlegung waere kontraproduktiv); Schutzgegenstand ist jede wettbewerbsrelevante und oekonomisch wertvolle Information, unabhaengig von Neuigkeitsgrad oder Originalitaet.",
+        "Schutzdauer: prinzipiell unbegrenzt, solange das Geheimnis im Besitz des Unternehmens bleibt, endet aber, wenn ein Wettbewerber es zufaellig, durch unabhaengige FuE oder mit legalen Methoden entdeckt."
+      ]
+    },
+    {
+      "heading": "Venture Management: Begriff und Ziele",
+      "points": [
+        "Venture Management ist eine unternehmerische Aktivitaet, bei der ein gereiftes, am Markt etabliertes Unternehmen an der Gruendung neuer interner oder externer Einheiten (selbstaendige Unternehmen oder Unternehmensteile) beteiligt ist.",
+        "Die neuen Einheiten uebernehmen vor allem innovative, risikobeladene Aufgaben (Charakter von Wagniseinheiten).",
+        "Ziel: Schaffung neuer Entwicklungsimpulse und erweiterter Handlungsmoeglichkeiten bei gleichzeitiger Begrenzung der damit verbundenen Gefahren.",
+        "Sachziele: Sicherung der Entwicklungsfaehigkeit des Unternehmens (Wachstum, Diversifikation, Vertrautheit mit technischen Entwicklungen, Imagekorrekturen).",
+        "Formalziel: Renditesicherung und Kapitalzuwachs.",
+        "Quelle: Burr (2017), S. 185-190; Macharzina/Wolf (2010), S. 761-770."
+      ]
+    },
+    {
+      "heading": "Venture Management: Gestaltungsansaetze und Scheiterungsursachen",
+      "points": [
+        "Gestaltungsansatz: Involvierung des Managements der Venture-Einheit in die Planungs- und Kontrollprozesse (PuK) des Gesamtunternehmens.",
+        "Gestaltungsansatz: Beim Aufbau mehrerer Venture-Einheiten sollten diese aus Gruenden der Risikobegrenzung unterschiedliche Entwicklungsstufen aufweisen.",
+        "Gestaltungsansatz: klare Budgetzuweisungen fuer die Venture-Einheiten sowie Integration erst dann, wenn die Einheit deutliche Gewinne erzielt.",
+        "Scheiterungsursachen bei der Muttergesellschaft: Dominanz kurzfristiger Erfolgserwartungen (voreiliges Abstossen), fehlende VM-Strategie und mangelnde Zielkommunikation, schwerfaellige Organisationsstruktur.",
+        "Scheiterungsursachen innerhalb der Venture-Einheit: einseitige Konzentration auf technologisches Know-how bei Mangel an Management-Faehigkeiten sowie Verwaesserung des Gruendergeistes im Wachstumsprozess.",
+        "Scheiterungsursachen bei der Integration: zu komplexe/uneindeutige/lange Kommunikationskanaele, unvereinbare Unternehmenskulturen und mangelnde Festlegung der Zusammenarbeit."
+      ]
+    }
+  ],
+  "glossary": [
+    {"term": "Invention (Erfindung)", "definition": "Erstmalige technische Realisierung einer neuen Idee oder Problemloesung; Ergebnis von Forschung und Entwicklung, noch ohne wirtschaftliche Verwertung."},
+    {"term": "Innovation im engeren Sinne", "definition": "Erstmalige wirtschaftliche Nutzung bzw. Markteinfuehrung einer Invention als neues Produkt oder neuer Prozess. Kurz: Innovation = Invention + Verwertung."},
+    {"term": "Produktinnovation", "definition": "Einfuehrung eines neuen oder deutlich verbesserten Produktes am Markt."},
+    {"term": "Prozessinnovation", "definition": "Einfuehrung eines neuen Verfahrens bzw. Prozesses in der Fertigung; oft ueber Geschaeftsgeheimnisse statt Patente geschuetzt."},
+    {"term": "Radikale Innovation", "definition": "Innovation mit starker Wirkung sowohl auf die Kernkonzepte der Komponenten als auch auf deren Verknuepfung untereinander."},
+    {"term": "Inkrementale Innovation", "definition": "Schrittweise Verbesserung mit schwacher Wirkung auf Kernkonzepte und auf die Verknuepfung der Komponenten."},
+    {"term": "Modulare Innovation", "definition": "Starke Veraenderung der Kernkonzepte einzelner Komponenten bei weitgehend unveraenderter Verknuepfung der Komponenten (Henderson/Clark 1990)."},
+    {"term": "Architekturelle Innovation", "definition": "Schwache Veraenderung der Kernkonzepte, aber grundlegende Veraenderung der Verknuepfung/Anordnung der Komponenten (Henderson/Clark 1990)."},
+    {"term": "Serendipitaets-Effekt", "definition": "Ungeplante, zufaellige Invention/Entdeckung, die nicht Ergebnis gezielter Forschung war."},
+    {"term": "Diffusion", "definition": "Ausbreitung und Marktdurchsetzung einer Innovation im Markt bzw. bei den Anwendern."},
+    {"term": "Imitation", "definition": "Nachahmung einer Innovation durch Wettbewerber; zentraler Grund fuer die Notwendigkeit von Schutzrechten."},
+    {"term": "Grundlagenforschung", "definition": "Erste, marktfernste FuE-Phase; hat ausgepraegten oeffentlichen Gutscharakter und erzeugt externe Effekte."},
+    {"term": "Externe Effekte", "definition": "Positive Wirkungen (Spillovers) der Forschung auf Dritte, die dem Erfinder nicht verguetet werden; Begruendung fuer oeffentliche FuE-Foerderung."},
+    {"term": "Oeffentliches Gut", "definition": "Gut, das nicht-rivalisierend im Konsum und schwer von der Nutzung ausschliessbar ist; bei Information gegeben (Nelson 1959, Arrow 1962)."},
+    {"term": "Intellektuelle Eigentumsrechte (Property Rights)", "definition": "System von Schutzrechten, das dem Erzeuger einer Idee die Aneignung der Ertraege ermoeglicht und Nachahmung einschraenkt."},
+    {"term": "Patent", "definition": "Gesetzlich garantiertes, befristetes Monopol auf eine Erfindung; Voraussetzungen: neu, nuetzlich, nicht-offensichtlich."},
+    {"term": "Patentrennen", "definition": "Wettbewerb mehrerer Akteure um ein Patent, bei dem gesamtwirtschaftlich zu viele Ressourcen investiert werden koennen (Wohlfahrtsverlust)."},
+    {"term": "Urheberrecht (Copyright)", "definition": "Schutz origineller kuenstlerischer Werke fuer i.d.R. Lebenszeit des Autors plus 70 Jahre; verleiht fuenf grundlegende Nutzungsrechte."},
+    {"term": "Warenzeichen (Trademark)", "definition": "Schutzrecht zur Identifizierung von Produkten und ihrer Herkunft (Produktdifferenzierung); Eintragungsvoraussetzung ist die Unterscheidbarkeit."},
+    {"term": "Geschaeftsgeheimnis (Trade Secret)", "definition": "Wettbewerbsrelevante, wertvolle und geheim gehaltene Information ohne Offenlegungspflicht; Schutzdauer prinzipiell unbegrenzt."},
+    {"term": "Venture Management", "definition": "Aktivitaet eines etablierten Unternehmens, an der Gruendung neuer interner/externer Wagniseinheiten fuer innovative, risikoreiche Aufgaben beteiligt zu sein."},
+    {"term": "PuK-Prozesse", "definition": "Planungs- und Kontrollprozesse des Gesamtunternehmens, in die das Management der Venture-Einheit einbezogen werden sollte."}
+  ],
+  "kernpunkte": [
+    "Innovation im engeren Sinne ist die erstmalige wirtschaftliche Verwertung einer Invention, also gilt: Innovation = Invention + Markt- bzw. Produktionsverwertung.",
+    "Nach Henderson/Clark (1990) unterscheidet man radikale, inkrementale, modulare und architekturelle Innovationen anhand der Wirkung auf Kernkonzepte und auf die Verknuepfung der Komponenten.",
+    "Der FuE-Prozess durchlaeuft die Phasen Grundlagenforschung, Technologieentwicklung, Vorentwicklung sowie Produkt- und Prozessentwicklung mit steigender Markt- und Anwendungsnaehe.",
+    "Oeffentliche FuE-Foerderung wird durch externe Effekte und den oeffentlichen Gutscharakter der Grundlagenforschung begruendet (Nelson 1959, Arrow 1962).",
+    "Intellektuelle Eigentumsrechte loesen das Problem, dass Information leicht kopierbar ist und der Erfinder sich sonst die Ertraege seiner Idee nicht aneignen kann.",
+    "Ein Patent verleiht ein befristetes Monopol und setzt Neuheit, Nuetzlichkeit und Nicht-Offensichtlichkeit voraus, begruendet aber gesamtwirtschaftlich einen Wohlfahrtsverlust.",
+    "Geschaeftsgeheimnisse schuetzen ohne Offenlegungspflicht und prinzipiell unbegrenzt, verlieren den Schutz aber, sobald ein Wettbewerber die Information legal entdeckt.",
+    "Venture Management schafft ueber eigenstaendige Wagniseinheiten Innovationsimpulse bei begrenztem Risiko und verfolgt Sachziele (Entwicklungsfaehigkeit) und das Formalziel Renditesicherung.",
+    "Venture-Aktivitaeten scheitern typischerweise an Schwaechen der Muttergesellschaft, der Venture-Einheit selbst oder an der Integration beider."
+  ],
+  "flashcards": [
+    {"front": "Wie unterscheiden sich Invention und Innovation?", "back": "Invention = technische Erfindung (Ergebnis von FuE); Innovation i.e.S. = erstmalige wirtschaftliche Verwertung/Markteinfuehrung. Kurz: Innovation = Invention + Verwertung."},
+    {"front": "Was ist der Serendipitaets-Effekt?", "back": "Eine ungeplante, zufaellige Invention, die nicht Ergebnis gezielter Forschung war (im Gegensatz zur geplanten Invention)."},
+    {"front": "Nenne die vier Innovationsarten nach Henderson/Clark (1990).", "back": "Inkrementale, modulare, architekturelle und radikale Innovation - unterschieden nach Wirkung auf Kernkonzepte und auf die Verknuepfung der Komponenten."},
+    {"front": "Was kennzeichnet eine architekturelle Innovation?", "back": "Schwache Wirkung auf die Kernkonzepte der Komponenten, aber starke Wirkung auf die Verknuepfung/Anordnung der Komponenten zueinander."},
+    {"front": "Was kennzeichnet eine modulare Innovation?", "back": "Starke Veraenderung der Kernkonzepte einzelner Komponenten, waehrend die Verknuepfung zwischen den Komponenten weitgehend unveraendert bleibt."},
+    {"front": "Welche Aktivitaeten und Ergebnisse umfasst der Innovationsprozess i.w.S.?", "back": "FuE -> Invention; Markteinfuehrung -> Innovation i.e.S.; Marktdurchsetzung -> Diffusion; Nachahmung -> Imitation."},
+    {"front": "Nenne die vier Phasen des FuE-Prozesses.", "back": "Grundlagenforschung, Technologieentwicklung, Vorentwicklung, Produkt- und Prozessentwicklung (steigende Markt-/Anwendungsnaehe und zunehmender Charakter eines privaten Gutes)."},
+    {"front": "Warum foerdert der Staat Grundlagenforschung?", "back": "Wegen externer Effekte und des oeffentlichen Gutscharakters der Grundlagenforschung wuerde privat zu wenig investiert (Nelson 1959, Arrow 1962)."},
+    {"front": "Welches Kernproblem loesen intellektuelle Eigentumsrechte?", "back": "Der Erfinder kann sich wegen leichter Kopierbarkeit (Grenzkosten nahe Null) und Imitation nicht alle Ertraege seiner Idee aneignen; Schutzrechte sichern die Aneignung."},
+    {"front": "Welche drei Voraussetzungen muss eine Erfindung fuer ein Patent erfuellen?", "back": "Sie muss neu, nuetzlich und nicht-offensichtlich (fuer einen Fachmann des Gebiets) sein; ausserdem muss sie funktionieren/ausgereift sein."},
+    {"front": "Welche Nachteile hat das Patentsystem gesamtwirtschaftlich?", "back": "Es begruendet ein gesetzliches Monopol (reduzierte Outputmenge -> Wohlfahrtsverlust) und kann bei einem Patentrennen zu Ueberinvestition von Ressourcen fuehren."},
+    {"front": "Wie lange gilt das Urheberrecht in der Regel?", "back": "In der Regel Lebenszeit des Autors plus 70 Jahre; das Werk muss original, Ausdruck intellektueller Aktivitaet und der Antragsteller der Autor sein."},
+    {"front": "Nenne die fuenf grundlegenden Rechte eines Copyright-Inhabers.", "back": "Reproduktion, Erstellung abgeleiteter Werke, Distribution von Kopien, oeffentliche Auffuehrung sowie oeffentliches Zeigen/Ausstellen des Werkes."},
+    {"front": "Was ist die Hauptfunktion eines Warenzeichens und die Eintragungsvoraussetzung?", "back": "Hauptfunktion: Identifizierung von Produkten und ihrer Herkunft (Produktdifferenzierung); Voraussetzung: Unterscheidbarkeit (keine allgemeinen Begriffe/Orte/Namen)."},
+    {"front": "Wodurch unterscheidet sich ein Geschaeftsgeheimnis von einem Patent?", "back": "Keine Offenlegungspflicht, Schutz unabhaengig von Neuigkeit/Originalitaet, Schutzdauer prinzipiell unbegrenzt - endet aber bei legaler/unabhaengiger Entdeckung durch Wettbewerber."},
+    {"front": "Definiere Venture Management.", "back": "Aktivitaet eines etablierten Unternehmens, an der Gruendung neuer interner/externer Wagniseinheiten fuer innovative, risikoreiche Aufgaben beteiligt zu sein."},
+    {"front": "Nenne Sachziele und Formalziel des Venture Managements.", "back": "Sachziele: Sicherung der Entwicklungsfaehigkeit (Wachstum, Diversifikation, technische Vertrautheit, Imagekorrektur). Formalziel: Renditesicherung, Kapitalzuwachs."},
+    {"front": "Nenne typische Ursachen fuer das Scheitern von Venture-Aktivitaeten.", "back": "Schwaechen der Muttergesellschaft (kurzfristige Erfolgserwartung, fehlende Strategie), der Venture-Einheit (Management-Defizite, Verwaesserung des Gruendergeistes) und bei der Integration (Kommunikation, Kultur)."}
+  ],
+  "quiz": [
+    {
+      "question": "Was beschreibt der Begriff 'Innovation im engeren Sinne'?",
+      "options": [
+        "Die erstmalige wirtschaftliche Nutzung bzw. Markteinfuehrung einer Invention",
+        "Die reine technische Erfindung ohne Verwertung",
+        "Die Nachahmung eines Produktes durch Wettbewerber",
+        "Die Ausbreitung eines Produktes am Markt"
+      ],
+      "answer": 0,
+      "explanation": "Innovation i.e.S. ist die erstmalige wirtschaftliche Verwertung/Markteinfuehrung einer Invention. Die reine Erfindung ist die Invention, die Nachahmung ist Imitation, die Ausbreitung ist Diffusion."
+    },
+    {
+      "question": "Ein Serendipitaets-Effekt bezeichnet eine ...",
+      "options": [
+        "geplante Invention aus gezielter Forschung",
+        "ungeplante, zufaellige Invention",
+        "Form der Prozessinnovation",
+        "Marktdurchsetzung eines Produktes"
+      ],
+      "answer": 1,
+      "explanation": "Der Serendipitaets-Effekt steht fuer eine ungeplante, zufaellige Invention im Gegensatz zur geplanten Invention aus gezielter FuE."
+    },
+    {
+      "question": "Welche Innovation veraendert die Kernkonzepte der Komponenten kaum, aber grundlegend deren Verknuepfung zueinander?",
+      "options": [
+        "Radikale Innovation",
+        "Modulare Innovation",
+        "Architekturelle Innovation",
+        "Inkrementale Innovation"
+      ],
+      "answer": 2,
+      "explanation": "Nach Henderson/Clark (1990) laesst die architekturelle Innovation die Kernkonzepte weitgehend unveraendert, veraendert aber die Verknuepfung/Anordnung der Komponenten grundlegend."
+    },
+    {
+      "question": "Welche Reihenfolge der FuE-Phasen ist korrekt?",
+      "options": [
+        "Produktentwicklung -> Vorentwicklung -> Technologieentwicklung -> Grundlagenforschung",
+        "Grundlagenforschung -> Technologieentwicklung -> Vorentwicklung -> Produkt- und Prozessentwicklung",
+        "Technologieentwicklung -> Grundlagenforschung -> Produktentwicklung -> Vorentwicklung",
+        "Vorentwicklung -> Grundlagenforschung -> Produktentwicklung -> Technologieentwicklung"
+      ],
+      "answer": 1,
+      "explanation": "Der FuE-Prozess verlaeuft von der Grundlagenforschung ueber Technologieentwicklung und Vorentwicklung bis zur Produkt- und Prozessentwicklung, mit zunehmender Markt- und Anwendungsnaehe."
+    },
+    {
+      "question": "Womit wird die oeffentliche Foerderung der Grundlagenforschung hauptsaechlich begruendet?",
+      "options": [
+        "Mit der Erzielung von Wettbewerbsvorteilen fuer einzelne Unternehmen",
+        "Mit der Verbesserung der Gewinnsituation privater Firmen",
+        "Mit externen Effekten und dem oeffentlichen Gutscharakter der Grundlagenforschung",
+        "Mit der Notwendigkeit von Patentrennen"
+      ],
+      "answer": 2,
+      "explanation": "Externe Effekte und der oeffentliche Gutscharakter (Nelson 1959, Arrow 1962) fuehren dazu, dass privat zu wenig in Grundlagenforschung investiert wird; deshalb foerdert der Staat. Wettbewerbsvorteile und Gewinnverbesserung sind Motive privater FuE."
+    },
+    {
+      "question": "Welches Kernproblem sollen intellektuelle Eigentumsrechte loesen?",
+      "options": [
+        "Der Erfinder kann sich wegen leichter Kopierbarkeit nicht alle Ertraege seiner Idee aneignen",
+        "Produkte sind zu teuer in der Herstellung",
+        "Es gibt zu wenige Erfindungen weltweit",
+        "Der Staat erhaelt zu geringe Steuereinnahmen"
+      ],
+      "answer": 0,
+      "explanation": "Weil Information zu Grenzkosten nahe Null kopierbar und ein oeffentliches Gut ist, kann der Erzeuger sich ohne Schutzrechte nicht alle Ertraege aneignen (Imitation durch Wettbewerber)."
+    },
+    {
+      "question": "Welche drei Voraussetzungen muss eine Erfindung fuer die Patenterteilung erfuellen?",
+      "options": [
+        "billig, schnell, exportfaehig",
+        "neu, nuetzlich, nicht-offensichtlich",
+        "original, kuenstlerisch, dokumentiert",
+        "geheim, wertvoll, genutzt"
+      ],
+      "answer": 1,
+      "explanation": "Ein Patent setzt voraus, dass die Erfindung neu, nuetzlich und fuer einen Fachmann nicht-offensichtlich ist (und funktioniert). 'Geheim, wertvoll, genutzt' beschreibt hingegen Geschaeftsgeheimnisse."
+    },
+    {
+      "question": "Welche Aussage zum Patentsystem trifft zu?",
+      "options": [
+        "Es fuehrt gesamtwirtschaftlich immer zu Wohlfahrtsgewinnen ohne Nachteile",
+        "Es begruendet ein befristetes Monopol, was zu Wohlfahrtsverlust fuehren kann",
+        "Patente muessen nicht offengelegt werden",
+        "Patente gelten zeitlich unbegrenzt"
+      ],
+      "answer": 1,
+      "explanation": "Das Patent begruendet ein gesetzlich abgesichertes (befristetes) Monopol; die reduzierte Outputmenge fuehrt zu einem Wohlfahrtsverlust. Nicht-Offenlegung und unbegrenzte Dauer kennzeichnen dagegen Geschaeftsgeheimnisse."
+    },
+    {
+      "question": "Wie lange gilt das Urheberrecht in der Regel?",
+      "options": [
+        "20 Jahre ab Anmeldung",
+        "Lebenszeit des Autors plus 70 Jahre",
+        "Unbegrenzt, solange geheim gehalten",
+        "10 Jahre ab Veroeffentlichung"
+      ],
+      "answer": 1,
+      "explanation": "Das Urheberrecht (Copyright) schuetzt kuenstlerische Werke in der Regel fuer die Lebenszeit des Autors plus 70 Jahre."
+    },
+    {
+      "question": "Was ist die zentrale Eintragungsvoraussetzung fuer ein Warenzeichen?",
+      "options": [
+        "Nicht-Offensichtlichkeit",
+        "Originalitaet als Kunstwerk",
+        "Unterscheidbarkeit",
+        "Geheimhaltung"
+      ],
+      "answer": 2,
+      "explanation": "Ein Warenzeichen muss unterscheidbar sein; allgemeine Begriffe, uebliche Gueterbezeichnungen, geographische Orte und Namen sind in der Regel nicht registrierbar."
+    },
+    {
+      "question": "Welches Merkmal unterscheidet Geschaeftsgeheimnisse von Patenten?",
+      "options": [
+        "Sie erfordern eine Offenlegung der Inhalte",
+        "Sie sind auf 20 Jahre begrenzt",
+        "Sie erfordern keine Offenlegung und gelten prinzipiell unbegrenzt",
+        "Sie setzen zwingend Neuheit und Originalitaet voraus"
+      ],
+      "answer": 2,
+      "explanation": "Geschaeftsgeheimnisse erfordern keine Offenlegung (waere kontraproduktiv), schuetzen unabhaengig von Neuigkeit/Originalitaet und gelten prinzipiell unbegrenzt - bis ein Wettbewerber sie legal/unabhaengig entdeckt."
+    },
+    {
+      "question": "Was ist das Formalziel des Venture Managements?",
+      "options": [
+        "Sicherung der Entwicklungsfaehigkeit durch Diversifikation",
+        "Renditesicherung und Kapitalzuwachs",
+        "Vertrautheit mit technischen Entwicklungen",
+        "Imagekorrektur des Unternehmens"
+      ],
+      "answer": 1,
+      "explanation": "Das Formalziel ist Renditesicherung und Kapitalzuwachs. Entwicklungsfaehigkeit, Diversifikation, technische Vertrautheit und Imagekorrektur sind Sachziele."
+    },
+    {
+      "question": "Welche der folgenden Ursachen ist eine Scheiterungsursache innerhalb der Venture-Einheit selbst?",
+      "options": [
+        "Schwerfaellige Organisationsstruktur der Muttergesellschaft",
+        "Zu lange und uneindeutige Kommunikationskanaele bei der Integration",
+        "Einseitige Konzentration auf technologisches Know-how bei Mangel an Management-Faehigkeiten",
+        "Unvereinbare Unternehmenskulturen"
+      ],
+      "answer": 2,
+      "explanation": "Die einseitige Konzentration auf technologisches Know-how sowie die Verwaesserung des Gruendergeistes sind Schwaechen innerhalb der Venture-Einheit. Die anderen Optionen betreffen die Muttergesellschaft bzw. die Integration."
+    }
+  ]
+}

@@ -44,7 +44,32 @@ h1,h2,h3{line-height:1.25;font-weight:700}
   max-width:1200px;margin:0 auto;padding:.7rem 1.4rem;
   display:flex;align-items:center;justify-content:space-between;gap:1rem;
 }
-.brand{display:flex;align-items:center;gap:.75rem}
+.brand{display:flex;align-items:center;gap:.75rem;border:none;background:none;cursor:pointer;font-family:inherit;text-align:left;padding:0}
+.brand:hover .brand-text strong{color:var(--primary)}
+
+/* ---------- Portal (Kursauswahl) ---------- */
+#workspace[hidden]{display:none}
+.portal-hero{background:linear-gradient(135deg,#ffffff,#eef3fe);border:1px solid var(--border);border-radius:var(--radius);padding:2rem 2.1rem;box-shadow:var(--shadow);margin-bottom:1.8rem}
+.portal-hero h1{font-size:2rem;letter-spacing:-.02em}
+.portal-hero .lead{margin-top:.7rem}
+.sem-block{margin-bottom:2rem}
+.sem-title{font-size:1.3rem;display:flex;align-items:center;gap:.6rem;margin-bottom:1rem}
+.sem-num{width:32px;height:32px;border-radius:9px;background:var(--primary-soft);color:var(--primary-dark);font-weight:800;display:grid;place-items:center;font-size:.95rem}
+.course-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.1rem}
+.course-card{display:flex;flex-direction:column;text-align:left;gap:.9rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.3rem 1.4rem;cursor:pointer;box-shadow:var(--shadow);transition:.16s}
+.course-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:#cfdcf7}
+.cc-ico{font-size:2rem}
+.cc-body{display:flex;flex-direction:column;gap:.3rem;flex:1}
+.cc-short{font-size:.74rem;font-weight:700;color:var(--primary-dark);background:var(--primary-soft);align-self:flex-start;padding:.12rem .5rem;border-radius:99px;letter-spacing:.03em}
+.course-card h3{font-size:1.12rem;line-height:1.3}
+.cc-meta{display:flex;flex-wrap:wrap;gap:.8rem;font-size:.78rem;color:var(--muted);margin-top:.2rem}
+.cc-foot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--border);padding-top:.75rem;margin-top:.2rem}
+.pc-exam{font-size:.76rem;color:var(--warn);font-weight:600}
+.cc-go{margin-left:auto;font-size:.86rem;font-weight:600;color:var(--primary)}
+
+/* ---------- Kurs-Übersicht Zusatz ---------- */
+.hero-crumb{display:flex;align-items:center;gap:.7rem;margin-bottom:.9rem}
+.hero-sem{font-size:.82rem;color:var(--muted);font-weight:600}
 .brand-badge{
   width:42px;height:42px;border-radius:12px;flex:none;
   background:linear-gradient(135deg,var(--primary),#5b8cff);

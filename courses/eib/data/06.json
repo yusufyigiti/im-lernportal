@@ -1,0 +1,372 @@
+{
+  "id": "06",
+  "title": "Grundlagen der Organisation (Aufbau & Prozess)",
+  "pdf": "courses/eib/folien/06.pdf",
+  "summary": "Der Foliensatz behandelt die organisatorische Gestaltung von Unternehmen als Grundgerüst für Arbeitsteilung und Koordination der Ressourcen. Im Mittelpunkt stehen die Aufbauorganisation (funktionale und divisionale bzw. Spartenorganisation nach Produkten, Regionen und Kunden) sowie die Prozessorganisation (prozessorientierte Sicht mit Input-Aktivitäten-Output, Geschäftsprozessen und Prozessparametern). Ergänzend werden theoretische Bezugsrahmen (Resource-based View, Neue Institutionenökonomik), Konstruktionsmängel klassischer Hierarchien und Ansätze zur Prozessbewertung und -optimierung dargestellt.",
+  "sections": [
+    {
+      "heading": "Grundlagen und theoretische Einordnung der Organisation",
+      "points": [
+        "Kernherausforderung der Unternehmensorganisation: ein Grundgerüst für die Arbeitsteilung und das Zusammenwirken der vielfältigen Ressourcen (Mitarbeiter, physisches Kapital, finanzielle Ressourcen, Technologien) schaffen.",
+        "Resource-based View of the Firm: Organisation ist selbst eine Ressource des Unternehmens, mit der sich verteidigungsfähige (dauerhafte) Wettbewerbsvorteile erzielen lassen.",
+        "Organisation ermöglicht den koordinierten, zielorientierten Einsatz der einzelnen Ressourcen und ist damit Voraussetzung für das Entstehen von Unternehmenskompetenzen.",
+        "Neue Institutionenökonomik: Gestaltung der Organisation mit Hilfe von Verträgen, Anreizsystemen und Kontrollsystemen, damit Arbeitsteilung und Koordination zwischen Akteuren effizient bewältigt werden.",
+        "Strategieansatz der Industrial-Organization-Forschung: macht keine Aussagen zur Unternehmensorganisation (Fokus auf Marktstruktur statt Innenorganisation).",
+        "Aufgabe und Notwendigkeit des Organisierens: Der Anstieg der Komplexität der zu bewältigenden Aufgaben erzeugt die Notwendigkeit zur Kooperation und Arbeitsteilung zwischen einzelnen Akteuren."
+      ]
+    },
+    {
+      "heading": "Organisationsbegriffe und Grunddimensionen",
+      "points": [
+        "Drei Organisationsbegriffe: institutioneller, funktionaler und instrumentaler Organisationsbegriff.",
+        "Institutioneller Begriff: Das Unternehmen ist eine Organisation ('Die Firma ist eine Organisation').",
+        "Funktionaler Begriff: Organisation als Tätigkeit des Organisierens ('Der Manager organisiert').",
+        "Instrumentaler Begriff: Organisation als Regelwerk bzw. Instrument ('Das Unternehmen hat eine Organisation').",
+        "Grunddimensionen der Gestaltung: Aufbauorganisation (statische Struktur) und Ablauf- bzw. Prozessorganisation (dynamische Abläufe).",
+        "Die Aufbauorganisation gliedert das Unternehmen in Stellen und Abteilungen; die Ablauforganisation regelt den zeitlich-räumlichen Ablauf der Arbeitsprozesse."
+      ]
+    },
+    {
+      "heading": "Aufbauorganisation: Das funktionale Modell",
+      "points": [
+        "Die funktionale Organisation gliedert das Unternehmen auf der zweiten Hierarchieebene nach betrieblichen Funktionen (Verrichtungen).",
+        "Typische Beispiel-Gliederung unter der Unternehmensleitung: Beschaffung, Forschung & Entwicklung, Fertigung, Absatz/Vertrieb.",
+        "Innerhalb einer Funktion kann weiter untergliedert werden, z. B. Fertigung in Schweißen, Beschichten/Lackieren, Vormontage und Endmontage.",
+        "Vorteil: hohe Spezialisierung, Nutzung von Skaleneffekten und Bündelung von Fachwissen in den Funktionsbereichen.",
+        "Nachteil: hoher Koordinationsbedarf an den Schnittstellen zwischen den Funktionen, Gefahr des Ressort- bzw. Bereichsdenkens.",
+        "Die funktionale Organisation gilt als Grundmodell und eignet sich besonders für Einprodukt- bzw. wenig diversifizierte Unternehmen."
+      ]
+    },
+    {
+      "heading": "Aufbauorganisation: Spartenorganisation (Divisionale Organisation)",
+      "points": [
+        "Die Spartenorganisation (divisionale Organisation) gliedert das Unternehmen auf der zweiten Ebene in weitgehend eigenständige Sparten (Divisionen).",
+        "Gliederung nach Produkten: Beispiel Konzernleitung mit Sparten wie Eurocopter, Militärische Transportflugzeuge, Zivile Flugzeuge (Airbus), Raumfahrt und Verteidigungssysteme; die Airbus-Sparte weiter in A320, A330, A340, A350, A380.",
+        "Gliederung nach Regionen: Sparten wie Nordamerika, Süd- & Mittelamerika, Europa, Mittlerer Osten & Afrika, Asien & Pazifik; Europa weiter in Deutschland, Frankreich, Grossbritannien, Polen usw.",
+        "Gliederung nach Kunden: Sparten wie Nahrungsmittelindustrie, Elektronikindustrie, Automobilindustrie, Pharmaindustrie, Prozessindustrie; die Automobilsparte weiter nach Kunden wie Volkswagen, BMW, Daimler, PSA Peugeot Citroen.",
+        "Vorteil: Kunden-, Produkt- bzw. Marktnaehe, klare Ergebnisverantwortung der Sparten (Profit-Center), Entlastung der Unternehmensleitung.",
+        "Nachteil: moegliche Doppelarbeit (Ressourcenredundanz) durch parallele Funktionen in jeder Sparte, Spartenegoismus und geringere Skaleneffekte."
+      ]
+    },
+    {
+      "heading": "Prozessorganisation: Grundmodell des Prozesses",
+      "points": [
+        "Ein Prozess ist gerichtet und verfolgt eine Zielsetzung: Kundennutzen bzw. Kundenbefriedigung und Wertschoepfung.",
+        "Grundstruktur eines Prozesses: Input -> Aktivitaeten (z. B. Aktivitaet 1 bis 4) -> Output.",
+        "Am Anfang steht ein interner oder externer Lieferant, am Ende ein interner oder externer Kunde.",
+        "Waehrend des Prozesses erfolgen Pruefungen & Kriterien zur Qualitaetssicherung entlang der Aktivitaeten.",
+        "Prozessparameter messen den Prozess, z. B. Kosten, Ausschussrate und Durchlaufzeit.",
+        "Prozesse koennen unternehmensuebergreifend organisiert sein: Beispiel Benetton als Koordinator eigener Produktion, umgeben von Designbueros, Auftragsfertigern, Haendlern (v. a. Franchising) und Factoringdienstleistern."
+      ]
+    },
+    {
+      "heading": "Geschäftsprozesse und die Grenzen funktionaler Hierarchien",
+      "points": [
+        "Geschaeftsprozesse (z. B. Auftragsabwicklung, Produktentwicklung, Kundenservice) verlaufen horizontal (quer) durch die funktional gegliederten Bereiche.",
+        "Funktionale Gliederung umfasst z. B. Personal, Entwicklung, Marketing/Vertrieb, Produktion, Service sowie Finanz- und Rechnungswesen.",
+        "Prozesse durchqueren mehrere Funktionen; hier entstehen die kritischen Schnittstellen der Organisation.",
+        "Konstruktionsmaengel von Hierarchiestrukturen: Management-Barrieren plus funktionale Barrieren ergeben operative Inseln.",
+        "Konkrete Probleme dieser Struktur: Informationsfilterung (vertikal), funktionale Abschottung (horizontal) und Koordinationsprobleme.",
+        "Zusammenhang von Aufbau- und Ablauforganisation: Innerhalb der Struktur (Leitung, Beschaffung, Produktion, Absatz, Verwaltung) laeuft ein Ablauf vom Kundenauftrag ueber Lagerentnahme, Fertigung, Transport, Warenversand bis zur Fakturierung."
+      ]
+    },
+    {
+      "heading": "Prozessbewertung: Quantifizierung von Schwachstellen",
+      "points": [
+        "Durchlaufzeiten, aufgeschluesselt in Liege-, Bearbeitungs- und Transferzeiten.",
+        "Kosten in Form von Prozesskosten.",
+        "Kapazitaetsauslastung der eingesetzten Ressourcen.",
+        "Qualitaet, gemessen an Fehlern bei der Leistungserstellung und beim Kunden.",
+        "Anzahl organisatorischer Wechsel (Zustaendigkeits-/Abteilungswechsel).",
+        "Anzahl systemtechnischer Wechsel sowie Anzahl der Medienwechsel (z. B. Wechsel zwischen Papier und IT-System)."
+      ]
+    },
+    {
+      "heading": "Prozessoptimierung: Gestaltungsmaßnahmen",
+      "points": [
+        "Eliminieren: ueberfluessige, nicht wertschoepfende Aktivitaeten ganz entfernen.",
+        "Auslagern: Aktivitaeten nach extern verlagern (Outsourcing an Dritte).",
+        "Zusammenfassen: mehrere Aktivitaeten zu einer buendeln, um Schnittstellen zu reduzieren.",
+        "Parallelisieren: bisher nacheinander ausgefuehrte Aktivitaeten gleichzeitig ablaufen lassen, um die Durchlaufzeit zu verkuerzen.",
+        "Verlagern: die Reihenfolge bzw. den Ort einer Aktivitaet im Prozess veraendern.",
+        "Beschleunigen: die Dauer einzelner Aktivitaeten verkuerzen; Ziel aller Massnahmen ist eine kuerzere Durchlaufzeit und geringere Kosten."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Aufbauorganisation",
+      "definition": "Statische Grundstruktur eines Unternehmens, die festlegt, welche Stellen und Abteilungen es gibt und wie sie hierarchisch gegliedert und miteinander verbunden sind."
+    },
+    {
+      "term": "Ablauforganisation (Prozessorganisation)",
+      "definition": "Dynamische Gestaltung der Arbeitsprozesse, die den zeitlichen und raeumlichen Ablauf der Aufgabenerfuellung regelt."
+    },
+    {
+      "term": "Funktionale Organisation",
+      "definition": "Aufbauorganisation, bei der das Unternehmen auf der zweiten Ebene nach betrieblichen Funktionen (z. B. Beschaffung, F&E, Fertigung, Absatz) gegliedert wird."
+    },
+    {
+      "term": "Spartenorganisation (Divisionale Organisation)",
+      "definition": "Aufbauorganisation, bei der das Unternehmen in weitgehend eigenstaendige Sparten (Divisionen) gegliedert wird, z. B. nach Produkten, Regionen oder Kunden."
+    },
+    {
+      "term": "Resource-based View of the Firm",
+      "definition": "Theorieansatz, der die Organisation als eigenstaendige Ressource betrachtet, mit der sich dauerhaft verteidigungsfaehige Wettbewerbsvorteile erzielen lassen."
+    },
+    {
+      "term": "Neue Institutionenoekonomik",
+      "definition": "Theorierahmen, der Organisation mit Hilfe von Vertraegen, Anreiz- und Kontrollsystemen gestaltet, um Arbeitsteilung und Koordination effizient zu bewaeltigen."
+    },
+    {
+      "term": "Prozess",
+      "definition": "Gerichtete Folge von Aktivitaeten, die einen Input in einen Output umwandelt und dabei die Ziele Kundennutzen und Wertschoepfung verfolgt."
+    },
+    {
+      "term": "Prozessparameter",
+      "definition": "Messgroessen zur Bewertung eines Prozesses, z. B. Kosten, Ausschussrate und Durchlaufzeit."
+    },
+    {
+      "term": "Durchlaufzeit",
+      "definition": "Gesamte Zeit, die ein Objekt zum Durchlaufen eines Prozesses benoetigt; setzt sich aus Liege-, Bearbeitungs- und Transferzeiten zusammen."
+    },
+    {
+      "term": "Geschaeftsprozess",
+      "definition": "Uebergreifender Prozess (z. B. Auftragsabwicklung, Produktentwicklung, Kundenservice), der horizontal durch mehrere funktionale Bereiche verlaeuft."
+    },
+    {
+      "term": "Operative Inseln",
+      "definition": "Konstruktionsmangel von Hierarchien: durch die Kombination von Management-Barrieren und funktionalen Barrieren entstehen voneinander abgeschottete Bereiche."
+    },
+    {
+      "term": "Funktionale Abschottung",
+      "definition": "Horizontale Barriere zwischen Funktionsbereichen, die den bereichsuebergreifenden Informations- und Leistungsfluss behindert."
+    },
+    {
+      "term": "Informationsfilterung",
+      "definition": "Vertikaler Konstruktionsmangel von Hierarchien, bei dem Informationen auf dem Weg durch die Managementebenen verzerrt oder ausgefiltert werden."
+    },
+    {
+      "term": "Medienwechsel",
+      "definition": "Wechsel des Informationstraegers innerhalb eines Prozesses (z. B. von Papier zu IT-System); ein Indikator fuer Prozessschwachstellen."
+    },
+    {
+      "term": "Parallelisieren",
+      "definition": "Prozessoptimierungsmassnahme, bei der bisher nacheinander ausgefuehrte Aktivitaeten gleichzeitig ablaufen, um die Durchlaufzeit zu verkuerzen."
+    },
+    {
+      "term": "Wertschoepfung",
+      "definition": "Werterhoehung, die ein Prozess durch die Umwandlung von Input in einen fuer den Kunden nuetzlichen Output erzeugt; zentrales Prozessziel."
+    }
+  ],
+  "kernpunkte": [
+    "Organisation liefert das Grundgeruest fuer Arbeitsteilung und Koordination der Unternehmensressourcen.",
+    "Man unterscheidet institutionellen, funktionalen und instrumentalen Organisationsbegriff sowie Aufbau- und Ablauforganisation.",
+    "Die funktionale Organisation gliedert nach Verrichtungen, die Spartenorganisation nach Produkten, Regionen oder Kunden.",
+    "Ein Prozess wandelt Input ueber gerichtete Aktivitaeten in Output um und zielt auf Kundennutzen und Wertschoepfung.",
+    "Geschaeftsprozesse verlaufen horizontal quer durch die funktional gegliederten Bereiche.",
+    "Klassische Hierarchien leiden an Management- und funktionalen Barrieren, die zu operativen Inseln fuehren.",
+    "Prozessschwachstellen werden ueber Kennzahlen wie Durchlaufzeit, Prozesskosten, Qualitaet und Medienwechsel quantifiziert.",
+    "Prozesse werden durch Eliminieren, Auslagern, Zusammenfassen, Parallelisieren, Verlagern und Beschleunigen optimiert."
+  ],
+  "flashcards": [
+    {
+      "front": "Was ist die Kernherausforderung der Unternehmensorganisation?",
+      "back": "Ein Grundgeruest fuer die Arbeitsteilung und das Zusammenwirken der Ressourcen (Mitarbeiter, physisches Kapital, Finanzen, Technologien) zu schaffen."
+    },
+    {
+      "front": "Wie sieht der Resource-based View die Organisation?",
+      "back": "Als eigenstaendige Ressource des Unternehmens, mit der sich verteidigungsfaehige (dauerhafte) Wettbewerbsvorteile erzielen lassen; sie ermoeglicht den koordinierten Einsatz aller Ressourcen."
+    },
+    {
+      "front": "Womit gestaltet die Neue Institutionenoekonomik die Organisation?",
+      "back": "Mit Vertraegen, Anreizsystemen und Kontrollsystemen, damit Arbeitsteilung und Koordination zwischen Akteuren effizient bewaeltigt werden."
+    },
+    {
+      "front": "Nenne die drei Organisationsbegriffe.",
+      "back": "Institutioneller, funktionaler und instrumentaler Organisationsbegriff."
+    },
+    {
+      "front": "Was unterscheidet Aufbau- und Ablauforganisation?",
+      "back": "Die Aufbauorganisation regelt die statische Struktur (Stellen, Abteilungen, Hierarchie), die Ablauforganisation den dynamischen zeitlich-raeumlichen Ablauf der Prozesse."
+    },
+    {
+      "front": "Nach welchem Kriterium gliedert die funktionale Organisation?",
+      "back": "Nach betrieblichen Funktionen/Verrichtungen, z. B. Beschaffung, Forschung & Entwicklung, Fertigung, Absatz/Vertrieb."
+    },
+    {
+      "front": "Nach welchen drei Kriterien kann eine Spartenorganisation gegliedert werden?",
+      "back": "Nach Produkten, nach Regionen oder nach Kunden."
+    },
+    {
+      "front": "Was ist ein Prozess und welche Ziele verfolgt er?",
+      "back": "Eine gerichtete Folge von Aktivitaeten, die Input in Output umwandelt; Ziele sind Kundennutzen/Kundenbefriedigung und Wertschoepfung."
+    },
+    {
+      "front": "Aus welchen Elementen besteht das Grundmodell eines Prozesses?",
+      "back": "Input, Aktivitaeten (mit Pruefungen & Kriterien), Output sowie Lieferant (intern/extern) und Kunde (intern/extern); gemessen ueber Prozessparameter."
+    },
+    {
+      "front": "Nenne typische Prozessparameter.",
+      "back": "Kosten, Ausschussrate und Durchlaufzeit."
+    },
+    {
+      "front": "Wie verlaufen Geschaeftsprozesse relativ zur funktionalen Gliederung?",
+      "back": "Horizontal (quer) durch die funktional gegliederten Bereiche, z. B. Auftragsabwicklung, Produktentwicklung und Kundenservice."
+    },
+    {
+      "front": "Welche Konstruktionsmaengel haben Hierarchiestrukturen?",
+      "back": "Management-Barrieren plus funktionale Barrieren ergeben operative Inseln; Folgen sind Informationsfilterung, funktionale Abschottung und Koordinationsprobleme."
+    },
+    {
+      "front": "Woraus setzt sich die Durchlaufzeit zusammen?",
+      "back": "Aus Liegezeiten, Bearbeitungszeiten und Transferzeiten."
+    },
+    {
+      "front": "Nenne Kennzahlen zur Prozessbewertung.",
+      "back": "Durchlaufzeiten, Prozesskosten, Kapazitaetsauslastung, Qualitaet sowie Anzahl organisatorischer, systemtechnischer und Medienwechsel."
+    },
+    {
+      "front": "Welche sechs Massnahmen zur Prozessoptimierung gibt es?",
+      "back": "Eliminieren, Auslagern, Zusammenfassen, Parallelisieren, Verlagern und Beschleunigen."
+    },
+    {
+      "front": "Was bedeutet Parallelisieren in der Prozessoptimierung?",
+      "back": "Bisher nacheinander ausgefuehrte Aktivitaeten gleichzeitig ablaufen lassen, um die Durchlaufzeit zu verkuerzen."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Worin besteht laut Foliensatz die Kernherausforderung der Unternehmensorganisation?",
+      "options": [
+        "In der Maximierung des kurzfristigen Gewinns",
+        "In einem Grundgeruest fuer Arbeitsteilung und Zusammenwirken der Ressourcen",
+        "In der Minimierung der Mitarbeiterzahl",
+        "Im Aufbau eines Markenimages"
+      ],
+      "answer": 1,
+      "explanation": "Die Organisation soll ein Grundgeruest fuer die Arbeitsteilung und das koordinierte Zusammenwirken der Ressourcen liefern."
+    },
+    {
+      "question": "Welcher Ansatz sieht die Organisation als Ressource fuer verteidigungsfaehige Wettbewerbsvorteile?",
+      "options": [
+        "Industrial-Organization-Forschung",
+        "Neue Institutionenoekonomik",
+        "Resource-based View of the Firm",
+        "Behaviorismus"
+      ],
+      "answer": 2,
+      "explanation": "Der Resource-based View betrachtet die Organisation als Ressource, mit der sich dauerhaft verteidigungsfaehige Wettbewerbsvorteile erzielen lassen."
+    },
+    {
+      "question": "Womit gestaltet die Neue Institutionenoekonomik Arbeitsteilung und Koordination?",
+      "options": [
+        "Mit Vertraegen, Anreiz- und Kontrollsystemen",
+        "Allein mit Werbung",
+        "Ausschliesslich mit Technologieinvestitionen",
+        "Mit Marktpreisen der Konkurrenz"
+      ],
+      "answer": 0,
+      "explanation": "Die Neue Institutionenoekonomik nutzt Vertraege, Anreizsysteme und Kontrollsysteme, um Koordination effizient zu bewaeltigen."
+    },
+    {
+      "question": "Nach welchem Kriterium gliedert die funktionale Organisation?",
+      "options": [
+        "Nach Regionen",
+        "Nach Kunden",
+        "Nach Produkten",
+        "Nach betrieblichen Funktionen/Verrichtungen"
+      ],
+      "answer": 3,
+      "explanation": "Die funktionale Organisation gliedert nach Funktionen wie Beschaffung, F&E, Fertigung und Absatz/Vertrieb."
+    },
+    {
+      "question": "Welche Gliederung ist KEINE typische Form der Spartenorganisation?",
+      "options": [
+        "Gliederung nach Produkten",
+        "Gliederung nach Regionen",
+        "Gliederung nach Verrichtungen/Funktionen",
+        "Gliederung nach Kunden"
+      ],
+      "answer": 2,
+      "explanation": "Die Spartenorganisation gliedert nach Produkten, Regionen oder Kunden; die Gliederung nach Verrichtungen ist das Merkmal der funktionalen Organisation."
+    },
+    {
+      "question": "Welche Ziele verfolgt ein Prozess laut Definition?",
+      "options": [
+        "Kundennutzen/Kundenbefriedigung und Wertschoepfung",
+        "Nur die Senkung der Personalkosten",
+        "Nur die Erhoehung der Lagerbestaende",
+        "Ausschliesslich die Steuervermeidung"
+      ],
+      "answer": 0,
+      "explanation": "Ein Prozess ist gerichtet und zielt auf Kundennutzen/Kundenbefriedigung sowie Wertschoepfung."
+    },
+    {
+      "question": "Was zaehlt zu den Prozessparametern?",
+      "options": [
+        "Aktienkurs und Dividende",
+        "Kosten, Ausschussrate und Durchlaufzeit",
+        "Eigenkapitalquote und Bilanzsumme",
+        "Werbebudget und Markenwert"
+      ],
+      "answer": 1,
+      "explanation": "Prozessparameter sind z. B. Kosten, Ausschussrate und Durchlaufzeit."
+    },
+    {
+      "question": "Was entsteht laut Foliensatz aus Management-Barrieren plus funktionalen Barrieren?",
+      "options": [
+        "Skaleneffekte",
+        "Operative Inseln",
+        "Kundennutzen",
+        "Wertschoepfungsketten"
+      ],
+      "answer": 1,
+      "explanation": "Die Kombination von Management-Barrieren und funktionalen Barrieren fuehrt zu operativen Inseln mit Informationsfilterung, funktionaler Abschottung und Koordinationsproblemen."
+    },
+    {
+      "question": "Woraus setzt sich die Durchlaufzeit eines Prozesses zusammen?",
+      "options": [
+        "Aus Liege-, Bearbeitungs- und Transferzeiten",
+        "Nur aus der reinen Bearbeitungszeit",
+        "Aus Zins- und Tilgungszeiten",
+        "Aus Urlaubs- und Krankheitstagen"
+      ],
+      "answer": 0,
+      "explanation": "Die Durchlaufzeit umfasst Liegezeiten, Bearbeitungszeiten und Transferzeiten."
+    },
+    {
+      "question": "Welche Massnahme beschreibt das gleichzeitige Ausfuehren zuvor nacheinander ablaufender Aktivitaeten?",
+      "options": [
+        "Eliminieren",
+        "Auslagern",
+        "Parallelisieren",
+        "Zusammenfassen"
+      ],
+      "answer": 2,
+      "explanation": "Parallelisieren laesst bisher sequenzielle Aktivitaeten gleichzeitig ablaufen und verkuerzt so die Durchlaufzeit."
+    },
+    {
+      "question": "Wie verlaufen Geschaeftsprozesse im Verhaeltnis zur funktionalen Gliederung?",
+      "options": [
+        "Streng vertikal innerhalb einer Funktion",
+        "Horizontal quer durch mehrere Funktionsbereiche",
+        "Ausschliesslich im Finanz- und Rechnungswesen",
+        "Gar nicht, sie sind unabhaengig"
+      ],
+      "answer": 1,
+      "explanation": "Geschaeftsprozesse wie Auftragsabwicklung oder Produktentwicklung verlaufen horizontal quer durch die funktional gegliederten Bereiche."
+    },
+    {
+      "question": "Welche Aussage zum instrumentalen Organisationsbegriff ist korrekt?",
+      "options": [
+        "Das Unternehmen ist eine Organisation",
+        "Der Manager organisiert",
+        "Das Unternehmen hat eine Organisation (Regelwerk)",
+        "Organisation ist ein Marktpreis"
+      ],
+      "answer": 2,
+      "explanation": "Der instrumentale Begriff versteht Organisation als Instrument/Regelwerk: Das Unternehmen 'hat' eine Organisation."
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "id": "03",
+  "title": "Informationssysteme 1",
+  "pdf": "courses/gwi/folien/03.pdf",
+  "summary": "Diese Vorlesung führt den zentralen Begriff des Informationssystems (IS) der Wirtschaftsinformatik ein und definiert IS als soziotechnische Systeme aus menschlichen und maschinellen Komponenten. Sie erläutert die Wissenstreppe (von Zeichen über Daten und Informationen bis zu Wissen und Kompetenz) sowie zentrale Begriffe wie Wertschöpfung, Prozess und Geschäftsprozess. Anschließend werden Klassifikationsmöglichkeiten von IS vorgestellt, insbesondere die Einteilung nach Unternehmensebenen mit den vier Systemtypen TPS, MIS, DSS und ESS sowie die Klassifikation nach Funktionsbereichen.",
+  "sections": [
+    {
+      "heading": "Qualifikationsziele der Vorlesung",
+      "points": [
+        "Erläutern können, was in der Wirtschaftsinformatik unter einem Informationssystem verstanden wird.",
+        "Verschiedene Klassifizierungen von Informationssystemen kennen.",
+        "Die Informationssystem-Typen MIS, DSS, ESS und TPS voneinander abgrenzen und erläutern können."
+      ]
+    },
+    {
+      "heading": "Bedeutung von Informationssystemen",
+      "points": [
+        "Informationssysteme sind der zentrale Betrachtungsgegenstand der Wirtschaftsinformatik.",
+        "Praktisch müssen heute alle Mitarbeiter eines Unternehmens Kenntnisse über Informationssysteme besitzen, nicht nur IT-Spezialisten.",
+        "IS durchdringen sämtliche Bereiche und Ebenen eines Unternehmens."
+      ]
+    },
+    {
+      "heading": "Definition Informationssystem (vollständig)",
+      "points": [
+        "IS sind soziotechnische Systeme, die menschliche und maschinelle Komponenten (Teilsysteme) umfassen.",
+        "Sie unterstützen die Sammlung, Strukturierung, Verarbeitung, Bereitstellung, Kommunikation und Nutzung von Daten, Informationen und Wissen sowie deren Transformation.",
+        "IS tragen zur Entscheidungsfindung, Koordination, Steuerung und Kontrolle von Wertschöpfungsprozessen sowie deren Automatisierung, Integration und Virtualisierung unter insbesondere ökonomischen Kriterien bei.",
+        "IS können Produkt-, Prozess- und Geschäftsmodellinnovationen bewirken.",
+        "Quelle der Definition: WKWI und GI FB WI 2011."
+      ]
+    },
+    {
+      "heading": "IS als soziotechnische Systeme",
+      "points": [
+        "Ein soziotechnisches System verbindet die drei Elemente Mensch, Aufgabe sowie Informations- und Kommunikationstechnik (IKT).",
+        "Der Mensch (sozial) und die Technik (maschinell) bilden zusammen die Teilsysteme.",
+        "Die Aufgabe verknüpft Mensch und Technik zu einem funktionierenden Gesamtsystem.",
+        "Dieses Verständnis wiederholt Inhalte aus der Einführungsvorlesung über die Disziplin Wirtschaftsinformatik."
+      ]
+    },
+    {
+      "heading": "Die Wissenstreppe (nach North)",
+      "points": [
+        "Zeichen werden durch Syntax zu Daten (z. B. Ziffern, die einer Ordnungsregel folgen).",
+        "Daten werden durch Bedeutung / Zweckorientierung zu Informationen.",
+        "Informationen werden durch Vernetzung (Kontext, Erfahrungen) zu Wissen.",
+        "Wissen wird durch Anwendung zu Handeln, richtiges Handeln zu Kompetenz (Können), und mit Einzigartigkeit ('besser als andere') zu Wettbewerbsfähigkeit.",
+        "Weitere Anreicherungsschritte auf der Treppe sind Motivation (bei Wissen) und Können (bei Kompetenz).",
+        "Dies ist nur eine mögliche Abgrenzung von Daten, Informationen und Wissen."
+      ]
+    },
+    {
+      "heading": "Wertschöpfung und Wertschöpfungsprozesse",
+      "points": [
+        "Betriebliche Wertschöpfung ist der wertmäßige Unterschied zwischen den Vorleistungen anderer Wirtschaftseinheiten und den vom Betrieb erzeugten und abgesetzten Leistungen.",
+        "Formel-Idee: erzeugte/abgesetzte Leistungen minus Vorleistungen = betriebliche Wertschöpfung.",
+        "IS unterstützen und automatisieren die Prozesse, in denen diese Wertschöpfung entsteht.",
+        "Quelle: Weber und Kabst 2009."
+      ]
+    },
+    {
+      "heading": "Prozesse und Geschäftsprozesse",
+      "points": [
+        "Ein Prozess ist eine Reihe von Aktivitäten, die aus einem definierten Input ein definiertes Arbeitsergebnis (Output) erzeugen.",
+        "Ein Geschäftsprozess ist eine funktions- und organisationsübergreifende Verknüpfung wertschöpfender Aktivitäten, die von Kunden erwartete Leistungen erzeugen und aus der Geschäftsstrategie abgeleitet sind.",
+        "Beispiele für Geschäftsprozesse: Angebotsprozess, Auftragsabwicklung, Produktentwicklung, Kundenservice.",
+        "Quellen: Schmelzer und Sesselmann 2008/2010."
+      ]
+    },
+    {
+      "heading": "Begriffsabgrenzung und Synonyme",
+      "points": [
+        "In der Literatur sind folgende Begriffe nicht immer trennscharf und werden teils synonym oder sehr unterschiedlich verwendet.",
+        "Betroffene Begriffe: Informationssystem, Anwendungssystem, Informations- und Kommunikationssystem (IuK, IKS), Informations- und Kommunikationstechnik (IKT), IT-System.",
+        "Beim Lesen von Literatur ist stets auf das zugrunde liegende Begriffsverständnis zu achten."
+      ]
+    },
+    {
+      "heading": "Klassifikationsmöglichkeiten von IS",
+      "points": [
+        "IS lassen sich nach vielen Kriterien (Ausprägungen) gruppieren.",
+        "Mögliche Kriterien: Wirtschaftszweig (Automobil, Lebensmittel, Computer), Wirtschaftsstufe (Industrie, Großhandel, Einzelhandel, private Haushalte).",
+        "Weitere Kriterien: Funktionsbereich (F&E, Marketing/Verkauf, Beschaffung/Lagerhaltung), Reichweite (ein Benutzer, Gruppe, gesamter Betrieb, außerbetrieblich).",
+        "Auch nach Benutzertyp (IT-Spezialist, professioneller / gelegentlicher / unbekannter Endbenutzer) und hierarchischer Ebene (operative Ebene, untere / mittlere / obere Führungsebene).",
+        "Quelle: Mertens, zitiert in Hansen und Neumann 2009."
+      ]
+    },
+    {
+      "heading": "Klassifikation nach Unternehmensebene (Pyramide)",
+      "points": [
+        "Strategische Ebene (Geschäftsführung): Unterstützungssysteme für die Führungsebene (ESS).",
+        "Management-Ebene (Senior Managers, mittleres Management): Managementinformationssysteme (MIS) und Entscheidungsunterstützungssysteme (DSS).",
+        "Operative Ebene (Mitarbeiter): Transaktionssysteme / operative Systeme (TPS).",
+        "Die Systeme bauen aufeinander auf; höhere Ebenen verdichten Daten der darunterliegenden.",
+        "Quelle: Laudon et al. 2010."
+      ]
+    },
+    {
+      "heading": "Exkurs: Begriff Transaktion",
+      "points": [
+        "Duden: größeres [riskantes] Geldgeschäft (z. B. Fusion, Kapitalerhöhung) bzw. wechselseitige Beziehung (Psychologie).",
+        "Gabler / Datenbankorganisation: Eine Transaktion findet statt, wenn ein Gut oder eine Dienstleistung über eine technologisch separierbare Schnittstelle transferiert wird.",
+        "Datenbank-Definition: Auftrag eines Benutzers, der als Ganzes auf Daten eines Datenbanksystems ausgeführt wird, aber aus einer Folge von Teilschritten bestehen kann.",
+        "Transaktionsdaten sind entsprechend die bei solchen laufenden Geschäftsvorfällen anfallenden Daten."
+      ]
+    },
+    {
+      "heading": "Transaktionssysteme (TPS)",
+      "points": [
+        "Transaction Processing Systems; Ziel: Verbesserung der Effizienz auf der Ausführungsebene.",
+        "Aufgabe: Bearbeitung täglich wiederkehrender Routine-Geschäftsvorgänge.",
+        "Benutzer: Mitarbeiter der operativen Ebene und Gruppenleiter.",
+        "Beispiele: Auftragsannahme, Hotelreservierungssysteme, Lohnabrechnungssysteme, Verwaltung der Personalakten, Versandsysteme.",
+        "Historie: erste IS bereits in den 1950er Jahren, um Abläufe schneller, sicherer und kostengünstiger (effizienter) zu machen.",
+        "Beziehung zu anderen IS: bilden oft die Basis / Datengrundlage für andere Systeme (z. B. liefert Lohnbuchhaltung Daten für die Finanzbuchhaltung).",
+        "Sonstiges: so zentral, dass ein Systemausfall von wenigen Stunden zum Zusammenbruch der Unternehmung führen kann."
+      ]
+    },
+    {
+      "heading": "Managementinformationssysteme (MIS)",
+      "points": [
+        "Management Information Systems; Ziel: Unterstützung von Planung, Kontrolle und Entscheidungsfindung auf der Managementebene.",
+        "Aufgabe: liefern Managern detaillierte Berichte über das interne Unternehmensgeschehen.",
+        "Benutzer: mittleres Management.",
+        "Beispiel: Vergleich des Jahresumsatzes bestimmter Produkte mit dem geplanten Umsatzziel (Gewinnplanung und -kontrolle).",
+        "Historie: erste Systeme bereits in den 1970er Jahren.",
+        "Beziehungen: führen Daten der operativen Systeme (TPS) zusammen.",
+        "Sonstiges: geben Antworten auf vorformulierte Routinefragen mit vordefinierten Verfahren (wöchentlich, monatlich, jährlich), bieten wenig Analysemöglichkeiten und speichern aktuelle sowie vergangenheitsbezogene Daten."
+      ]
+    },
+    {
+      "heading": "Entscheidungsunterstützungssysteme (DSS)",
+      "points": [
+        "Decision Support Systems; Ziel: Unterstützung bei Problemen ohne vorher definierten Lösungsweg.",
+        "Aufgabe: helfen Managern bei schlecht strukturierten oder in Teilen unstrukturierten Entscheidungen, indem sie Daten, Methoden und Modelle bereitstellen.",
+        "Benutzer: Manager (z. B. Fachexperten, Personalleiter).",
+        "Beispiel: Seefrachtkalkulationssystem.",
+        "Beziehungen: nutzen Informationen aus operativen Systemen, MIS und externen Quellen (z. B. Aktienkurse, Produktpreise von Wettbewerbern).",
+        "Sonstiges: umfangreiche Analysefunktionen, benutzerfreundliche Oberflächen; nutzen Methoden aus Statistik, Unternehmensforschung, künstlicher Intelligenz oder Data Mining."
+      ]
+    },
+    {
+      "heading": "Unterstützungssysteme für die Führungsebene (ESS)",
+      "points": [
+        "Executive Support Systems; Ziel: Reduzierung von Zeit- und Arbeitsaufwand bei der Beschaffung von Informationen.",
+        "Aufgabe: unterstützen die Führungsebene bei unstrukturierten Entscheidungssituationen ohne generelles Lösungsverfahren mittels anspruchsvoller Visualisierungen und Kommunikationsfunktionen.",
+        "Benutzer: Top Management.",
+        "Beispiel-Fragen: In welchen Märkten sollten wir tätig sein? Was macht die Konkurrenz?",
+        "Beziehungen: nutzen Informationen aus MIS, DSS und externen Quellen (z. B. neue Steuergesetze, Aktivitäten von Konkurrenten).",
+        "Sonstiges: einfach zu bedienende grafische Oberflächen, da das Top Management oft wenig Erfahrung mit Informationssystemen besitzt."
+      ]
+    },
+    {
+      "heading": "Unterschiede MIS vs. DSS vs. ESS",
+      "points": [
+        "MIS: Eingabe von zusammenfassenden Transaktionsdaten und einfachen Modellen; Aufbereitung durch Standardberichte und einfache Analysen; Ausgabe von Zusammenfassungen und Berichten über Ausnahmefälle.",
+        "DSS: Eingabe geringer Datenmengen oder umfangreicher, für die Datenanalyse optimierter Datenbanken und analytischer Modelle; Aufbereitung durch interaktive Bearbeitung, Simulationen und Analyse; Ausgabe von Spezialberichten, Entscheidungsanalysen und Antworten auf Abfragen.",
+        "ESS: Eingabe aggregierter Daten aus externen und internen Quellen; Aufbereitung durch Grafiken, Simulationen und interaktive Bearbeitung; Ausgabe von Vorhersagen, Antworten und Abfragen.",
+        "Kernunterschied: MIS liefern standardisierte Routineberichte, DSS bieten flexible Analyse schlecht strukturierter Probleme, ESS aggregieren interne und externe Daten für das Top Management."
+      ]
+    },
+    {
+      "heading": "Beziehungen zwischen den Systemen",
+      "points": [
+        "Die operativen Systeme (TPS) liefern Daten an MIS und DSS.",
+        "MIS und DSS tauschen untereinander Daten aus und liefern Daten an das ESS.",
+        "Das ESS steht an der Spitze und verdichtet Daten der darunterliegenden Systeme zusätzlich zu externen Informationen.",
+        "Der Datenfluss verläuft grundsätzlich von unten (operativ) nach oben (strategisch), mit zunehmender Verdichtung.",
+        "Quelle: Laudon et al. 2010."
+      ]
+    },
+    {
+      "heading": "Klassifikation nach Funktionsbereichen",
+      "points": [
+        "Neben der Einteilung nach Unternehmensebenen werden IS meist nach ihrem Funktionsbereich klassifiziert.",
+        "Typische Funktionsbereiche: Vertrieb und Marketing, Produktion, Finanz- und Rechnungswesen, Personalwesen.",
+        "Beispiele: Vertriebsunterstützungssysteme, Produktionsplanungs- und Steuerungssysteme (PPS), Systeme für das Finanz- und Rechnungswesen, Systeme für das Personalwesen.",
+        "Quelle: Laudon et al. 2010."
+      ]
+    }
+  ],
+  "glossary": [
+    {"term": "Informationssystem (IS)", "definition": "Soziotechnisches System aus menschlichen und maschinellen Komponenten, das Sammlung, Strukturierung, Verarbeitung, Bereitstellung, Kommunikation und Nutzung von Daten, Informationen und Wissen sowie deren Transformation unterstützt."},
+    {"term": "Soziotechnisches System", "definition": "System, das die Elemente Mensch, Aufgabe und Informations- und Kommunikationstechnik (IKT) verbindet, also soziale und technische Teilsysteme umfasst."},
+    {"term": "Wissenstreppe", "definition": "Modell nach North, das die Stufen Zeichen, Daten, Informationen, Wissen, Handeln, Kompetenz und Wettbewerbsfähigkeit über anreichernde Schritte wie Syntax, Bedeutung, Vernetzung und Anwendung verbindet."},
+    {"term": "Daten", "definition": "Zeichen, die durch eine Syntax (Ordnungsregel) miteinander verknüpft sind; entstehen aus Zeichen und werden durch Bedeutung zu Informationen."},
+    {"term": "Information", "definition": "Daten, die durch Bedeutung und Zweckorientierung angereichert sind; werden durch Vernetzung mit Kontext und Erfahrungen zu Wissen."},
+    {"term": "Wissen", "definition": "Vernetzte Informationen (Kontext, Erfahrungen); durch Anwendung entsteht daraus Handeln und schließlich Kompetenz."},
+    {"term": "Betriebliche Wertschöpfung", "definition": "Wertmäßiger Unterschied zwischen den Vorleistungen anderer Wirtschaftseinheiten und den vom Betrieb erzeugten und abgesetzten Leistungen."},
+    {"term": "Prozess", "definition": "Reihe von Aktivitäten, die aus einem definierten Input ein definiertes Arbeitsergebnis (Output) erzeugen."},
+    {"term": "Geschäftsprozess", "definition": "Funktions- und organisationsübergreifende Verknüpfung wertschöpfender Aktivitäten, die von Kunden erwartete Leistungen erzeugen und aus der Geschäftsstrategie abgeleitet sind."},
+    {"term": "Transaktion", "definition": "Transfer eines Gutes oder einer Dienstleistung über eine technologisch separierbare Schnittstelle; in der Datenbankorganisation ein als Ganzes ausgeführter Auftrag, der aus mehreren Teilschritten bestehen kann."},
+    {"term": "Transaktionsdaten", "definition": "Daten, die bei laufenden, täglich wiederkehrenden Geschäftsvorfällen (Transaktionen) anfallen und von Transaktionssystemen verarbeitet werden."},
+    {"term": "TPS (Transaction Processing System)", "definition": "Transaktionssystem der operativen Ebene, das täglich wiederkehrende Routine-Geschäftsvorgänge bearbeitet und die Effizienz auf der Ausführungsebene verbessert."},
+    {"term": "MIS (Management Information System)", "definition": "Managementinformationssystem, das dem mittleren Management standardisierte Routineberichte über das interne Unternehmensgeschehen für Planung, Kontrolle und Entscheidungsfindung liefert."},
+    {"term": "DSS (Decision Support System)", "definition": "Entscheidungsunterstützungssystem, das Managern bei schlecht oder unstrukturierten Entscheidungen ohne vordefinierten Lösungsweg durch Daten, Methoden und Modelle hilft."},
+    {"term": "ESS (Executive Support System)", "definition": "Unterstützungssystem für die Führungsebene (Top Management), das aggregierte interne und externe Daten anschaulich aufbereitet und den Aufwand der Informationsbeschaffung reduziert."},
+    {"term": "Klassifikation nach Unternehmensebene", "definition": "Einteilung von IS entlang der operativen, Management- und strategischen Ebene, denen die Systemtypen TPS, MIS/DSS und ESS zugeordnet werden."},
+    {"term": "Klassifikation nach Funktionsbereichen", "definition": "Einteilung von IS nach betrieblichen Funktionen wie Vertrieb/Marketing, Produktion, Finanz- und Rechnungswesen sowie Personalwesen."},
+    {"term": "PPS (Produktionsplanungs- und Steuerungssystem)", "definition": "Informationssystem des Funktionsbereichs Produktion zur Planung und Steuerung der Fertigung."}
+  ],
+  "kernpunkte": [
+    "Informationssysteme sind soziotechnische Systeme aus Mensch, Aufgabe und Informations- und Kommunikationstechnik und der zentrale Betrachtungsgegenstand der Wirtschaftsinformatik.",
+    "Die Wissenstreppe nach North ordnet Zeichen, Daten, Informationen, Wissen, Kompetenz und Wettbewerbsfähigkeit über anreichernde Schritte wie Syntax, Bedeutung, Vernetzung und Anwendung.",
+    "IS unterstützen Entscheidungsfindung, Koordination, Steuerung und Kontrolle von Wertschöpfungsprozessen und können Produkt-, Prozess- und Geschäftsmodellinnovationen bewirken.",
+    "IS lassen sich nach vielen Kriterien klassifizieren, am wichtigsten sind die Einteilung nach Unternehmensebene und nach Funktionsbereich.",
+    "Nach Unternehmensebene unterscheidet man TPS (operativ), MIS und DSS (Management) sowie ESS (strategisch/Führung).",
+    "TPS verbessern die Effizienz auf der Ausführungsebene und liefern als Datenbasis die Grundlage für die höheren Systeme.",
+    "MIS liefern standardisierte Routineberichte mit wenig Analyse, während DSS flexible Analyse schlecht strukturierter Probleme bieten.",
+    "ESS aggregieren interne und externe Daten für das Top Management und stellen sie anschaulich mit einfachen grafischen Oberflächen dar.",
+    "Der Datenfluss verläuft von den operativen Systemen nach oben und wird auf jeder Ebene stärker verdichtet."
+  ],
+  "flashcards": [
+    {"front": "Wie werden Informationssysteme in der Wirtschaftsinformatik definiert?", "back": "Als soziotechnische Systeme, die menschliche und maschinelle Komponenten umfassen und Sammlung, Strukturierung, Verarbeitung, Bereitstellung, Kommunikation und Nutzung von Daten, Informationen und Wissen sowie deren Transformation unterstützen."},
+    {"front": "Welche drei Elemente verbindet ein soziotechnisches System?", "back": "Mensch, Aufgabe sowie Informations- und Kommunikationstechnik (IKT)."},
+    {"front": "Nenne die Stufen der Wissenstreppe (North) von unten nach oben.", "back": "Zeichen, Daten, Informationen, Wissen, Handeln (Können), Kompetenz und Wettbewerbsfähigkeit."},
+    {"front": "Wodurch werden Zeichen zu Daten und Daten zu Informationen?", "back": "Zeichen werden durch Syntax zu Daten; Daten werden durch Bedeutung/Zweckorientierung zu Informationen."},
+    {"front": "Was ist betriebliche Wertschöpfung?", "back": "Der wertmäßige Unterschied zwischen den Vorleistungen anderer Wirtschaftseinheiten und den vom Betrieb erzeugten und abgesetzten Leistungen."},
+    {"front": "Was ist ein Prozess?", "back": "Eine Reihe von Aktivitäten, die aus einem definierten Input ein definiertes Arbeitsergebnis (Output) erzeugen."},
+    {"front": "Was kennzeichnet einen Geschäftsprozess?", "back": "Eine funktions- und organisationsübergreifende Verknüpfung wertschöpfender Aktivitäten, die von Kunden erwartete Leistungen erzeugen und aus der Geschäftsstrategie abgeleitet sind."},
+    {"front": "Welche vier IS-Typen ordnet man den Unternehmensebenen zu?", "back": "TPS auf der operativen Ebene, MIS und DSS auf der Management-Ebene, ESS auf der strategischen/Führungsebene."},
+    {"front": "Was ist das Ziel eines TPS?", "back": "Verbesserung der Effizienz auf der Ausführungsebene durch Bearbeitung täglich wiederkehrender Routine-Geschäftsvorgänge."},
+    {"front": "Nenne Beispiele für TPS.", "back": "Auftragsannahme, Hotelreservierungssysteme, Lohnabrechnungssysteme, Verwaltung von Personalakten und Versandsysteme."},
+    {"front": "Wer nutzt ein MIS und wozu?", "back": "Das mittlere Management; MIS liefern detaillierte, standardisierte Routineberichte über das interne Unternehmensgeschehen für Planung, Kontrolle und Entscheidungsfindung."},
+    {"front": "Wodurch unterscheidet sich ein DSS von einem MIS?", "back": "Ein DSS unterstützt schlecht oder unstrukturierte Probleme ohne vordefinierten Lösungsweg mit umfangreichen Analysefunktionen, während ein MIS standardisierte Routineberichte mit wenig Analyse liefert."},
+    {"front": "Was ist der Zweck eines ESS und wer nutzt es?", "back": "Das Top Management nutzt ein ESS, um den Zeit- und Arbeitsaufwand der Informationsbeschaffung zu reduzieren; es aggregiert interne und externe Daten und stellt sie anschaulich dar."},
+    {"front": "Wodurch unterscheidet sich ein ESS von einem DSS?", "back": "Ein ESS aggregiert interne und externe Daten für das Top Management mit einfachen grafischen Oberflächen und Fokus auf Vorhersagen, während ein DSS tiefe, interaktive Analysen schlecht strukturierter Probleme für Manager bietet."},
+    {"front": "Wie verläuft der Datenfluss zwischen den IS-Ebenen?", "back": "Von den operativen Systemen (TPS) nach oben zu MIS und DSS und schließlich zum ESS; auf jeder Ebene werden die Daten stärker verdichtet."},
+    {"front": "Welche Klassifikationsmöglichkeiten für IS werden unterschieden?", "back": "Vor allem die Klassifikation nach Unternehmensebene (TPS, MIS, DSS, ESS) und nach Funktionsbereich (z. B. Vertrieb/Marketing, Produktion, Finanz-/Rechnungswesen, Personalwesen)."},
+    {"front": "Was versteht man unter einer Transaktion in der Datenbankorganisation?", "back": "Einen Auftrag eines Benutzers, der als Ganzes auf Daten eines Datenbanksystems ausgeführt wird, aber aus einer Folge von Teilschritten bestehen kann."}
+  ],
+  "quiz": [
+    {
+      "question": "Als was werden Informationssysteme in der Wirtschaftsinformatik definiert?",
+      "options": ["Rein technische Hardware-Systeme", "Soziotechnische Systeme aus menschlichen und maschinellen Komponenten", "Ausschließlich soziale Organisationsstrukturen", "Reine Datenbanksysteme ohne Nutzer"],
+      "answer": 1,
+      "explanation": "IS sind laut Definition (WKWI und GI FB WI 2011) soziotechnische Systeme, die menschliche und maschinelle Komponenten (Teilsysteme) umfassen."
+    },
+    {
+      "question": "Welche drei Elemente bilden ein soziotechnisches System?",
+      "options": ["Hardware, Software, Netzwerk", "Mensch, Aufgabe, Informations- und Kommunikationstechnik", "Daten, Information, Wissen", "Planung, Steuerung, Kontrolle"],
+      "answer": 1,
+      "explanation": "Das soziotechnische System verbindet die Elemente Mensch, Aufgabe sowie Informations- und Kommunikationstechnik (IKT)."
+    },
+    {
+      "question": "Wodurch werden in der Wissenstreppe Daten zu Informationen?",
+      "options": ["Durch Syntax", "Durch Vernetzung", "Durch Bedeutung/Zweckorientierung", "Durch Anwendung"],
+      "answer": 2,
+      "explanation": "In der Wissenstreppe werden Zeichen durch Syntax zu Daten und Daten durch Bedeutung/Zweckorientierung zu Informationen; erst Vernetzung macht Informationen zu Wissen."
+    },
+    {
+      "question": "Auf welcher Unternehmensebene sind Transaktionssysteme (TPS) angesiedelt?",
+      "options": ["Strategische Ebene", "Management-Ebene", "Operative Ebene", "Außerbetriebliche Ebene"],
+      "answer": 2,
+      "explanation": "TPS unterstützen die operative bzw. Ausführungsebene und werden von Mitarbeitern und Gruppenleitern genutzt."
+    },
+    {
+      "question": "Was ist das primäre Ziel eines TPS?",
+      "options": ["Unterstützung unstrukturierter strategischer Entscheidungen", "Verbesserung der Effizienz auf der Ausführungsebene", "Umfangreiche Datenanalyse mit Data Mining", "Aggregation externer Marktdaten für das Top Management"],
+      "answer": 1,
+      "explanation": "TPS zielen auf die Verbesserung der Effizienz auf der Ausführungsebene durch Bearbeitung täglich wiederkehrender Routine-Geschäftsvorgänge."
+    },
+    {
+      "question": "Wer ist die typische Nutzergruppe eines MIS?",
+      "options": ["Operative Mitarbeiter", "Mittleres Management", "Top Management", "Externe Kunden"],
+      "answer": 1,
+      "explanation": "MIS unterstützen das mittlere Management mit detaillierten Routineberichten über das interne Unternehmensgeschehen."
+    },
+    {
+      "question": "Worin unterscheidet sich ein DSS grundlegend von einem MIS?",
+      "options": ["Ein DSS liefert nur Standardberichte", "Ein DSS unterstützt schlecht/unstrukturierte Probleme mit umfangreichen Analysefunktionen", "Ein DSS wird ausschließlich von operativen Mitarbeitern genutzt", "Ein DSS speichert keine externen Daten"],
+      "answer": 1,
+      "explanation": "Ein DSS hilft bei Problemen ohne vordefinierten Lösungsweg und besitzt umfangreiche Analysefunktionen, während ein MIS standardisierte Routineberichte mit wenig Analyse liefert."
+    },
+    {
+      "question": "Welches System wird typischerweise vom Top Management genutzt?",
+      "options": ["TPS", "MIS", "DSS", "ESS"],
+      "answer": 3,
+      "explanation": "Das ESS (Executive Support System) unterstützt das Top Management bei unstrukturierten Entscheidungen und aggregiert interne und externe Daten."
+    },
+    {
+      "question": "Welche Aussage über die Beziehungen zwischen den IS-Typen ist korrekt?",
+      "options": ["ESS liefern die Rohdaten für TPS", "TPS bilden oft die Datenbasis für andere Informationssysteme", "MIS nutzen keine Daten der operativen Systeme", "DSS arbeiten ausschließlich mit internen Daten"],
+      "answer": 1,
+      "explanation": "TPS bilden häufig die Basis bzw. Datengrundlage für andere IS; z. B. liefert ein Lohnbuchhaltungssystem Daten für das Finanzbuchhaltungssystem. Der Datenfluss verläuft von unten nach oben."
+    },
+    {
+      "question": "Was versteht man in der Datenbankorganisation unter einer Transaktion?",
+      "options": ["Ein riskantes Geldgeschäft wie eine Fusion", "Einen als Ganzes ausgeführten Auftrag, der aus mehreren Teilschritten bestehen kann", "Die Vernetzung von Informationen zu Wissen", "Die grafische Aufbereitung von Berichten"],
+      "answer": 1,
+      "explanation": "Laut Gabler ist eine Transaktion in der Datenbankorganisation ein Auftrag des Benutzers, der als Ganzes auf Daten eines Datenbanksystems ausgeführt wird, aber aus einer Folge von Teilschritten bestehen kann."
+    },
+    {
+      "question": "Nach welchen beiden Hauptkriterien werden innerbetriebliche IS in der Vorlesung klassifiziert?",
+      "options": ["Nach Hardware und Software", "Nach Unternehmensebene und Funktionsbereich", "Nach Preis und Anbieter", "Nach Alter und Programmiersprache"],
+      "answer": 1,
+      "explanation": "Die Vorlesung stellt die Klassifikation nach Unternehmensebene (TPS, MIS, DSS, ESS) und nach Funktionsbereich (z. B. Vertrieb, Produktion, Finanzwesen, Personalwesen) in den Mittelpunkt."
+    },
+    {
+      "question": "Was ist ein Beispiel für ein System aus dem Funktionsbereich Produktion?",
+      "options": ["Hotelreservierungssystem", "Produktionsplanungs- und Steuerungssystem (PPS)", "Seefrachtkalkulationssystem", "Lohnabrechnungssystem"],
+      "answer": 1,
+      "explanation": "Das PPS (Produktionsplanungs- und Steuerungssystem) ist ein typisches IS des Funktionsbereichs Produktion."
+    }
+  ]
+}

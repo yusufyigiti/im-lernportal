@@ -1,0 +1,264 @@
+{
+  "id": "05",
+  "title": "Grundlagen des Marketing",
+  "pdf": "courses/eib/folien/05.pdf",
+  "summary": "Der Foliensatz erläutert die Grundlagen des Marketing als Reaktion auf den Wandel von Verkäufer- zu Käufermärkten ab Mitte der 1950er Jahre. Marketing wird als Maxime (Kundenorientierung), Mittel (Einsatz der Marketinginstrumente) und Methode (systematische Entscheidungsfindung) verstanden. Neben der reinen Kundenorientierung gewinnen zusätzliche Maßnahmen gegenüber Absatzmittlern an Bedeutung. Kern des operativen Marketing ist der Marketing-Mix mit den vier P (Product, Price, Place, Promotion).",
+  "sections": [
+    {
+      "heading": "Ursprung des Marketing",
+      "points": [
+        "Ab Mitte der 1950er Jahre kam es zu einer stetigen Erweiterung der Märkte.",
+        "Nicht mehr die Herstellung der Güter ist zentral, sondern der Absatz von Sach- und Dienstleistungen tritt in den Vordergrund.",
+        "Der Wandel vollzieht sich von Verkäufermärkten hin zu Käufermärkten.",
+        "Verkäufermärkte (Knappheitswirtschaft): Die Nachfrage übersteigt das Angebot; Marketing beschränkt sich auf die Erfüllung der Kommunikations- und Verteilungsfunktion (ursprüngliche Bedeutung des Marketing).",
+        "Käufermärkte (Überflussgesellschaft): Das Angebot übersteigt die Nachfrage; Märkte müssen systematisch erschlossen und gepflegt werden (Bedeutung des Marketing heutzutage)."
+      ]
+    },
+    {
+      "heading": "Marketing als Maxime, Mittel und Methode",
+      "points": [
+        "Maxime: Alle den Markt berührenden Entscheidungen werden an den Erfordernissen und Bedürfnissen der Verbraucher bzw. potenziellen Abnehmer ausgerichtet.",
+        "Die Maxime bedeutet konsequente Kundenorientierung mit dem Ziel der Kundenzufriedenheit.",
+        "Mittel: gezielter Einsatz der Marketinginstrumente zum Erreichen der Kundenzufriedenheit.",
+        "Methode: systematische Entscheidungsfindung unter Einbeziehung von Erkenntnissen der Nachbarwissenschaften (z. B. Psychologie) und von Hilfsmitteln (z. B. Statistik)."
+      ]
+    },
+    {
+      "heading": "Entwicklung des Marketing",
+      "points": [
+        "Reine Kundenorientierung reicht heutzutage nicht mehr aus.",
+        "Zusätzliche Maßnahmen bezüglich der Absatzmittler sind notwendig.",
+        "Horizontale Dimension: Beziehung zwischen Anbieter und Konkurrent (Wettbewerb auf gleicher Marktstufe).",
+        "Vertikale Dimension: Beziehungskette entlang der Wertschöpfung von Lieferant über Hersteller bis zum Handel."
+      ]
+    },
+    {
+      "heading": "Instrumente des Marketing-Mix (die vier P)",
+      "points": [
+        "Der Marketing-Mix des klassischen Marketing besteht aus den vier P.",
+        "1. Product (Produkt- bzw. Leistungspolitik): Ziel ist die Entwicklung marktneuer und marktbeständiger Produkte.",
+        "2. Price (Kontrahierungs- bzw. Preispolitik): Gestaltung von Preisen und Konditionen.",
+        "3. Place (Distributionspolitik): Gestaltung der Absatzwege und Verteilung der Güter.",
+        "4. Promotion (Kommunikationspolitik): Gestaltung der Kommunikation mit dem Markt, z. B. Werbung."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Marketing",
+      "definition": "Marktorientierte Unternehmensführung, bei der alle marktbezogenen Entscheidungen konsequent an den Bedürfnissen der Kunden ausgerichtet werden, um Kundenzufriedenheit zu erreichen."
+    },
+    {
+      "term": "Verkäufermarkt",
+      "definition": "Marktsituation, in der die Nachfrage das Angebot übersteigt (Knappheitswirtschaft); der Verkäufer ist in der stärkeren Position, Marketing beschränkt sich auf Kommunikations- und Verteilungsfunktion."
+    },
+    {
+      "term": "Käufermarkt",
+      "definition": "Marktsituation, in der das Angebot die Nachfrage übersteigt (Überflussgesellschaft); der Käufer ist in der stärkeren Position, Märkte müssen systematisch erschlossen und gepflegt werden."
+    },
+    {
+      "term": "Knappheitswirtschaft",
+      "definition": "Wirtschaftliche Situation mit Gütermangel, in der die Nachfrage das Angebot übersteigt; kennzeichnend für Verkäufermärkte."
+    },
+    {
+      "term": "Überflussgesellschaft",
+      "definition": "Gesellschaftliche Situation mit Güterüberfluss, in der das Angebot die Nachfrage übersteigt; kennzeichnend für Käufermärkte."
+    },
+    {
+      "term": "Kundenorientierung",
+      "definition": "Ausrichtung aller marktbezogenen Entscheidungen an den Erfordernissen und Bedürfnissen der Kunden; zentrale Maxime des Marketing."
+    },
+    {
+      "term": "Kundenzufriedenheit",
+      "definition": "Übergeordnetes Ziel des Marketing, das durch den gezielten Einsatz der Marketinginstrumente erreicht werden soll."
+    },
+    {
+      "term": "Marketing als Maxime",
+      "definition": "Verständnis des Marketing als Leitprinzip: Alle den Markt berührenden Entscheidungen werden an den Bedürfnissen der Verbraucher ausgerichtet."
+    },
+    {
+      "term": "Marketing als Methode",
+      "definition": "Verständnis des Marketing als systematische Entscheidungsfindung unter Einbeziehung von Erkenntnissen der Nachbarwissenschaften (z. B. Psychologie) und Hilfsmitteln (z. B. Statistik)."
+    },
+    {
+      "term": "Absatzmittler",
+      "definition": "Zwischengeschaltete Marktakteure (insbesondere der Handel), die den Absatz vom Hersteller zum Endkunden übernehmen und auf die sich zusätzliche Marketingmaßnahmen richten müssen."
+    },
+    {
+      "term": "Horizontale Dimension",
+      "definition": "Betrachtung der Wettbewerbsbeziehungen auf gleicher Marktstufe, insbesondere zwischen Anbieter und Konkurrent."
+    },
+    {
+      "term": "Vertikale Dimension",
+      "definition": "Betrachtung der Beziehungskette entlang der Wertschöpfung von Lieferant über Hersteller bis zum Handel."
+    },
+    {
+      "term": "Marketing-Mix",
+      "definition": "Kombinierter Einsatz der zentralen Marketinginstrumente (die vier P: Product, Price, Place, Promotion) zur Marktbearbeitung."
+    },
+    {
+      "term": "Product (Leistungspolitik)",
+      "definition": "Erstes P des Marketing-Mix; Produkt- bzw. Leistungspolitik mit dem Ziel der Entwicklung marktneuer und marktbeständiger Produkte."
+    },
+    {
+      "term": "Price (Preispolitik)",
+      "definition": "Zweites P des Marketing-Mix; Kontrahierungs- bzw. Preispolitik, also die Gestaltung von Preisen und Konditionen."
+    },
+    {
+      "term": "Place (Distributionspolitik)",
+      "definition": "Drittes P des Marketing-Mix; Distributionspolitik, also die Gestaltung der Absatzwege und der Verteilung der Güter."
+    },
+    {
+      "term": "Promotion (Kommunikationspolitik)",
+      "definition": "Viertes P des Marketing-Mix; Kommunikationspolitik, also die Gestaltung der Kommunikation mit dem Markt (z. B. Werbung)."
+    }
+  ],
+  "kernpunkte": [
+    "Ab Mitte der 1950er Jahre wandelten sich Verkäufermärkte zu Käufermärkten, wodurch der Absatz statt der Herstellung in den Vordergrund rückte.",
+    "Auf dem Verkäufermarkt übersteigt die Nachfrage das Angebot (Knappheitswirtschaft), auf dem Käufermarkt übersteigt das Angebot die Nachfrage (Überflussgesellschaft).",
+    "Marketing lässt sich als Maxime (Kundenorientierung), als Mittel (Einsatz der Instrumente) und als Methode (systematische Entscheidungsfindung) verstehen.",
+    "Reine Kundenorientierung genügt heute nicht mehr; zusätzlich sind Maßnahmen gegenüber Absatzmittlern in horizontaler und vertikaler Dimension nötig.",
+    "Der Marketing-Mix besteht aus den vier P: Product, Price, Place und Promotion.",
+    "Ziel des Marketing ist die Kundenzufriedenheit durch gezielten Einsatz der Marketinginstrumente."
+  ],
+  "flashcards": [
+    {
+      "front": "Wann und warum entstand das moderne Marketing?",
+      "back": "Ab Mitte der 1950er Jahre durch die stetige Erweiterung der Märkte; nicht mehr die Herstellung, sondern der Absatz von Sach- und Dienstleistungen rückte in den Vordergrund."
+    },
+    {
+      "front": "Was kennzeichnet einen Verkäufermarkt?",
+      "back": "Knappheitswirtschaft: Die Nachfrage übersteigt das Angebot. Marketing erfüllt nur die Kommunikations- und Verteilungsfunktion (ursprüngliche Bedeutung des Marketing)."
+    },
+    {
+      "front": "Was kennzeichnet einen Käufermarkt?",
+      "back": "Überflussgesellschaft: Das Angebot übersteigt die Nachfrage. Märkte müssen systematisch erschlossen und gepflegt werden (Bedeutung des Marketing heutzutage)."
+    },
+    {
+      "front": "Was bedeutet Marketing als Maxime?",
+      "back": "Alle den Markt berührenden Entscheidungen werden an den Erfordernissen und Bedürfnissen der Verbraucher ausgerichtet: Kundenorientierung mit dem Ziel der Kundenzufriedenheit."
+    },
+    {
+      "front": "Was bedeutet Marketing als Mittel?",
+      "back": "Der gezielte Einsatz der Marketinginstrumente zum Erreichen der Kundenzufriedenheit."
+    },
+    {
+      "front": "Was bedeutet Marketing als Methode?",
+      "back": "Systematische Entscheidungsfindung unter Einbeziehung von Erkenntnissen der Nachbarwissenschaften (z. B. Psychologie) und Hilfsmitteln (z. B. Statistik)."
+    },
+    {
+      "front": "Warum reicht reine Kundenorientierung heute nicht mehr aus?",
+      "back": "Weil zusätzliche Maßnahmen bezüglich der Absatzmittler notwendig sind; das Marketing muss horizontale und vertikale Dimensionen berücksichtigen."
+    },
+    {
+      "front": "Was beschreibt die horizontale Dimension des Marketing?",
+      "back": "Die Wettbewerbsbeziehung auf gleicher Marktstufe, insbesondere zwischen Anbieter und Konkurrent."
+    },
+    {
+      "front": "Was beschreibt die vertikale Dimension des Marketing?",
+      "back": "Die Beziehungskette entlang der Wertschöpfung: Lieferant, Hersteller und Handel."
+    },
+    {
+      "front": "Wie lauten die vier P des Marketing-Mix?",
+      "back": "Product (Produkt-/Leistungspolitik), Price (Kontrahierungs-/Preispolitik), Place (Distributionspolitik) und Promotion (Kommunikationspolitik)."
+    },
+    {
+      "front": "Was ist das Ziel der Produktpolitik (Product)?",
+      "back": "Die Entwicklung marktneuer und marktbeständiger Produkte."
+    },
+    {
+      "front": "Welche deutschen Bezeichnungen tragen die vier P?",
+      "back": "Product = Leistungspolitik, Price = Kontrahierungs-/Preispolitik, Place = Distributionspolitik, Promotion = Kommunikationspolitik."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Ab wann setzte laut Foliensatz die stetige Erweiterung der Märkte und damit der Ursprung des modernen Marketing ein?",
+      "options": [
+        "Ab Mitte der 1950er Jahre",
+        "Ab Beginn des 20. Jahrhunderts",
+        "Ab Mitte der 1970er Jahre",
+        "Erst nach dem Jahr 2000"
+      ],
+      "answer": 0,
+      "explanation": "Der Foliensatz nennt ausdrücklich die Mitte der 1950er Jahre als Ausgangspunkt der stetigen Markterweiterung, bei der der Absatz in den Vordergrund rückte."
+    },
+    {
+      "question": "Welche Aussage kennzeichnet einen Verkäufermarkt (Knappheitswirtschaft)?",
+      "options": [
+        "Das Angebot übersteigt die Nachfrage",
+        "Die Nachfrage übersteigt das Angebot",
+        "Angebot und Nachfrage sind stets im Gleichgewicht",
+        "Es findet kein Wettbewerb statt"
+      ],
+      "answer": 1,
+      "explanation": "Beim Verkäufermarkt herrscht Knappheitswirtschaft: Die Nachfrage übersteigt das Angebot, weshalb Marketing sich auf Kommunikations- und Verteilungsfunktion beschränkt."
+    },
+    {
+      "question": "Was ist laut Folie das zentrale Ziel des Marketing als Maxime?",
+      "options": [
+        "Gewinnmaximierung um jeden Preis",
+        "Kostensenkung in der Produktion",
+        "Kundenzufriedenheit durch Kundenorientierung",
+        "Erhöhung der Fertigungstiefe"
+      ],
+      "answer": 2,
+      "explanation": "Als Maxime richtet Marketing alle marktbezogenen Entscheidungen an den Kundenbedürfnissen aus (Kundenorientierung) mit dem Ziel der Kundenzufriedenheit."
+    },
+    {
+      "question": "Welche Beschreibung passt zu 'Marketing als Methode'?",
+      "options": [
+        "Gezielter Einsatz der Marketinginstrumente",
+        "Ausrichtung an den Bedürfnissen der Verbraucher",
+        "Systematische Entscheidungsfindung unter Einbeziehung von Nachbarwissenschaften und Hilfsmitteln",
+        "Beschränkung auf die Verteilungsfunktion"
+      ],
+      "answer": 2,
+      "explanation": "Marketing als Methode meint die systematische Entscheidungsfindung unter Einbeziehung von Erkenntnissen der Nachbarwissenschaften (z. B. Psychologie) und Hilfsmitteln (z. B. Statistik)."
+    },
+    {
+      "question": "Welche Akteure gehören zur vertikalen Dimension des Marketing?",
+      "options": [
+        "Anbieter und Konkurrent",
+        "Lieferant, Hersteller und Handel",
+        "Nur die Endkunden",
+        "Psychologie und Statistik"
+      ],
+      "answer": 1,
+      "explanation": "Die vertikale Dimension bildet die Wertschöpfungskette ab: Lieferant, Hersteller und Handel. Anbieter und Konkurrent gehören dagegen zur horizontalen Dimension."
+    },
+    {
+      "question": "Wie lauten die vier P des klassischen Marketing-Mix?",
+      "options": [
+        "Product, Price, Place, Promotion",
+        "Product, Profit, Place, People",
+        "Price, Product, Process, Promotion",
+        "Planning, Product, Price, Place"
+      ],
+      "answer": 0,
+      "explanation": "Der klassische Marketing-Mix umfasst die vier P: Product (Leistungspolitik), Price (Preispolitik), Place (Distributionspolitik) und Promotion (Kommunikationspolitik)."
+    },
+    {
+      "question": "Welches Ziel wird der Produktpolitik (Product) zugeordnet?",
+      "options": [
+        "Festlegung möglichst niedriger Preise",
+        "Auswahl der Absatzwege",
+        "Entwicklung marktneuer und marktbeständiger Produkte",
+        "Gestaltung der Werbung"
+      ],
+      "answer": 2,
+      "explanation": "Die Folie nennt als Ziel der Produkt- bzw. Leistungspolitik die Entwicklung marktneuer und marktbeständiger Produkte."
+    },
+    {
+      "question": "Welche deutsche Bezeichnung entspricht dem P 'Place' im Marketing-Mix?",
+      "options": [
+        "Preispolitik",
+        "Distributionspolitik",
+        "Kommunikationspolitik",
+        "Leistungspolitik"
+      ],
+      "answer": 1,
+      "explanation": "'Place' steht für die Distributionspolitik, also die Gestaltung der Absatzwege. 'Promotion' ist die Kommunikationspolitik, 'Price' die Preispolitik und 'Product' die Leistungspolitik."
+    }
+  ]
+}

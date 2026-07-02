@@ -1,0 +1,188 @@
+{
+  "id": "08",
+  "title": "Grundlagen des Dienstleistungsmanagements",
+  "pdf": "courses/eib/folien/08.pdf",
+  "summary": "Der Foliensatz führt in die Grundlagen des Dienstleistungsmanagements ein. Er behandelt die Frage, wie sich Dienstleistungen definieren lassen (enumerativ, negativ, über konstitutive Merkmale), grenzt Sachgüter von Dienstleistungen über den Grad der Immaterialität ab und ordnet die Wirtschaft mithilfe des Drei-Sektoren-Modells. Zudem wird die wachsende volkswirtschaftliche Bedeutung des Dienstleistungssektors (Tertiarisierung) mit Zahlen belegt und das Besondere des Dienstleistungsmarketings anhand der um drei Instrumente erweiterten 7-P-Systematik dargestellt.",
+  "sections": [
+    {
+      "heading": "Einordnung: Begriffe, Definitionen und Gütersystematik",
+      "points": [
+        "Der Foliensatz ordnet Dienstleistungen in die allgemeine Gütersystematik ein und behandelt Definitionen, Typologien und Ansätze zur Systematisierung von Dienstleistungen.",
+        "Güter lassen sich grundsätzlich in Sachgüter (materiell) und Dienstleistungen (überwiegend immateriell) unterteilen.",
+        "Zentrale Leitfrage: Was unterscheidet eine Dienstleistung von einem Sachgut und wie lässt sich der Dienstleistungsbegriff überhaupt fassen?",
+        "Behandelte Bausteine: Gütersystematik, Definitionen von Dienstleistungen, Dienstleistungstypologie, Ansätze zur Systematisierung sowie die Begriffe Manager, Management und Dienstleistungsmanagement.",
+        "Quelle der Inhalte: Burr et al. (2011)."
+      ]
+    },
+    {
+      "heading": "Ansätze zur Festlegung des Dienstleistungsbegriffs",
+      "points": [
+        "Enumerative Definition: Der Begriff wird durch Aufzählung typischer Beispiele bestimmt (z. B. Banken, Versicherungen). Nachteil: unvollständig, weil neue Dienstleistungen nicht erfasst werden.",
+        "Negativdefinition: Als Dienstleistung gilt alles, was nicht zum primären oder sekundären Sektor gehört (Abgrenzung ex negativo). Nachteil: rein negative Abgrenzung ohne inhaltliche Bestimmung.",
+        "Definition über gemeinsame konstitutive Merkmale: inhaltlich präziseste Variante, die auf den charakteristischen Eigenschaften von Dienstleistungen aufbaut.",
+        "Zwei zentrale konstitutive Merkmale: Immaterialität der Leistung und Integration eines externen Faktors (der Kunde selbst oder ein Objekt des Kunden).",
+        "Der externe Faktor ist ein Produktionsfaktor, den der Kunde in den Leistungserstellungsprozess einbringt und der vom Anbieter nicht autonom beschafft werden kann."
+      ]
+    },
+    {
+      "heading": "Immaterialität von Gütern: Sachgut vs. Dienstleistung",
+      "points": [
+        "Güter lassen sich auf einem Kontinuum zwischen rein materiellen und rein immateriellen Elementen anordnen; reine Formen sind selten.",
+        "Die meisten Sachgüter enthalten überwiegend materielle Elemente, weisen aber häufig auch immaterielle Anteile auf (z. B. Beratung, Garantie).",
+        "Die meisten Dienstleistungen bestehen überwiegend aus immateriellen Elementen, enthalten aber oft materielle Bestandteile (z. B. Trägermedien, verwendete Materialien).",
+        "Immaterialität ist damit kein Entweder-oder, sondern ein gradueller Unterschied entlang eines Leistungskontinuums.",
+        "Aus der Immaterialität folgen typische Besonderheiten: Nichtlagerfähigkeit, Nichttransportierbarkeit und die schwierige Beurteilbarkeit der Qualität vor dem Kauf."
+      ]
+    },
+    {
+      "heading": "Drei-Sektoren-Modell der Wirtschaft",
+      "points": [
+        "Das Drei-Sektoren-Modell (auf Fourastié zurückgehend) gliedert die Wirtschaftsbereiche in primären, sekundären und tertiären Sektor.",
+        "Primärer Sektor: Urproduktion, u. a. Land- und Forstwirtschaft (A), Fischerei und Fischzucht (B).",
+        "Sekundärer Sektor: Industrie und produzierendes Gewerbe, u. a. Bergbau/Gewinnung von Steinen und Erden (C), Verarbeitendes Gewerbe (D), Energie- und Wasserversorgung (E), Baugewerbe (F).",
+        "Tertiärer Sektor (Dienstleistungssektor): u. a. Handel und Reparatur (G), Gastgewerbe (H), Verkehr und Nachrichtenübermittlung (I), Kredit- und Versicherungsgewerbe (J), Grundstücks- und Wohnungswesen sowie Dienstleistungen von Unternehmen und freien Berufen (K).",
+        "Weiter im tertiären Sektor: Öffentliche Verwaltung, Verteidigung, Sozialversicherung (L), Erziehung und Unterricht (M), Gesundheits-, Veterinär- und Sozialwesen (N), sonstige öffentliche und persönliche Dienstleistungen (O), private Haushalte mit Hauspersonal (P)."
+      ]
+    },
+    {
+      "heading": "Zunehmende Bedeutung des Dienstleistungssektors (Tertiarisierung)",
+      "points": [
+        "Die Bedeutung des Dienstleistungssektors nimmt langfristig zu (Tertiarisierung der Volkswirtschaft), dargestellt nach Fourastié und Prognos.",
+        "Bruttowertschöpfung in Deutschland 2016: Dienstleistungen 73,77 %, Industrie 25,59 %, Landwirtschaft 0,64 %.",
+        "Segmentierung des Dienstleistungssektors 2016 (Anteile an der Bruttowertschöpfung der Dienstleistungen): Handel, Verkehr und Gastgewerbe 22,8 %; öffentliche Dienstleistungen, Erziehung, Gesundheit 26,6 %; Grundstücks- und Wohnungswesen 15,8 %; sonstige Dienstleistungen 22,1 %; Information und Kommunikation 7 %; Finanzierungs- und Versicherungsdienstleistungen 5,7 %.",
+        "Sonstige Dienstleistungen teilen sich in unternehmensbezogene Dienstleistungen (73,3 %) und personenbezogene Dienstleistungen (26,7 %).",
+        "Auch die Beschäftigung verlagert sich in den tertiären Sektor: Die Arbeitsplatzbilanz 2006/2016 und die Veränderung der Erwerbstätigen 2007–2016 zeigen einen Beschäftigungszuwachs im Dienstleistungssektor (Statistisches Bundesamt 2017)."
+      ]
+    },
+    {
+      "heading": "Marketing von Dienstleistungen: das 7-P-Modell",
+      "points": [
+        "Das klassische Marketing umfasst vier Instrumente (4 P): Produkt- bzw. Leistungspolitik (Product), Kontrahierungspolitik/Preis (Price), Distributionspolitik (Place) und Kommunikationspolitik (Promotion).",
+        "Im Dienstleistungsbereich kommen drei zusätzliche P hinzu, weil Dienstleistungen immateriell sind und der Kunde am Leistungsprozess mitwirkt.",
+        "5. Personalpolitik (Personnel): Das Personal erbringt die Leistung im direkten Kundenkontakt und prägt maßgeblich die wahrgenommene Qualität.",
+        "6. Ausstattungspolitik (Physical Facilities): materielle Umgebung und Ausstattung machen die immaterielle Leistung sichtbar und beurteilbar.",
+        "7. Prozesspolitik (Process): Gestaltung und Standardisierung der Leistungserstellungsprozesse, in die der Kunde als externer Faktor integriert ist.",
+        "Zusammen ergeben die 4 klassischen und 3 zusätzlichen P die erweiterten 7 P des Dienstleistungsmarketings."
+      ]
+    },
+    {
+      "heading": "Innovation im Dienstleistungsbereich: Schutz gegen Nachahmung",
+      "points": [
+        "Dienstleistungsinnovationen sind schwer vor Nachahmung zu schützen, da sie immateriell und oft nicht patentierbar sind.",
+        "Formale Schutzmaßnahmen: Patent, Gebrauchsmuster, Urheberrecht und Handelsmarke.",
+        "Strategische (nicht-formale) Maßnahmen: Geheimhaltung, zeitlicher Vorsprung vor Wettbewerbern und Komplexität der Gestaltung.",
+        "Die Bedeutung der einzelnen Schutzmechanismen unterscheidet sich zwischen distributiven Dienstleistern, unternehmensnahen Dienstleistern und dem verarbeitenden Gewerbe.",
+        "Bei Dienstleistern haben strategische Maßnahmen (v. a. zeitlicher Vorsprung und Geheimhaltung) tendenziell größere Bedeutung als formale Schutzrechte."
+      ]
+    }
+  ],
+  "glossary": [
+    {"term": "Dienstleistung", "definition": "Überwiegend immaterielles Gut, dessen Erstellung die Integration eines externen Faktors (Kunde oder Objekt des Kunden) erfordert."},
+    {"term": "Sachgut", "definition": "Überwiegend materielles, lager- und transportfähiges Gut; steht im Güterkontinuum der Dienstleistung gegenüber."},
+    {"term": "Immaterialität", "definition": "Konstitutives Merkmal von Dienstleistungen: Die Leistung ist nicht körperlich greifbar; sie ist nicht lagerfähig und vor dem Kauf schwer beurteilbar."},
+    {"term": "Externer Faktor", "definition": "Vom Kunden in den Leistungserstellungsprozess eingebrachter Produktionsfaktor (der Kunde selbst oder ein Objekt des Kunden), der vom Anbieter nicht autonom beschafft werden kann."},
+    {"term": "Konstitutive Merkmale", "definition": "Die wesensbestimmenden Eigenschaften von Dienstleistungen, nämlich Immaterialität und Integration eines externen Faktors."},
+    {"term": "Enumerative Definition", "definition": "Festlegung des Dienstleistungsbegriffs durch Aufzählung von Beispielen (z. B. Banken, Versicherungen); unvollständig, weil neue Dienstleistungen fehlen."},
+    {"term": "Negativdefinition", "definition": "Bestimmung von Dienstleistungen ex negativo als alles, was nicht zum primären oder sekundären Sektor gehört."},
+    {"term": "Drei-Sektoren-Modell", "definition": "Auf Fourastié zurückgehende Gliederung der Volkswirtschaft in primären, sekundären und tertiären Sektor."},
+    {"term": "Primärer Sektor", "definition": "Urproduktion, u. a. Land- und Forstwirtschaft sowie Fischerei und Fischzucht."},
+    {"term": "Sekundärer Sektor", "definition": "Industrie und produzierendes Gewerbe, u. a. Bergbau, verarbeitendes Gewerbe, Energie-/Wasserversorgung und Baugewerbe."},
+    {"term": "Tertiärer Sektor", "definition": "Dienstleistungssektor, u. a. Handel, Verkehr, Gastgewerbe, Kredit- und Versicherungsgewerbe sowie öffentliche und persönliche Dienstleistungen."},
+    {"term": "Tertiarisierung", "definition": "Langfristige Verschiebung von Wertschöpfung und Beschäftigung hin zum Dienstleistungssektor; dessen Bedeutung nimmt zu."},
+    {"term": "Bruttowertschöpfung", "definition": "Wert der produzierten Waren und Dienstleistungen abzüglich der Vorleistungen; Maß für den Beitrag eines Sektors zur Gesamtwirtschaft (2016 DL-Anteil 73,77 %)."},
+    {"term": "7-P-Modell", "definition": "Erweiterter Marketing-Mix für Dienstleistungen: die 4 klassischen P (Product, Price, Place, Promotion) ergänzt um Personnel, Physical Facilities und Process."},
+    {"term": "Prozesspolitik (Process)", "definition": "Zusätzliches Dienstleistungs-P: Gestaltung und Standardisierung der Leistungserstellungsprozesse unter Einbezug des externen Faktors."},
+    {"term": "Ausstattungspolitik (Physical Facilities)", "definition": "Zusätzliches Dienstleistungs-P: Gestaltung der materiellen Umgebung, um die immaterielle Leistung sichtbar und beurteilbar zu machen."},
+    {"term": "Unternehmensbezogene Dienstleistungen", "definition": "Dienstleistungen für andere Unternehmen (B2B); machten 2016 rund 73,3 % der sonstigen Dienstleistungen aus."}
+  ],
+  "kernpunkte": [
+    "Der Dienstleistungsbegriff kann enumerativ, negativ oder über die konstitutiven Merkmale festgelegt werden, wobei letztere Variante inhaltlich am tragfähigsten ist.",
+    "Die beiden konstitutiven Merkmale von Dienstleistungen sind Immaterialität und die Integration eines externen Faktors.",
+    "Sachgut und Dienstleistung unterscheiden sich nicht absolut, sondern graduell entlang eines Kontinuums von materiellen zu immateriellen Elementen.",
+    "Das Drei-Sektoren-Modell gliedert die Wirtschaft in primären, sekundären und tertiären (Dienstleistungs-)Sektor.",
+    "Die volkswirtschaftliche Bedeutung des Dienstleistungssektors nimmt zu (Tertiarisierung): 2016 entfielen 73,77 % der Bruttowertschöpfung auf Dienstleistungen.",
+    "Auch die Beschäftigung verlagert sich zunehmend in den tertiären Sektor.",
+    "Das Dienstleistungsmarketing erweitert die klassischen 4 P um Personnel, Physical Facilities und Process zu insgesamt 7 P.",
+    "Dienstleistungsinnovationen sind schwer schützbar; strategische Maßnahmen wie zeitlicher Vorsprung und Geheimhaltung sind oft wichtiger als formale Schutzrechte."
+  ],
+  "flashcards": [
+    {"front": "Welche drei Ansätze zur Festlegung des Dienstleistungsbegriffs gibt es?", "back": "Enumerative Definition (Aufzählung), Negativdefinition (nicht primärer/sekundärer Sektor) und Definition über die gemeinsamen konstitutiven Merkmale."},
+    {"front": "Was sind die beiden konstitutiven Merkmale einer Dienstleistung?", "back": "Immaterialität und Integration eines externen Faktors (Kunde oder Objekt des Kunden)."},
+    {"front": "Was versteht man unter dem externen Faktor?", "back": "Ein vom Kunden in die Leistungserstellung eingebrachter Faktor (der Kunde selbst oder sein Objekt), den der Anbieter nicht autonom beschaffen kann."},
+    {"front": "Warum ist die Unterscheidung Sachgut/Dienstleistung nur graduell?", "back": "Güter liegen auf einem Kontinuum zwischen materiellen und immateriellen Elementen; Sachgüter haben meist auch immaterielle, Dienstleistungen meist auch materielle Anteile."},
+    {"front": "Nenne die drei Sektoren des Drei-Sektoren-Modells.", "back": "Primärer Sektor (Urproduktion), sekundärer Sektor (Industrie/produzierendes Gewerbe), tertiärer Sektor (Dienstleistungen)."},
+    {"front": "Welche Bereiche gehören zum primären Sektor?", "back": "Land- und Forstwirtschaft (A) sowie Fischerei und Fischzucht (B)."},
+    {"front": "Nenne typische Bereiche des tertiären Sektors.", "back": "Handel/Reparatur, Gastgewerbe, Verkehr und Nachrichtenübermittlung, Kredit- und Versicherungsgewerbe, öffentliche Verwaltung, Erziehung, Gesundheit u. a."},
+    {"front": "Was bedeutet Tertiarisierung?", "back": "Die langfristig zunehmende Bedeutung des Dienstleistungssektors bei Wertschöpfung und Beschäftigung."},
+    {"front": "Wie hoch war 2016 der Anteil der Dienstleistungen an der Bruttowertschöpfung in Deutschland?", "back": "73,77 % (Industrie 25,59 %, Landwirtschaft 0,64 %)."},
+    {"front": "In welche zwei Gruppen teilen sich die sonstigen Dienstleistungen?", "back": "Unternehmensbezogene Dienstleistungen (73,3 %) und personenbezogene Dienstleistungen (26,7 %)."},
+    {"front": "Welche sind die 4 P des klassischen Marketings?", "back": "Product (Produkt-/Leistungspolitik), Price (Kontrahierungspolitik), Place (Distributionspolitik), Promotion (Kommunikationspolitik)."},
+    {"front": "Welche 3 P kommen im Dienstleistungsmarketing hinzu?", "back": "Personnel (Personalpolitik), Physical Facilities (Ausstattungspolitik) und Process (Prozesspolitik)."},
+    {"front": "Warum braucht Dienstleistungsmarketing zusätzliche Instrumente?", "back": "Weil Dienstleistungen immateriell sind und der Kunde als externer Faktor am Leistungsprozess mitwirkt; Personal, Ausstattung und Prozesse werden dadurch marketingrelevant."},
+    {"front": "Welche formalen Maßnahmen schützen Innovationen?", "back": "Patent, Gebrauchsmuster, Urheberrecht und Handelsmarke."},
+    {"front": "Welche strategischen Maßnahmen schützen vor Nachahmung?", "back": "Geheimhaltung, zeitlicher Vorsprung und Komplexität der Gestaltung."},
+    {"front": "Nenne die Nachteile der enumerativen und der Negativdefinition.", "back": "Die enumerative Definition ist unvollständig (neue Dienstleistungen fehlen); die Negativdefinition grenzt nur ex negativo ab, ohne inhaltliche Bestimmung."}
+  ],
+  "quiz": [
+    {
+      "question": "Welche zwei Merkmale gelten als konstitutiv für Dienstleistungen?",
+      "options": ["Lagerfähigkeit und Transportierbarkeit", "Immaterialität und Integration eines externen Faktors", "Materialität und Standardisierung", "Preisgünstigkeit und Massenproduktion"],
+      "answer": 1,
+      "explanation": "Dienstleistungen werden über ihre konstitutiven Merkmale Immaterialität und die Integration eines externen Faktors (Kunde oder dessen Objekt) definiert."
+    },
+    {
+      "question": "Was kennzeichnet die Negativdefinition der Dienstleistung?",
+      "options": ["Aufzählung von Beispielen wie Banken und Versicherungen", "Bestimmung über konstitutive Merkmale", "Alles, was nicht zum primären oder sekundären Sektor gehört", "Definition allein über den Preis"],
+      "answer": 2,
+      "explanation": "Die Negativdefinition grenzt Dienstleistungen ex negativo ab: Als Dienstleistung gilt alles, was nicht dem primären oder sekundären Sektor zuzuordnen ist."
+    },
+    {
+      "question": "Was ist der externe Faktor im Dienstleistungsprozess?",
+      "options": ["Ein externer Lieferant von Rohstoffen", "Der vom Kunden eingebrachte Faktor (Kunde selbst oder sein Objekt)", "Eine externe Marketingagentur", "Ein Wettbewerber am Markt"],
+      "answer": 1,
+      "explanation": "Der externe Faktor wird vom Kunden in die Leistungserstellung eingebracht (der Kunde selbst oder ein Objekt des Kunden) und kann vom Anbieter nicht autonom beschafft werden."
+    },
+    {
+      "question": "Wie unterscheiden sich Sachgüter und Dienstleistungen hinsichtlich der Materialität?",
+      "options": ["Absolut: Sachgüter sind rein materiell, Dienstleistungen rein immateriell", "Graduell entlang eines Kontinuums materieller und immaterieller Elemente", "Gar nicht, beide sind identisch", "Nur über den Verkaufspreis"],
+      "answer": 1,
+      "explanation": "Güter liegen auf einem Kontinuum; die meisten Sachgüter enthalten auch immaterielle, die meisten Dienstleistungen auch materielle Elemente. Der Unterschied ist graduell."
+    },
+    {
+      "question": "Welche Zuordnung zum Drei-Sektoren-Modell ist korrekt?",
+      "options": ["Verarbeitendes Gewerbe gehört zum tertiären Sektor", "Land- und Forstwirtschaft gehört zum primären Sektor", "Baugewerbe gehört zum primären Sektor", "Kredit- und Versicherungsgewerbe gehört zum sekundären Sektor"],
+      "answer": 1,
+      "explanation": "Land- und Forstwirtschaft zählt zur Urproduktion und damit zum primären Sektor; das verarbeitende Gewerbe zum sekundären, das Kredit- und Versicherungsgewerbe zum tertiären Sektor."
+    },
+    {
+      "question": "Wie hoch war 2016 der Anteil der Dienstleistungen an der Bruttowertschöpfung in Deutschland?",
+      "options": ["25,59 %", "50,00 %", "73,77 %", "0,64 %"],
+      "answer": 2,
+      "explanation": "2016 entfielen 73,77 % der Bruttowertschöpfung auf Dienstleistungen, 25,59 % auf die Industrie und 0,64 % auf die Landwirtschaft."
+    },
+    {
+      "question": "Was bezeichnet der Begriff Tertiarisierung?",
+      "options": ["Den Rückgang des Dienstleistungssektors", "Die zunehmende Bedeutung des Dienstleistungssektors", "Die Verlagerung in die Landwirtschaft", "Die Automatisierung der Industrie"],
+      "answer": 1,
+      "explanation": "Tertiarisierung beschreibt die langfristig wachsende Bedeutung des tertiären (Dienstleistungs-)Sektors bei Wertschöpfung und Beschäftigung."
+    },
+    {
+      "question": "Welche drei Instrumente ergänzen im Dienstleistungsmarketing die klassischen 4 P?",
+      "options": ["Product, Price, Place", "Personnel, Physical Facilities, Process", "Promotion, Packaging, Positioning", "People, Profit, Planning"],
+      "answer": 1,
+      "explanation": "Zu den 4 klassischen P (Product, Price, Place, Promotion) kommen im Dienstleistungsbereich Personnel, Physical Facilities und Process hinzu (7-P-Modell)."
+    },
+    {
+      "question": "Welches Instrument gehört zum klassischen 4-P-Marketing?",
+      "options": ["Prozesspolitik (Process)", "Ausstattungspolitik (Physical Facilities)", "Kontrahierungspolitik (Price)", "Personalpolitik (Personnel)"],
+      "answer": 2,
+      "explanation": "Die Kontrahierungs-/Preispolitik (Price) ist eines der 4 klassischen P; Process, Physical Facilities und Personnel sind die drei zusätzlichen Dienstleistungs-P."
+    },
+    {
+      "question": "Welche der folgenden Maßnahmen ist eine strategische (nicht-formale) Maßnahme zum Schutz von Innovationen?",
+      "options": ["Patent", "Gebrauchsmuster", "Zeitlicher Vorsprung", "Handelsmarke"],
+      "answer": 2,
+      "explanation": "Zeitlicher Vorsprung zählt neben Geheimhaltung und Komplexität der Gestaltung zu den strategischen Maßnahmen; Patent, Gebrauchsmuster und Handelsmarke sind formale Schutzrechte."
+    }
+  ]
+}

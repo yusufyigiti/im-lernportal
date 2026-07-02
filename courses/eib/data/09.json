@@ -1,0 +1,289 @@
+{
+  "id": "09",
+  "title": "Künstliche Intelligenz in der BWL",
+  "pdf": "courses/eib/folien/09.pdf",
+  "summary": "Der Foliensatz führt in die Grundlagen der Künstlichen Intelligenz (KI) und deren betriebswirtschaftliche Bedeutung ein. Er behandelt Definitionen von KI (frühe Definition nach Minsky 1968 und die aktuelle Definition der Europäischen Kommission 2019), unterscheidet schwache, starke und Superintelligenz und zeichnet die historischen Entwicklungsphasen mit prägenden Beispielen nach. Anschließend werden Einsatzgebiete von KI im Management und in einzelnen Unternehmensfunktionen dargestellt sowie Chancen, Herausforderungen und ein Ausblick auf die Zusammenarbeit von Mensch und KI diskutiert.",
+  "sections": [
+    {
+      "heading": "Definitionen von Künstlicher Intelligenz",
+      "points": [
+        "Frühe Definition (Marvin Minsky, 1968): KI ist die Wissenschaft davon, Maschinen dazu zu bringen, Dinge zu tun, deren Ausführung vom Menschen Intelligenz erfordert.",
+        "Aktuelle Definition (European Commission, 2019): KI-Systeme sind von Menschen entworfene Software- (und möglicherweise Hardware-) Systeme, die zur Erreichung eines komplexen Ziels agieren.",
+        "Kernschritte eines KI-Systems: die Umgebung durch Datenerfassung wahrnehmen, strukturierte oder unstrukturierte Daten interpretieren, daraus Wissen ableiten bzw. Informationen verarbeiten und die beste(n) Aktion(en) beschließen.",
+        "KI-Systeme können entweder symbolische Regeln verwenden oder ein numerisches Modell erlernen.",
+        "KI-Systeme können ihr Verhalten anpassen, indem sie analysieren, wie die Umgebung durch ihre früheren Aktionen beeinflusst wurde."
+      ]
+    },
+    {
+      "heading": "Arten von Künstlicher Intelligenz",
+      "points": [
+        "Schwache KI: zurzeit am häufigsten anzutreffen, singulär und zielorientiert; lernt aus Erfahrung, erkennt Muster und trifft Vorhersagen.",
+        "Schwache KI ist weit davon entfernt, umfassende menschliche Kompetenzen zu besitzen; Beispiele sind Internetsuchmaschinen, Gesichtserkennung und selbstfahrende Autos.",
+        "Starke KI: übernimmt intellektuelle Aufgaben des Menschen, bringt sich selbst bei, neue Probleme zu lösen, und entwickelt menschenähnliches Bewusstsein.",
+        "Bei starker KI beschleunigt menschliche Eingabe die Entwicklungsphase, ist aber nicht zwingend notwendig.",
+        "Künstliche Superintelligenz: besitzt Bewusstsein für das eigene Dasein, erfasst menschliches Verhalten auf fundamentaler Ebene; der Mensch wird als obsolet betrachtet."
+      ]
+    },
+    {
+      "heading": "Entwicklungsphasen und historische Beispiele",
+      "points": [
+        "1943: Grundlagenarbeit von McCulloch und Pitts (künstliche Neuronen).",
+        "1956: Dartmouth-Konferenz von McCarthy gilt als Geburtsstunde des Forschungsfeldes KI.",
+        "1966: Joseph Weizenbaum entwickelt mit ELIZA den ersten Chatbot.",
+        "1980: Erste kommerzielle Anwendung mit dem Expertensystem XCON; um 1989 folgen falsche Versprechungen (KI-Winter).",
+        "1997: IBMs Schachmaschine Deep Blue gewinnt gegen Weltmeister Kasparov; sichtbare Erfolge in Robo-Cup und Schach.",
+        "2011: KI-Sprachassistenten von Apple, Microsoft und Amazon; IBMs Watson gewinnt die Quizshow Jeopardy.",
+        "2017: Open-AI-KI besiegt Spieler in Dota 2, Libratus gewinnt gegen Profi-Pokerspieler; 2018 vereinbart Googles Duplex einen Friseurtermin.",
+        "Ab 2010 Kommerzialisierung in Alltagsanwendungen; 2022 Veröffentlichung von ChatGPT durch Open AI."
+      ]
+    },
+    {
+      "heading": "KI im Management",
+      "points": [
+        "Mögliche Szenarien: KI unterstützt Managerinnen und Manager versus KI ersetzt Managerinnen und Manager.",
+        "Einsatzgebiete: Verbesserung der Entscheidungsfindung, vorausschauendes Recruiting und Projektmanagement, Reduzierung von Verwaltungs- und Routineaufgaben, personalisierte Kommunikation.",
+        "Herausforderungen: Sorgen von Beschäftigten in betroffenen Bereichen (z. B. Streik der Writers Guild of America 2023) und die Entwicklung neuer Fähigkeiten durch Führungskräfte.",
+        "Vorteile: stärkere Konzentration auf Führungsaufgaben, Unterstützung von Proaktivität und Agilität sowie Steigerung von Teamleistung und Zusammenarbeit."
+      ]
+    },
+    {
+      "heading": "Einsatzgebiete von KI in Unternehmen",
+      "points": [
+        "Dienstleistungsmanagement: personalisierte Kundenansprache, Planung und Terminierung von Hotelbuchungen, Erstellen von Rezeptvorschlägen und Einkaufslisten.",
+        "Innovationsmanagement: Generierung neuer Ideen.",
+        "Marketing: Vorhersage von Marktentwicklungen und Kaufverhalten der Kunden.",
+        "Produktion: Wartungsüberwachung und Schadenserkennung sowie Zusammenarbeit von Mensch und intelligenten Robotern an einem Arbeitsplatz.",
+        "Logistik: effiziente Routenplanung und Auslastung der Kapazitäten sowie automatisierte Kommissionierung."
+      ]
+    },
+    {
+      "heading": "Ausblick: Potential und Zukunft",
+      "points": [
+        "Potential: Verschiebung der Schwerpunkte in der Arbeitswelt, da Routineaufgaben durch KI erledigt werden und mehr Ressourcen für kreative Tätigkeiten frei werden.",
+        "Überlegenheit der KI: Generierung einer großen Anzahl an Lösungsmöglichkeiten.",
+        "Überlegenheit des Menschen: Bewertung von Alternativen, Kreativität, Intuition und Bauchgefühl.",
+        "Zukunftsszenarien: KI als Ersatz des Menschen (Automatisierung), KI als Support (Entlastung von Routinetätigkeiten) oder Mensch und KI als hybride Lösung.",
+        "Leitgedanke: Künstliche Intelligenz als strategischer Partner, bei dem die Zusammenarbeit von menschlicher und künstlicher Intelligenz optimal gestaltet wird."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Künstliche Intelligenz (KI)",
+      "definition": "Von Menschen entworfene Software- (und ggf. Hardware-) Systeme, die zur Erreichung eines komplexen Ziels ihre Umgebung wahrnehmen, Daten interpretieren, Wissen ableiten und die beste Aktion beschließen (European Commission, 2019)."
+    },
+    {
+      "term": "Schwache KI",
+      "definition": "Singuläre, zielorientierte KI, die aus Erfahrung lernt, Muster erkennt und vorhersagt; sie ist heute am häufigsten anzutreffen (z. B. Suchmaschinen, Gesichtserkennung)."
+    },
+    {
+      "term": "Starke KI",
+      "definition": "KI, die intellektuelle Aufgaben des Menschen übernimmt, sich selbst das Lösen neuer Probleme beibringt und menschenähnliches Bewusstsein entwickelt."
+    },
+    {
+      "term": "Künstliche Superintelligenz",
+      "definition": "Hypothetische KI, die Bewusstsein für das eigene Dasein besitzt, menschliches Verhalten auf fundamentaler Ebene erfasst und den Menschen obsolet macht."
+    },
+    {
+      "term": "Symbolische Regeln",
+      "definition": "Ansatz, bei dem ein KI-System explizit vorgegebene Regeln verwendet, um Schlussfolgerungen zu ziehen (regelbasierte KI)."
+    },
+    {
+      "term": "Numerisches Modell",
+      "definition": "Ansatz, bei dem ein KI-System aus Daten ein zahlenbasiertes Modell erlernt (Grundlage des maschinellen Lernens)."
+    },
+    {
+      "term": "ELIZA",
+      "definition": "1966 von Joseph Weizenbaum entwickelter erster Chatbot und frühes Beispiel für Sprachverarbeitung durch KI."
+    },
+    {
+      "term": "Deep Blue",
+      "definition": "KI-Schachmaschine von IBM, die 1997 den Schachweltmeister Garri Kasparov besiegte."
+    },
+    {
+      "term": "Watson",
+      "definition": "KI-System von IBM, das 2011 die US-amerikanische TV-Quizshow Jeopardy gewann."
+    },
+    {
+      "term": "XCON",
+      "definition": "Expertensystem von 1980, das als erste kommerzielle KI-Anwendung gilt."
+    },
+    {
+      "term": "Predictive Analytics / Vorausschauende Analyse",
+      "definition": "Nutzung von KI zur Vorhersage künftiger Entwicklungen, z. B. von Marktentwicklungen, Kaufverhalten oder im vorausschauenden Recruiting."
+    },
+    {
+      "term": "Hybride Lösung (Mensch und KI)",
+      "definition": "Zukunftsmodell, bei dem menschliche und künstliche Intelligenz zusammenarbeiten und ihre jeweiligen Stärken optimal kombiniert werden."
+    },
+    {
+      "term": "KI als strategischer Partner",
+      "definition": "Leitidee, KI nicht nur als Werkzeug, sondern als strategischen Partner zu begreifen, der Entscheidungen und Führung unterstützt."
+    },
+    {
+      "term": "Automatisierte Kommissionierung",
+      "definition": "KI-gestützte Zusammenstellung von Waren in der Logistik ohne bzw. mit reduziertem menschlichem Eingriff."
+    }
+  ],
+  "kernpunkte": [
+    "KI ist ein von Menschen entworfenes System, das seine Umgebung wahrnimmt, Daten interpretiert und die beste Aktion zur Zielerreichung beschließt (European Commission, 2019).",
+    "Man unterscheidet schwache KI (heute üblich, zielorientiert), starke KI (menschenähnliches Bewusstsein) und Superintelligenz (Mensch obsolet).",
+    "Die KI-Entwicklung verlief in Wellen von 1943 über ELIZA (1966), Deep Blue (1997) und Watson (2011) bis zu ChatGPT (2022).",
+    "Im Management kann KI Entscheidungsfindung, Recruiting und Routineaufgaben unterstützen, wirft aber Herausforderungen für Beschäftigte auf.",
+    "KI wird in Unternehmensfunktionen wie Dienstleistung, Innovation, Marketing, Produktion und Logistik eingesetzt.",
+    "Die Stärke der KI liegt im Generieren vieler Lösungen, die Stärke des Menschen in Bewertung, Kreativität und Intuition.",
+    "Zukunftsleitbild ist die hybride Zusammenarbeit von Mensch und KI, wobei KI als strategischer Partner verstanden wird."
+  ],
+  "flashcards": [
+    {
+      "front": "Wie definierte Marvin Minsky 1968 Künstliche Intelligenz?",
+      "back": "Als Wissenschaft davon, Maschinen dazu zu bringen, Dinge zu tun, deren Ausführung vom Menschen Intelligenz erfordert."
+    },
+    {
+      "front": "Wie definiert die Europäische Kommission (2019) KI-Systeme?",
+      "back": "Als von Menschen entworfene Software- (und ggf. Hardware-) Systeme, die zur Erreichung eines komplexen Ziels ihre Umgebung wahrnehmen, Daten interpretieren, Wissen ableiten und die beste(n) Aktion(en) beschließen."
+    },
+    {
+      "front": "Welche zwei grundsätzlichen Ansätze können KI-Systeme laut EU-Definition verfolgen?",
+      "back": "Sie können entweder symbolische Regeln verwenden oder ein numerisches Modell erlernen."
+    },
+    {
+      "front": "Was kennzeichnet schwache KI?",
+      "back": "Sie ist heute am häufigsten, singulär und zielorientiert; sie lernt aus Erfahrung, erkennt Muster und trifft Vorhersagen, ohne umfassende menschliche Kompetenzen zu besitzen."
+    },
+    {
+      "front": "Nenne drei Beispiele für schwache KI.",
+      "back": "Internetsuchmaschinen, Gesichtserkennung und selbstfahrende Autos."
+    },
+    {
+      "front": "Was kennzeichnet starke KI?",
+      "back": "Sie übernimmt intellektuelle Aufgaben des Menschen, bringt sich selbst das Lösen neuer Probleme bei und entwickelt menschenähnliches Bewusstsein; menschliche Eingabe ist hilfreich, aber nicht zwingend notwendig."
+    },
+    {
+      "front": "Was kennzeichnet künstliche Superintelligenz?",
+      "back": "Sie besitzt Bewusstsein für das eigene Dasein, erfasst menschliches Verhalten auf fundamentaler Ebene und macht den Menschen obsolet."
+    },
+    {
+      "front": "Wer entwickelte 1966 den ersten Chatbot und wie hieß er?",
+      "back": "Joseph Weizenbaum entwickelte den Chatbot ELIZA."
+    },
+    {
+      "front": "Welche KI besiegte 1997 den Schachweltmeister Kasparov?",
+      "back": "Die KI-Schachmaschine Deep Blue von IBM."
+    },
+    {
+      "front": "Welche KI gewann 2011 die Quizshow Jeopardy und wann kam ChatGPT heraus?",
+      "back": "IBMs Watson gewann 2011 Jeopardy; ChatGPT wurde 2022 von Open AI veröffentlicht."
+    },
+    {
+      "front": "Welche Einsatzgebiete hat KI im Management?",
+      "back": "Verbesserung der Entscheidungsfindung, vorausschauendes Recruiting und Projektmanagement, Reduzierung von Verwaltungs- und Routineaufgaben sowie personalisierte Kommunikation."
+    },
+    {
+      "front": "Welche Vorteile bringt KI im Management?",
+      "back": "Stärkere Konzentration auf Führungsaufgaben, Unterstützung von Proaktivität und Agilität sowie Steigerung von Teamleistung und Zusammenarbeit."
+    },
+    {
+      "front": "Nenne Einsatzgebiete von KI in den Unternehmensfunktionen.",
+      "back": "Dienstleistungsmanagement, Innovationsmanagement, Marketing, Produktion und Logistik."
+    },
+    {
+      "front": "Worin liegt die Überlegenheit der KI und worin die des Menschen?",
+      "back": "Die KI kann eine große Anzahl an Lösungsmöglichkeiten generieren; der Mensch ist überlegen bei der Bewertung von Alternativen, Kreativität, Intuition und Bauchgefühl."
+    },
+    {
+      "front": "Welche drei Zukunftsszenarien für Mensch und KI werden genannt?",
+      "back": "KI als Ersatz des Menschen (Automatisierung), KI als Support (Entlastung von Routine) und Mensch und KI als hybride Lösung."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Welche Definition stammt von Marvin Minsky (1968)?",
+      "options": [
+        "Die Wissenschaft davon, Maschinen dazu zu bringen, Dinge zu tun, deren Ausführung vom Menschen Intelligenz erfordert.",
+        "Von Menschen entworfene Systeme, die ihre Umgebung durch Datenerfassung wahrnehmen.",
+        "Systeme, die ausschließlich numerische Modelle erlernen.",
+        "Maschinen, die ein Bewusstsein für ihr eigenes Dasein besitzen."
+      ],
+      "answer": 0,
+      "explanation": "Die frühe Definition von Minsky (1968) beschreibt KI als Wissenschaft davon, Maschinen Aufgaben ausführen zu lassen, die beim Menschen Intelligenz erfordern. Die anderen Aussagen gehören zur EU-Definition bzw. zur Superintelligenz."
+    },
+    {
+      "question": "Welche KI-Art ist laut Folien zurzeit am häufigsten anzutreffen?",
+      "options": [
+        "Starke künstliche Intelligenz",
+        "Schwache künstliche Intelligenz",
+        "Künstliche Superintelligenz",
+        "Hybride Intelligenz"
+      ],
+      "answer": 1,
+      "explanation": "Schwache KI ist singulär, zielorientiert und heute am weitesten verbreitet. Starke KI und Superintelligenz sind (noch) hypothetisch bzw. zukünftig."
+    },
+    {
+      "question": "Welches Merkmal beschreibt die künstliche Superintelligenz?",
+      "options": [
+        "Sie ist auf eine einzige Aufgabe beschränkt.",
+        "Sie benötigt zwingend menschliche Eingaben.",
+        "Sie besitzt Bewusstsein für das eigene Dasein und macht den Menschen obsolet.",
+        "Sie erkennt nur Muster und trifft Vorhersagen."
+      ],
+      "answer": 2,
+      "explanation": "Laut Folien besitzt die Superintelligenz Bewusstsein für ihr Dasein, erfasst menschliches Verhalten fundamental und macht den Menschen obsolet. Die übrigen Optionen beschreiben schwache KI."
+    },
+    {
+      "question": "Welche zwei Ansätze können KI-Systeme laut EU-Definition (2019) verfolgen?",
+      "options": [
+        "Nur symbolische Regeln",
+        "Nur numerische Modelle",
+        "Symbolische Regeln oder das Erlernen eines numerischen Modells",
+        "Ausschließlich Hardware-basierte Verarbeitung"
+      ],
+      "answer": 2,
+      "explanation": "Die EU-Definition nennt ausdrücklich, dass KI-Systeme entweder symbolische Regeln verwenden oder ein numerisches Modell erlernen können."
+    },
+    {
+      "question": "Welches Ereignis fand 1997 statt?",
+      "options": [
+        "Weizenbaum entwickelt ELIZA.",
+        "IBMs Deep Blue gewinnt gegen Schachweltmeister Kasparov.",
+        "Open AI veröffentlicht ChatGPT.",
+        "IBMs Watson gewinnt Jeopardy."
+      ],
+      "answer": 1,
+      "explanation": "1997 besiegte die KI-Schachmaschine Deep Blue von IBM den Weltmeister Kasparov. ELIZA war 1966, Watson 2011, ChatGPT 2022."
+    },
+    {
+      "question": "Welche Aussage beschreibt die jeweilige Überlegenheit von Mensch und KI korrekt?",
+      "options": [
+        "Der Mensch generiert viele Lösungen, die KI bewertet sie kreativ.",
+        "Die KI generiert viele Lösungsmöglichkeiten, der Mensch bewertet sie mit Kreativität und Intuition.",
+        "Beide sind bei allen Aufgaben gleich stark.",
+        "Die KI ist ausschließlich für Bauchgefühl zuständig."
+      ],
+      "answer": 1,
+      "explanation": "Laut Ausblick liegt die Stärke der KI im Generieren einer großen Anzahl an Lösungsmöglichkeiten, während der Mensch bei Bewertung, Kreativität, Intuition und Bauchgefühl überlegen ist."
+    },
+    {
+      "question": "Welches sind laut Folien Einsatzgebiete von KI im Management?",
+      "options": [
+        "Automatisierte Kommissionierung und Routenplanung",
+        "Verbesserung der Entscheidungsfindung und vorausschauendes Recruiting",
+        "Rezeptvorschläge und Hotelbuchungen",
+        "Wartungsüberwachung und Schadenserkennung"
+      ],
+      "answer": 1,
+      "explanation": "Zu den Einsatzgebieten von KI im Management zählen u. a. die Verbesserung der Entscheidungsfindung und vorausschauendes Recruiting. Die anderen Optionen gehören zu Logistik, Dienstleistung bzw. Produktion."
+    },
+    {
+      "question": "Was wird als übergeordnetes Zukunftsleitbild der Folien genannt?",
+      "options": [
+        "Künstliche Intelligenz als vollständiger Ersatz des Menschen",
+        "Künstliche Intelligenz als strategischer Partner",
+        "Vollständige Abschaffung von KI im Unternehmen",
+        "KI nur zur Gesichtserkennung"
+      ],
+      "answer": 1,
+      "explanation": "Die Folie 'Ausblick' schließt mit dem Leitgedanken 'Künstliche Intelligenz als strategischer Partner' und betont die hybride Zusammenarbeit von Mensch und KI."
+    }
+  ]
+}

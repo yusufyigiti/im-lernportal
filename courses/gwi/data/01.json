@@ -1,0 +1,398 @@
+{
+  "id": "01",
+  "title": "Überblick & Disziplin Wirtschaftsinformatik",
+  "pdf": "courses/gwi/folien/01.pdf",
+  "summary": "Diese Einheit gibt einen Überblick über die Disziplin Wirtschaftsinformatik (WI): ihre Tätigkeitsfelder und Berufsbilder, ihre Definition als interdisziplinäre Wissenschaft rechnergestützter Informationssysteme sowie das MAT-Modell (Mensch, Aufgabe, Technik) zum Verständnis von Informationssystemen. Ergänzend werden der internationale Vergleich zwischen der deutschsprachigen WI und der angloamerikanischen Information Systems (Research) sowie die zentralen Forschungs- und Entwicklungsmethoden der WI behandelt. Ziel ist es, die Fragen nach dem Was, Warum, Wofür, Wer und Womit der Wirtschaftsinformatik beantworten zu können.",
+  "sections": [
+    {
+      "heading": "Qualifikationsziele der Einheit",
+      "points": [
+        "Studierende sollen die Fragen nach dem Was, Warum, Wofür, Wer und Womit der Wirtschaftsinformatik beantworten können.",
+        "Definieren können, was Wirtschaftsinformatik ist, und eine Definition zu Informationssystemen wiedergeben.",
+        "Den Unterschied zwischen der deutschsprachigen Wirtschaftsinformatik (WI) und der angloamerikanischen Information Systems (Research) erläutern.",
+        "Wichtige Forschungsmethoden der WI und der Information Systems erläutern können."
+      ]
+    },
+    {
+      "heading": "Tätigkeitsfelder und Berufe nach IT-Nähe",
+      "points": [
+        "Berufe werden nach ihrer Nähe zur IT in drei Gruppen unterteilt: IT-Randberufe, IT-Mischberufe und IT-Kernberufe.",
+        "IT-Randberufe: keine Programmierung, sondern reine Nutzung von Informationssystemen als Anwender (z. B. Personalmanager, Controller).",
+        "IT-Mischberufe: Kombination aus Fachaufgaben und IT-Aufgaben, Vermittler zwischen Entwicklern und Anwendern (z. B. Systemanalytiker, IT-Berater, IT-Leiter, Informationsmanager/CIO) – das typische Tätigkeitsfeld von WirtschaftsinformatikerInnen.",
+        "IT-Kernberufe: systemnahe Aufgaben wie Planung, Entwicklung und Einführung von Hard- und Softwaresystemen (z. B. Webentwickler, Software-/Anwendungsentwickler, Datenbankentwickler, IT-Sicherheits- und Datenschutzspezialist)."
+      ]
+    },
+    {
+      "heading": "Anforderungen an Wirtschaftsinformatiker (Zusammenfassung)",
+      "points": [
+        "Abgeschlossenes Hochschulstudium (z. B. Wirtschaftsinformatik, BWL, Informatik, Wirtschaftsingenieurwesen).",
+        "Schwerpunktorientierung bzw. spezielle Kenntnisse, insbesondere SAP-Kenntnisse (auch SQL, MS-Office).",
+        "Ausgeprägte analytische Fähigkeiten sowie selbstständiges, strukturiertes Arbeiten.",
+        "Englischkenntnisse und praktische Berufserfahrung (Praktika, Projekte).",
+        "Kommunikations- und Teamfähigkeiten, weil oft in Teams gearbeitet wird.",
+        "Beispiele aus Stellenausschreibungen: Berater (PwC), Programmierer (HKM), IT Director (Coca-Cola), Service Solution Designer (Vodafone)."
+      ]
+    },
+    {
+      "heading": "Wirtschaftsinformatik als interdisziplinäres Themenfeld",
+      "points": [
+        "Die WI liegt im Schnittfeld mehrerer Disziplinen: Informatik, Betriebswirtschaftslehre (BWL), Ingenieurwissenschaften (Technik) und Verhaltenswissenschaften (nach Mertens 2012).",
+        "Ihre Interdisziplinarität ist ihr charakteristisches Merkmal.",
+        "Sie verbindet damit technisches, betriebswirtschaftliches und verhaltensbezogenes Wissen."
+      ]
+    },
+    {
+      "heading": "Definition der Wirtschaftsinformatik",
+      "points": [
+        "WI ist die Wissenschaft, die sich mit der Beschreibung, Erklärung, Prognose und Gestaltung rechnergestützter Informationssysteme und deren Einsatz befasst.",
+        "Gegenstand der WI sind Informationssysteme (IS) in Wirtschaft, öffentlicher Verwaltung und im Privathaushalt.",
+        "Die WI ist zugleich Realwissenschaft (untersucht Phänomene der Wirklichkeit), Formalwissenschaft (nutzt formale Beschreibungsverfahren) und Ingenieurwissenschaft (Gestaltung von IS verlangt eine Konstruktionssystematik).",
+        "Quellen: Laudon et al. 2010, Mertens 2012, WKWI 2011."
+      ]
+    },
+    {
+      "heading": "Informationssysteme als MAT-Systeme",
+      "points": [
+        "Informationssysteme werden als soziotechnische MAT-Systeme verstanden: MAT = Mensch, Aufgabe, Technik (Heinrich et al. 2011).",
+        "Mensch: erfüllt betriebliche Aufgaben (Aufgabenträger) und nutzt dafür Techniksysteme (Nutzer).",
+        "Aufgabe: Einzelprobleme oder Problembereiche in Wirtschaft und Verwaltung (z. B. Produktionsplanung), bei der Systementwicklung (z. B. Geschäftsprozessmodellierung) sowie in privaten Haushalten (z. B. Online-Shopping).",
+        "Technik (Informations- und Kommunikationstechnik): Einzeltechniken (z. B. Eingabe-, Speichertechniken), integrierte Techniksysteme (z. B. Internet, Workflowsysteme) und Verfahrenstechnologien (z. B. Vorgehensmodelle).",
+        "Hinweis: Informationssysteme werden in späteren Vorlesungseinheiten noch genauer definiert."
+      ]
+    },
+    {
+      "heading": "Themen der Wirtschaftsinformatik in der Veranstaltung",
+      "points": [
+        "Aus dem WI- und IS-Verständnis ergibt sich eine Vielzahl von Themenbereichen.",
+        "In der Veranstaltung stehen im Vordergrund: die Informationssysteme selbst, Customer Relationship Management (CRM), Geschäftsprozesse und Geschäftsprozessmodellierung.",
+        "Weitere Schwerpunkte: Business-IT-Alignment und IT-Servicemanagement."
+      ]
+    },
+    {
+      "heading": "Internationaler Vergleich: WI vs. Information Systems (Research)",
+      "points": [
+        "Im deutschsprachigen Raum entstand die Disziplin Wirtschaftsinformatik (WI), im angloamerikanischen Raum als Gegenstück die Information Systems (Research), in der Veranstaltung mit ISR abgekürzt (zur Abgrenzung von IS für Informationssystem).",
+        "WI: Ursprung in der BWL, die ab 1955 EDV-Wissen in die Lehre aufnahm und ab 1958 Institute gründete; Lehr- und Praxisorientierung; Fokus auf Gestaltung (Entwicklung und Modellierung) von Informationssystemen und Innovationen.",
+        "ISR: Ursprung in einzelnen Personen, die ab 1956 EDV-orientierte Beiträge in der Fachzeitschrift 'Management Science' publizierten; Publikationszentrierung; Fokus auf Erforschung von Bewährung, Wirkung und Akzeptanz von Systemen, die von anderen entwickelt wurden.",
+        "Zusammenspiel: Die WI entwickelt und modelliert Informationssysteme (weiter); die ISR analysiert und beobachtet diese und gibt Kritik/Anregung als Basis zurück (Mertens 2012)."
+      ]
+    },
+    {
+      "heading": "Zwei Methodenbegriffe: Entwicklungs- und Forschungsmethoden",
+      "points": [
+        "Gemäß der WI-Definition werden Instrumente aus Realwissenschaften (Untersuchung von Phänomenen der Wirklichkeit), Formalwissenschaften (formale Beschreibungsverfahren) und Ingenieurwissenschaften (Konstruktion von IS) genutzt.",
+        "Entwicklungsmethoden: Methoden zur Gestaltung von Informationssystemen.",
+        "Forschungsmethoden: Instrumente der Erkenntnisgewinnung.",
+        "Grundlage: Wilde und Hess 2007 sowie WKWI 2011."
+      ]
+    },
+    {
+      "heading": "Methodenportfolio: Dimensionen Paradigma und Formalisierungsgrad",
+      "points": [
+        "Das Methodenportfolio (nach Literaturanalysen von Wilde/Hess 2007 und Friedrich et al. 2017) hat zwei Dimensionen.",
+        "Dimension Paradigma: konstruktionsorientierte Methoden (Entwicklung/Gestaltung von IS) versus verhaltenswissenschaftliche Methoden (Empirie, Erfahrung als primäre Erkenntnisquelle).",
+        "Dimension Formalisierungsgrad: quantitativ (numerisch repräsentierbare Sachverhalte) versus qualitativ (sprachlich repräsentierbare Sachverhalte).",
+        "Im Portfolio steht n für die Anzahl analysierter Aufsätze, ein Kreis für eine Forschungsmethode und die Kreisgröße für die Einsatzhäufigkeit (Studie 2007-2017: n=169)."
+      ]
+    },
+    {
+      "heading": "Wichtige Forschungsmethoden im Detail",
+      "points": [
+        "Deduktive Analysen (formal-, konzeptionell-, argumentativ-deduktiv): logisch-deduktives Schließen überträgt den Wahrheitsgehalt allgemeiner Aussagen mittels Regeln auf spezielle Aussagen; auf verschiedenen Formalisierungsstufen (mathematisch-formal, semi-formal/konzeptionell, rein sprachlich/argumentativ).",
+        "Fallstudie (Case Study): untersucht komplexe, schwer abgrenzbare Phänomene im natürlichen Kontext (kein Labor); qualitativ-empirisch; Tiefenanalyse einer Instanz mit mehreren Methoden und Quellen (Interviews, Beobachtung, Dokumentenanalyse); nicht zu verwechseln mit Case-Study-Teaching in der Lehre.",
+        "Quantitative und qualitative Querschnittanalyse: bündeln Erhebungstechniken wie Fragebögen, Interviews, Delphi-Methode oder Inhaltsanalysen zu einer einmaligen Erhebung über mehrere Individuen; das Querschnittsbild erlaubt Rückschlüsse auf die Grundgesamtheit.",
+        "Prototyping: Entwicklung und Evaluation einer Vorabversion eines Anwendungssystems; ein Prototyp ist ein mit geringem Aufwand hergestelltes, leicht änderbares, ausführbares Modell des geplanten Systems und dient als Kommunikationsmittel zwischen Entwicklern und Auftraggeber/Benutzern.",
+        "Weitere Methoden im Portfolio: Feld- und Laborexperimente, Simulation, Grounded Theory, Referenzmodellierung; die Aktionsforschung lag in der Folgestudie bei 0 %."
+      ]
+    },
+    {
+      "heading": "Ergebnisse und Trends der Methodenforschung",
+      "points": [
+        "Schwerpunkt der Forschung: WI nutzt vorwiegend konstruktionsorientierte Methoden, ISR vorwiegend verhaltenswissenschaftliche Methoden.",
+        "Trend Formalisierungsgrad: zunehmend höher – statt Argumentation eher Konzeption.",
+        "Trend: Verhaltenswissenschaftliche Methoden werden zunehmend genutzt.",
+        "Trend Mehr-Methoden-Designs: zunehmend hoher Anteil kombinierter Methoden in der WI, in der ISR seltener (Schreiner et al. 2015; Wilde und Hess 2007).",
+        "Grundlage sind zwei Literaturanalysen: Erststudie 1996-2006 (n=296) und Folgestudie 2007-2017 (n=169), neu hinzugekommen sind u. a. Feldexperimente und Grounded Theory."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Wirtschaftsinformatik (WI)",
+      "definition": "Wissenschaft, die sich mit der Beschreibung, Erklärung, Prognose und Gestaltung rechnergestützter Informationssysteme und deren Einsatz in Wirtschaft, öffentlicher Verwaltung und im Privathaushalt befasst."
+    },
+    {
+      "term": "Informationssystem (IS)",
+      "definition": "Soziotechnisches System aus Mensch, Aufgabe und Technik (MAT), das der Erfüllung betrieblicher Aufgaben dient; Gegenstand der Wirtschaftsinformatik."
+    },
+    {
+      "term": "MAT-System",
+      "definition": "Modell zum Verständnis von Informationssystemen mit den drei Komponenten Mensch (M), Aufgabe (A) und Technik (T) nach Heinrich et al. 2011."
+    },
+    {
+      "term": "Interdisziplinarität",
+      "definition": "Charakteristisches Merkmal der WI: Sie vereint Elemente der Betriebswirtschaftslehre, der Informatik, der Ingenieurwissenschaften und der Verhaltenswissenschaften."
+    },
+    {
+      "term": "Realwissenschaft",
+      "definition": "Wissenschaftstyp, der Phänomene der Wirklichkeit untersucht; die WI ist auch Realwissenschaft."
+    },
+    {
+      "term": "Formalwissenschaft",
+      "definition": "Wissenschaftstyp, der formale Beschreibungsverfahren nutzt; die WI ist auch Formalwissenschaft."
+    },
+    {
+      "term": "Ingenieurwissenschaft",
+      "definition": "Wissenschaftstyp, der auf Konstruktion und Gestaltung ausgerichtet ist; die WI ist auch Ingenieurwissenschaft, da die Gestaltung von IS eine Konstruktionssystematik verlangt."
+    },
+    {
+      "term": "Information Systems (Research) / ISR",
+      "definition": "Angloamerikanisches Gegenstück zur WI mit Publikationszentrierung und Fokus auf Erforschung von Bewährung, Wirkung und Akzeptanz bestehender Systeme; in der Veranstaltung mit 'ISR' abgekürzt."
+    },
+    {
+      "term": "IT-Randberuf",
+      "definition": "Beruf ohne Programmierung, in dem Informationssysteme nur als Anwender genutzt werden (z. B. Personalmanager, Controller)."
+    },
+    {
+      "term": "IT-Mischberuf",
+      "definition": "Beruf mit Fach- und IT-Aufgaben, der zwischen Entwicklern und Anwendern vermittelt (z. B. Systemanalytiker, IT-Berater, CIO); typisches Tätigkeitsfeld von WirtschaftsinformatikerInnen."
+    },
+    {
+      "term": "IT-Kernberuf",
+      "definition": "Beruf mit systemnahen Aufgaben wie Planung, Entwicklung und Einführung von Hard- und Softwaresystemen (z. B. Softwareentwickler, Datenbankentwickler)."
+    },
+    {
+      "term": "Entwicklungsmethode",
+      "definition": "Methode zur Gestaltung von Informationssystemen; einer der beiden Methodenbegriffe der WI."
+    },
+    {
+      "term": "Forschungsmethode",
+      "definition": "Instrument der Erkenntnisgewinnung; der zweite Methodenbegriff der WI neben den Entwicklungsmethoden."
+    },
+    {
+      "term": "Paradigma (Portfolio-Dimension)",
+      "definition": "Dimension des Methodenportfolios, die konstruktionsorientierte Methoden von verhaltenswissenschaftlichen Methoden (Empirie) unterscheidet."
+    },
+    {
+      "term": "Formalisierungsgrad (Portfolio-Dimension)",
+      "definition": "Dimension des Methodenportfolios, die quantitative (numerisch repräsentierbare) von qualitativen (sprachlich repräsentierbaren) Sachverhalten unterscheidet."
+    },
+    {
+      "term": "Logisch-deduktives Schließen",
+      "definition": "Übertragung des Wahrheitsgehalts allgemeiner Aussagen mittels bestimmter Regeln auf spezielle Aussagen; Grundlage der formal-, konzeptionell- und argumentativ-deduktiven Analyse."
+    },
+    {
+      "term": "Fallstudie (Case Study)",
+      "definition": "Qualitativ-empirische Methode, die wenige Merkmalsträger intensiv und ganzheitlich in ihrem natürlichen Kontext untersucht und dabei mehrere Methoden und Quellen nutzt."
+    },
+    {
+      "term": "Querschnittanalyse",
+      "definition": "Methode, die Erhebungstechniken wie Fragebögen, Interviews oder Inhaltsanalysen zu einer einmaligen Erhebung über mehrere Individuen bündelt und quantitativ oder qualitativ auswertet; erlaubt Rückschlüsse auf die Grundgesamtheit."
+    },
+    {
+      "term": "Prototyping",
+      "definition": "Methode, bei der eine mit geringem Aufwand hergestellte, leicht änderbare und ausführbare Vorabversion (Prototyp) eines Systems entwickelt und evaluiert wird; dient auch als Kommunikationsmittel."
+    },
+    {
+      "term": "Business-IT-Alignment",
+      "definition": "Themenbereich der WI, der die Abstimmung zwischen Geschäftsstrategie/Geschäftsprozessen und der IT betrachtet."
+    }
+  ],
+  "kernpunkte": [
+    "Die Wirtschaftsinformatik ist die Wissenschaft der Beschreibung, Erklärung, Prognose und Gestaltung rechnergestützter Informationssysteme und ihres Einsatzes.",
+    "Sie ist eine interdisziplinäre Disziplin an der Schnittstelle von Informatik, BWL, Ingenieurwissenschaften und Verhaltenswissenschaften.",
+    "Die WI ist zugleich Real-, Formal- und Ingenieurwissenschaft und hat Informationssysteme in Wirtschaft, Verwaltung und Privathaushalt zum Gegenstand.",
+    "Informationssysteme werden als soziotechnische MAT-Systeme aus Mensch, Aufgabe und Technik verstanden.",
+    "WirtschaftsinformatikerInnen arbeiten typischerweise in IT-Mischberufen und vermitteln zwischen Entwicklern und Anwendern.",
+    "Die deutschsprachige WI ist gestaltungs- und praxisorientiert, während die angloamerikanische ISR publikations- und verhaltenswissenschaftlich orientiert ist.",
+    "Die WI unterscheidet Entwicklungsmethoden (Gestaltung von IS) und Forschungsmethoden (Erkenntnisgewinnung).",
+    "Das Methodenportfolio ordnet Methoden nach Paradigma (konstruktiv/verhaltenswissenschaftlich) und Formalisierungsgrad (quantitativ/qualitativ) ein.",
+    "Trends zeigen einen höheren Formalisierungsgrad, mehr verhaltenswissenschaftliche Methoden und einen zunehmenden Einsatz von Mehr-Methoden-Designs in der WI."
+  ],
+  "flashcards": [
+    {
+      "front": "Wie lautet die Definition der Wirtschaftsinformatik?",
+      "back": "Wissenschaft, die sich mit der Beschreibung, Erklärung, Prognose und Gestaltung rechnergestützter Informationssysteme und deren Einsatz befasst."
+    },
+    {
+      "front": "Was ist der Gegenstand der Wirtschaftsinformatik?",
+      "back": "Informationssysteme (IS) in Wirtschaft, öffentlicher Verwaltung und im Privathaushalt."
+    },
+    {
+      "front": "Welche vier Disziplinen vereint die WI (Interdisziplinarität)?",
+      "back": "Betriebswirtschaftslehre, Informatik, Ingenieurwissenschaften und Verhaltenswissenschaften."
+    },
+    {
+      "front": "Welche drei Wissenschaftstypen vereint die WI?",
+      "back": "Realwissenschaft (Phänomene der Wirklichkeit), Formalwissenschaft (formale Beschreibungsverfahren) und Ingenieurwissenschaft (Konstruktionssystematik)."
+    },
+    {
+      "front": "Wofür steht das Akronym MAT bei Informationssystemen?",
+      "back": "Mensch, Aufgabe, Technik."
+    },
+    {
+      "front": "Welche Rolle hat der 'Mensch' im MAT-System?",
+      "back": "Er erfüllt betriebliche Aufgaben (Aufgabenträger) und nutzt dafür Techniksysteme (Nutzer)."
+    },
+    {
+      "front": "Nenne die drei Berufsgruppen nach IT-Nähe.",
+      "back": "IT-Randberufe, IT-Mischberufe und IT-Kernberufe."
+    },
+    {
+      "front": "In welcher Berufsgruppe arbeiten WirtschaftsinformatikerInnen typischerweise?",
+      "back": "In IT-Mischberufen (z. B. Systemanalytiker, IT-Berater, IT-Leiter, CIO) als Vermittler zwischen Entwicklern und Anwendern."
+    },
+    {
+      "front": "Wofür steht die Abkürzung ISR in der Veranstaltung?",
+      "back": "Für Information Systems (Research), das angloamerikanische Gegenstück zur WI; 'IS' bleibt für Informationssystem reserviert."
+    },
+    {
+      "front": "Worin unterscheiden sich WI und ISR im Fokus?",
+      "back": "WI: Gestaltung/Entwicklung von IS (praxis- und lehrorientiert). ISR: Erforschung von Bewährung, Wirkung und Akzeptanz bestehender Systeme (publikationszentriert)."
+    },
+    {
+      "front": "Welche zwei Methodenbegriffe unterscheidet die WI?",
+      "back": "Entwicklungsmethoden (Gestaltung von IS) und Forschungsmethoden (Instrumente der Erkenntnisgewinnung)."
+    },
+    {
+      "front": "Welche zwei Dimensionen hat das Methodenportfolio der WI?",
+      "back": "Paradigma (konstruktionsorientiert vs. verhaltenswissenschaftlich) und Formalisierungsgrad (quantitativ vs. qualitativ)."
+    },
+    {
+      "front": "Was ist logisch-deduktives Schließen?",
+      "back": "Die Übertragung des Wahrheitsgehalts allgemeiner Aussagen mittels bestimmter Regeln auf spezielle Aussagen (formal, konzeptionell oder argumentativ)."
+    },
+    {
+      "front": "Was kennzeichnet eine Fallstudie (Case Study)?",
+      "back": "Intensive, ganzheitliche Tiefenanalyse weniger Merkmalsträger im natürlichen Kontext (kein Labor) mit mehreren Methoden und Quellen; qualitativ-empirisch."
+    },
+    {
+      "front": "Was ist ein Prototyp im Sinne des Prototypings?",
+      "back": "Ein mit geringem Aufwand hergestelltes, leicht änderbares und ausführbares Modell des geplanten Systems, das erprobt und beurteilt werden kann und als Kommunikationsmittel dient."
+    },
+    {
+      "front": "Was leistet eine Querschnittanalyse?",
+      "back": "Sie bündelt Erhebungstechniken (Fragebögen, Interviews, Delphi, Inhaltsanalysen) in einer einmaligen Erhebung über mehrere Individuen und erlaubt Rückschlüsse auf die Grundgesamtheit."
+    },
+    {
+      "front": "Welche Methoden dominieren in WI bzw. ISR?",
+      "back": "WI: konstruktionsorientierte Methoden. ISR: verhaltenswissenschaftliche Methoden."
+    },
+    {
+      "front": "Welche Themen der WI werden in der Veranstaltung besonders betrachtet?",
+      "back": "Informationssysteme selbst, CRM, Geschäftsprozesse und deren Modellierung, Business-IT-Alignment und IT-Servicemanagement."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Was ist laut Vorlesung der Gegenstand der Wirtschaftsinformatik?",
+      "options": [
+        "Ausschließlich Hardwaresysteme in Unternehmen",
+        "Informationssysteme in Wirtschaft, öffentlicher Verwaltung und im Privathaushalt",
+        "Nur betriebswirtschaftliche Kennzahlen",
+        "Programmiersprachen und Algorithmen"
+      ],
+      "answer": 1,
+      "explanation": "Nach WKWI 2011 und Mertens 2012 sind Informationssysteme (IS) in Wirtschaft, öffentlicher Verwaltung und im Privathaushalt der Gegenstand der WI."
+    },
+    {
+      "question": "Wofür steht das MAT-Modell für Informationssysteme?",
+      "options": [
+        "Management, Analyse, Technik",
+        "Modell, Aufgabe, Test",
+        "Mensch, Aufgabe, Technik",
+        "Methode, Anwendung, Transaktion"
+      ],
+      "answer": 2,
+      "explanation": "MAT steht für Mensch, Aufgabe und Technik – die drei Komponenten eines Informationssystems nach Heinrich et al. 2011."
+    },
+    {
+      "question": "Welche vier Disziplinen kennzeichnen die Interdisziplinarität der WI?",
+      "options": [
+        "BWL, Informatik, Ingenieurwissenschaften, Verhaltenswissenschaften",
+        "BWL, Jura, Informatik, Statistik",
+        "Informatik, Mathematik, Physik, BWL",
+        "Soziologie, Informatik, VWL, Technik"
+      ],
+      "answer": 0,
+      "explanation": "Die WI vereint Elemente der Betriebswirtschaftslehre, der Informatik, der Ingenieurwissenschaften und der Verhaltenswissenschaften."
+    },
+    {
+      "question": "In welcher Berufsgruppe nach IT-Nähe arbeiten WirtschaftsinformatikerInnen typischerweise?",
+      "options": [
+        "IT-Randberufe",
+        "IT-Kernberufe",
+        "IT-Mischberufe",
+        "Berufe ohne IT-Bezug"
+      ],
+      "answer": 2,
+      "explanation": "IT-Mischberufe verbinden Fach- und IT-Aufgaben und vermitteln zwischen Entwicklern und Anwendern – das typische Tätigkeitsfeld von WirtschaftsinformatikerInnen (z. B. Systemanalytiker, CIO)."
+    },
+    {
+      "question": "Wie unterscheiden sich WI und ISR hinsichtlich ihres Fokus?",
+      "options": [
+        "WI erforscht bestehende Systeme, ISR gestaltet neue Systeme",
+        "WI fokussiert die Gestaltung/Entwicklung von IS, ISR die Erforschung von Bewährung, Wirkung und Akzeptanz",
+        "Beide fokussieren ausschließlich die Programmierung",
+        "WI ist rein theoretisch, ISR rein praktisch"
+      ],
+      "answer": 1,
+      "explanation": "Die deutschsprachige WI ist gestaltungs- und praxisorientiert, während die angloamerikanische ISR publikationszentriert die Bewährung, Wirkung und Akzeptanz bestehender Systeme erforscht."
+    },
+    {
+      "question": "Welche zwei Dimensionen bilden das Methodenportfolio der WI?",
+      "options": [
+        "Kosten und Nutzen",
+        "Theorie und Praxis",
+        "Paradigma (konstruktiv/verhaltenswissenschaftlich) und Formalisierungsgrad (quantitativ/qualitativ)",
+        "Hardware und Software"
+      ],
+      "answer": 2,
+      "explanation": "Das Portfolio nach Wilde/Hess 2007 und Friedrich et al. 2017 ordnet Methoden nach Paradigma und Formalisierungsgrad ein."
+    },
+    {
+      "question": "Welche Aussage beschreibt eine Fallstudie (Case Study) korrekt?",
+      "options": [
+        "Sie untersucht viele Fälle oberflächlich im Labor",
+        "Sie untersucht wenige Merkmalsträger intensiv und ganzheitlich im natürlichen Kontext",
+        "Sie ist identisch mit dem Case-Study-Teaching in der Lehre",
+        "Sie nutzt ausschließlich quantitative Fragebögen"
+      ],
+      "answer": 1,
+      "explanation": "Die Fallstudie ist eine qualitativ-empirische Methode, die wenige Merkmalsträger intensiv, ganzheitlich und im natürlichen Kontext (kein Labor) mit mehreren Methoden untersucht."
+    },
+    {
+      "question": "Was ist ein Prototyp im Sinne des Prototypings?",
+      "options": [
+        "Die fertige, ausgelieferte Endversion eines Systems",
+        "Ein rein theoretisches Konzeptpapier ohne Ausführbarkeit",
+        "Ein mit geringem Aufwand hergestelltes, leicht änderbares, ausführbares Modell des geplanten Systems",
+        "Ein Marketingdokument für Kunden"
+      ],
+      "answer": 2,
+      "explanation": "Ein Prototyp ist ein mit geringem Aufwand hergestelltes, leicht änderbares und ausführbares Modell des geplanten Systems, das erprobt werden kann und als Kommunikationsmittel dient."
+    },
+    {
+      "question": "Welche Methoden dominieren in der WI bzw. in der ISR?",
+      "options": [
+        "WI: verhaltenswissenschaftlich; ISR: konstruktionsorientiert",
+        "WI: konstruktionsorientiert; ISR: verhaltenswissenschaftlich",
+        "Beide: ausschließlich formal-deduktiv",
+        "Beide: ausschließlich Prototyping"
+      ],
+      "answer": 1,
+      "explanation": "Der Forschungsschwerpunkt der WI liegt auf konstruktionsorientierten Methoden, der der ISR auf verhaltenswissenschaftlichen Methoden."
+    },
+    {
+      "question": "Welche der folgenden Aussagen zu den Trends der WI-Methodenforschung ist korrekt?",
+      "options": [
+        "Der Formalisierungsgrad sinkt, Argumentation ersetzt Konzeption",
+        "Verhaltenswissenschaftliche Methoden werden seltener genutzt",
+        "Mehr-Methoden-Designs werden zunehmend eingesetzt, stärker als in der ISR",
+        "Aktionsforschung ist die häufigste Methode geworden"
+      ],
+      "answer": 2,
+      "explanation": "Trends zeigen einen höheren Formalisierungsgrad, mehr verhaltenswissenschaftliche Methoden und einen zunehmend hohen Anteil kombinierter Mehr-Methoden-Designs in der WI; die Aktionsforschung lag in der Folgestudie sogar bei 0 %."
+    }
+  ]
+}

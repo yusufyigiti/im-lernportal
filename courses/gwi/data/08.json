@@ -1,0 +1,315 @@
+{
+  "id": "08",
+  "title": "Standardsoftware & Anwendungssysteme",
+  "pdf": "courses/gwi/folien/08.pdf",
+  "summary": "Diese Vorlesungseinheit behandelt die Grundsatzfrage des betrieblichen Softwarebedarfs: Soll Software selbst entwickelt (Make) oder als Standardsoftware zugekauft (Buy) werden, und ob sie gekauft oder gemietet wird. Es werden die Besonderheiten von Software, die Vor- und Nachteile von Standardsoftware sowie das phasenweise Vorgehen zur Softwareauswahl (Grob-, Vor-, Endauswahl inkl. Nutzwertanalyse) erklärt. Im zweiten Teil werden betriebliche Anwendungssysteme entlang der Wertschöpfungskette vorgestellt, insbesondere ERP, CRM, SCM, E-Procurement und Business Intelligence.",
+  "sections": [
+    {
+      "heading": "Weshalb beschäftigt sich die Wirtschaftsinformatik mit Standardsoftware?",
+      "points": [
+        "Software besitzt Besonderheiten, die Auswahlentscheidungen erschweren und die sie von materiellen Gütern unterscheiden.",
+        "Immaterialität: Software ist nicht direkt beobachtbar, die Dokumentation beschreibt sie nicht immer exakt, und die Evaluation erfordert oft Vertrauen in Hersteller- bzw. Beraterangaben.",
+        "Schwankungsfreie Qualität: Software verschleißt durch Gebrauch nicht; einmal richtig ausgewählt bleibt sie richtig, solange die Anforderungen gleich bleiben.",
+        "Altersabhängigkeit: Software 'altert' durch die Abhängigkeit von der Einsatzumgebung; ehemals geeignete Software kann später ungeeignet werden.",
+        "Messbarkeit: Qualität ist schwer definierbar bzw. quantifizierbar, Funktionalität nur eingeschränkt durch Tests überprüfbar, quantitative Evaluation oft nicht möglich.",
+        "Änderbarkeit und Anpassbarkeit: Software kann vor und sogar nach dem Kauf angepasst und individuell konfiguriert werden; Stärken und Schwächen treten bei verschiedenen Nutzern unterschiedlich auf.",
+        "Komplexität: Software ist ein komplexes Systemkonstrukt mit riesigem Codeumfang (z. B. MS Windows 10 ca. 50 Mio. SLOC, SAP NetWeaver 2007 ca. 238 Mio. SLOC), das nur mit Werkzeugen und Abstraktion beherrschbar ist."
+      ]
+    },
+    {
+      "heading": "Grundsatzfrage: Make or Buy",
+      "points": [
+        "Die Grundsatzfrage lautet: Eigenentwicklung (Make) oder Fremdbezug (Buy) der benötigten Software?",
+        "Die Art der Software bestimmt in der Regel die Make-or-Buy-Entscheidung ('Software ≠ Software').",
+        "Die Eigenentwicklung klassischer Unternehmenssoftware wie ERP-Systeme ist eigentlich nur eine Option, wenn man selbst ein Anbieter wie SAP ist.",
+        "Das Customizing klassischer Unternehmenssoftware ist in der Regel nur durch Spezialisten oder Konzerntöchter des Herstellers sinnvoll."
+      ]
+    },
+    {
+      "heading": "Grundsatzfrage: Eigentum vs. Miete (Kauf vs. Rent)",
+      "points": [
+        "Neben Make or Buy stellt sich die Frage nach dem Bezugsmodell: Softwarekauf (Eigentum, On Premise) oder Miete (Rent, On Demand / SaaS).",
+        "On Premise bedeutet einmalige Kaufkosten und Betrieb auf eigener Infrastruktur, z. B. Microsoft Project für einmalig ca. 500 $ pro Nutzer.",
+        "On Demand bedeutet nutzungsbasierte, laufende Mietkosten in der Cloud, z. B. Asana für ca. 10 $ pro Nutzer und Monat.",
+        "Miete/SaaS senkt Anfangsinvestitionen und Wartungsaufwand, führt aber zu laufenden Kosten und stärkerer Anbieterabhängigkeit."
+      ]
+    },
+    {
+      "heading": "Vor- und Nachteile von Standardsoftware",
+      "points": [
+        "Vorteile: kostengünstiger als eine Eigenentwicklung.",
+        "Vorteile: sofortige Verfügbarkeit; Einsatz auch ohne qualifiziertes eigenes Entwicklungspersonal möglich.",
+        "Vorteile: keine Entwicklungsrisiken; der Hersteller verfügt über konzentriertes Know-how.",
+        "Nachteile: Eigenschaften stimmen nicht vollständig mit den Anforderungen überein; zusätzliche Kosten durch Anpassungen.",
+        "Nachteile: betriebliche Prozesse müssen unter Umständen der Software angepasst werden.",
+        "Nachteile: Schnittstellenprobleme zu anderen Systemen und Abhängigkeit vom Anbieter."
+      ]
+    },
+    {
+      "heading": "Phaseneinteilung der Produktentscheidung",
+      "points": [
+        "Die Auswahl von Standardsoftware erfolgt dreistufig: Grobauswahl, Vorauswahl und Endauswahl (nach Herzwurm 1994).",
+        "Grobauswahl: Marktübersicht, Informationsbeschaffung zu Anwendungsgebiet und Produkten sowie Produktbewertung nach Grobraster; Ergebnis: ca. 10-15 potenziell geeignete Produkte.",
+        "Vorauswahl: Festlegen von Entscheidungskriterien, detaillierte Anforderungsdefinition, Produkttests und Meinungsbildung nach Feinraster; Ergebnis: ca. 3 Produkte in der engeren Wahl (Short List).",
+        "Endauswahl: Pilotinstallation, Klärung technischer Details, Bewertung von Angeboten, Vertragsverhandlungen und enger Anbieterkontakt; Ergebnis: das zu beschaffende Produkt.",
+        "Der Auswahltrichter verengt sich schrittweise von vielen Kandidaten hin zur finalen Kaufentscheidung."
+      ]
+    },
+    {
+      "heading": "Nutzwertanalyse zur Vorauswahl",
+      "points": [
+        "Die Nutzwertanalyse (nach Leimeister 2021) ist ein Verfahren zur Bewertung und zum Vergleich von Software-Produkten in der Vorauswahl.",
+        "Es werden Entscheidungskriterien definiert und mit Gewichten versehen, die deren relative Bedeutung ausdrücken.",
+        "Jedes Produkt wird je Kriterium bewertet (Teilnutzen); die gewichteten Teilnutzen werden zu einem Gesamtnutzwert je Produkt aufsummiert.",
+        "Das Produkt mit dem höchsten Gesamtnutzwert gilt als am besten geeignet; die Methode macht auch qualitative Kriterien vergleichbar."
+      ]
+    },
+    {
+      "heading": "Unternehmenssoftware (Enterprise Software)",
+      "points": [
+        "Unternehmenssoftware (Enterprise Software, selten Business Software) unterstützt und steuert betriebliche Prozesse, z. B. ERP-, CRM-, SCM- oder BI-Software.",
+        "Charakteristika: in der Regel hohe Investitionsvolumina, Langlebigkeit bzw. lange Lebenszyklen und notwendige Einbindung in das betriebliche Informationssystem.",
+        "Anpassung bzw. Individualisierung an betriebliche Prozesse und die Anwendungslandschaft ist erforderlich.",
+        "Traditionell erfolgt dies durch Customizing; im Trend liegt der Einsatz von Low-Code-Anwendungsplattformen.",
+        "Low-Code ermöglicht die Zusammenarbeit professioneller und nicht-professioneller Entwickler (inkl. Mitarbeiter aus Fachabteilungen) und erlaubt rasche, flexible Anpassung; laut Gartner sollten bis 2024 mehr als 65 % der Anwendungen mit Low-Code entwickelt werden."
+      ]
+    },
+    {
+      "heading": "Operative Anwendungssysteme entlang der Wertschöpfungskette",
+      "points": [
+        "Anwendungssysteme lassen sich in Porters Wertschöpfungskette einordnen, die primäre und unterstützende Aktivitäten unterscheidet.",
+        "Primäre Aktivitäten: Eingangslogistik (automatische Lagersysteme), Fertigung (computergesteuerte Maschinensysteme), Vertrieb und Marketing (elektronische Bestellsysteme), Distributionslogistik (automatisierte Versandplanungssysteme) und Kundenservice (Wartungssysteme).",
+        "Unterstützende Aktivitäten: Beschaffung (elektronische Bestellsysteme), Personalwesen (Personalplanungssysteme), Verwaltung/Management (elektronische Planungs- und Datenverarbeitungssysteme) und Technik (computergestützte Designsysteme).",
+        "Übergreifende, integrierende Systeme sind ERP (unternehmensintern), SCM (Richtung Lieferant), CRM (Richtung Kunde), E-Procurement (Beschaffung) sowie Business Intelligence / Wissensmanagement.",
+        "ERP bildet die integrierende Basis; SCM verbindet mit dem Lieferanten, CRM mit dem Kunden."
+      ]
+    },
+    {
+      "heading": "Enterprise Resource Planning (ERP)",
+      "points": [
+        "Ein ERP-System ist ein aus mehreren integrierten Komponenten bestehendes, individuell anpassbares Standardsoftwarepaket, das Informationen und Prozesse wesentlicher Funktionsbereiche automatisiert und integriert.",
+        "Beispiele integrierter Prozesse sind Bestellabwicklung und Produktionsplanung über Funktionsbereiche hinweg.",
+        "Die meisten ERP-Systeme beinhalten Referenzmodelle für branchenspezifische oder branchenübergreifende Geschäftsprozesse.",
+        "Typische Einsatzbereiche/Aufgabenkategorien (nach Gronau 2010): Fertigung (Bestandsführung, Materialbedarfsplanung, Einkauf, Produktionsplanung), Vertrieb (Auftragseingang, Rechnungsstellung, Verkaufsanalysen), Rechnungswesen (Buchführung, Anlagenbuchhaltung), Finanzwesen (Liquiditätsmanagement, Finanzplanung), Personalwesen (Lohn- und Gehaltsabrechnung) und Analyse.",
+        "ERP-Systeme erfüllen die Aufgabenkategorien Administration (Datenhaltung), Disposition (Automatisierung von Routinevorgängen) und Information (Kennzahlenbildung).",
+        "Wichtige Anbieter/Produkte sind u. a. SAP sowie Microsoft Dynamics ERP."
+      ]
+    },
+    {
+      "heading": "Wandel von Unternehmenssoftware am Beispiel SAP",
+      "points": [
+        "Die Entwicklung verläuft von einzelnen Funktionen über Funktionsbereiche und interne Geschäftsprozesse hin zu betriebsübergreifenden Prozessen und Ökosystemen.",
+        "1973 System RF (Finanzbuchhaltung) und 1975 System RM (Materialwirtschaft): Konzepte MRP (Material Requirements Planning) und MRP II.",
+        "1982 System R/2 (betriebswirtschaftliches Komplettpaket) und 1992 System R/3 (Komplettpaket plus Branchenlösungen): Ausprägung des ERP-Konzepts und innerbetriebliche Integration.",
+        "1999 mySAP.com verbindet E-Commerce-Lösungen mit bestehenden ERP-Applikationen; APS (Advanced Planning System) und zwischenbetriebliche Integration (SCM).",
+        "Ab 2010 SAP Business Suite auf Basis von NetWeaver mit aufsteckbaren Modulen (ERP as a Service, ERPaaS); ab 2016 SAP Leonardo / Business Technology Platform für digitale Transformation und unternehmensübergreifende Geschäftsmodelle."
+      ]
+    },
+    {
+      "heading": "Customer Relationship Management (CRM)",
+      "points": [
+        "CRM-Systeme unterstützen die Kundenbeziehung und -interaktion über alle Kontaktkanäle (Persönlich, Telefon, E-Mail, Internet, Social Media, TV/Radio, Mailings).",
+        "Operatives CRM: Unterstützung der direkten Kundenprozesse durch Marketing Automation, Sales Automation und Service Automation (Front und Back Office).",
+        "Analytisches CRM: Auswertung der Kundendaten aus einem Customer Data Warehouse mittels OLAP (Online Analytical Processing) und Data Mining.",
+        "Kollaboratives CRM: Steuerung und Synchronisation der Kommunikationskanäle im Customer Interaction Center.",
+        "Ein bekanntes Beispiel für ein CRM-Produkt ist Salesforce.com."
+      ]
+    },
+    {
+      "heading": "E-Procurement, SCM und Business Intelligence",
+      "points": [
+        "E-Procurement (nach Wirtz 2018) ist die Integration netzwerkbasierter Informations- und Kommunikationstechnologie zur Unterstützung operativer Tätigkeiten und strategischer Aufgaben im Beschaffungsbereich von Unternehmen (Beispiel: Würth).",
+        "Supply Chain Management (SCM) entstand in den frühen 1980er Jahren mit der Idee, interne Abläufe als integriertes Ganzes statt als getrennte Abteilungen (Einkauf, Produktion, Logistik) zu begreifen.",
+        "SCM wurde rasch um Lieferanten und unmittelbare Kunden erweitert; enge, kooperative Zusammenarbeit führt zu reduzierten Bestandskosten, höherer Qualität und schnelleren Lieferzeiten (Beispiel: NVIDIA).",
+        "Business Intelligence (BI) ist ein integrierter, IT-basierter Gesamtansatz zur betrieblichen Entscheidungsunterstützung.",
+        "BI beantwortet Management-Fragen wie 'Mit welchen Kunden machen wir den meisten Umsatz?' oder 'Welche Produkte verkaufen sich gut?' und umfasst Unternehmensstrategien, System-Architekturen, Betreibermodelle und organisatorische Implementierung (Beispiel: SAP Business Explorer)."
+      ]
+    }
+  ],
+  "glossary": [
+    {"term": "Standardsoftware", "definition": "Vorgefertigte, für einen breiten Anwenderkreis entwickelte Software, die als fertiges Produkt zugekauft wird (Buy) und in der Regel angepasst (customized) werden muss."},
+    {"term": "Individualsoftware", "definition": "Speziell für die Anforderungen eines einzelnen Unternehmens entwickelte Software (Make/Eigenentwicklung); passgenau, aber teurer und risikoreicher als Standardsoftware."},
+    {"term": "Make or Buy", "definition": "Grundsatzentscheidung zwischen Eigenentwicklung (Make) und Fremdbezug (Buy) einer Software; wird maßgeblich von der Art der Software bestimmt."},
+    {"term": "On Premise / Eigentum", "definition": "Bezugsmodell, bei dem Software gekauft und auf eigener Infrastruktur betrieben wird (einmalige Kaufkosten), z. B. Microsoft Project ca. 500 $ pro Nutzer."},
+    {"term": "On Demand / Rent (SaaS)", "definition": "Bezugsmodell, bei dem Software als Dienst gemietet und in der Cloud genutzt wird (laufende Kosten), z. B. Asana ca. 10 $ pro Nutzer und Monat."},
+    {"term": "Customizing", "definition": "Anpassung von Standardsoftware an die betrieblichen Prozesse und Anforderungen eines Unternehmens, meist durch Konfiguration und Parametrisierung."},
+    {"term": "Low-Code-Plattform", "definition": "Anwendungsplattform, die durch grafische Modellierung die Zusammenarbeit von professionellen und nicht-professionellen Entwicklern ermöglicht und rasche, flexible Anpassungen erlaubt."},
+    {"term": "Nutzwertanalyse", "definition": "Bewertungsverfahren, bei dem Produkte anhand gewichteter Kriterien beurteilt und die gewichteten Teilnutzen zu einem Gesamtnutzwert je Produkt aufsummiert werden."},
+    {"term": "SLOC (Source Lines of Code)", "definition": "Maßeinheit für den Umfang von Software in Codezeilen; verdeutlicht die Komplexität (z. B. SAP NetWeaver 2007 ca. 238 Mio. SLOC)."},
+    {"term": "Unternehmenssoftware (Enterprise Software)", "definition": "Software zur Unterstützung und Steuerung betrieblicher Prozesse (z. B. ERP, CRM, SCM, BI) mit hohen Investitionen und langen Lebenszyklen."},
+    {"term": "ERP (Enterprise Resource Planning)", "definition": "Aus integrierten Komponenten bestehendes, anpassbares Standardsoftwarepaket, das Informationen und Prozesse wesentlicher Funktionsbereiche automatisiert und integriert."},
+    {"term": "Referenzmodell", "definition": "In ERP-Systemen enthaltene Vorlagen für branchenspezifische oder branchenübergreifende Geschäftsprozesse, an denen sich die Einführung orientieren kann."},
+    {"term": "CRM (Customer Relationship Management)", "definition": "System zur Gestaltung und Steuerung der Kundenbeziehungen; gegliedert in operatives, analytisches und kollaboratives CRM."},
+    {"term": "SCM (Supply Chain Management)", "definition": "Integrierte, kooperative Steuerung der Lieferkette über Unternehmensgrenzen hinweg zur Senkung von Bestandskosten und Verkürzung der Lieferzeiten."},
+    {"term": "E-Procurement", "definition": "Integration netzwerkbasierter IuK-Technologie zur Unterstützung operativer und strategischer Aufgaben im Beschaffungsbereich von Unternehmen (nach Wirtz 2018)."},
+    {"term": "Business Intelligence (BI)", "definition": "Integrierter, IT-basierter Gesamtansatz zur betrieblichen Entscheidungsunterstützung durch Sammlung, Auswertung und Darstellung von Unternehmensdaten."},
+    {"term": "Wertschöpfungskette", "definition": "Modell nach Porter, das primäre (z. B. Logistik, Fertigung, Vertrieb) und unterstützende Aktivitäten (z. B. Beschaffung, Personal, Technik) unterscheidet und zur Einordnung von Anwendungssystemen dient."},
+    {"term": "OLAP (Online Analytical Processing)", "definition": "Analysetechnik zur mehrdimensionalen Auswertung großer Datenbestände, u. a. im analytischen CRM und in BI-Systemen eingesetzt."},
+    {"term": "MRP / MRP II", "definition": "Material Requirements Planning (Materialbedarfsplanung) bzw. dessen Erweiterung MRP II; historische Vorläufer des heutigen ERP-Konzepts."}
+  ],
+  "kernpunkte": [
+    "Software hat Besonderheiten (Immaterialität, schwankungsfreie Qualität, Altersabhängigkeit, schwere Messbarkeit, Änderbarkeit, Komplexität), die Auswahlentscheidungen erschweren.",
+    "Die Grundsatzfragen lauten Make or Buy (Eigenentwicklung vs. Fremdbezug) sowie Eigentum vs. Miete (On Premise vs. On Demand/SaaS).",
+    "Standardsoftware ist günstiger, sofort verfügbar und risikoärmer, passt aber nicht vollständig zu den Anforderungen und erzeugt Anpassungskosten und Anbieterabhängigkeit.",
+    "Die Softwareauswahl erfolgt dreistufig als Grob-, Vor- und Endauswahl, wobei sich der Kreis von ca. 10-15 über ca. 3 (Short List) bis zum finalen Produkt verengt.",
+    "Die Nutzwertanalyse bewertet Produkte über gewichtete Kriterien und ermittelt je Produkt einen vergleichbaren Gesamtnutzwert.",
+    "Betriebliche Anwendungssysteme lassen sich entlang der Wertschöpfungskette einordnen, wobei ERP die integrierende Basis bildet.",
+    "ERP ist ein integriertes, anpassbares Standardsoftwarepaket, das Prozesse wesentlicher Funktionsbereiche automatisiert und häufig Referenzmodelle enthält.",
+    "CRM (Kunde), SCM (Lieferkette), E-Procurement (Beschaffung) und BI (Entscheidungsunterstützung) ergänzen ERP als spezialisierte Anwendungssysteme.",
+    "Am Beispiel SAP zeigt sich der Wandel von Einzelfunktionen (MRP) über ERP (R/3) bis zu cloudbasierten, unternehmensübergreifenden Plattformen (ERPaaS, Business Technology Platform)."
+  ],
+  "flashcards": [
+    {"front": "Was bedeutet die Immaterialität von Software für die Auswahl?", "back": "Software ist nicht direkt beobachtbar, die Dokumentation beschreibt sie nicht immer exakt, und die Evaluation erfordert oft Vertrauen in Hersteller- bzw. Beraterangaben."},
+    {"front": "Was besagt die 'schwankungsfreie Qualität' von Software?", "back": "Software verschleißt durch Gebrauch nicht; einmal richtig ausgewählt bleibt sie richtig, solange die Anforderungen gleich bleiben."},
+    {"front": "Was meint 'Altersabhängigkeit' von Software?", "back": "Software 'altert' durch die Abhängigkeit von der Einsatzumgebung; ehemals geeignete Software kann später ungeeignet werden."},
+    {"front": "Wovon hängt die Make-or-Buy-Entscheidung bei Software vor allem ab?", "back": "Von der Art der Software ('Software ≠ Software'); Eigenentwicklung klassischer Unternehmenssoftware wie ERP lohnt sich nur, wenn man selbst z. B. SAP ist."},
+    {"front": "Was ist der Unterschied zwischen On Premise und On Demand?", "back": "On Premise = Softwarekauf/Eigentum mit einmaligen Kosten (z. B. MS Project ca. 500 $/Nutzer). On Demand = Miete/SaaS mit laufenden Kosten (z. B. Asana ca. 10 $/Nutzer/Monat)."},
+    {"front": "Nennen Sie drei Vorteile von Standardsoftware.", "back": "Kostengünstiger als Eigenentwicklung, sofortige Verfügbarkeit, keine Entwicklungsrisiken (auch: ohne qualifiziertes Personal nutzbar, konzentriertes Know-how des Herstellers)."},
+    {"front": "Nennen Sie drei Nachteile von Standardsoftware.", "back": "Eigenschaften stimmen nicht vollständig mit den Anforderungen überein, Kosten durch Anpassungen, Abhängigkeit vom Anbieter (auch: Prozesse müssen der SW angepasst werden, Schnittstellenprobleme)."},
+    {"front": "Welche drei Phasen umfasst die Produktentscheidung?", "back": "Grobauswahl (ca. 10-15 Produkte), Vorauswahl (ca. 3 Produkte / Short List) und Endauswahl (zu beschaffendes Produkt)."},
+    {"front": "Was passiert in der Grobauswahl?", "back": "Marktübersicht, Informationsbeschaffung zu Anwendungsgebiet und Produkten sowie Produktbewertung nach Grobraster; Ergebnis: ca. 10-15 potenziell geeignete Produkte."},
+    {"front": "Wie funktioniert eine Nutzwertanalyse?", "back": "Kriterien werden festgelegt und gewichtet, jedes Produkt je Kriterium bewertet; die gewichteten Teilnutzen werden zu einem Gesamtnutzwert je Produkt aufsummiert."},
+    {"front": "Definieren Sie den Begriff ERP-Anwendung.", "back": "Ein aus mehreren integrierten Komponenten bestehendes, individuell anpassbares Standardsoftwarepaket, das Informationen und Prozesse wesentlicher Funktionsbereiche automatisiert und integriert; meist mit Referenzmodellen."},
+    {"front": "Nennen Sie zwei Einsatzbereiche von ERP-Systemen.", "back": "Z. B. Fertigung (Materialbedarfsplanung, Produktionsplanung) und Rechnungswesen (Buchführung, Anlagenbuchhaltung); weitere: Vertrieb, Finanzwesen, Personalwesen."},
+    {"front": "Nennen Sie zwei Anbieter von ERP-Systemen.", "back": "SAP und Microsoft (Microsoft Dynamics ERP)."},
+    {"front": "Welche drei Bereiche unterscheidet man beim CRM?", "back": "Operatives CRM (Marketing-/Sales-/Service-Automation), analytisches CRM (Data Warehouse, OLAP, Data Mining) und kollaboratives CRM (Steuerung der Kontaktkanäle)."},
+    {"front": "Was ist Supply Chain Management (SCM)?", "back": "Die integrierte, kooperative Steuerung der Lieferkette inkl. Lieferanten und Kunden, die zu reduzierten Bestandskosten, höherer Qualität und schnelleren Lieferzeiten führt."},
+    {"front": "Was ist E-Procurement?", "back": "Die Integration netzwerkbasierter IuK-Technologie zur Unterstützung operativer Tätigkeiten und strategischer Aufgaben im Beschaffungsbereich von Unternehmen (nach Wirtz 2018)."},
+    {"front": "Was versteht man unter Business Intelligence (BI)?", "back": "Einen integrierten, IT-basierten Gesamtansatz zur betrieblichen Entscheidungsunterstützung, der Fragen wie 'Mit welchen Kunden machen wir den meisten Umsatz?' beantwortet."},
+    {"front": "Was ist eine Low-Code-Plattform und welchen Vorteil bietet sie?", "back": "Eine Anwendungsplattform, die die Zusammenarbeit professioneller und nicht-professioneller Entwickler ermöglicht und rasche, flexible Anpassung an geänderte Anforderungen erlaubt."}
+  ],
+  "quiz": [
+    {
+      "question": "Welche Aussage beschreibt die 'Immaterialität' von Software korrekt?",
+      "options": [
+        "Software ist nicht direkt beobachtbar und die Evaluation erfordert oft Vertrauen in Herstellerangaben.",
+        "Software verschleißt durch häufigen Gebrauch und muss ausgetauscht werden.",
+        "Software kann nach dem Kauf nicht mehr verändert werden.",
+        "Software besitzt stets eine exakte und vollständige Dokumentation."
+      ],
+      "answer": 0,
+      "explanation": "Immaterialität bedeutet, dass Software nicht direkt beobachtbar ist, die Dokumentation sie nicht immer exakt beschreibt und die Bewertung Vertrauen in Hersteller- bzw. Beraterangaben erfordert."
+    },
+    {
+      "question": "Wovon hängt die Make-or-Buy-Entscheidung bei Software in der Regel ab?",
+      "options": [
+        "Ausschließlich vom Anschaffungspreis der Software.",
+        "Von der Art der Software; 'Software ≠ Software'.",
+        "Allein von der Anzahl der Nutzer im Unternehmen.",
+        "Von der Farbe der Benutzeroberfläche."
+      ],
+      "answer": 1,
+      "explanation": "Die Art der Software bestimmt in der Regel die Make-or-Buy-Entscheidung. Die Eigenentwicklung klassischer Unternehmenssoftware wie ERP lohnt sich nur, wenn man selbst ein Hersteller wie SAP ist."
+    },
+    {
+      "question": "Welches Paar ordnet Bezugsmodell und Beispiel korrekt zu?",
+      "options": [
+        "On Premise = Asana (ca. 10 $/Nutzer/Monat).",
+        "On Demand = Microsoft Project (einmalig ca. 500 $/Nutzer).",
+        "On Premise = Microsoft Project (einmalig ca. 500 $/Nutzer); On Demand = Asana (ca. 10 $/Nutzer/Monat).",
+        "On Premise und On Demand bezeichnen dasselbe Modell."
+      ],
+      "answer": 2,
+      "explanation": "On Premise steht für Kauf/Eigentum (MS Project ca. 500 $ einmalig), On Demand für Miete/SaaS (Asana ca. 10 $ pro Nutzer und Monat)."
+    },
+    {
+      "question": "Welche der folgenden Eigenschaften ist ein NACHTEIL von Standardsoftware?",
+      "options": [
+        "Sofortige Verfügbarkeit.",
+        "Keine Entwicklungsrisiken.",
+        "Abhängigkeit vom Anbieter.",
+        "Konzentriertes Know-how des Herstellers."
+      ],
+      "answer": 2,
+      "explanation": "Die Abhängigkeit vom Anbieter ist ein Nachteil. Sofortige Verfügbarkeit, fehlende Entwicklungsrisiken und das Know-how des Herstellers zählen zu den Vorteilen."
+    },
+    {
+      "question": "Wie viele Produkte stehen typischerweise nach der Vorauswahl noch in der engeren Wahl (Short List)?",
+      "options": [
+        "Ca. 10-15 Produkte.",
+        "Ca. 3 Produkte.",
+        "Genau 1 Produkt.",
+        "Ca. 50 Produkte."
+      ],
+      "answer": 1,
+      "explanation": "Die Grobauswahl liefert ca. 10-15 Produkte, die Vorauswahl reduziert auf ca. 3 Produkte (Short List), und die Endauswahl führt zum einen zu beschaffenden Produkt."
+    },
+    {
+      "question": "Welche Tätigkeit gehört zur ENDauswahl von Standardsoftware?",
+      "options": [
+        "Erstellen einer allgemeinen Marktübersicht.",
+        "Pilotinstallation und Vertragsverhandlungen.",
+        "Erste Produktbewertung nach Grobraster.",
+        "Grobe Informationsbeschaffung zum Anwendungsgebiet."
+      ],
+      "answer": 1,
+      "explanation": "Zur Endauswahl gehören Pilotinstallation, Klärung technischer Details, Bewertung von Angeboten und Vertragsverhandlungen. Marktübersicht und Grobraster gehören zur Grobauswahl."
+    },
+    {
+      "question": "Wie wird bei der Nutzwertanalyse der Gesamtnutzwert eines Produkts ermittelt?",
+      "options": [
+        "Durch Zählen der Funktionen ohne Gewichtung.",
+        "Durch Multiplikation der Anschaffungskosten mit der Nutzerzahl.",
+        "Durch Aufsummieren der mit den Kriteriengewichten multiplizierten Teilnutzen.",
+        "Durch zufällige Auswahl eines Kriteriums."
+      ],
+      "answer": 2,
+      "explanation": "Bei der Nutzwertanalyse werden Kriterien gewichtet, je Produkt bewertet und die gewichteten Teilnutzen zu einem Gesamtnutzwert aufsummiert."
+    },
+    {
+      "question": "Welche Definition trifft auf ein ERP-System zu?",
+      "options": [
+        "Eine reine Analyse-Software zur Auswertung von Social-Media-Daten.",
+        "Ein aus integrierten Komponenten bestehendes, anpassbares Standardsoftwarepaket, das Prozesse wesentlicher Funktionsbereiche automatisiert und integriert.",
+        "Eine Software ausschließlich zur Kundenkommunikation über verschiedene Kanäle.",
+        "Ein Werkzeug allein zur Steuerung der Lieferkette mit externen Partnern."
+      ],
+      "answer": 1,
+      "explanation": "ERP ist ein aus mehreren integrierten Komponenten bestehendes, individuell anpassbares Standardsoftwarepaket, das Informationen und Prozesse wesentlicher Funktionsbereiche automatisiert und integriert; die Beschreibungen in C und D passen eher zu CRM bzw. SCM."
+    },
+    {
+      "question": "Welche drei Bereiche werden beim CRM unterschieden?",
+      "options": [
+        "Operatives, analytisches und kollaboratives CRM.",
+        "Eingangs-, Fertigungs- und Distributions-CRM.",
+        "Grob-, Vor- und End-CRM.",
+        "Internes, externes und globales CRM."
+      ],
+      "answer": 0,
+      "explanation": "CRM gliedert sich in operatives CRM (Marketing-/Sales-/Service-Automation), analytisches CRM (Data Warehouse, OLAP, Data Mining) und kollaboratives CRM (Steuerung der Kontaktkanäle)."
+    },
+    {
+      "question": "Welches Ziel verfolgt Supply Chain Management (SCM)?",
+      "options": [
+        "Die reine Auswertung von Verkaufsdaten für das Management.",
+        "Die Verwaltung von Kundenkontakten über soziale Medien.",
+        "Die integrierte, kooperative Steuerung der Lieferkette für reduzierte Bestandskosten, höhere Qualität und schnellere Lieferzeiten.",
+        "Die einmalige Beschaffung von Bürosoftware."
+      ],
+      "answer": 2,
+      "explanation": "SCM begreift interne Abläufe sowie Lieferanten und Kunden als integriertes Ganzes; die enge Zusammenarbeit führt zu reduzierten Bestandskosten, höherer Qualität und schnelleren Lieferzeiten."
+    },
+    {
+      "question": "Was ist ein zentraler Vorteil von Low-Code-Anwendungsplattformen?",
+      "options": [
+        "Sie machen jede Anpassung von Unternehmenssoftware überflüssig.",
+        "Sie ermöglichen die Zusammenarbeit professioneller und nicht-professioneller Entwickler und rasche, flexible Anpassungen.",
+        "Sie erhöhen die Zahl der benötigten SLOC erheblich.",
+        "Sie beseitigen jede Abhängigkeit vom Anbieter."
+      ],
+      "answer": 1,
+      "explanation": "Low-Code-Plattformen erlauben die Zusammenarbeit von professionellen und nicht-professionellen Entwicklern (inkl. Fachabteilungen) und eine rasche, flexible Anpassung an geänderte Anforderungen."
+    },
+    {
+      "question": "Wie lässt sich Business Intelligence (BI) am besten charakterisieren?",
+      "options": [
+        "Als integrierter, IT-basierter Gesamtansatz zur betrieblichen Entscheidungsunterstützung.",
+        "Als System ausschließlich zur Lohn- und Gehaltsabrechnung.",
+        "Als Verfahren zur Materialbedarfsplanung in der Fertigung.",
+        "Als Plattform allein für die elektronische Beschaffung."
+      ],
+      "answer": 0,
+      "explanation": "Unter Business Intelligence wird ein integrierter, IT-basierter Gesamtansatz zur betrieblichen Entscheidungsunterstützung verstanden, der Management-Fragen zu Umsatz, Produkten und Wettbewerb beantwortet."
+    }
+  ]
+}

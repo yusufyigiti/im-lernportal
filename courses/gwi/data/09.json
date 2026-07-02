@@ -1,0 +1,339 @@
+{
+  "id": "09",
+  "title": "Individualsoftware",
+  "pdf": "courses/gwi/folien/09.pdf",
+  "summary": "Diese Vorlesungseinheit behandelt Individualsoftware aus Anbieter- und Anwendersicht sowie die grundsätzliche Make-or-Buy-Entscheidung. Im Zentrum steht die Softwareentwicklung mit ihren Qualitätsanforderungen, den Entwicklungsstrategien (Top-down/Bottom-up) und den Vorgehensmodellen. Ausführlich verglichen werden Wasserfallmodell, V-Modell, iteratives und inkrementelles Vorgehen, Prototyping sowie agile Ansätze wie Scrum und DevOps. Abschließend werden die Modelle situativ beurteilt und typische Klausuraufgaben vorgestellt.",
+  "sections": [
+    {
+      "heading": "Grundsatzfrage: Bedarf an Software (Make or Buy)",
+      "points": [
+        "Bei Softwarebedarf stellt sich die Grundsatzfrage MAKE oder BUY.",
+        "MAKE bedeutet Eigenentwicklung der Software im Unternehmen.",
+        "BUY teilt sich in zwei Varianten: On Premise und On Demand.",
+        "On Premise entspricht 'Buy' im engeren Sinne und führt zu Eigentum an der Software.",
+        "On Demand entspricht 'Buy' im weiteren Sinne und bedeutet Miete (Rent), z.B. Software as a Service."
+      ]
+    },
+    {
+      "heading": "Zwei Sichten auf Individualsoftware",
+      "points": [
+        "Anbietersicht: Ziel ist die Vermarktung einer Dienstleistung.",
+        "Das Geschäftsmodell des Anbieters oder der Sparte ist auf Individualsoftware ausgelegt, z.B. dargestellt über das Business Model Canvas.",
+        "Anwendersicht: Ziel ist der Bezug von Software, die 'exakt' die betrieblichen Anforderungen erfüllt.",
+        "Der Anwender muss die 'Make or Buy'-Entscheidung treffen.",
+        "Gründe für Individualsoftware beim Anwender sind z.B. spezielles Know-how oder Geschäftsgeheimnisse."
+      ]
+    },
+    {
+      "heading": "Entwicklung: Innerbetrieblich vs. Außerbetrieblich - Vorteile",
+      "points": [
+        "Erfahrene Spezialisten erledigen die Aufgabe (externes Fachwissen).",
+        "Planbare Zahlungstermine, z.B. nach Projekt-Meilensteinen.",
+        "Bei Fixpreisvergaben: Zahlung nur nach erfolgreichem Abschluss bzw. nach verwendbaren Teil-/Zwischenzielen; volle Kostenkontrolle; Konventionalstrafen möglich.",
+        "Meist Erhöhung der Software-Qualität durch den Zwang zu klaren Definitionen der Anforderungen sowie der Notwendigkeit kompletter Dokumentation."
+      ]
+    },
+    {
+      "heading": "Entwicklung: Außerbetrieblich - Nachteile",
+      "points": [
+        "Solidität und zukünftige Existenz des Lieferanten sind unsicher (Erfahrungen, Fachkenntnisse fraglich).",
+        "Wartung, Service und Weiterentwicklung müssen gewährleistet sein.",
+        "Frage, ob der Quellcode mitgeliefert oder an dritter Stelle hinterlegt wird (Escrow).",
+        "Konzernzugehörigkeit und sonstige Abhängigkeiten des Lieferanten.",
+        "Übertragung und legaler Übergang von Rechten, Patenten und Lizenzen muss geregelt sein.",
+        "Gefahr der Mitfinanzierung von Know-how der Konkurrenz statt exklusiver Nutzung.",
+        "Merksatz: 'Pilotkunde zu sein kann kritisch sein... aber auch gut!'"
+      ]
+    },
+    {
+      "heading": "Definition und Qualitätsanforderungen der Softwareentwicklung",
+      "points": [
+        "Definition (Alpar et al. 2023): Softwareentwicklung umfasst alle Aktivitäten der Softwareplanung, Softwaredefinition, des Softwareentwurfs und der Softwareumsetzung unter Berücksichtigung von Kundenwünschen und geforderten Qualitätseigenschaften.",
+        "Prozess- und ergebnisbezogene Qualitätsanforderungen sind zu berücksichtigen.",
+        "Zu den Qualitätseigenschaften zählen: Änderbarkeit, Effizienz, Portabilität, Robustheit.",
+        "Weitere: Allgemeingültigkeit, Funktionsabdeckung, Produktivität, Sicherheit.",
+        "Weitere: Benutzerfreundlichkeit, Kompatibilität, Richtigkeit, Testbarkeit."
+      ]
+    },
+    {
+      "heading": "Grundlegende Entwicklungsstrategien: Top-down und Bottom-up",
+      "points": [
+        "Top-down-Vorgehen: entspricht dem anwendungsorientierten Vorgehen; beginnt mit der Gesamtsicht und zerlegt sie schrittweise.",
+        "Gefahr bei Top-down: inkompatible Teilmodelle bei einer 'falschen' Gesamtsicht.",
+        "Bottom-up-Vorgehen: ermöglicht den Beginn mit gut verstandenen Teilproblemen und setzt diese zur Gesamtlösung zusammen.",
+        "Gefahr bei Bottom-up: aufwendige Integration von Teillösungen und ungeplante Änderung der Gesamtsicht."
+      ]
+    },
+    {
+      "heading": "Vorgehensmodelle - Begriff und Anwendungssystem-Lebenszyklus",
+      "points": [
+        "Definition (Alpar et al. 2023): Ein Vorgehensmodell enthält die zur Erreichung eines bestimmten Ergebnisses notwendigen Aktivitäten und stellt diese in einer sachlogischen Reihenfolge dar.",
+        "Idealerweise ist ein Vorgehensmodell erfahrungsbasiert und hat sich in vorherigen Projekten bewährt.",
+        "Ein Anwendungssystem durchläuft von der Initiierung bis zur Außerdienststellung die Phasen Entwicklung und Einsatz.",
+        "Zentrale Einflussgrößen eines Anwendungssystems sind Aufgabe, Technik, Organisation und Mensch."
+      ]
+    },
+    {
+      "heading": "Wasserfallmodell (Anfänge, 80er Jahre)",
+      "points": [
+        "Sequenzielles Phasenmodell; Phasen werden einmal nacheinander durchlaufen.",
+        "Phasen: Projektdefinition (Vorphase) -> Anforderungsanalyse -> Entwurf -> Implementierung -> Integration und Test -> Wartung/Erweiterung/Aktualisierung (Betrieb).",
+        "Ergebnisse (Artefakte) je Phase: Projektidee/Machbarkeitsanalyse, Anforderungskatalog/Lastenheft, IT-Konzept/Pflichtenheft, Softwarekomponenten, integrierte Software, Updates/Upgrades.",
+        "Projektdefinition = Analyse des Ist-Zustands; Anforderungsanalyse = Beschreibung der zu entwickelnden Software ableiten.",
+        "Entwurf = Anforderungen auf eine informationstechnische Beschreibungsebene übertragen; Implementierung = Umsetzung des IT-Konzepts durch Datenstrukturen und Algorithmen."
+      ]
+    },
+    {
+      "heading": "Limitationen des Wasserfallmodells",
+      "points": [
+        "Die Phasen werden nur einmal sequenziell durchlaufen; Rücksprünge sind nicht vorgesehen.",
+        "Fehler lassen sich nie vollständig ausschließen.",
+        "Zwang, die Anforderungsanalyse vor dem Entwurf vollständig abzuschließen.",
+        "Hohes Maß an Abstraktionsvermögen und Vorstellungskraft der Beteiligten erforderlich.",
+        "Folge: umfangreiche und aufwändige Nachbesserungen."
+      ]
+    },
+    {
+      "heading": "Iteratives und inkrementelles Vorgehen",
+      "points": [
+        "Definition Iteration (Alpar et al. 2023): eine einzelne Durchführung eines bestimmten vorgegebenen Vorgehens; iterativ bedeutet periodisch wiederkehrende, ähnliche Aufgaben.",
+        "Die Phasen (Anforderungsanalyse, Entwurf, Implementierung, Integration und Test) werden in mehreren Entwicklungszyklen wiederholt durchlaufen.",
+        "Die Entwicklung der Gesamtsoftware erfolgt komponenten- und stufenweise.",
+        "Jedes Inkrement ist inhaltlich weitestgehend unabhängig von den anderen Inkrementen.",
+        "Mit jeder Fertigstellung eines Inkrements steht bei der Lieferung eine lauffähige Software zur Verfügung; ein Inkrement kann Gegenstand einer Iteration sein."
+      ]
+    },
+    {
+      "heading": "V-Modell",
+      "points": [
+        "Erweiterung des Wasserfallmodells: Jeder Entwicklungsphase (linker Ast) wird eine Teststufe (rechter Ast) zugeordnet.",
+        "Linker Ast: Anforderungsdefinition -> Grobentwurf -> Feinentwurf -> Modulimplementierung.",
+        "Rechter Ast: Modultest -> Integrationstest -> Systemtest -> Abnahmetest.",
+        "Verifikation (rechte/linke Zuordnung der Entwurfsebenen) vs. Validierung (Anforderungsdefinition <-> Abnahmetest über Anwendungsszenarien).",
+        "Kern verpflichtender Vorgehensbausteine: Projektmanagement, Qualitätssicherung, Konfigurationsmanagement, Problem- und Änderungsmanagement; je nach Projekttyp optional ergänzbar.",
+        "Probleme: Anforderungen müssen vor Entwicklungsbeginn vollständig vorliegen; einige Anwenderwünsche entstehen erst nach der ersten Nutzung; bis zum ersten Release vergehen oft Monate oder Jahre."
+      ]
+    },
+    {
+      "heading": "Exploratives Prototyping",
+      "points": [
+        "Definition (Alpar et al. 2023): Ein Prototyp ist eine frühe ausführbare Version mit den relevanten grundlegenden Merkmalen des späteren Produkts.",
+        "Prototyping bezeichnet die Vorgehensweise, Prototypen iterativ zu entwickeln, zu bewerten und zu verfeinern, bis das endgültige Produkt entstanden ist.",
+        "Exploratives Prototyping: wiederholte Erzeugung (und Verwerfung) von Prototypen in einer Testumgebung zur sukzessiven Klärung fachlicher Anforderungen.",
+        "Kann im Rahmen der Anforderungsanalyse in traditionelle Phasenmodelle eingebunden werden.",
+        "Ablauf: Anforderungen identifizieren -> Prototyp entwickeln -> Prototyp evaluieren; bei 'O.K.' Übergang ins traditionelle Phasenmodell, bei 'Nicht O.K.' Anforderungen überarbeiten."
+      ]
+    },
+    {
+      "heading": "Agiles Vorgehen - Grundlagen und Ebenen",
+      "points": [
+        "Merkmale: kürzere Release-Zyklen, effiziente Aktualisierungsstruktur als Voraussetzung, kurze Abstände unter Einbezug des Kunden.",
+        "Die agile Organisation agiert mit Blick nach außen, steht im ständigen Kontakt mit Kunden und Lieferanten und verbessert laufend die eigene Lösungskompetenz.",
+        "Ebenen agiler Modelle (Agiles Manifest): Agile Werte -> Agile Prinzipien -> Agile Praktiken -> Agile Methoden.",
+        "Agile Werte: Individuen und Interaktion, funktionsfähige Software, Zusammenarbeit mit Kunden, Eingehen auf Änderungen.",
+        "Agile Praktiken: Simple Design, Continuous Integration, Collective Ownership, Pair Programming, Daily Meetings, Refactoring.",
+        "Agile Methoden: Scrum, XP (Extreme Programming), Kanban, Crystal, FDD."
+      ]
+    },
+    {
+      "heading": "Scrum - Methode und Rollen",
+      "points": [
+        "Scrum ist eine Methode zur Umsetzung des agilen Vorgehens mit cross-funktionalen, kleinen und selbstorganisierten Teams.",
+        "Vorteile: sofortiger Wissensaustausch, keine aufwändige Verwaltung/Kontrolle, klare Verantwortlichkeiten, schnelle und kostengünstige Fehlerbeseitigung.",
+        "Product Owner: steuert das Entwicklungsteam aus fachlicher Sicht.",
+        "Scrum Master: organisiert die Rahmenbedingungen um das Entwicklungsteam herum.",
+        "Entwicklungsteam: nach dem klassischen Modell der autonomen Arbeitsgruppen gebildet.",
+        "Ablauf: 1. Sprint-Planungstreffen -> Produkt-Backlog -> Sprint-Planungstreffen -> Sprint-Backlog -> Sprint (mit täglichem Daily Scrum Meeting) -> lauffähige, inkrementell verbesserte Software -> Sprint Review Meeting -> Produkt."
+      ]
+    },
+    {
+      "heading": "DevOps und Continuous Integration",
+      "points": [
+        "DevOps integriert Entwicklung (Dev) und Betrieb (Ops) unter Einbezug von Kunde/Nutzer.",
+        "Kernprinzipien (CAMS): Culture, Automation, Measurement, Sharing.",
+        "Übergreifende Praktiken: Agile Entwicklung, Continuous Delivery, Continuous Integration & Testing entlang der Delivery Pipeline.",
+        "Ziel ist ein IT-Produkt/IT-Service, der Erwartungen und Nutzen des Kunden über das Nutzererlebnis erfüllt."
+      ]
+    },
+    {
+      "heading": "Schwierigkeiten und Kritik am agilen Vorgehen",
+      "points": [
+        "Rahmenbedingungen können über den Entwicklungszeitraum fix bleiben, was Agilität einschränkt.",
+        "Der Stand der Entwicklung ist schlecht abschätzbar.",
+        "Langfristige Budgetplanung ist schwierig, wenn sich Anforderungen in kurzen Zyklen ändern.",
+        "Gesetzliche Anforderungen (z.B. DSGVO) müssen erfüllt sein.",
+        "Code muss unter Umständen öfter angepasst werden; der Kunde muss mit einem Grad an 'Ungewissheit' umgehen können.",
+        "Aktuelle Kritik ('Agilitäts-Hype'): Studien berichten von deutlich höheren Ausfallraten agiler Projekte."
+      ]
+    },
+    {
+      "heading": "Vergleichende situative Beurteilung der Vorgehensmodelle",
+      "points": [
+        "Bei schlecht verstandenen Anforderungen/Architekturen: Wasserfall schlecht, Iterativ mittel, Agil gut.",
+        "Bei hoher Zuverlässigkeit und langfristigem Horizont: Wasserfall gut, Agil schlecht.",
+        "Bei flexiblen Reaktionen und für den Kunden sichtbaren Fortschritten: Agil gut, Wasserfall schlecht.",
+        "Für Management sichtbare Fortschritte und geringe Abhängigkeit von Begeisterung: Wasserfall gut, Agil schlecht.",
+        "Die Beurteilung ist teilweise subjektiv, daher ist die Begründung der Einschätzung wichtig."
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "Individualsoftware", "definition": "Software, die speziell für die betrieblichen Anforderungen eines einzelnen Anwenders entwickelt wird, im Gegensatz zur Standardsoftware." },
+    { "term": "Make or Buy", "definition": "Grundsatzentscheidung, ob Software selbst entwickelt (MAKE/Eigenentwicklung) oder extern beschafft wird (BUY, als On Premise oder On Demand)." },
+    { "term": "On Premise", "definition": "'Buy' im engeren Sinne: die Software wird erworben und im Eigentum des Anwenders lokal betrieben." },
+    { "term": "On Demand", "definition": "'Buy' im weiteren Sinne: die Software wird gemietet (Rent), z.B. als Software as a Service." },
+    { "term": "Vorgehensmodell", "definition": "Modell, das die zur Erreichung eines bestimmten Ergebnisses notwendigen Aktivitäten in sachlogischer, idealerweise erfahrungsbasierter Reihenfolge darstellt." },
+    { "term": "Top-down-Vorgehen", "definition": "Anwendungsorientierte Entwicklungsstrategie, die von der Gesamtsicht ausgeht und diese schrittweise verfeinert; Gefahr inkompatibler Teilmodelle bei falscher Gesamtsicht." },
+    { "term": "Bottom-up-Vorgehen", "definition": "Entwicklungsstrategie, die mit gut verstandenen Teilproblemen beginnt und diese zur Gesamtlösung integriert; Gefahr aufwendiger Integration." },
+    { "term": "Wasserfallmodell", "definition": "Sequenzielles Vorgehensmodell, dessen Phasen von der Projektdefinition bis zum Betrieb genau einmal nacheinander durchlaufen werden." },
+    { "term": "Lastenheft", "definition": "Ergebnis der Anforderungsanalyse; Anforderungskatalog, der beschreibt, was das Anwenderunternehmen benötigt." },
+    { "term": "Pflichtenheft", "definition": "Ergebnis des Entwurfs; IT-Konzept, das beschreibt, wie die Anforderungen technisch umgesetzt werden." },
+    { "term": "V-Modell", "definition": "Vorgehensmodell, das jeder Entwicklungsphase (linker Ast) eine Teststufe (rechter Ast) zuordnet und Verifikation von Validierung unterscheidet." },
+    { "term": "Verifikation", "definition": "Prüfung, ob das System korrekt gebaut wurde, d.h. ob eine Phase ihre eigene Spezifikation erfüllt ('Bauen wir das Produkt richtig?')." },
+    { "term": "Validierung", "definition": "Prüfung, ob das richtige System gebaut wurde, d.h. ob die Anforderungsdefinition durch den Abnahmetest über Anwendungsszenarien erfüllt wird ('Bauen wir das richtige Produkt?')." },
+    { "term": "Iteration", "definition": "Eine einzelne Durchführung eines bestimmten vorgegebenen Vorgehens; iterative Softwareentwicklung bringt periodisch wiederkehrende, ähnliche Aufgaben mit sich." },
+    { "term": "Inkrement", "definition": "Eine inhaltlich weitestgehend unabhängige, lauffähige Teilkomponente der Gesamtsoftware, die stufenweise ausgeliefert wird." },
+    { "term": "Prototyp", "definition": "Eine frühe ausführbare Version einer Software, die bereits die relevanten grundlegenden Merkmale des späteren Produkts aufweist." },
+    { "term": "Exploratives Prototyping", "definition": "Wiederholte Erzeugung und Verwerfung von Prototypen in einer Testumgebung zur sukzessiven Klärung fachlicher Anforderungen." },
+    { "term": "Agiles Manifest", "definition": "Grundlage agiler Modelle mit vier Ebenen: Agile Werte, Agile Prinzipien, Agile Praktiken und Agile Methoden." },
+    { "term": "Scrum", "definition": "Agile Methode mit kleinen, selbstorganisierten, cross-funktionalen Teams; arbeitet in Sprints mit den Rollen Product Owner, Scrum Master und Entwicklungsteam." },
+    { "term": "Product Owner", "definition": "Scrum-Rolle, die das Entwicklungsteam aus fachlicher Sicht steuert und für das Produkt-Backlog verantwortlich ist." },
+    { "term": "Scrum Master", "definition": "Scrum-Rolle, die die Rahmenbedingungen um das Entwicklungsteam herum organisiert und Hindernisse beseitigt." },
+    { "term": "Sprint", "definition": "Fester, kurzer Entwicklungszeitraum in Scrum, an dessen Ende eine lauffähige, inkrementell verbesserte Software steht." },
+    { "term": "Produkt-Backlog", "definition": "Priorisierte Liste aller Anforderungen an das Produkt, die vom Product Owner gepflegt wird." },
+    { "term": "DevOps", "definition": "Ansatz zur Integration von Entwicklung (Dev) und Betrieb (Ops) mit den Prinzipien Culture, Automation, Measurement und Sharing (CAMS)." },
+    { "term": "Continuous Integration", "definition": "Praxis der laufenden Integration und des automatisierten Testens von Codeänderungen entlang der Delivery Pipeline." }
+  ],
+  "kernpunkte": [
+    "Bei Softwarebedarf steht die Make-or-Buy-Grundsatzfrage, wobei Buy sich in On Premise (Eigentum) und On Demand (Miete) aufteilt.",
+    "Außerbetriebliche Entwicklung bietet Spezialisten-Know-how und Kostenkontrolle, birgt aber Risiken bei Lieferantenabhängigkeit, Wartung und Rechten.",
+    "Softwarequalität wird über prozess- und ergebnisbezogene Eigenschaften wie Änderbarkeit, Effizienz, Sicherheit und Benutzerfreundlichkeit bestimmt.",
+    "Top-down geht von der Gesamtsicht aus, Bottom-up beginnt mit gut verstandenen Teilproblemen - beide bergen spezifische Integrationsrisiken.",
+    "Das Wasserfallmodell durchläuft die Phasen streng sequenziell und scheitert bei unvollständigen oder sich ändernden Anforderungen.",
+    "Das V-Modell ergänzt jede Entwicklungsphase um eine Teststufe und unterscheidet Verifikation von Validierung.",
+    "Iterative und inkrementelle Ansätze liefern früh lauffähige, unabhängige Teilprodukte und reduzieren so das Risiko fehlerhafter Anforderungen.",
+    "Agile Methoden wie Scrum setzen auf kurze Zyklen, Kundeneinbindung und selbstorganisierte Teams, sind aber bei fixen Rahmenbedingungen und Budgetplanung problematisch.",
+    "Die Wahl des Vorgehensmodells ist situativ und teilweise subjektiv, weshalb eine nachvollziehbare Begründung entscheidend ist."
+  ],
+  "flashcards": [
+    { "front": "Welche Grundsatzfrage stellt sich bei Softwarebedarf?", "back": "MAKE (Eigenentwicklung) oder BUY. BUY teilt sich in On Premise ('Buy' i.e.S. = Eigentum) und On Demand ('Buy' i.w.S. = Rent/Miete)." },
+    { "front": "Welche zwei Sichten auf Individualsoftware werden unterschieden?", "back": "Anbietersicht (Ziel: Vermarktung einer Dienstleistung, Geschäftsmodell auf Individualsoftware ausgelegt) und Anwendersicht (Ziel: Bezug exakt passender Software, Make-or-Buy-Entscheidung)." },
+    { "front": "Nennen Sie drei Vorteile außerbetrieblicher Softwareentwicklung.", "back": "Erfahrene Spezialisten erledigen die Aufgabe; planbare Zahlungstermine nach Meilensteinen; bei Fixpreis volle Kostenkontrolle; meist höhere Qualität durch klare Anforderungsdefinition und komplette Dokumentation." },
+    { "front": "Nennen Sie drei Nachteile außerbetrieblicher Softwareentwicklung.", "back": "Unsicherheit über Solidität/Existenz des Lieferanten; Gewährleistung von Wartung/Service; Frage nach Quellcode-Hinterlegung; Abhängigkeiten; Übergang von Rechten/Lizenzen; mögliche Mitfinanzierung von Konkurrenz-Know-how." },
+    { "front": "Wie definiert Alpar et al. (2023) Softwareentwicklung?", "back": "Sie umfasst alle Aktivitäten der Softwareplanung, Softwaredefinition, des Softwareentwurfs und der Softwareumsetzung unter Berücksichtigung von Kundenwünschen und geforderten Qualitätseigenschaften." },
+    { "front": "Nennen Sie sechs Qualitätsanforderungen an Software.", "back": "Z.B. Änderbarkeit, Effizienz, Portabilität, Robustheit, Sicherheit, Benutzerfreundlichkeit, Richtigkeit, Testbarkeit, Kompatibilität, Funktionsabdeckung, Allgemeingültigkeit, Produktivität." },
+    { "front": "Was unterscheidet Top-down- von Bottom-up-Vorgehen?", "back": "Top-down startet mit der Gesamtsicht (anwendungsorientiert), Gefahr inkompatibler Teilmodelle. Bottom-up startet mit gut verstandenen Teilproblemen, Gefahr aufwendiger Integration von Teillösungen." },
+    { "front": "Was ist ein Vorgehensmodell?", "back": "Es enthält die zur Erreichung eines bestimmten Ergebnisses notwendigen Aktivitäten und stellt diese in sachlogischer, idealerweise erfahrungsbasierter und bewährter Reihenfolge dar." },
+    { "front": "Nennen Sie die Phasen des Wasserfallmodells.", "back": "Projektdefinition (Vorphase), Anforderungsanalyse, Entwurf, Implementierung, Integration und Test, Wartung/Erweiterung/Aktualisierung (Betrieb)." },
+    { "front": "Welche Ergebnisse (Artefakte) liefern Anforderungsanalyse und Entwurf?", "back": "Anforderungsanalyse: Anforderungskatalog/Lastenheft. Entwurf: IT-Konzept/Pflichtenheft." },
+    { "front": "Nennen Sie die Schwächen des Wasserfallmodells.", "back": "Phasen nur einmal sequenziell durchlaufen; Fehler nie ganz ausschließbar; Zwang, Anforderungsanalyse vor Entwurf vollständig abzuschließen; hohes Abstraktionsvermögen nötig; umfangreiche, aufwändige Nachbesserungen." },
+    { "front": "Was kennzeichnet das V-Modell?", "back": "Jeder Entwicklungsphase wird eine Teststufe zugeordnet: Anforderungsdefinition-Abnahmetest, Grobentwurf-Systemtest, Feinentwurf-Integrationstest, Modulimplementierung-Modultest. Unterscheidung von Verifikation und Validierung." },
+    { "front": "Was ist der Unterschied zwischen Verifikation und Validierung?", "back": "Verifikation prüft, ob das Produkt richtig gebaut wurde (Phase erfüllt ihre Spezifikation). Validierung prüft, ob das richtige Produkt gebaut wurde (Anforderungsdefinition vs. Abnahmetest über Anwendungsszenarien)." },
+    { "front": "Was ist der Unterschied zwischen Iteration und Inkrement?", "back": "Eine Iteration ist die einzelne, wiederholte Durchführung eines Vorgehens. Ein Inkrement ist eine inhaltlich weitgehend unabhängige, lauffähige Teilkomponente der Gesamtsoftware." },
+    { "front": "Was ist ein Prototyp und was bezeichnet Prototyping?", "back": "Ein Prototyp ist eine frühe ausführbare Version mit den grundlegenden Merkmalen des Produkts. Prototyping ist das iterative Entwickeln, Bewerten und Verfeinern von Prototypen bis zum endgültigen Produkt." },
+    { "front": "Nennen Sie die vier Ebenen agiler Modelle (Agiles Manifest).", "back": "Von unten nach oben: Agile Werte, Agile Prinzipien, Agile Praktiken, Agile Methoden (z.B. Scrum, XP, Kanban)." },
+    { "front": "Nennen Sie die drei Rollen in Scrum und ihre Verantwortlichkeiten.", "back": "Product Owner (steuert das Team aus fachlicher Sicht), Scrum Master (organisiert die Rahmenbedingungen um das Team), Entwicklungsteam (autonome, selbstorganisierte Arbeitsgruppe)." },
+    { "front": "Wie läuft ein Scrum-Zyklus ab?", "back": "Aus dem Produkt-Backlog wird im Sprint-Planungstreffen das Sprint-Backlog abgeleitet; im Sprint (mit täglichem Daily Scrum) entsteht lauffähige, inkrementell verbesserte Software; im Sprint Review Meeting wird sie begutachtet." },
+    { "front": "Wofür steht CAMS bei DevOps?", "back": "Culture, Automation, Measurement, Sharing - die Kernprinzipien der Integration von Entwicklung (Dev) und Betrieb (Ops)." },
+    { "front": "Welche Schwierigkeiten hat agile Softwareentwicklung?", "back": "Schlecht abschätzbarer Entwicklungsstand, schwierige langfristige Budgetplanung, Einhaltung gesetzlicher Anforderungen (DSGVO), häufige Code-Anpassungen, Kunde muss mit Ungewissheit umgehen können." },
+    { "front": "Wie schneiden die Vorgehensmodelle bei schlecht verstandenen Anforderungen ab?", "back": "Wasserfall schlecht, Iterativ mittel, Agil gut - agile Modelle können flexibel auf unklare Anforderungen reagieren." }
+  ],
+  "quiz": [
+    {
+      "question": "Wofür steht 'On Demand' in der Make-or-Buy-Systematik?",
+      "options": ["Eigenentwicklung der Software", "'Buy' i.w.S., also Miete (Rent) der Software", "'Buy' i.e.S., also Eigentum an der Software", "Kombination aus MAKE und BUY"],
+      "answer": 1,
+      "explanation": "On Demand entspricht 'Buy' im weiteren Sinne und bedeutet Miete (Rent), während On Premise 'Buy' i.e.S. und damit Eigentum ist."
+    },
+    {
+      "question": "Welche Aussage beschreibt die Anbietersicht auf Individualsoftware?",
+      "options": ["Ziel ist der Bezug exakt passender Software", "Es muss eine Make-or-Buy-Entscheidung getroffen werden", "Ziel ist die Vermarktung einer Dienstleistung", "Motiv sind Geschäftsgeheimnisse"],
+      "answer": 2,
+      "explanation": "Der Anbieter zielt auf die Vermarktung einer Dienstleistung; sein Geschäftsmodell ist auf Individualsoftware ausgelegt. Bezug und Make-or-Buy betreffen die Anwendersicht."
+    },
+    {
+      "question": "Welches ist KEIN Vorteil außerbetrieblicher Softwareentwicklung?",
+      "options": ["Erfahrene Spezialisten erledigen die Aufgabe", "Planbare Zahlungstermine nach Meilensteinen", "Volle Kostenkontrolle bei Fixpreisvergaben", "Sichere zukünftige Existenz des Lieferanten ist garantiert"],
+      "answer": 3,
+      "explanation": "Die Solidität und zukünftige Existenz des Lieferanten ist gerade unsicher und zählt zu den Nachteilen, nicht zu den Vorteilen."
+    },
+    {
+      "question": "Welche Gefahr ist typisch für das Bottom-up-Vorgehen?",
+      "options": ["Inkompatible Teilmodelle bei falscher Gesamtsicht", "Aufwendige Integration von Teillösungen", "Fehlende Zerlegung der Gesamtsicht", "Zu frühe Festlegung der Gesamtarchitektur"],
+      "answer": 1,
+      "explanation": "Bottom-up beginnt mit Teilproblemen; die Gefahr liegt in der aufwendigen Integration von Teillösungen und ungeplanter Änderung der Gesamtsicht. Inkompatible Teilmodelle sind die Top-down-Gefahr."
+    },
+    {
+      "question": "In welcher Reihenfolge werden die Phasen des Wasserfallmodells durchlaufen?",
+      "options": ["Entwurf, Anforderungsanalyse, Implementierung, Test", "Projektdefinition, Anforderungsanalyse, Entwurf, Implementierung, Integration und Test, Betrieb", "Anforderungsanalyse, Implementierung, Entwurf, Betrieb", "Projektdefinition, Entwurf, Anforderungsanalyse, Test, Betrieb"],
+      "answer": 1,
+      "explanation": "Das Wasserfallmodell verläuft streng sequenziell: Projektdefinition -> Anforderungsanalyse -> Entwurf -> Implementierung -> Integration und Test -> Wartung/Betrieb."
+    },
+    {
+      "question": "Welches Ergebnis (Artefakt) entsteht in der Entwurfsphase des Wasserfallmodells?",
+      "options": ["Anforderungskatalog/Lastenheft", "IT-Konzept/Pflichtenheft", "Projektidee/Machbarkeitsanalyse", "Integrierte Software"],
+      "answer": 1,
+      "explanation": "Der Entwurf überträgt die Anforderungen auf eine informationstechnische Beschreibungsebene und liefert das IT-Konzept/Pflichtenheft. Das Lastenheft ist Ergebnis der Anforderungsanalyse."
+    },
+    {
+      "question": "Was ist eine zentrale Limitation des Wasserfallmodells?",
+      "options": ["Phasen werden zu oft wiederholt", "Kunde wird zu stark einbezogen", "Zwang, die Anforderungsanalyse vor dem Entwurf vollständig abzuschließen", "Keine klare Dokumentation möglich"],
+      "answer": 2,
+      "explanation": "Das Wasserfallmodell zwingt zum vollständigen Abschluss der Anforderungsanalyse vor dem Entwurf; spätere Änderungen führen zu aufwändigen Nachbesserungen."
+    },
+    {
+      "question": "Welche Teststufe wird im V-Modell der Anforderungsdefinition zugeordnet?",
+      "options": ["Modultest", "Integrationstest", "Systemtest", "Abnahmetest"],
+      "answer": 3,
+      "explanation": "Im V-Modell steht die Anforderungsdefinition dem Abnahmetest gegenüber (verbunden über Anwendungsszenarien im Rahmen der Validierung)."
+    },
+    {
+      "question": "Welche Aussage über ein Inkrement ist korrekt?",
+      "options": ["Es ist stark von anderen Inkrementen abhängig", "Es liefert erst am Projektende lauffähige Software", "Es ist inhaltlich weitgehend unabhängig und bei Fertigstellung lauffähig", "Es ersetzt die Anforderungsanalyse"],
+      "answer": 2,
+      "explanation": "Jedes Inkrement ist inhaltlich weitestgehend unabhängig; mit seiner Fertigstellung steht bei der Lieferung eine lauffähige Software zur Verfügung."
+    },
+    {
+      "question": "Was beschreibt exploratives Prototyping?",
+      "options": ["Einmalige sequenzielle Umsetzung aller Phasen", "Wiederholte Erzeugung und Verwerfung von Prototypen zur Klärung fachlicher Anforderungen", "Automatisierte Auslieferung über die Delivery Pipeline", "Verzicht auf jegliche Anforderungsanalyse"],
+      "answer": 1,
+      "explanation": "Exploratives Prototyping bedeutet die wiederholte Erzeugung (und Verwerfung) von Prototypen in einer Testumgebung zur sukzessiven Klärung fachlicher Anforderungen."
+    },
+    {
+      "question": "Welche Rolle in Scrum steuert das Entwicklungsteam aus fachlicher Sicht?",
+      "options": ["Scrum Master", "Product Owner", "Entwicklungsteam", "Stakeholder"],
+      "answer": 1,
+      "explanation": "Der Product Owner steuert das Entwicklungsteam aus fachlicher Sicht; der Scrum Master organisiert die Rahmenbedingungen um das Team herum."
+    },
+    {
+      "question": "Was steht am Ende eines Sprints in Scrum?",
+      "options": ["Ein vollständig fertiges Endprodukt ohne weitere Zyklen", "Nur ein aktualisiertes Produkt-Backlog", "Eine lauffähige, inkrementell verbesserte Software", "Das Pflichtenheft"],
+      "answer": 2,
+      "explanation": "Am Ende eines Sprints steht eine lauffähige, inkrementell verbesserte Software, die im Sprint Review Meeting begutachtet wird."
+    },
+    {
+      "question": "Wofür steht das Akronym CAMS im DevOps-Kontext?",
+      "options": ["Continuous, Agile, Modular, Scrum", "Culture, Automation, Measurement, Sharing", "Code, Analyse, Migration, Support", "Customer, Agile, Management, Service"],
+      "answer": 1,
+      "explanation": "CAMS steht für Culture, Automation, Measurement und Sharing - die Kernprinzipien von DevOps als Integration von Dev und Ops."
+    },
+    {
+      "question": "Welche Schwierigkeit gehört zur agilen Softwareentwicklung?",
+      "options": ["Anforderungen müssen immer vollständig vorab feststehen", "Langfristige Budgetplanung ist schwierig bei sich ändernden Anforderungen", "Der Kunde wird gar nicht einbezogen", "Es gibt keine Release-Zyklen"],
+      "answer": 1,
+      "explanation": "Da sich Anforderungen in kurzen Zyklen ändern, ist die langfristige Budgetplanung schwierig und der Entwicklungsstand schlecht abschätzbar."
+    },
+    {
+      "question": "Wie schneidet das Wasserfallmodell laut situativer Beurteilung bei schlecht verstandenen Anforderungen ab?",
+      "options": ["Gut", "Mittel", "Schlecht", "Gleich gut wie Agil"],
+      "answer": 2,
+      "explanation": "Bei schlecht verstandenen Anforderungen schneidet Wasserfall schlecht ab, iteratives Vorgehen mittel und agiles Vorgehen gut, da Agil flexibel reagieren kann."
+    },
+    {
+      "question": "Welche Aussage zu den Ebenen agiler Modelle ist korrekt?",
+      "options": ["Agile Methoden bilden die unterste Ebene", "Die Reihenfolge lautet von unten: Werte, Prinzipien, Praktiken, Methoden", "Scrum ist eine agile Praktik", "Agile Werte stehen über den Methoden"],
+      "answer": 1,
+      "explanation": "Die Ebenen bauen von unten nach oben aufeinander auf: Agile Werte, Agile Prinzipien, Agile Praktiken, Agile Methoden (z.B. Scrum). Scrum ist eine Methode, keine Praktik."
+    }
+  ]
+}

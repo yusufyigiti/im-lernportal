@@ -1,0 +1,456 @@
+{
+  "id": "07",
+  "title": "Geschäftsprozesse",
+  "pdf": "courses/gwi/folien/07.pdf",
+  "summary": "Diese Vorlesungseinheit behandelt die Grundlagen von Geschäftsprozessen und des Prozessmanagements in der Wirtschaftsinformatik. Sie definiert Prozesse und Geschäftsprozesse, erläutert deren Kernelemente sowie die Unterscheidung in Kern-, Unterstützungs- und Managementprozesse. Im Zentrum steht der Lebenszyklus der strategischen Prozessorganisation mit den sechs Phasen Prozessidentifikation, -erhebung, -analyse, -verbesserung, -implementierung und -überwachung, illustriert am Fallbeispiel der Online-Bestellung eines Uni-Hoodies. Ergänzend werden die Rolle der IT als Enabler, das Business-IT-Alignment und Modellierungsansätze wie SIPOC und BPMN vorgestellt.",
+  "sections": [
+    {
+      "heading": "Definition: Prozess und Geschäftsprozess",
+      "points": [
+        "Prozess: Abfolge von Aktivitäten, die durch ein Startereignis in Gang gesetzt werden und mit einem Endereignis enden (Leimeister 2025, S. 216).",
+        "Geschäftsprozess: Zielgerichtete, zeitlich-logische Folge oder Vorgangskette von Tätigkeiten, die für das Unternehmen einen Beitrag zur Wertschöpfung leistet bzw. aus der Unternehmensstrategie abgeleitet ist (Leimeister 2025, S. 219).",
+        "Ein Geschäftsprozess ist in der Regel am Kunden orientiert (intern oder extern).",
+        "Wesentliche Unterscheidung zum reinen Prozess: der Wertschöpfungsbeitrag und die Ableitung aus der Unternehmensstrategie."
+      ]
+    },
+    {
+      "heading": "Kernelemente eines Geschäftsprozesses",
+      "points": [
+        "Auslöser/Input: Ein Bedarf oder Ereignis startet den Prozess.",
+        "Geordnete Aktivitäten: Schritte, die in einer definierten Reihenfolge ausgeführt werden.",
+        "Ressourcen: Mitarbeitende, Informationen, Systeme oder Maschinen.",
+        "Ergebnis/Output: Ein Produkt oder eine Dienstleistung für interne oder externe Kunden.",
+        "Ziel: Mehrwert schaffen, Effizienz steigern oder eine Unternehmensfunktion erfüllen."
+      ]
+    },
+    {
+      "heading": "Arten von Geschäftsprozessen",
+      "points": [
+        "Kernprozesse: unmittelbar wertschöpfend und kundenorientiert, z. B. Produktion, Vertrieb, Kundenservice.",
+        "Unterstützungsprozesse: sichern den Betrieb der Kernprozesse, z. B. Personalmanagement, Buchhaltung.",
+        "Managementprozesse: steuern und lenken das Unternehmen, z. B. Strategieentwicklung, Controlling.",
+        "Diese Dreiteilung bildet später auch die Struktur der Prozesslandkarte."
+      ]
+    },
+    {
+      "heading": "Funktions- vs. Prozessorientierung",
+      "points": [
+        "Funktionsorientierte Sicht: Das Unternehmen ist in Abteilungen (Einkauf, Lager, Fertigung, Vertrieb, Versand) mit jeweils eigenen Abteilungszielen gegliedert.",
+        "Prozessorientierte Sicht: Ein Geschäftsprozess läuft quer (horizontal) über mehrere Abteilungen hinweg und verfolgt eigene Prozessziele mit einem definierten Prozessergebnis.",
+        "Nachteil reiner Funktionsorientierung: Abteilungsgrenzen erzeugen Schnittstellen, Medienbrüche und Suboptimierung einzelner Bereiche.",
+        "Prozessorientierung stellt das durchgängige Ergebnis für den Kunden in den Vordergrund (Gadatsch 2010)."
+      ]
+    },
+    {
+      "heading": "Prozessmodellierung: SIPOC-Metamodell",
+      "points": [
+        "SIPOC steht für Supplier, Input, Process, Output, Customer.",
+        "Ein Prozessauslöser (Input) startet eine Kette von Vorgängen und endet mit einem Prozessergebnis (Output).",
+        "Jeder Vorgang wird durch Input(s), Methoden/Verfahren, bearbeitende Stelle, Sachmittel, Bearbeitungszeit und Output beschrieben.",
+        "Ausgangspunkt ist der Kundenbedarf, Zielpunkt ist die Kundenzufriedenheit.",
+        "SIPOC dient als einfaches, überblicksartiges Metamodell zur Beschreibung von Prozessen (Krallmann u. a. 2013)."
+      ]
+    },
+    {
+      "heading": "Beispiel eines einfachen Prozessmodells: Angebotserstellung",
+      "points": [
+        "Prozessauslöser: Kundenanfrage; Prozessergebnis: versandfähiges Angebot.",
+        "Vorgang 1 (Teilprozess 1): Zusammenstellung der Artikel, Prüfen der Verfügbarkeit.",
+        "Vorgang 2 (Teilprozess 2): Bestimmung der Preise (Kalkulation, Preisnachlässe), Bestimmung des Liefertermins, Bereitstellung der Stamm- und Bewegungsdaten.",
+        "Vorgang 3 (Teilprozess 3): Erstellung des Angebots, ggf. Abstimmung von Preis und Liefertermin mit Vertrieb und Produktion, Angebotssatz im Informationssystem des Vertriebs.",
+        "Rahmendaten: Input = Einzelheiten der Anfrage; Methode = DV-gestützte, überwiegend manuelle Bearbeitung; Stelle = Angebotsbearbeitung/Vertrieb Innendienst; Bearbeitungszeit = 1-2 Tage."
+      ]
+    },
+    {
+      "heading": "Bedeutung der IT für das Prozessmanagement",
+      "points": [
+        "Unterstützung von Prozessen: standardisierte Abläufe durch digitale Workflows, effiziente Verarbeitung großer Datenmengen.",
+        "Transparenz und Steuerung: Echtzeit-Daten über Prozessstatus und Auslastung, Monitoring durch Dashboards und KPIs, frühzeitiges Erkennen von Engpässen.",
+        "Automatisierung und Effizienzsteigerung: Reduktion manueller Fehler, schnellere Durchlaufzeiten.",
+        "Enabler für Innovationen: digitale Geschäftsmodelle (Self-Service, Plattformen), Integration von KI zur Entscheidungsunterstützung, Cloud und APIs für flexible Prozessketten.",
+        "Kernaussage: IT wirkt direkt auf die Prozesse und indirekt auf den Gewinn des Unternehmens."
+      ]
+    },
+    {
+      "heading": "Lebenszyklus und Ebenen der Wirtschaftsinformatik",
+      "points": [
+        "Strategische Ebene: Geschäftsstrategie mit Wettbewerbern, Geschäftsfeldern und Kernkompetenzen.",
+        "Fachlich-konzeptionelle Ebene: der Geschäftsprozess selbst.",
+        "Operative technische Ebene: Informations- und Kommunikationssysteme, Workflow-Managementsysteme und Anwendungssysteme.",
+        "Anwendungssysteme umfassen ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), SCM (Supply Chain Management) und E-Business (Abts/Mölder 2016)."
+      ]
+    },
+    {
+      "heading": "Business-IT-Alignment: Wer passt sich wem an?",
+      "points": [
+        "Zentrale Frage: Sollen die Prozesse an die Möglichkeiten der IT angepasst werden oder die IT an die existierenden Prozesse?",
+        "IT follows Organization: Die IT wird an die vorhandenen Geschäftsprozesse angepasst.",
+        "Organization follows IT: Die Prozesse werden an die Möglichkeiten der IT angepasst.",
+        "IT as Enabler / IT follows Strategy: IT ermöglicht neue Geschäftsmodelle; Strategie, Prozesse und Informationssysteme werden aufeinander abgestimmt.",
+        "Business-IT-Alignment bedeutet die strategische Ausrichtung von Zielen, Maßnahmen und IT auf die gemeinsame Strategie."
+      ]
+    },
+    {
+      "heading": "Phase 1: Prozessidentifikation",
+      "points": [
+        "Ausgangspunkt der strategischen Prozessorganisation: systematische Erfassung aller relevanten Geschäftsprozesse eines Unternehmens.",
+        "Ziel: Transparenz über Wertschöpfungsaktivitäten und deren Zusammenhänge schaffen; Vermeidung von Doppelarbeiten und blinden Flecken.",
+        "Ansätze: Top-down (ausgehend von Unternehmenszielen, Strategien, Kernkompetenzen) und Bottom-up (Identifikation vorhandener Tätigkeiten auf operativer Ebene) sowie Kundenorientierung.",
+        "Abgrenzungskriterien: klarer Start- und Endpunkt, definierbarer Input und Output, Verantwortlichkeiten, Beitrag zur Wertschöpfung.",
+        "Ergebnis ist die Prozesslandkarte: Strukturierung aller Prozesse in Kern-, Unterstützungs- und Managementprozesse als Ordnungsrahmen und Priorisierungshilfe (Dumas u. a. 2018, Gadatsch 2008)."
+      ]
+    },
+    {
+      "heading": "Phase 2: Prozesserhebung",
+      "points": [
+        "Erfassung der Ist-Situation eines Geschäftsprozesses; Sammeln aller relevanten Informationen zu Abläufen, Beteiligten, Systemen und Dokumenten.",
+        "Ziel: Verstehen, wie der Prozess heute tatsächlich ausgeführt wird; Reduktion von Fehlannahmen durch faktenbasierte Betrachtung.",
+        "Erhebungsmethoden: Interviews mit Prozessbeteiligten, Beobachtung (Shadowing), Workshops/moderierte Gruppenbefragungen, Dokumenten- und Systemanalyse, Process Mining als datenbasierte Ergänzung.",
+        "Best Practices: Kombination mehrerer Methoden für höhere Validität, Nutzung von Templates (Checklisten, Prozesssteckbrief), Fokus auf reale statt idealisierte Abläufe, frühzeitige Einbindung der Stakeholder.",
+        "Besonders wichtig bei Digitalisierungs- und Automatisierungsprojekten (Dumas u. a. 2018)."
+      ]
+    },
+    {
+      "heading": "Phase 3: Prozessanalyse",
+      "points": [
+        "Systematische Untersuchung des Ist-Prozesses zur Erkennung von Ineffizienzen, Engpässen und Verbesserungspotenzialen.",
+        "Analysedimensionen: Durchlaufzeiten, Kosten und Ressourcen, Fehlerquellen und Risiken, Schnittstellen und Medienbrüche.",
+        "Qualitative Methoden: Schwachstellenanalyse, Ursachenanalyse, Ablaufketten-Analyse.",
+        "Quantitative Methoden: Durchlaufzeitmessung, Kostenanalyse/Prozesskostenrechnung, Wertschöpfungsanalyse, kennzahlenbasierte Bewertung (KPIs).",
+        "Modellbasierte Methoden: BPMN-Modelle, Swimlane-Darstellungen.",
+        "Ergebnis: identifizierte Schwachstellen (unnötige Schleifen, Wartezeiten, Redundanzen, unklare Verantwortlichkeiten), Optimierungspotenziale und Priorisierungskriterien (strategischer Nutzen, Aufwand/Kosten, Kundenwirkung) (Dumas u. a. 2018)."
+      ]
+    },
+    {
+      "heading": "Phase 4: Prozessverbesserung",
+      "points": [
+        "Systematische Weiterentwicklung bestehender Prozesse zur Steigerung von Effizienz, Qualität und Kundenzufriedenheit.",
+        "Typische Optimierungsansätze: Eliminieren unnötiger Schritte, Reduzieren von Durchlaufzeiten/Wartezeiten, Automatisierung wiederkehrender Aktivitäten, Standardisierung, Digitalisierung manueller Tätigkeiten.",
+        "Methodische Ansätze: Kaizen (kontinuierliche Verbesserung in kleinen Schritten), Lean Management (Vermeidung von Verschwendung), Six Sigma (Reduktion von Fehlern), Business Process Reengineering (radikale Neugestaltung bei grundsätzlichen Problemen).",
+        "Typisches Vorgehen: Schwachstelle priorisieren, Maßnahmen entwickeln, Maßnahmen bewerten (Nutzen vs. Aufwand), Umsetzung planen und durchführen, Erfolg messen, Wissen dokumentieren.",
+        "Prozessverbesserung ist ein kontinuierlicher Bestandteil des Prozessmanagements (Weske 2019, Künzel 2016)."
+      ]
+    },
+    {
+      "heading": "Phase 5: Prozessimplementierung",
+      "points": [
+        "Umsetzung der neu gestalteten oder verbesserten Prozesse in den operativen Alltag; Überführung von Konzepten in reale Abläufe, Systeme und Rollen.",
+        "Detailplanung: Aufgaben, Ressourcen, Verantwortlichkeiten festlegen; Rollout-Strategie bestimmen (Pilot vs. Big Bang).",
+        "Systemanpassungen: IT-Systeme konfigurieren/integrieren; Workflows, Berechtigungen, Schnittstellen einrichten.",
+        "Prozessdokumentation und Schulung/Training: Prozesshandbücher, Checklisten, einheitliche Standards; Nutzer auf neue Rollen, Tools und Abläufe vorbereiten; anschließend Go-Live und Support.",
+        "Erfolgsfaktoren: klare Kommunikation, frühzeitige Stakeholder-Einbindung, ausreichende Schulung, realistische Zeitplanung, KPI-Monitoring nach Go-Live, aktives Change Management.",
+        "Typische Herausforderungen: Widerstand gegen Veränderungen, unzureichende IT-Unterstützung, ungenaue Prozessspezifikation, Ressourcenengpässe (Weske 2019)."
+      ]
+    },
+    {
+      "heading": "Phase 6: Prozessüberwachung",
+      "points": [
+        "Kontinuierliche Beobachtung der Prozessleistung im laufenden Betrieb, um sicherzustellen, dass Prozesse wie geplant funktionieren.",
+        "Ziele: frühzeitiges Erkennen von Abweichungen, Engpässen und Qualitätsproblemen; Transparenz über Wirtschaftlichkeit und Effektivität; Grundlage für kontinuierliche Verbesserung.",
+        "Mögliche Parameter: Durchlaufzeiten, Fehlerquoten/Reklamationen, Prozesskosten, SLA-Erfüllung, Auslastung von Ressourcen.",
+        "Methoden: KPIs und Kennzahlensysteme (Prozesszeit, Termintreue, Kosten je Vorgang), Prozess-Cockpits und Dashboards (BI-Tools wie Power BI, SAP Analytics), Process Mining, regelmäßige Reviews (Soll-Ist-Vergleiche, Compliance-Checks), Feedback-Schleifen.",
+        "Die Überwachung schließt den Zyklus und speist neue Verbesserungen (Weske 2019)."
+      ]
+    },
+    {
+      "heading": "Fallbeispiel: Online-Bestellung eines Uni-Hoodies",
+      "points": [
+        "Identifikation: Hoodie-Bestellungen dauern zu lange, Kundenbeschwerden häufen sich; der Prozess wird als Kernprozess identifiziert.",
+        "Erhebung (Ist-Analyse): Shop-System sendet Bestellung per E-Mail ans Lager, Bestände werden manuell gepflegt, Versandlabel manuell erstellt.",
+        "Analyse (Schwachstellen): Medienbruch (E-Mail), manuelle Bestandsführung, hoher Zeitaufwand, lange Durchlaufzeit.",
+        "Verbesserung (Maßnahmen): automatische Schnittstelle Shop-Lager, automatische Label-Erstellung, Echtzeitbestände, Same-Day-Packing bis 16 Uhr.",
+        "Implementierung: API-Integration (Application Programming Interface), Schulung der Mitarbeitenden, Pilotphase, Go-Live und Support.",
+        "Überwachung (KPIs): Durchlaufzeit, Fehlbestände, Versandquote, Kundenzufriedenheit."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Prozess",
+      "definition": "Abfolge von Aktivitäten, die durch ein Startereignis in Gang gesetzt werden und mit einem Endereignis enden."
+    },
+    {
+      "term": "Geschäftsprozess",
+      "definition": "Zielgerichtete, zeitlich-logische Folge von Tätigkeiten, die einen Beitrag zur Wertschöpfung leistet, aus der Unternehmensstrategie abgeleitet und in der Regel am Kunden orientiert ist."
+    },
+    {
+      "term": "Kernprozess",
+      "definition": "Unmittelbar wertschöpfender, kundenorientierter Prozess wie Produktion, Vertrieb oder Kundenservice."
+    },
+    {
+      "term": "Unterstützungsprozess",
+      "definition": "Prozess, der den Betrieb der Kernprozesse sichert, z. B. Personalmanagement oder Buchhaltung."
+    },
+    {
+      "term": "Managementprozess",
+      "definition": "Steuernder und lenkender Prozess wie Strategieentwicklung oder Controlling."
+    },
+    {
+      "term": "SIPOC",
+      "definition": "Metamodell zur Prozessbeschreibung entlang von Supplier, Input, Process, Output und Customer."
+    },
+    {
+      "term": "Prozesslandkarte",
+      "definition": "Strukturierte Darstellung aller identifizierten Prozesse in Kern-, Unterstützungs- und Managementprozesse als Ordnungsrahmen für Analyse, Optimierung und Priorisierung."
+    },
+    {
+      "term": "Medienbruch",
+      "definition": "Wechsel des Mediums bei der Datenübertragung (z. B. von digital zu manuell/E-Mail), der Fehler, Verzögerungen und Mehraufwand verursacht."
+    },
+    {
+      "term": "Process Mining",
+      "definition": "Datenbasierte Methode, die reale Prozessdaten (z. B. Logdaten) auswertet, um tatsächliche Abläufe, Abweichungen und Bottlenecks zu erkennen."
+    },
+    {
+      "term": "Kaizen",
+      "definition": "Ansatz der kontinuierlichen Verbesserung in kleinen, stetigen Schritten."
+    },
+    {
+      "term": "Lean Management",
+      "definition": "Managementansatz zur systematischen Vermeidung von Verschwendung im Prozess."
+    },
+    {
+      "term": "Six Sigma",
+      "definition": "Methode zur systematischen Reduktion von Fehlern und Prozessschwankungen."
+    },
+    {
+      "term": "Business Process Reengineering (BPR)",
+      "definition": "Radikale, grundlegende Neugestaltung von Prozessen bei grundsätzlichen Problemen statt schrittweiser Verbesserung."
+    },
+    {
+      "term": "KPI (Key Performance Indicator)",
+      "definition": "Kennzahl zur Messung der Prozessleistung, z. B. Prozesszeit, Termintreue oder Kosten je Vorgang."
+    },
+    {
+      "term": "Business-IT-Alignment",
+      "definition": "Strategische Abstimmung von Geschäftszielen, Maßnahmen und IT, damit IT und Geschäftsprozesse gemeinsam die Unternehmensstrategie unterstützen."
+    },
+    {
+      "term": "IT as Enabler",
+      "definition": "Sichtweise, nach der IT neue Geschäftsmodelle und Prozesse überhaupt erst ermöglicht (IT follows strategy)."
+    },
+    {
+      "term": "ERP / CRM / SCM",
+      "definition": "Anwendungssystemtypen: Enterprise Resource Planning (Ressourcenplanung), Customer Relationship Management (Kundenbeziehungen), Supply Chain Management (Lieferkette)."
+    },
+    {
+      "term": "Rollout-Strategie (Pilot vs. Big Bang)",
+      "definition": "Vorgehen bei der Einführung: schrittweise über eine Pilotphase oder auf einen Schlag (Big Bang)."
+    }
+  ],
+  "kernpunkte": [
+    "Ein Geschäftsprozess ist eine zielgerichtete, wertschöpfende Folge von Tätigkeiten, die aus der Unternehmensstrategie abgeleitet und meist am Kunden orientiert ist.",
+    "Geschäftsprozesse werden in Kern-, Unterstützungs- und Managementprozesse unterteilt, die zusammen die Prozesslandkarte bilden.",
+    "Die Prozessorientierung überwindet Abteilungsgrenzen der Funktionsorientierung und stellt das durchgängige Kundenergebnis in den Vordergrund.",
+    "Die strategische Prozessorganisation umfasst sechs Phasen: Identifikation, Erhebung, Analyse, Verbesserung, Implementierung und Überwachung.",
+    "Die Prozessidentifikation steht am Anfang und schafft über Top-down- und Bottom-up-Ansätze Transparenz über alle relevanten Prozesse.",
+    "Die Prozessanalyse deckt Schwachstellen wie Medienbrüche, Wartezeiten und Redundanzen auf und liefert priorisierte Optimierungspotenziale.",
+    "Verbesserungsmethoden wie Kaizen, Lean, Six Sigma und BPR reichen von kontinuierlicher Optimierung bis zur radikalen Neugestaltung.",
+    "IT wirkt als Enabler direkt auf die Prozesse und indirekt auf den Unternehmensgewinn und erfordert ein Business-IT-Alignment.",
+    "Die kontinuierliche Prozessüberwachung mittels KPIs, Dashboards und Process Mining schließt den Kreislauf und speist neue Verbesserungen."
+  ],
+  "flashcards": [
+    {
+      "front": "Wie unterscheidet sich ein Geschäftsprozess von einem einfachen Prozess?",
+      "back": "Ein Geschäftsprozess leistet einen Beitrag zur Wertschöpfung, ist aus der Unternehmensstrategie abgeleitet und in der Regel am Kunden orientiert; ein Prozess ist allgemein nur eine durch Start- und Endereignis begrenzte Abfolge von Aktivitäten."
+    },
+    {
+      "front": "Nenne die fünf Kernelemente eines Geschäftsprozesses.",
+      "back": "Auslöser/Input, geordnete Aktivitäten, Ressourcen (Mitarbeitende, Informationen, Systeme, Maschinen), Ergebnis/Output und Ziel (Mehrwert schaffen)."
+    },
+    {
+      "front": "Welche drei Arten von Geschäftsprozessen gibt es?",
+      "back": "Kernprozesse (wertschöpfend, kundenorientiert), Unterstützungsprozesse (z. B. HR, Buchhaltung) und Managementprozesse (z. B. Strategie, Controlling)."
+    },
+    {
+      "front": "Wofür steht das Akronym SIPOC?",
+      "back": "Supplier, Input, Process, Output, Customer - ein Metamodell zur Prozessbeschreibung vom Kundenbedarf bis zur Kundenzufriedenheit."
+    },
+    {
+      "front": "Was ist der Unterschied zwischen funktions- und prozessorientierter Sicht?",
+      "back": "Die funktionsorientierte Sicht gliedert das Unternehmen in Abteilungen mit eigenen Zielen; die prozessorientierte Sicht betrachtet Geschäftsprozesse, die horizontal über mehrere Abteilungen hinweg auf ein gemeinsames Prozessergebnis hinarbeiten."
+    },
+    {
+      "front": "Welche sechs Phasen umfasst die strategische Prozessorganisation?",
+      "back": "Prozessidentifikation, Prozesserhebung, Prozessanalyse, Prozessverbesserung, Prozessimplementierung und Prozessüberwachung."
+    },
+    {
+      "front": "Was ist das Ziel der Prozessidentifikation?",
+      "back": "Systematische Erfassung aller relevanten Prozesse, um Transparenz über Wertschöpfungsaktivitäten zu schaffen und Doppelarbeiten sowie blinde Flecken zu vermeiden; Ergebnis ist die Prozesslandkarte."
+    },
+    {
+      "front": "Nenne vier Methoden der Prozesserhebung.",
+      "back": "Interviews mit Prozessbeteiligten, Beobachtung (Shadowing), Workshops/moderierte Gruppenbefragungen, Dokumenten- und Systemanalyse sowie Process Mining."
+    },
+    {
+      "front": "Welche typischen Schwachstellen liefert die Prozessanalyse?",
+      "back": "Unnötige Schleifen, Wartezeiten, redundante Tätigkeiten, unklare Verantwortlichkeiten sowie Medienbrüche und lange Durchlaufzeiten."
+    },
+    {
+      "front": "Welche vier methodischen Ansätze der Prozessverbesserung gibt es?",
+      "back": "Kaizen (kontinuierliche Verbesserung in kleinen Schritten), Lean Management (Vermeidung von Verschwendung), Six Sigma (Reduktion von Fehlern) und Business Process Reengineering (radikale Neugestaltung)."
+    },
+    {
+      "front": "Was bedeutet ein Medienbruch und warum ist er problematisch?",
+      "back": "Ein Medienbruch ist der Wechsel des Mediums bei der Datenübertragung (z. B. digitales Shop-System zu manueller E-Mail); er verursacht Fehler, Verzögerungen und zusätzlichen Aufwand."
+    },
+    {
+      "front": "Welche Schritte gehören zur Prozessimplementierung?",
+      "back": "Detailplanung (inkl. Rollout-Strategie Pilot vs. Big Bang), Systemanpassungen, Prozessdokumentation, Schulung/Training sowie Go-Live und Support."
+    },
+    {
+      "front": "Welche Parameter/KPIs eignen sich zur Prozessüberwachung?",
+      "back": "Durchlaufzeiten, Fehlerquoten/Reklamationen, Prozesskosten, SLA-Erfüllung, Auslastung von Ressourcen sowie Termintreue und Kosten je Vorgang."
+    },
+    {
+      "front": "Was besagt 'IT follows organization' vs. 'organization follows IT'?",
+      "back": "IT follows organization: die IT wird an bestehende Prozesse angepasst. Organization follows IT: die Prozesse werden an die Möglichkeiten der IT angepasst. Ergänzend: IT as Enabler ermöglicht neue Geschäftsmodelle (IT follows strategy)."
+    },
+    {
+      "front": "Wie wirkt IT laut Vorlesung auf das Unternehmen?",
+      "back": "IT wirkt direkt auf die Prozesse (Standardisierung, Automatisierung, Transparenz) und indirekt auf den Gewinn des Unternehmens; sie ist Enabler für Innovationen."
+    },
+    {
+      "front": "Was ist Process Mining?",
+      "back": "Eine datenbasierte Methode, die reale Prozessdaten auswertet, um tatsächliche Abläufe, Abweichungen und Bottlenecks zu erkennen; einsetzbar bei Erhebung und Überwachung."
+    },
+    {
+      "front": "Nenne die drei Ebenen im Lebenszyklus eines Geschäftsprozesses.",
+      "back": "Strategische Ebene (Geschäftsstrategie), fachlich-konzeptionelle Ebene (Geschäftsprozess) und operativ-technische Ebene (Informationssysteme, Workflow- und Anwendungssysteme wie ERP, CRM, SCM)."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Welches Merkmal unterscheidet einen Geschäftsprozess von einem allgemeinen Prozess?",
+      "options": [
+        "Er leistet einen Beitrag zur Wertschöpfung und ist aus der Strategie abgeleitet",
+        "Er hat kein definiertes Endereignis",
+        "Er läuft ausschließlich innerhalb einer einzigen Abteilung ab",
+        "Er benötigt grundsätzlich keine Ressourcen"
+      ],
+      "answer": 0,
+      "explanation": "Ein Geschäftsprozess ist zielgerichtet, wertschöpfend, aus der Unternehmensstrategie abgeleitet und meist kundenorientiert. Ein allgemeiner Prozess ist lediglich eine durch Start- und Endereignis begrenzte Abfolge von Aktivitäten."
+    },
+    {
+      "question": "Welche der folgenden ist KEINE der drei Grundarten von Geschäftsprozessen?",
+      "options": [
+        "Kernprozess",
+        "Unterstützungsprozess",
+        "Zufallsprozess",
+        "Managementprozess"
+      ],
+      "answer": 2,
+      "explanation": "Die Vorlesung unterscheidet Kernprozesse, Unterstützungsprozesse und Managementprozesse. Einen 'Zufallsprozess' gibt es in dieser Systematik nicht."
+    },
+    {
+      "question": "Wofür stehen die Buchstaben im SIPOC-Metamodell?",
+      "options": [
+        "System, Input, Prozess, Output, Controlling",
+        "Supplier, Input, Process, Output, Customer",
+        "Strategie, Information, Prozess, Organisation, Kunde",
+        "Service, Instanz, Produkt, Output, Kontrolle"
+      ],
+      "answer": 1,
+      "explanation": "SIPOC steht für Supplier, Input, Process, Output und Customer und beschreibt den Prozess vom Kundenbedarf (Input) bis zur Kundenzufriedenheit (Output)."
+    },
+    {
+      "question": "In welcher Reihenfolge verlaufen die Phasen der strategischen Prozessorganisation?",
+      "options": [
+        "Analyse, Identifikation, Erhebung, Verbesserung, Überwachung, Implementierung",
+        "Identifikation, Erhebung, Analyse, Verbesserung, Implementierung, Überwachung",
+        "Erhebung, Analyse, Identifikation, Implementierung, Überwachung, Verbesserung",
+        "Identifikation, Analyse, Erhebung, Implementierung, Verbesserung, Überwachung"
+      ],
+      "answer": 1,
+      "explanation": "Der Zyklus verläuft: Prozessidentifikation, Prozesserhebung, Prozessanalyse, Prozessverbesserung, Prozessimplementierung und Prozessüberwachung."
+    },
+    {
+      "question": "Warum steht die Prozessidentifikation am Anfang des Zyklus?",
+      "options": [
+        "Weil sie die Mitarbeitenden schult",
+        "Weil sie den Prozess bereits automatisiert",
+        "Weil sie Transparenz über alle relevanten Prozesse schafft und Doppelarbeiten vermeidet",
+        "Weil sie die KPIs im laufenden Betrieb misst"
+      ],
+      "answer": 2,
+      "explanation": "Die Prozessidentifikation erfasst systematisch alle relevanten Prozesse, schafft Transparenz über die Wertschöpfung und bildet als Prozesslandkarte die Grundlage für alle weiteren Schritte."
+    },
+    {
+      "question": "Welche Methode gehört NICHT zu den Erhebungsmethoden der Prozesserhebung?",
+      "options": [
+        "Interviews mit Prozessbeteiligten",
+        "Beobachtung (Shadowing)",
+        "Business Process Reengineering",
+        "Dokumenten- und Systemanalyse"
+      ],
+      "answer": 2,
+      "explanation": "Business Process Reengineering ist ein Ansatz der Prozessverbesserung (radikale Neugestaltung), keine Erhebungsmethode. Erhebungsmethoden sind u. a. Interviews, Shadowing, Workshops, Dokumentenanalyse und Process Mining."
+    },
+    {
+      "question": "Welche Schwachstellen wurden im Fallbeispiel der Hoodie-Bestellung identifiziert?",
+      "options": [
+        "Zu niedrige Preise und fehlende Werbung",
+        "Medienbruch per E-Mail, manuelle Bestandsführung und lange Durchlaufzeit",
+        "Fehlende Produktvielfalt und schlechtes Design",
+        "Zu viele automatisierte Schnittstellen"
+      ],
+      "answer": 1,
+      "explanation": "In der Analyse zeigten sich der Medienbruch (Bestellung per E-Mail), die manuelle Bestandsführung, hoher Zeitaufwand und eine lange Durchlaufzeit."
+    },
+    {
+      "question": "Welcher Verbesserungsansatz beschreibt eine radikale Neugestaltung bei grundsätzlichen Problemen?",
+      "options": [
+        "Kaizen",
+        "Lean Management",
+        "Six Sigma",
+        "Business Process Reengineering"
+      ],
+      "answer": 3,
+      "explanation": "Business Process Reengineering (BPR) steht für die radikale Neugestaltung von Prozessen. Kaizen bedeutet kontinuierliche kleine Verbesserungen, Lean die Vermeidung von Verschwendung, Six Sigma die Reduktion von Fehlern."
+    },
+    {
+      "question": "Welche Aussage zur Rolle der IT im Prozessmanagement ist laut Vorlesung korrekt?",
+      "options": [
+        "IT wirkt direkt auf die Prozesse und indirekt auf den Gewinn des Unternehmens",
+        "IT hat keinen Einfluss auf die Durchlaufzeiten",
+        "IT ersetzt vollständig die Notwendigkeit von Prozessen",
+        "IT wirkt nur auf Managementprozesse, nicht auf Kernprozesse"
+      ],
+      "answer": 0,
+      "explanation": "Die zentrale Aussage lautet: IT wirkt direkt auf die Prozesse (Standardisierung, Automatisierung, Transparenz) und indirekt auf den Gewinn des Unternehmens; sie ist Enabler für Innovationen."
+    },
+    {
+      "question": "Was bedeutet der Ansatz 'Organization follows IT'?",
+      "options": [
+        "Die IT-Abteilung wird aufgelöst",
+        "Die IT wird ausschließlich an bestehende Prozesse angepasst",
+        "Die Prozesse werden an die Möglichkeiten der IT angepasst",
+        "Die Strategie wird an die Buchhaltung angepasst"
+      ],
+      "answer": 2,
+      "explanation": "'Organization follows IT' bedeutet, dass die Prozesse an die Möglichkeiten der IT angepasst werden. Das Gegenstück 'IT follows organization' passt die IT an bestehende Prozesse an."
+    },
+    {
+      "question": "Welche Kennzahl eignet sich NICHT typischerweise zur Prozessüberwachung?",
+      "options": [
+        "Durchlaufzeit",
+        "Fehlerquote/Reklamationen",
+        "Farbe des Firmenlogos",
+        "SLA-Erfüllung"
+      ],
+      "answer": 2,
+      "explanation": "Zur Prozessüberwachung dienen Parameter wie Durchlaufzeiten, Fehlerquoten/Reklamationen, Prozesskosten, SLA-Erfüllung und Ressourcenauslastung. Die Farbe des Firmenlogos ist keine Prozesskennzahl."
+    },
+    {
+      "question": "Welche Maßnahme wurde im Fallbeispiel NICHT zur Prozessverbesserung vorgeschlagen?",
+      "options": [
+        "Automatische Schnittstelle zwischen Shop und Lager",
+        "Automatische Label-Erstellung",
+        "Manuelle Prüfung jeder einzelnen Bestellung durch die Geschäftsführung",
+        "Echtzeitbestände und Same-Day-Packing bis 16 Uhr"
+      ],
+      "answer": 2,
+      "explanation": "Vorgeschlagen wurden die automatische Schnittstelle Shop-Lager, automatische Label-Erstellung, Echtzeitbestände und Same-Day-Packing. Eine manuelle Prüfung jeder Bestellung würde die Schwachstellen verschärfen statt beheben."
+    }
+  ]
+}

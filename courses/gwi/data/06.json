@@ -1,0 +1,313 @@
+{
+  "id": "06",
+  "title": "Grundlagen der Modellierung",
+  "pdf": "courses/gwi/folien/06.pdf",
+  "summary": "Diese Vorlesung führt in die Grundlagen der Modellierung aus Perspektive der Wirtschaftsinformatik ein. Zentral sind die beiden konkurrierenden Modellverständnisse (abbildungsorientiert vs. konstruktionsorientiert), die drei zentralen Modellmerkmale nach Stachowiak sowie ein Überblick über wichtige Modelltypen (Vorgehens-, Unternehmens-, Prozess-, Referenz-, Reifegrad- und Metamodelle). Es wird deutlich, dass es keine einheitliche Modelldefinition in der Literatur gibt und dass in der WI das konstruktionsorientierte Verständnis maßgeblich ist.",
+  "sections": [
+    {
+      "heading": "Qualifikationsziele der Vorlesung",
+      "points": [
+        "Grundlegende Kenntnisse über Modellierung aus Wirtschaftsinformatik-Perspektive erlangen.",
+        "Unterschiedliche Modellverständnisse (abbildungs- vs. konstruktionsorientiert) erläutern und beurteilen können.",
+        "Für ein gegebenes Szenario einen passenden Modelltyp auswählen können.",
+        "Modelltypen anhand ihrer charakteristischen Merkmale beschreiben können."
+      ]
+    },
+    {
+      "heading": "Motivation und Bedeutung von Modellen",
+      "points": [
+        "Empirie (Glinz 2008): 81 % der WI-Absolventen halten Modellierung für einen unbedingt notwendigen Studienbestandteil; 69 % nutzen Modellierungswissen regelmäßig oder häufig im Beruf.",
+        "Modelle haben eine überragende Bedeutung in der Wissenschaft und zunehmend auch in der unternehmerischen Praxis.",
+        "Je nach Ziel leisten Modelle einen Beitrag zum Erkenntnisfortschritt (Theorie: Suche nach Erkenntnissen) oder zur Praxis (angewandte Wissenschaft: Anwendung).",
+        "Modellierung ist damit sowohl für die Forschung als auch für die Anwendung in Unternehmen zentral."
+      ]
+    },
+    {
+      "heading": "Verwendungszwecke von Modellen (nach Schütte 1998)",
+      "points": [
+        "Beschreibung von Systemen, Objekten und Sachverhalten.",
+        "Schaffung von Transparenz und Kommunikationsbasis (gemeinsames Verständnis).",
+        "Analyse und Erklärung von Zusammenhängen.",
+        "Simulation und Optimierung von Systemen.",
+        "Unterstützung von Vorgehensweisen, Kooperationen, Implementierung und Entscheidungen."
+      ]
+    },
+    {
+      "heading": "Der Modellbegriff: Problem in der Literatur",
+      "points": [
+        "Eine Literatursuche zum Begriff 'Modell' zeigt: Es gibt keine eindeutige Definition in der Literatur.",
+        "Kennzeichen des Problems: keine klare Meinung, Widersprüche und unzählige unterschiedliche Definitionen.",
+        "Erklärungen für diese Vielfalt: mehrere beteiligte Fachrichtungen, unterschiedliche Anforderungen an Modelle und die zeitliche Entwicklung des Begriffs.",
+        "Die Literatur lässt sich dennoch in zwei grundsätzliche Verständnisse einordnen: abbildungsorientiert und konstruktionsorientiert."
+      ]
+    },
+    {
+      "heading": "Abbildungsorientiertes Modellverständnis",
+      "points": [
+        "Definition: Ein Modell ist eine Repräsentation eines betrieblichen Objektsystems und damit eines Ausschnitts der Realität.",
+        "Repräsentation = Abbildung von Attributen des Originals in einer anderen Form; es besteht Ähnlichkeit zwischen Modell und Original.",
+        "Betriebliches Objektsystem = Personen, Aufgaben, IT sowie Unternehmen und Umwelt.",
+        "Ausschnitt der Realität = es werden nur Teile dargestellt, die Realität ist der Ausgangspunkt.",
+        "Prozess: das betriebliche Objektsystem wird durch Rekonstruktion des Modellierers mithilfe einer Modellsprache in ein Modell überführt.",
+        "Weitere Merkmale: passiv-rezeptive Wirklichkeitsnachbildung durch objektives Wahrnehmen (Beobachtung) und Rekonstruktion.",
+        "Anforderungen an den Modellierer: Wahrnehmung, Aufmerksamkeit und Beherrschung der Modellierungssprache.",
+        "Problematische Annahme: Die Realität kann objektiv wahrgenommen werden und jeder Modellierer entwirft immer wieder exakt dasselbe Modell (Tee-Beispiel widerlegt dies: 100 Studierende erzeugen kaum nur eine Lösung)."
+      ]
+    },
+    {
+      "heading": "Konstruktionsorientiertes Modellverständnis",
+      "points": [
+        "Definition (Schütte 1998): Ein Modell ist 'das Ergebnis einer Konstruktion eines Modellierers, der für Modellnutzer eine Repräsentation eines Originals zu einer Zeit als relevant mit Hilfe einer Sprache deklariert'.",
+        "Konstruktion des Modellierers = gedanklich und subjektiv.",
+        "Modellnutzer = geben den Zweck des Modells vor und haben eine Intention.",
+        "Repräsentation = es gibt unterschiedliche Möglichkeiten der Darstellung.",
+        "Relevant = es existiert ein (subjektives) Problem, das die Auswahl bestimmt.",
+        "Zeit = umfasst Zeitpunkt der Erstellung und Dauer der Gültigkeit.",
+        "Prozess: Über mentale Modelle von Ersteller und Nutzer sowie Kommunikation entsteht aus dem betrieblichen Objektsystem mithilfe einer Modellsprache das Modell.",
+        "Weitere Merkmale: aktiver Modellbildungsprozess; Anforderungen an den Modellierer sind Kreativität (subjektive Deutung), Berücksichtigung der Nutzeranforderungen sowie Eigenständigkeit bei Auswahl relevanter Aspekte und der geeigneten Sprache.",
+        "Ziel: zweckgerichtete Analyse, Planung und Gestaltung von Informations-, Kommunikations- und Organisationssystemen."
+      ]
+    },
+    {
+      "heading": "Vergleich der beiden Modellverständnisse",
+      "points": [
+        "Abbildungsorientiert: Modell = Abbild/Rekonstruktion der objektiv wahrnehmbaren Realität; Modellierer ist passiv-rezeptiv (nimmt wahr und bildet ab).",
+        "Konstruktionsorientiert: Modell = subjektive, zweckgerichtete Konstruktion; Modellierer ist aktiv, kreativ und wählt eigenständig aus.",
+        "Kernunterschied: Beim Abbildungsverständnis wird angenommen, jeder Modellierer erzeuge dasselbe Modell; beim Konstruktionsverständnis werden Modelle wegen subjektiver Deutung und unterschiedlicher Zwecke verschieden.",
+        "Das Tee-Beispiel zeigt, dass gleiche Aufgaben zu unterschiedlichen Modellen führen - das spricht für das konstruktionsorientierte Verständnis.",
+        "In der Wirtschaftsinformatik ist das konstruktionsorientierte Verständnis relevant."
+      ]
+    },
+    {
+      "heading": "Zentrale Merkmale von Modellen nach Stachowiak (1973)",
+      "points": [
+        "Abbildungsmerkmal: Modelle sind stets Abbild von etwas (einem Original); das Original kann seinerseits ein Modell sein.",
+        "Verkürzungsmerkmal: Modelle bilden das Original nicht insgesamt ab, sondern nur relevante Eigenschaften (Abstraktion). Folge: Zu einem Original kann es mehrere Modelle geben, und ein Modell kann mehrere Originale abbilden.",
+        "Pragmatisches Merkmal: Modelle dienen Modellnutzern (Subjekten), den von diesen verfolgten Zwecken und erfüllen ihren Zweck in einem bestimmten Zeitraum.",
+        "Diese drei Merkmale sind eine wichtige Ergänzung zu beiden Modellverständnissen und häufige Klausurfrage."
+      ]
+    },
+    {
+      "heading": "Zusammenfassung des Modellbegriffs (Konsens)",
+      "points": [
+        "Alle Definitionen enthalten wichtige Aspekte.",
+        "Grundsätzlich werden betriebliche Objektsysteme modelliert.",
+        "In der WI ist das konstruktionsorientierte Verständnis relevant.",
+        "Abbildungsmerkmal, Verkürzungsmerkmal und pragmatisches Merkmal (Stachowiak) sind wichtig."
+      ]
+    },
+    {
+      "heading": "Einordnung von Modelltypen",
+      "points": [
+        "Nach Lehner (1995) lassen sich Modelltypen in Kategorien einordnen: Lebenszyklus-Modelle, BWL-orientierte Modelle, Systementwicklungs-orientierte Modelle und Personen-/Kommunikationsmodelle.",
+        "Beispiele einzelner Typen: Phasenmodelle, Vorgehensmodelle, Unternehmensmodelle, Prozessmodelle, Datenmodelle, Funktionsmodelle, Referenzmodelle, Reifegradmodelle, Metamodelle u. v. m.",
+        "Es existieren darüber hinaus noch weitere Modelltypen und Kategorisierungen in diesen und anderen Disziplinen.",
+        "Vier Typen werden vertieft behandelt: Vorgehensmodelle, Unternehmensmodelle, Prozessmodelle und Referenzmodelle.",
+        "Zwei weitere WI-relevante Typen, die nicht in der Einordnungstabelle stehen: Reifegradmodelle und Metamodelle."
+      ]
+    },
+    {
+      "heading": "Vorgehensmodelle (Lebenszyklus-Modelle)",
+      "points": [
+        "Gliedern eine Gesamtaufgabe in Teilaktivitäten und deren zeitliche Abfolge.",
+        "Sind ein Hilfsmittel zur Komplexitätsreduktion bzw. Strukturierung und daher nicht nur für bereits strukturierte Aufgaben geeignet.",
+        "Erleichtern Dokumentation, Koordination und Kommunikation und sind daher in der Regel fester Bestandteil des Projektmanagements.",
+        "Beispiel: mehrstufiges Vorgehen von 'Erlangung der Top-Management-Unterstützung' über 'Definition der Informationsarchitektur' bis zum 'Ergebnisbericht'."
+      ]
+    },
+    {
+      "heading": "Unternehmens- und Prozessmodelle (BWL-orientiert)",
+      "points": [
+        "Unternehmensmodelle: integrierte Zusammenfassung von Anwendungsmodellen, die den Orientierungsrahmen für die Anwendungsentwicklung bilden.",
+        "Sie dienen der organisatorischen Gestaltung und der Durchführung von Unternehmensanalysen.",
+        "Einsatz v. a. bei der strategischen Informationssystem-Planning, da sie eine globale, unternehmensweite Betrachtung unterstützen (Ebenen z. B. Strategie, Prozess-, Aufbauorganisations-, Anwendungs-, Daten-, Kommunikationsarchitektur, Infrastruktur).",
+        "Prozessmodelle (Geschäftsprozessmodellierung): Darstellung von Prozessen als Reihe von Aktivitäten, um Ablauf und Zusammenhänge zu verstehen und Verbesserungspotenziale zu identifizieren.",
+        "Zur Erstellung von Prozessmodellen werden Vorgehensmodelle eingesetzt; ein Prozessmodell ist eine Prozessbeschreibung, die Antwort auf verschiedene Fragen liefern muss."
+      ]
+    },
+    {
+      "heading": "Referenzmodelle (Systementwicklungs-orientiert)",
+      "points": [
+        "Modell, das für einen Anwendungsbereich (eine Domäne) den Anspruch erhebt, allgemeingültigen Charakter zu besitzen.",
+        "Zentrale Zielsetzung: als generische Ausgangslösung für den Entwurf unternehmensspezifischer Modelle zu dienen und den Erstellungsaufwand zu reduzieren.",
+        "Ermöglicht Wiederverwendung von Know-how.",
+        "Hohe Bedeutung für die schnellere Einführung von Standardsoftware.",
+        "Es handelt sich um eine Empfehlung (SOLL-Modell) für mögliche konkrete Modelle nach dem Baukastenprinzip."
+      ]
+    },
+    {
+      "heading": "Reifegradmodelle und Metamodelle (weitere WI-relevante Typen)",
+      "points": [
+        "Reifegradmodelle: geben eine Unterteilung in unterschiedliche Reifegrade (Stufen) vor.",
+        "Unternehmen können anhand ihrer Reife eingeordnet werden; eigene Stärken und Schwächen werden sichtbar, verschiedene Unternehmen vergleichbar, und Maßnahmen zur Verbesserung der Reife sind definiert.",
+        "Reifegradmodelle erlauben es also, die Arbeitsweise von Unternehmen zu bewerten und zu verbessern.",
+        "Metamodelle: enthalten Metainformationen über Modelle, d. h. Informationen über Elementtypen, Strukturregeln und Rahmenbedingungen.",
+        "Sie beschreiben die Elemente eines Modells und die zulässigen Beziehungen zwischen diesen Elementen und können selbst wieder durch ein Meta-Metamodell beschrieben werden (Ebenenmodell: Meta-Metamodell / Metamodell / Modell).",
+        "Ein Metamodell ist folglich die Definition der Sprache eines Modells."
+      ]
+    }
+  ],
+  "glossary": [
+    {"term": "Modell", "definition": "Repräsentation eines Originals (betrieblichen Objektsystems); je nach Verständnis Abbildung der Realität (abbildungsorientiert) oder subjektive, zweckgerichtete Konstruktion eines Modellierers (konstruktionsorientiert)."},
+    {"term": "Abbildungsorientiertes Modellverständnis", "definition": "Auffassung, nach der ein Modell eine Repräsentation eines betrieblichen Objektsystems und damit eines Ausschnitts der objektiv wahrnehmbaren Realität ist; der Modellierer ist passiv-rezeptiv."},
+    {"term": "Konstruktionsorientiertes Modellverständnis", "definition": "Auffassung, nach der ein Modell das Ergebnis einer subjektiven Konstruktion eines Modellierers ist, der für Modellnutzer eine Repräsentation eines Originals zu einer Zeit als relevant mit Hilfe einer Sprache deklariert; in der WI relevant."},
+    {"term": "Betriebliches Objektsystem", "definition": "Das zu modellierende Original, bestehend aus Personen, Aufgaben und IT sowie dem Unternehmen und seiner Umwelt."},
+    {"term": "Repräsentation", "definition": "Abbildung von Attributen des Originals in einer anderen Form, bei der Ähnlichkeit zwischen Modell und Original besteht."},
+    {"term": "Abbildungsmerkmal (Stachowiak)", "definition": "Modelle sind stets Abbild von etwas (einem Original); das Original kann seinerseits selbst ein Modell sein."},
+    {"term": "Verkürzungsmerkmal (Stachowiak)", "definition": "Modelle bilden das Original nicht vollständig ab, sondern nur relevante Eigenschaften (Abstraktion); daher kann es zu einem Original mehrere Modelle geben und umgekehrt."},
+    {"term": "Pragmatisches Merkmal (Stachowiak)", "definition": "Modelle dienen Modellnutzern (Subjekten) und deren Zwecken und erfüllen diesen Zweck in einem bestimmten Zeitraum."},
+    {"term": "Modellierer", "definition": "Person, die das Modell erstellt; abbildungsorientiert wahrnehmend und rekonstruierend, konstruktionsorientiert aktiv, kreativ und eigenständig auswählend."},
+    {"term": "Modellnutzer", "definition": "Person(en), die das Modell verwenden; sie geben den Zweck des Modells vor und haben eine Intention."},
+    {"term": "Modellsprache", "definition": "Sprache, mit deren Hilfe das Modell aus dem betrieblichen Objektsystem konstruiert bzw. rekonstruiert wird; wird durch ein Metamodell definiert."},
+    {"term": "Vorgehensmodell", "definition": "Modell, das eine Gesamtaufgabe in Teilaktivitäten und deren zeitliche Abfolge gliedert; dient der Komplexitätsreduktion und ist fester Bestandteil des Projektmanagements."},
+    {"term": "Unternehmensmodell", "definition": "Integrierte Zusammenfassung von Anwendungsmodellen, die den Orientierungsrahmen für die Anwendungsentwicklung bildet und v. a. die strategische Informationssystem-Planung unterstützt."},
+    {"term": "Prozessmodell", "definition": "Darstellung von Geschäftsprozessen als Reihe von Aktivitäten, um Ablauf und Zusammenhänge zu verstehen und Verbesserungspotenziale zu identifizieren."},
+    {"term": "Referenzmodell", "definition": "Modell mit allgemeingültigem Anspruch für eine Domäne, das als generische Ausgangslösung (SOLL-Modell, Baukastenprinzip) für unternehmensspezifische Modelle dient und Know-how-Wiederverwendung ermöglicht."},
+    {"term": "Reifegradmodell", "definition": "Modell, das eine Unterteilung in unterschiedliche Reifegrade (Stufen) vorgibt, um Unternehmen einzuordnen, zu vergleichen und Verbesserungsmaßnahmen abzuleiten."},
+    {"term": "Metamodell", "definition": "Modell, das Metainformationen (Elementtypen, Strukturregeln, zulässige Beziehungen) über andere Modelle enthält und damit die Sprache eines Modells definiert; kann selbst durch ein Meta-Metamodell beschrieben werden."},
+    {"term": "Abstraktion", "definition": "Konzentration auf die relevanten Eigenschaften des Originals unter Weglassen unwesentlicher Details; Grundlage des Verkürzungsmerkmals."}
+  ],
+  "kernpunkte": [
+    "Es gibt keine einheitliche Modelldefinition in der Literatur, weil mehrere Fachrichtungen, unterschiedliche Anforderungen und die zeitliche Entwicklung zusammenwirken.",
+    "Das abbildungsorientierte Verständnis fasst ein Modell als objektive Repräsentation eines Realitätsausschnitts auf, wobei der Modellierer passiv-rezeptiv wahrnimmt und rekonstruiert.",
+    "Das konstruktionsorientierte Verständnis fasst ein Modell als subjektive, zweckgerichtete Konstruktion eines Modellierers für Modellnutzer auf und ist in der Wirtschaftsinformatik maßgeblich.",
+    "Das Tee-Beispiel zeigt, dass dieselbe Aufgabe zu unterschiedlichen Modellen führt und damit die konstruktionsorientierte Sichtweise stützt.",
+    "Nach Stachowiak besitzen Modelle drei zentrale Merkmale: Abbildungsmerkmal, Verkürzungsmerkmal und pragmatisches Merkmal.",
+    "Modelltypen lassen sich in Lebenszyklus-, BWL-orientierte, Systementwicklungs-orientierte und Personen-/Kommunikationsmodelle einordnen.",
+    "Referenzmodelle sind allgemeingültige SOLL-Modelle (Baukastenprinzip), die als Ausgangslösung Wiederverwendung ermöglichen, während Metamodelle die Sprache eines Modells definieren.",
+    "Reifegradmodelle bewerten und verbessern die Arbeitsweise von Unternehmen anhand definierter Reifegrade.",
+    "Modelle dienen u. a. Beschreibung, Transparenz, Kommunikation, Analyse, Simulation, Optimierung und Entscheidungsunterstützung."
+  ],
+  "flashcards": [
+    {"front": "Wie lautet die Definition des Modells im abbildungsorientierten Verständnis?", "back": "Ein Modell ist eine Repräsentation eines betrieblichen Objektsystems und damit eines Ausschnitts der Realität."},
+    {"front": "Wie lautet die Definition des Modells im konstruktionsorientierten Verständnis (Schütte 1998)?", "back": "Ein Modell ist das Ergebnis einer Konstruktion eines Modellierers, der für Modellnutzer eine Repräsentation eines Originals zu einer Zeit als relevant mit Hilfe einer Sprache deklariert."},
+    {"front": "Welches Modellverständnis ist in der Wirtschaftsinformatik relevant?", "back": "Das konstruktionsorientierte Modellverständnis."},
+    {"front": "Nenne die drei zentralen Modellmerkmale nach Stachowiak.", "back": "Abbildungsmerkmal, Verkürzungsmerkmal und pragmatisches Merkmal."},
+    {"front": "Was besagt das Abbildungsmerkmal nach Stachowiak?", "back": "Modelle sind stets Abbild von etwas (einem Original); das Original kann selbst wieder ein Modell sein."},
+    {"front": "Was besagt das Verkürzungsmerkmal nach Stachowiak?", "back": "Modelle bilden nur relevante Eigenschaften ab (Abstraktion); zu einem Original kann es mehrere Modelle geben und ein Modell mehrere Originale abbilden."},
+    {"front": "Was besagt das pragmatische Merkmal nach Stachowiak?", "back": "Modelle dienen Modellnutzern (Subjekten) und deren Zwecken und erfüllen diesen Zweck in einem bestimmten Zeitraum."},
+    {"front": "Welche Rolle hat der Modellierer im abbildungsorientierten Verständnis?", "back": "Passiv-rezeptiv: er nimmt die Realität objektiv wahr (Beobachtung) und rekonstruiert sie; Annahme, dass jeder dasselbe Modell erzeugt."},
+    {"front": "Welche Rolle hat der Modellierer im konstruktionsorientierten Verständnis?", "back": "Aktiv und kreativ: subjektive Deutung, eigenständige Auswahl relevanter Aspekte und geeigneter Sprache unter Berücksichtigung der Nutzeranforderungen."},
+    {"front": "Warum gibt es keine eindeutige Modelldefinition in der Literatur?", "back": "Wegen mehrerer beteiligter Fachrichtungen, unterschiedlicher Anforderungen und der zeitlichen Entwicklung des Begriffs."},
+    {"front": "Wofür werden Modelle verwendet (Verwendungszwecke)?", "back": "Beschreibung, Transparenz, Kommunikationsbasis, Analyse/Erklärung, Simulation, Optimierung sowie Unterstützung von Vorgehensweisen, Kooperationen, Implementierung und Entscheidungen."},
+    {"front": "Was ist ein Vorgehensmodell?", "back": "Ein Modell, das eine Gesamtaufgabe in Teilaktivitäten und deren zeitliche Abfolge gliedert; dient der Komplexitätsreduktion und ist fester Bestandteil des Projektmanagements."},
+    {"front": "Was ist ein Referenzmodell?", "back": "Ein Modell mit allgemeingültigem Anspruch für eine Domäne, das als generische Ausgangslösung (SOLL-Modell, Baukastenprinzip) dient, Aufwand reduziert und Know-how-Wiederverwendung ermöglicht."},
+    {"front": "Was ist ein Metamodell?", "back": "Ein Modell mit Metainformationen (Elementtypen, Strukturregeln, zulässige Beziehungen), das die Sprache eines Modells definiert und selbst durch ein Meta-Metamodell beschrieben werden kann."},
+    {"front": "Was leisten Reifegradmodelle?", "back": "Sie unterteilen in Reifegrade, ordnen Unternehmen ein, machen Stärken/Schwächen sichtbar, machen Unternehmen vergleichbar und definieren Verbesserungsmaßnahmen."},
+    {"front": "Was zeigt das Tee-Beispiel?", "back": "Dass dieselbe Aufgabe bei verschiedenen Modellierern zu unterschiedlichen Modellen führt - dies stützt das konstruktionsorientierte Verständnis."},
+    {"front": "Wie unterscheiden sich Referenzmodell und Metamodell?", "back": "Ein Referenzmodell ist eine allgemeingültige SOLL-Ausgangslösung für eine Domäne; ein Metamodell definiert die Sprache/Struktur eines Modells (Elementtypen und Beziehungen)."},
+    {"front": "In welche vier Kategorien lassen sich Modelltypen nach Lehner einordnen?", "back": "Lebenszyklus-Modelle, BWL-orientierte Modelle, Systementwicklungs-orientierte Modelle und Personen-/Kommunikationsmodelle."}
+  ],
+  "quiz": [
+    {
+      "question": "Wie ist ein Modell nach dem konstruktionsorientierten Modellverständnis definiert?",
+      "options": [
+        "Als Ergebnis einer subjektiven Konstruktion eines Modellierers, der für Modellnutzer eine Repräsentation eines Originals zu einer Zeit als relevant deklariert.",
+        "Als objektive und eindeutige Abbildung der gesamten Realität.",
+        "Als mathematische Formel zur Berechnung von Kennzahlen.",
+        "Als Softwareprogramm zur Datenverarbeitung."
+      ],
+      "answer": 0,
+      "explanation": "Das konstruktionsorientierte Verständnis (Schütte 1998) betont die subjektive, zweckgerichtete Konstruktion des Modellierers für Modellnutzer - nicht eine objektive Vollabbildung."
+    },
+    {
+      "question": "Welches Modellverständnis ist laut Vorlesung in der Wirtschaftsinformatik relevant?",
+      "options": [
+        "Das abbildungsorientierte Verständnis.",
+        "Das konstruktionsorientierte Verständnis.",
+        "Beide sind gleich unwichtig.",
+        "Das mathematische Verständnis."
+      ],
+      "answer": 1,
+      "explanation": "Der Konsens der Vorlesung stellt fest, dass in der WI das konstruktionsorientierte Verständnis relevant ist."
+    },
+    {
+      "question": "Welche drei zentralen Merkmale von Modellen nennt Stachowiak?",
+      "options": [
+        "Abbild-, Kosten- und Zeitmerkmal.",
+        "Struktur-, Verhaltens- und Datenmerkmal.",
+        "Abbildungs-, Verkürzungs- und pragmatisches Merkmal.",
+        "Analyse-, Simulations- und Optimierungsmerkmal."
+      ],
+      "answer": 2,
+      "explanation": "Nach Stachowiak (1973) besitzen Modelle das Abbildungsmerkmal, das Verkürzungsmerkmal und das pragmatische Merkmal."
+    },
+    {
+      "question": "Was besagt das Verkürzungsmerkmal nach Stachowiak?",
+      "options": [
+        "Ein Modell bildet das Original vollständig und ohne Auslassung ab.",
+        "Ein Modell bildet nur die relevanten Eigenschaften des Originals ab (Abstraktion).",
+        "Ein Modell muss immer kürzer als ein Text sein.",
+        "Ein Modell darf nur ein einziges Original abbilden."
+      ],
+      "answer": 1,
+      "explanation": "Das Verkürzungsmerkmal bedeutet Abstraktion: Es werden nur relevante Eigenschaften abgebildet; daher kann es zu einem Original mehrere Modelle geben und umgekehrt."
+    },
+    {
+      "question": "Welche Rolle hat der Modellierer im abbildungsorientierten Verständnis?",
+      "options": [
+        "Er konstruiert das Modell kreativ und subjektiv.",
+        "Er nimmt die Realität passiv-rezeptiv wahr und rekonstruiert sie.",
+        "Er ignoriert das Original vollständig.",
+        "Er definiert die Sprache eines Meta-Metamodells."
+      ],
+      "answer": 1,
+      "explanation": "Im abbildungsorientierten Verständnis ist der Modellierer passiv-rezeptiv: objektives Wahrnehmen durch Beobachtung und Rekonstruktion, unter der Annahme, dass jeder dasselbe Modell erzeugt."
+    },
+    {
+      "question": "Was ist ein Referenzmodell?",
+      "options": [
+        "Ein individuelles Modell nur für ein einziges Unternehmen ohne Wiederverwendbarkeit.",
+        "Eine allgemeingültige, generische Ausgangslösung (SOLL-Modell) für eine Domäne nach dem Baukastenprinzip.",
+        "Ein Modell, das die Sprache anderer Modelle definiert.",
+        "Ein Modell zur Einteilung von Unternehmen in Reifegrade."
+      ],
+      "answer": 1,
+      "explanation": "Ein Referenzmodell erhebt für eine Domäne allgemeingültigen Anspruch, dient als generische Ausgangslösung (SOLL-Modell, Baukastenprinzip) und ermöglicht Know-how-Wiederverwendung."
+    },
+    {
+      "question": "Wodurch unterscheidet sich ein Metamodell von einem Referenzmodell?",
+      "options": [
+        "Ein Metamodell definiert die Sprache/Struktur eines Modells, ein Referenzmodell ist eine allgemeingültige Ausgangslösung.",
+        "Ein Metamodell ist immer konkreter als ein Referenzmodell.",
+        "Beide sind identisch.",
+        "Ein Metamodell ordnet Unternehmen in Reifegrade ein."
+      ],
+      "answer": 0,
+      "explanation": "Ein Metamodell enthält Metainformationen (Elementtypen, Strukturregeln, Beziehungen) und definiert die Sprache eines Modells; ein Referenzmodell ist eine allgemeingültige SOLL-Ausgangslösung für eine Domäne."
+    },
+    {
+      "question": "Warum existiert in der Literatur keine eindeutige Modelldefinition?",
+      "options": [
+        "Weil Modelle unwichtig sind.",
+        "Wegen mehrerer Fachrichtungen, unterschiedlicher Anforderungen und der zeitlichen Entwicklung des Begriffs.",
+        "Weil es nur eine einzige, allgemein akzeptierte Definition gibt.",
+        "Weil Modelle nur in der Mathematik verwendet werden."
+      ],
+      "answer": 1,
+      "explanation": "Die Vorlesung nennt als Erklärung für die uneinheitliche Literatur: mehrere Fachrichtungen, unterschiedliche Anforderungen und die zeitliche Entwicklung."
+    },
+    {
+      "question": "Was leisten Reifegradmodelle?",
+      "options": [
+        "Sie definieren die Sprache eines Modells.",
+        "Sie gliedern eine Gesamtaufgabe in zeitliche Teilaktivitäten.",
+        "Sie ordnen Unternehmen anhand von Reifegraden ein, machen sie vergleichbar und definieren Verbesserungsmaßnahmen.",
+        "Sie bilden ausschließlich Datenstrukturen ab."
+      ],
+      "answer": 2,
+      "explanation": "Reifegradmodelle geben Reifegrade vor, ordnen Unternehmen ein, machen Stärken/Schwächen sichtbar, ermöglichen Vergleiche und definieren Maßnahmen zur Reifeverbesserung."
+    },
+    {
+      "question": "Was verdeutlicht das Tee-Beispiel in der Vorlesung?",
+      "options": [
+        "Dass alle Modellierer bei gleicher Aufgabe exakt dasselbe Modell erstellen.",
+        "Dass dieselbe Aufgabe zu unterschiedlichen Modellen führt, was das konstruktionsorientierte Verständnis stützt.",
+        "Dass Modellierung im Beruf keine Rolle spielt.",
+        "Dass Referenzmodelle unnötig sind."
+      ],
+      "answer": 1,
+      "explanation": "Bei 100 Studierenden gibt es kaum nur eine Lösung - das widerlegt die Annahme des abbildungsorientierten Verständnisses und stützt die konstruktionsorientierte Sicht."
+    }
+  ]
+}

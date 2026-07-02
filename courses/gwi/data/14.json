@@ -1,0 +1,164 @@
+{
+  "id": "14",
+  "title": "Prüfungsvorbereitung",
+  "pdf": "courses/gwi/folien/14.pdf",
+  "summary": "Diese Einheit fasst die organisatorischen und inhaltlichen Rahmenbedingungen der GWI-Klausur im Wintersemester 2025/2026 zusammen. Behandelt werden Formalia (Punkteverteilung, Klausurdauer, Anmeldung), die Stoffeingrenzung mit klausurrelevanten und nicht-relevanten Themen, die typischen Fragetypen samt ihrer genauen Bedeutung sowie Tipps für eine erfolgreiche Bearbeitung. Zusätzlich wird das einzig zugelassene Hilfsmittel genannt.",
+  "sections": [
+    {
+      "heading": "Formalia der Klausur",
+      "points": [
+        "50 % der Punkte entfallen auf den WI1-Teil und 50 % auf den WI2-Teil.",
+        "Bachelor Wirtschaftsinformatik: 90 Minuten Klausurdauer.",
+        "Alle anderen Studiengänge: 60 Minuten Klausurdauer.",
+        "Teilnahme nur möglich für über C@mpus angemeldete Studierende.",
+        "Für Bachelor WI zusätzlich: die Vorleistung muss bestanden sein."
+      ]
+    },
+    {
+      "heading": "Informationen zum Prüfungstermin",
+      "points": [
+        "Klausurtermin ohne Gewähr: 11.02.2026.",
+        "Raum und genauer Termin sind über C@mpus zu entnehmen.",
+        "Die Anmeldung über C@mpus ist zwingende Voraussetzung für die Teilnahme."
+      ]
+    },
+    {
+      "heading": "Stoffeingrenzung",
+      "points": [
+        "Für alle: Der Gastvortrag zu Plattformökosystemen ist nicht klausurrelevant.",
+        "Für BWL 3 und Sportwissenschaften (60-min. Klausur): Geschäftsprozesse (Teil 2, Kapitel 1) sind nicht klausurrelevant.",
+        "Achtung: Die Modellierung von Geschäftsprozessen (Teil 2, Kapitel 4) ist hingegen für alle klausurrelevant."
+      ]
+    },
+    {
+      "heading": "Fragetypen und ihre Bedeutung",
+      "points": [
+        "Nennen: Stichwörter, Begriffe oder kurze Antworten angeben, meist ohne ausführliche Erklärung.",
+        "Beschreiben: Sachverhalte oder Merkmale nüchtern und geordnet darstellen, ohne zu bewerten oder Gründe anzugeben.",
+        "Erklären: Zusammenhänge verständlich machen, also das Warum oder Wie eines Sachverhalts aufzeigen.",
+        "Erläutern: Einen Sachverhalt erklären und zusätzlich veranschaulichen, z. B. durch Beispiele, Details oder Bezüge.",
+        "Zuordnen: Elemente richtig miteinander verbinden, also Begriffe oder Beispiele passenden Kategorien zuweisen.",
+        "Begründen: Eine Aussage oder Entscheidung mit nachvollziehbaren Argumenten oder Gründen untermauern.",
+        "Abgrenzen: Unterschiede zwischen Begriffen klar herausstellen und zeigen, wodurch sie sich unterscheiden.",
+        "Erstellen: Etwas neu ausarbeiten oder entwickeln, z. B. Text, Tabelle, Diagramm oder Konzept nach Vorgaben.",
+        "Zeichnen: Einen Sachverhalt grafisch darstellen, z. B. als Skizze oder Schaubild, möglichst übersichtlich und korrekt."
+      ]
+    },
+    {
+      "heading": "Single Choice",
+      "points": [
+        "Es wird genau eine richtige Antwort aus mehreren vorgegebenen Optionen ausgewählt.",
+        "Eine Mehrfachauswahl ist bei Single-Choice-Aufgaben nicht erlaubt."
+      ]
+    },
+    {
+      "heading": "Tipps für eine erfolgreiche Prüfung",
+      "points": [
+        "Aufgabenstellung genau beachten.",
+        "Keine zusätzlichen, nicht in der Aufgabe genannten Annahmen treffen.",
+        "Falls Aussagen dennoch auf eigenen Annahmen beruhen, diese deutlich machen.",
+        "Wenn die Aufgabenstellung unklar ist, explizit machen, wie die Aufgabe interpretiert wurde.",
+        "Bei 'Beschreiben', 'Erklären', 'Erläutern' etc. in ganzen Sätzen antworten."
+      ]
+    },
+    {
+      "heading": "Zugelassenes Hilfsmittel",
+      "points": [
+        "Als einziges Hilfsmittel ist ein nicht-programmierbarer Taschenrechner zugelassen.",
+        "Andere Hilfsmittel sind nicht erlaubt."
+      ]
+    }
+  ],
+  "glossary": [
+    { "term": "C@mpus", "definition": "Das Campus-Management-System der Universität Stuttgart, über das die verpflichtende Anmeldung zur Klausur sowie die Bekanntgabe von Raum und Termin erfolgt." },
+    { "term": "WI1-Teil", "definition": "Teil der Klausur, der die Inhalte der Wirtschaftsinformatik I abdeckt und 50 % der Gesamtpunkte umfasst." },
+    { "term": "WI2-Teil", "definition": "Teil der Klausur, der die Inhalte der Wirtschaftsinformatik II abdeckt und ebenfalls 50 % der Gesamtpunkte umfasst." },
+    { "term": "Vorleistung", "definition": "Eine zusätzlich zu bestehende Leistung, die für Bachelor-WI-Studierende Voraussetzung für die Klausurteilnahme ist." },
+    { "term": "Stoffeingrenzung", "definition": "Festlegung, welche Themen klausurrelevant sind und welche entfallen, teils abhängig vom Studiengang." },
+    { "term": "Single Choice", "definition": "Aufgabentyp, bei dem genau eine richtige Antwort aus mehreren Optionen ausgewählt wird; Mehrfachauswahl ist nicht erlaubt." },
+    { "term": "Nennen", "definition": "Fragetyp, bei dem Stichwörter, Begriffe oder kurze Antworten ohne ausführliche Erklärung angegeben werden." },
+    { "term": "Beschreiben", "definition": "Fragetyp, bei dem Sachverhalte oder Merkmale nüchtern und geordnet dargestellt werden, ohne zu bewerten oder Gründe zu nennen." },
+    { "term": "Erklären", "definition": "Fragetyp, bei dem Zusammenhänge verständlich gemacht werden, indem das Warum oder Wie eines Sachverhalts aufgezeigt wird." },
+    { "term": "Erläutern", "definition": "Fragetyp, bei dem ein Sachverhalt erklärt und zusätzlich durch Beispiele, Details oder Bezüge veranschaulicht wird." },
+    { "term": "Abgrenzen", "definition": "Fragetyp, bei dem Unterschiede zwischen Begriffen oder Sachverhalten klar herausgestellt werden." },
+    { "term": "Begründen", "definition": "Fragetyp, bei dem eine Aussage oder Entscheidung mit nachvollziehbaren Argumenten oder Gründen untermauert wird." },
+    { "term": "Geschäftsprozessmodellierung", "definition": "Inhalt aus Teil 2, Kapitel 4, der für alle Studiengänge klausurrelevant ist." },
+    { "term": "Nicht-programmierbarer Taschenrechner", "definition": "Das einzige in der Klausur zugelassene Hilfsmittel; programmierbare Geräte sind nicht erlaubt." }
+  ],
+  "kernpunkte": [
+    "Die Punkte verteilen sich zu je 50 % auf den WI1- und den WI2-Teil.",
+    "Die Klausurdauer beträgt 90 Minuten für Bachelor WI und 60 Minuten für alle anderen Studiengänge.",
+    "Die Teilnahme setzt eine Anmeldung über C@mpus voraus, bei Bachelor WI zusätzlich die bestandene Vorleistung.",
+    "Der Gastvortrag zu Plattformökosystemen ist für alle nicht klausurrelevant, die Modellierung von Geschäftsprozessen hingegen für alle relevant.",
+    "Die Fragetypen (Nennen, Beschreiben, Erklären, Erläutern, Abgrenzen, Begründen, Erstellen, Zeichnen) haben jeweils eine genau definierte Erwartung an die Antwort.",
+    "Bei Single-Choice-Aufgaben ist genau eine Antwort korrekt, eine Mehrfachauswahl ist unzulässig.",
+    "Man soll keine zusätzlichen Annahmen treffen und bei offenen Fragetypen in ganzen Sätzen antworten.",
+    "Als einziges Hilfsmittel ist ein nicht-programmierbarer Taschenrechner zugelassen."
+  ],
+  "flashcards": [
+    { "front": "Wie verteilen sich die Punkte in der GWI-Klausur?", "back": "50 % entfallen auf den WI1-Teil und 50 % auf den WI2-Teil." },
+    { "front": "Wie lange dauert die Klausur für Bachelor Wirtschaftsinformatik?", "back": "90 Minuten." },
+    { "front": "Wie lange dauert die Klausur für alle anderen Studiengänge?", "back": "60 Minuten." },
+    { "front": "Welche Voraussetzung gilt für die Klausurteilnahme?", "back": "Anmeldung über C@mpus; für Bachelor WI zusätzlich die bestandene Vorleistung." },
+    { "front": "Wann ist der (unverbindliche) Klausurtermin?", "back": "11.02.2026 (ohne Gewähr); Raum und genauer Termin über C@mpus." },
+    { "front": "Ist der Gastvortrag zu Plattformökosystemen klausurrelevant?", "back": "Nein, er ist für alle nicht klausurrelevant." },
+    { "front": "Was gilt bei BWL 3 und Sportwissenschaften zur Geschäftsprozess-Thematik?", "back": "Geschäftsprozesse (Teil 2, Kapitel 1) sind nicht klausurrelevant; die Modellierung (Kapitel 4) hingegen ist für alle relevant." },
+    { "front": "Was bedeutet der Fragetyp 'Nennen'?", "back": "Stichwörter, Begriffe oder kurze Antworten angeben, meist ohne ausführliche Erklärung." },
+    { "front": "Worin unterscheiden sich 'Beschreiben' und 'Erklären'?", "back": "Beschreiben stellt Sachverhalte nüchtern und wertungsfrei dar; Erklären zeigt das Warum oder Wie eines Sachverhalts auf." },
+    { "front": "Was bedeutet der Fragetyp 'Erläutern'?", "back": "Einen Sachverhalt erklären und zusätzlich veranschaulichen, z. B. durch Beispiele, Details oder Bezüge." },
+    { "front": "Was ist bei Single-Choice-Aufgaben zu beachten?", "back": "Es wird genau eine richtige Antwort ausgewählt; eine Mehrfachauswahl ist nicht erlaubt." },
+    { "front": "Wie sollte man bei 'Beschreiben', 'Erklären' und 'Erläutern' antworten?", "back": "In ganzen Sätzen." },
+    { "front": "Welches Hilfsmittel ist in der Klausur zugelassen?", "back": "Ausschließlich ein nicht-programmierbarer Taschenrechner." },
+    { "front": "Was tun, wenn die Aufgabenstellung unklar ist?", "back": "Explizit machen, wie die Aufgabe interpretiert wurde, bzw. eigene Annahmen deutlich kennzeichnen." }
+  ],
+  "quiz": [
+    {
+      "question": "Wie verteilen sich die Punkte in der GWI-Klausur?",
+      "options": ["50 % WI1 und 50 % WI2", "70 % WI1 und 30 % WI2", "100 % WI1", "60 % WI2 und 40 % WI1"],
+      "answer": 0,
+      "explanation": "Laut Formalia entfallen 50 % der Punkte auf den WI1-Teil und 50 % auf den WI2-Teil."
+    },
+    {
+      "question": "Wie lange dauert die Klausur für Studierende des Bachelor Wirtschaftsinformatik?",
+      "options": ["45 Minuten", "60 Minuten", "90 Minuten", "120 Minuten"],
+      "answer": 2,
+      "explanation": "Für Bachelor WI beträgt die Klausurdauer 90 Minuten, für alle anderen Studiengänge 60 Minuten."
+    },
+    {
+      "question": "Welche Aussage zur Klausurteilnahme ist korrekt?",
+      "options": ["Eine Anmeldung ist nicht erforderlich", "Die Teilnahme setzt eine Anmeldung über C@mpus voraus", "Nur Erstsemester dürfen teilnehmen", "Die Anmeldung erfolgt am Klausurtag vor Ort"],
+      "answer": 1,
+      "explanation": "Teilnehmen kann nur, wer über C@mpus zur Klausur angemeldet ist; für Bachelor WI zusätzlich mit bestandener Vorleistung."
+    },
+    {
+      "question": "Welches Thema ist für ALLE Studiengänge klausurrelevant?",
+      "options": ["Der Gastvortrag zu Plattformökosystemen", "Geschäftsprozesse (Teil 2, Kapitel 1)", "Die Modellierung von Geschäftsprozessen (Teil 2, Kapitel 4)", "Keines der Geschäftsprozess-Themen"],
+      "answer": 2,
+      "explanation": "Die Modellierung von Geschäftsprozessen (Teil 2, Kapitel 4) ist für alle klausurrelevant, während der Gastvortrag entfällt."
+    },
+    {
+      "question": "Was bedeutet der Fragetyp 'Erläutern'?",
+      "options": ["Nur Stichwörter angeben", "Einen Sachverhalt erklären und zusätzlich veranschaulichen", "Unterschiede zwischen Begriffen herausstellen", "Etwas grafisch zeichnen"],
+      "answer": 1,
+      "explanation": "Erläutern bedeutet, einen Sachverhalt zu erklären und zusätzlich zu veranschaulichen, z. B. durch Beispiele, Details oder Bezüge."
+    },
+    {
+      "question": "Was gilt bei einer Single-Choice-Aufgabe?",
+      "options": ["Mehrere Antworten können richtig sein", "Es wird genau eine richtige Antwort ausgewählt", "Es müssen alle Optionen bewertet werden", "Es ist eine Freitextantwort gefordert"],
+      "answer": 1,
+      "explanation": "Bei Single Choice wird genau eine richtige Antwort aus mehreren Optionen gewählt; eine Mehrfachauswahl ist nicht erlaubt."
+    },
+    {
+      "question": "Welches Hilfsmittel ist in der GWI-Klausur zugelassen?",
+      "options": ["Ein programmierbarer Taschenrechner", "Ein nicht-programmierbarer Taschenrechner", "Ein Notebook", "Eine Formelsammlung"],
+      "answer": 1,
+      "explanation": "Als einziges Hilfsmittel ist ein nicht-programmierbarer Taschenrechner zugelassen."
+    },
+    {
+      "question": "Wie sollte man bei den Fragetypen 'Beschreiben', 'Erklären' und 'Erläutern' antworten?",
+      "options": ["Nur mit einzelnen Stichwörtern", "In ganzen Sätzen", "Ausschließlich mit Skizzen", "Mit Ankreuzen einer Option"],
+      "answer": 1,
+      "explanation": "Bei 'Beschreiben', 'Erklären', 'Erläutern' etc. sollte laut den Tipps in ganzen Sätzen geantwortet werden."
+    }
+  ]
+}

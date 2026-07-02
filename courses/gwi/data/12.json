@@ -1,0 +1,263 @@
+{
+  "id": "12",
+  "title": "Cloud Computing und IT-Architekturen",
+  "pdf": "courses/gwi/folien/12.pdf",
+  "summary": "Dieses Kapitel behandelt den Weg von klassischen Schichtenarchitekturen (1- bis N-Tier) hin zum Cloud Computing. Es erklärt die fünf definierenden Eigenschaften der Cloud, die technische Basis (Virtualisierung, Container, APIs), die drei Dienstleistungsmodelle IaaS, PaaS und SaaS sowie die Deploymentmodelle Private, Public und Hybrid Cloud. Ergänzend werden die Abgrenzung zum IT-Outsourcing, betriebswirtschaftliche Chancen und Risiken, Marktzahlen, Rollen im Cloudmarkt sowie aktuelle Trends wie digitale Souveränität und Fog Computing dargestellt.",
+  "sections": [
+    {
+      "heading": "Anwendungsarchitektur und Schichtenmodelle (Tier)",
+      "points": [
+        "Software-/Anwendungsarchitektur beschreibt die Struktur(en) eines Systems aus Softwareelementen, ihren nach außen sichtbaren Eigenschaften und den Beziehungen zwischen ihnen (Bass et al. 2021).",
+        "1-Tier: Präsentation, Anwendungsfunktionalität und Daten sind in einer Anwendung integriert (host-zentriert, z. B. IBM CICS).",
+        "2-Tier: Zusammengefasste Präsentations- und Anwendungsschicht mit separatem Daten-Server (Client-Server, z. B. SAP R/2).",
+        "3-Tier: Anwendungsfunktionalität, Daten und Präsentation sind je eine eigene Schicht (z. B. SAP R/3).",
+        "N-Tier: Verteilung auf viele (mehr als drei) Schichten, z. B. 4-Tier-Integrationsarchitektur SAP NetWeaver."
+      ]
+    },
+    {
+      "heading": "Dreischichtige Architektur und Modularisierungstrend",
+      "points": [
+        "Darstellungsschicht (Präsentation): Benutzerschnittstelle und Kommunikationsschicht, in der der Endbenutzer mit der Anwendung interagiert.",
+        "Anwendungsschicht: Verarbeitung der in der Darstellungsschicht erfassten Informationen mittels Geschäftslogik (Business Rules).",
+        "Datenschicht (Back-End): Speicherung und Verwaltung der verarbeiteten Informationen (Datenbankschicht/Datenzugriffsebene).",
+        "Aktueller Trend zu modularisierten Architekturen: entkoppelte, wiederverwendbare Komponenten mit definierten Schnittstellen.",
+        "Ein Modul ist eine Implementierungseinheit mit zusammenhängender Funktionseinheit; mit zunehmender Modularisierung entsteht Integrationsbedarf."
+      ]
+    },
+    {
+      "heading": "IT-Outsourcing als Make-or-Buy-Entscheidung",
+      "points": [
+        "IT-Outsourcing: Vertragliche Abgabe einzelner oder aller IT-Aufgaben (Infrastruktur, Applikationen, Prozesse, Personal) an ein anderes Unternehmen für einen definierten Zeitraum.",
+        "Auslagerung (externes Outsourcing): Übertragung an ein rechtlich externes Unternehmen; Ausgliederung (internes Outsourcing): an ein rechtlich verbundenes Unternehmen.",
+        "Grundfrage: Eigenerstellung (Make) versus Fremdbeschaffung (Buy) der Enterprise Software.",
+        "Vorteile: Kosteneinsparung, Risikosenkung, Konzentration auf Kernkompetenzen, vermiedene Investitionen, Zugang zu Know-how-Experten.",
+        "Nachteile: Abhängigkeit vom Dienstleister, Abgabe von Herrschaftswissen, Kontrollverlust/Kontrollkosten, Qualitätsmängel, Widerstände im Personal, Gefahr der Problemverlagerung."
+      ]
+    },
+    {
+      "heading": "Definition und Eigenschaften des Cloud Computing",
+      "points": [
+        "Cloud Computing (NIST-nah): Modell für ubiquitären, bequemen, bedarfsgerechten Netzzugriff auf einen geteilten Pool konfigurierbarer Ressourcen (Netzwerke, Server, Speicher, Anwendungen, Services).",
+        "Servicebasierte IT-Ressourcen: Alle Leistungen werden als Services über einen Vertrag (Service Level Agreement, SLA) mit Qualitätsparametern wie Verfügbarkeit bereitgestellt; IT als vertraglich definierte Dienstleistung.",
+        "Self-Management (On-Demand Self-Service): Nutzer stellen Ressourcen selbstständig und sofort bereit, ohne manuelle Interaktion mit dem Anbieter; Ressourcen sind flexibel erhöh- und reduzierbar.",
+        "Ubiquitäre Zugänglichkeit: Zugriff über Breitbandnetze (meist Internet), standardisierte Schnittstellen und endgeräteunabhängig.",
+        "Mehrmandantenfähigkeit (Multi-Tenancy): Mehrere Kunden teilen sich dieselben Ressourcen; physische und virtuelle Ressourcen werden dynamisch zugewiesen und neu verteilt.",
+        "Standortunabhängigkeit: Kunden wissen meist nicht, wo Daten physisch liegen; auf höherer Ebene (Land, Rechenzentrum) kann der Standort wählbar sein.",
+        "Schnelle Elastizität (Rapid Elasticity): Ressourcen passen sich dynamisch dem Bedarf an (Skalierung nach oben und unten); wirken nahezu unbegrenzt verfügbar.",
+        "Nutzungsabhängige Abrechnung (Pay-per-Use): Abrechnung nach tatsächlicher Nutzung (Zeit, Speicher, Rechenleistung); keine hohen Anfangsinvestitionen."
+      ]
+    },
+    {
+      "heading": "Abgrenzung IT-Outsourcing vs. Cloud Computing",
+      "points": [
+        "Leistungsangebot: traditionell individuell vs. Cloud standardisiert aber anpassbar.",
+        "Preismodell: individuelle Verhandlung vs. standardisiert (z. B. Pay-per-Use).",
+        "Skalierung: nicht vorgesehen (prinzipiell möglich) vs. vollständig erfüllt (Rapid Elasticity).",
+        "Self-Management: nur indirekt über persönlichen Ansprechpartner vs. vollständig über einfachen Webzugriff.",
+        "Zugang: proprietäre Netze vs. Internet; Bereitstellungsdauer: langer Zeitraum vs. sofort (Instant).",
+        "Ressourcen-Pooling: Single-Tenant (dedizierte Infrastruktur) vs. Multi-Tenant (gemeinsame Infrastruktur)."
+      ]
+    },
+    {
+      "heading": "Technologien des Cloud Computing: Virtualisierung",
+      "points": [
+        "Virtualisierung abstrahiert physische Hardwareressourcen und stellt sie als logische, isolierte Computerumgebungen dar; eine Softwareschicht trennt Anwendungen/OS von der physischen Maschine.",
+        "Ergebnis ist eine virtuelle Maschine (VM): in sich geschlossenes System mit eigener virtueller CPU, Arbeitsspeicher, Speicher und Netzwerkschnittstelle.",
+        "Mehrere VMs koexistieren unabhängig auf einem physischen Server und verbessern die Ressourcennutzung.",
+        "Hypervisor: Softwareschicht, die VMs erstellt/betreibt und ihnen physische Ressourcen (CPU, Speicher, Storage) zuweist und ihre Ausführung verwaltet.",
+        "Virtualisierbar sind u. a. Server, Anwendungen, Desktops, Netzwerke und Speicher; ergänzt durch Verwaltungssoftware (Automatisierung, Bereitstellung, Lifecycle, Monitoring)."
+      ]
+    },
+    {
+      "heading": "Technologien des Cloud Computing: Container und APIs",
+      "points": [
+        "Container: Standardsoftwarepaket, das Anwendungscode mit Konfigurationsdateien, Bibliotheken und Abhängigkeiten bündelt und so nahtlose Bereitstellung in verschiedenen Umgebungen erlaubt.",
+        "Container sind gegenüber VMs ressourcenschonender und schneller; sie nutzen eine gemeinsame Container Engine statt je eigenem Gast-Betriebssystem.",
+        "Container ermöglichen Arbeitsteilung: Entwicklung fokussiert Anwendungslogik, IT-Betrieb fokussiert Deployment und Management; VMs übernehmen Zuweisung/Verwaltung der Hardware.",
+        "API (Application Programming Interface): Regeln/Protokolle, damit Softwareanwendungen Daten, Funktionen und Funktionalitäten austauschen können.",
+        "REST-APIs (RESTful) nutzen HTTP-Methoden (GET, PUT, HEAD, DELETE) und stellen Daten als Ressourcen dar, die über eindeutige URIs adressiert werden.",
+        "APIs verbinden unabhängige Komponenten und haben zusammen mit Microservice-Architekturen entscheidend zum Aufkommen von Cloud Computing beigetragen."
+      ]
+    },
+    {
+      "heading": "Dienstleistungsmodelle: IaaS, PaaS, SaaS",
+      "points": [
+        "Grundprinzip: Vom traditionellen On-Premise-Stack (alles Eigenleistung) wird schrittweise mehr als gemietete Dienstleistung bezogen.",
+        "Infrastructure as a Service (IaaS): Bereitstellung von IT-Infrastruktur (Rechenleistung, Speicher, Netzwerk); Anwender wählen Betriebssystem und konfigurieren Infrastruktur (CPU-Kerne, Speicher, RAM).",
+        "IaaS-Zielgruppe: Kunden mit komplexer Anwendungslandschaft, die mit vorhandener Hardware nicht handhabbar ist.",
+        "Platform as a Service (PaaS): Anwender hat keinen Zugriff mehr auf Basisdienste; bereitgestellt werden Datenbank-/Applikationsserver bzw. vorkonfigurierte Laufzeitumgebungen für Weiter- und Neuentwicklung von Anwendungen.",
+        "Software as a Service (SaaS): Softwarelösung über das Internet/den Web-Browser; kein IT-Fachwissen zur Einrichtung nötig (außer Integration z. B. der Authentifizierung), lediglich ein Internetanschluss.",
+        "Aufteilung Eigenleistung vs. gemietete Dienstleistung wächst von IaaS über PaaS zu SaaS zugunsten des Anbieters."
+      ]
+    },
+    {
+      "heading": "Deploymentmodelle: Private, Public, Hybrid Cloud",
+      "points": [
+        "Private Cloud: Infrastruktur ausschließlich für eine Organisation; volle Kontrolle über Nutzer, Zugriffsrechte, Daten und Nutzung; genutzt bei hohen Sicherheits-, Datenschutz- und Compliance-Anforderungen.",
+        "Public Cloud: Für die allgemeine Öffentlichkeit über das Internet; vom Anbieter betrieben, von vielen Kunden gleichzeitig genutzt (Multi-Tenancy), meist Pay-per-Use; Kunden haben keinen Einfluss auf Mitnutzer.",
+        "Hybrid Cloud: Kombination aus mindestens zwei Modellen (v. a. Private und Public); eigenständige Infrastrukturen sind über standardisierte/proprietäre Technologien verbunden.",
+        "Hybrid-Ziel: Verschieben von Daten und Anwendungen zwischen Clouds, um Sicherheit, Kosten und Flexibilität auszubalancieren."
+      ]
+    },
+    {
+      "heading": "Rollen im Cloudmarkt und Marktzahlen",
+      "points": [
+        "Cloud-Kunden: Auswahl/Nutzung von Services, Abschluss von SLAs, Bezahlung (Pay-per-Use, Freemium), Bewertung von Qualität, Sicherheit und Datenschutz.",
+        "Cloud-Anbieter: Bereitstellung von IaaS/PaaS/SaaS, Betrieb der Infrastruktur, Service-Orchestrierung, Wartung/Updates, Sicherstellung von Verfügbarkeit und Sicherheit.",
+        "Data-Center-Betreiber: physische Infrastruktur, physische Sicherheit, Hochverfügbarkeit, Anbindung an Provider/Internet.",
+        "Zertifizierungsstellen: unabhängige Prüfung, Audits und Vergabe von Zertifikaten (z. B. ISO/IEC 27018); Cloud Broker: Vermittler, reduziert Komplexität und koordiniert zwischen Kunden und Anbietern.",
+        "Marktanteile (Q2 2025): AWS 30 %, Microsoft Azure 20 %, Google Cloud 13 %, Alibaba Cloud 4 %, Oracle 3 %; Big Data ist ein zentraler Treiber des Cloud-Markts."
+      ]
+    },
+    {
+      "heading": "Betriebswirtschaftliche Vor- und Nachteile der Cloud",
+      "points": [
+        "Chancen: geringe Eintrittsbarrieren (auch für KMU/Start-ups), Pay-per-Use/OPEX statt CAPEX, Zugang zu modernster IT, hohe Verfügbarkeit/SLAs, Skaleneffekte, Fokus auf Kernkompetenzen.",
+        "Weitere Chancen: hohe Flexibilität/Elastizität, schnellere Time-to-Market, niedrigere Innovationsbarrieren für datenintensive Geschäftsmodelle (Analytics, KI, Mobile Apps).",
+        "Risiken: Vendor Lock-in (proprietäre Schnittstellen, geringe Datenportabilität), Kontrollverlust, Standortintransparenz von Daten (Compliance), Verfügbarkeitsrisiken.",
+        "Weitere Risiken: Multitenancy-Risiken, Sicherheits- und Datenschutzrisiken (Datenlecks, schwaches Identity & Access Management), Komplexität, unsichere Servicekontinuität, geteilte Technologie-Schwachstellen (z. B. im Hypervisor)."
+      ]
+    },
+    {
+      "heading": "Digitale Souveränität und neue Architekturtrends",
+      "points": [
+        "Digitale Souveränität liegt zwischen Fremdbestimmung (andere entscheiden) und Autarkie (alles selbst machen): handlungsfähig und selbstbestimmt entscheiden.",
+        "Souveränität heißt eigene Fähigkeiten auf Spitzenniveau und die Fähigkeit, zwischen leistungsfähigen, vertrauenswürdigen Partnern zu wählen.",
+        "Fog Computing: mehrschichtiges Modell mit Fog-Knoten zwischen vernetzten Endgeräten und Cloud-Diensten; Datenverarbeitung nahe den Rändern (Edges) des Netzwerks.",
+        "Ziel des Fog Computing: schnelle, ressourcenschonende und dezentrale Datenverarbeitung.",
+        "Vorteile gegenüber Cloud: niedrigere Latenz, höhere Bandbreite, verbesserte Zuverlässigkeit, bessere Unterstützung von Datenschutz-/Regulierungsanforderungen; Einsatz z. B. in Industrie 4.0 und autonomen Fahrzeugen."
+      ]
+    }
+  ],
+  "glossary": [
+    {"term": "Anwendungsarchitektur", "definition": "Struktur(en) eines Softwaresystems aus Softwareelementen, ihren nach außen sichtbaren Eigenschaften und den Beziehungen zwischen ihnen."},
+    {"term": "N-Tier-Architektur", "definition": "Schichtenarchitektur, bei der Präsentation, Anwendungsfunktionalität und Daten auf mehrere (mehr als drei) Schichten verteilt sind, z. B. 4-Tier bei SAP NetWeaver."},
+    {"term": "IT-Outsourcing", "definition": "Vertragliche Abgabe einzelner oder aller IT-Aufgaben an ein anderes Unternehmen für einen definierten Zeitraum (Auslagerung extern oder Ausgliederung intern)."},
+    {"term": "Cloud Computing", "definition": "Modell für ubiquitären, bedarfsgerechten Netzzugriff auf einen geteilten Pool konfigurierbarer, schnell bereitstell- und freigebbarer IT-Ressourcen, bereitgestellt als Services."},
+    {"term": "Service Level Agreement (SLA)", "definition": "Vertrag, der die angebotenen Cloud-Funktionen und Qualitätsparameter (z. B. Serviceverfügbarkeit) festlegt."},
+    {"term": "Rapid Elasticity", "definition": "Schnelle Elastizität: Ressourcen passen sich dynamisch dem Bedarf an (Skalierung nach oben und unten) und wirken nahezu unbegrenzt verfügbar."},
+    {"term": "Pay-per-Use", "definition": "Nutzungsabhängige Abrechnung nach tatsächlichem Verbrauch (Zeit, Speicher, Rechenleistung) ohne hohe Anfangsinvestitionen."},
+    {"term": "Multi-Tenancy", "definition": "Mehrmandantenfähigkeit: Mehrere Kunden nutzen gemeinsam dieselben physischen und virtuellen Ressourcen, die dynamisch zugewiesen werden."},
+    {"term": "Virtualisierung", "definition": "Prozess, der physische Hardware abstrahiert und als logische, isolierte Computerumgebungen (virtuelle Maschinen) darstellt."},
+    {"term": "Hypervisor", "definition": "Softwareschicht, die virtuelle Maschinen erstellt und betreibt und ihnen physische Ressourcen (CPU, Speicher, Storage) zuweist."},
+    {"term": "Container", "definition": "Standardsoftwarepaket, das Anwendungscode mit Konfiguration, Bibliotheken und Abhängigkeiten bündelt; ressourcenschonender und schneller als VMs."},
+    {"term": "API", "definition": "Application Programming Interface: Regeln/Protokolle, die es Softwareanwendungen ermöglichen, Daten, Funktionen und Funktionalitäten auszutauschen."},
+    {"term": "REST-API", "definition": "API nach REST-Architekturprinzipien, die HTTP-Methoden (GET, PUT, HEAD, DELETE) nutzt und Ressourcen über eindeutige URIs adressiert."},
+    {"term": "IaaS", "definition": "Infrastructure as a Service: Bereitstellung von IT-Infrastruktur (Rechenleistung, Speicher, Netzwerk); Anwender wählt OS und konfiguriert die Infrastruktur."},
+    {"term": "PaaS", "definition": "Platform as a Service: Bereitstellung von Datenbank-/Applikationsservern und Laufzeitumgebungen zur Weiter- und Neuentwicklung von Anwendungen."},
+    {"term": "SaaS", "definition": "Software as a Service: Bereitstellung einer fertigen Softwarelösung über den Web-Browser; nur ein Internetanschluss nötig."},
+    {"term": "Private Cloud", "definition": "Cloud-Infrastruktur ausschließlich für eine Organisation mit voller Kontrolle über Nutzer, Daten und Zugriff; bei hohen Sicherheits-/Compliance-Anforderungen."},
+    {"term": "Public Cloud", "definition": "Über das Internet für die Öffentlichkeit bereitgestellte Cloud, vom Anbieter betrieben, von vielen Kunden gleichzeitig genutzt (Multi-Tenancy, Pay-per-Use)."},
+    {"term": "Hybrid Cloud", "definition": "Kombination aus mindestens zwei Cloud-Modellen (v. a. Private und Public), verbunden, um Daten/Anwendungen zwischen ihnen zu verschieben."},
+    {"term": "Vendor Lock-in", "definition": "Abhängigkeit von einem Anbieter durch proprietäre Schnittstellen, eingeschränkte Datenportabilität und Wechselkosten."},
+    {"term": "Digitale Souveränität", "definition": "Fähigkeit, selbstbestimmt und handlungsfähig über den Einsatz digitaler Technologien zu entscheiden; zwischen Fremdbestimmung und Autarkie."},
+    {"term": "Fog Computing", "definition": "Mehrschichtiges Modell mit Fog-Knoten zwischen Endgeräten und Cloud, das latenzbewusste, dezentrale Datenverarbeitung nahe dem Netzwerkrand ermöglicht."}
+  ],
+  "kernpunkte": [
+    "IT-Architekturen entwickeln sich von integrierten 1-Tier-Systemen über Client-Server (2-/3-Tier) hin zu modularisierten, wiederverwendbaren Komponenten mit definierten Schnittstellen.",
+    "Cloud Computing bedeutet, IT als vertraglich (per SLA) definierte, servicebasierte Dienstleistung mit Self-Management zu beziehen.",
+    "Die fünf zentralen Cloud-Eigenschaften sind On-Demand Self-Service, ubiquitärer Zugang, Ressourcen-Pooling/Multi-Tenancy, schnelle Elastizität und nutzungsabhängige Abrechnung.",
+    "Virtualisierung, Container und APIs sind die technischen Grundlagen, die Cloud Computing erst ermöglichen.",
+    "IaaS, PaaS und SaaS unterscheiden sich im Anteil zwischen Eigenleistung und gemieteter Dienstleistung, der von IaaS zu SaaS zunimmt.",
+    "Private, Public und Hybrid Cloud sind Deploymentmodelle, die sich in Kontrolle, Offenheit und Kombinierbarkeit unterscheiden.",
+    "Gegenüber traditionellem IT-Outsourcing bietet die Cloud Standardisierung, sofortige Skalierung, Self-Service über das Internet und Multi-Tenant-Ressourcen-Pooling.",
+    "Cloud Computing verändert Kostenstrukturen (OPEX statt CAPEX), IT-Management und Bereitstellungsgeschwindigkeit, bringt aber Abhängigkeiten und Sicherheitsrisiken mit sich.",
+    "Digitale Souveränität und Fog Computing sind aktuelle Trends, die Kontrolle, dezentrale Verarbeitung und niedrige Latenz in den Vordergrund stellen."
+  ],
+  "flashcards": [
+    {"front": "Was beschreibt eine Software- bzw. Anwendungsarchitektur?", "back": "Die Struktur(en) eines Systems aus Softwareelementen, ihren nach außen sichtbaren Eigenschaften und den Beziehungen zwischen ihnen (Bass et al. 2021)."},
+    {"front": "Welche drei Schichten hat eine 3-Tier-Architektur?", "back": "Darstellungsschicht (Präsentation/Benutzerschnittstelle), Anwendungsschicht (Geschäftslogik/Business Rules) und Datenschicht (Speicherung/Verwaltung der Daten)."},
+    {"front": "Was unterscheidet 1-Tier von N-Tier?", "back": "Bei 1-Tier sind Präsentation, Funktionalität und Daten in einer Anwendung integriert (z. B. IBM CICS); bei N-Tier sind sie auf mehr als drei Schichten verteilt (z. B. SAP NetWeaver)."},
+    {"front": "Was ist IT-Outsourcing?", "back": "Die vertragliche Abgabe einzelner oder aller IT-Aufgaben (Infrastruktur, Applikationen, Prozesse, Personal) an ein anderes Unternehmen für einen definierten Zeitraum."},
+    {"front": "Nenne zwei Vorteile und zwei Nachteile des IT-Outsourcings.", "back": "Vorteile: Kosteneinsparung, Konzentration auf Kernkompetenzen. Nachteile: Abhängigkeit vom Dienstleister, Kontrollverlust."},
+    {"front": "Wie definiert die Vorlesung Cloud Computing?", "back": "Ein Modell für ubiquitären, bedarfsgerechten Netzzugriff auf einen geteilten Pool konfigurierbarer Ressourcen, die schnell und mit minimalem Aufwand bereitgestellt und freigegeben werden."},
+    {"front": "Nenne die fünf zentralen Eigenschaften des Cloud Computing.", "back": "On-Demand Self-Service, ubiquitärer/breiter Netzzugang, Ressourcen-Pooling (Multi-Tenancy), schnelle Elastizität und nutzungsabhängige Abrechnung (Pay-per-Use)."},
+    {"front": "Was bedeutet Rapid Elasticity?", "back": "Ressourcen passen sich dynamisch dem Bedarf an, skalieren nach oben (Lastspitzen) und unten (geringe Auslastung) und wirken für Nutzer nahezu unbegrenzt verfügbar."},
+    {"front": "Was ist ein SLA im Cloud-Kontext?", "back": "Ein Service Level Agreement: der Vertrag, der die angebotenen Cloud-Funktionen und Qualitätsparameter wie die Serviceverfügbarkeit festlegt."},
+    {"front": "Was ist Virtualisierung und wozu dient der Hypervisor?", "back": "Virtualisierung abstrahiert physische Hardware als isolierte logische Umgebungen (VMs). Der Hypervisor ist die Softwareschicht, die VMs erstellt/betreibt und ihnen CPU, Speicher und Storage zuweist."},
+    {"front": "Worin unterscheiden sich Container und virtuelle Maschinen?", "back": "Container bündeln nur Anwendungscode mit Abhängigkeiten und teilen sich eine Container Engine; sie sind ressourcenschonender und schneller. VMs enthalten je ein eigenes Gast-Betriebssystem und übernehmen die Hardwareverwaltung."},
+    {"front": "Was ist eine REST-API?", "back": "Eine API nach REST-Prinzipien, die HTTP-Methoden (GET, PUT, HEAD, DELETE) nutzt und Daten als Ressourcen bereitstellt, die über eindeutige URIs adressiert werden."},
+    {"front": "Unterscheide IaaS, PaaS und SaaS.", "back": "IaaS liefert Infrastruktur (Rechenleistung, Speicher, OS-Wahl), PaaS liefert Laufzeitumgebungen/Datenbank-/Applikationsserver zur Anwendungsentwicklung, SaaS liefert fertige Software über den Browser."},
+    {"front": "Für welche Kunden ist IaaS typisch?", "back": "Für Kunden mit komplexer Anwendungslandschaft, die mit der vorhandenen Hardware nicht mehr handhabbar ist und daher flexible Infrastruktur benötigen."},
+    {"front": "Was kennzeichnet eine Private Cloud?", "back": "Eine Infrastruktur ausschließlich für eine Organisation mit voller Kontrolle über Nutzer, Zugriffsrechte und Daten; eingesetzt bei hohen Sicherheits-, Datenschutz- und Compliance-Anforderungen."},
+    {"front": "Was ist eine Hybrid Cloud?", "back": "Eine Kombination aus mindestens zwei Cloud-Modellen (v. a. Private und Public), verbunden über standardisierte/proprietäre Technologien, um Daten und Anwendungen flexibel zu verschieben."},
+    {"front": "Nenne drei Unterschiede zwischen Cloud Computing und traditionellem IT-Outsourcing.", "back": "Cloud: standardisiertes Angebot statt individuell, Pay-per-Use statt Verhandlung, Self-Service über Internet statt Ansprechpartner, sofortige statt langer Bereitstellung, Multi-Tenant statt Single-Tenant."},
+    {"front": "Was bedeutet Vendor Lock-in?", "back": "Die Abhängigkeit von einem Cloud-Anbieter durch proprietäre Schnittstellen, eingeschränkte Datenportabilität und hohe Wechselkosten."},
+    {"front": "Was versteht man unter digitaler Souveränität?", "back": "Die Fähigkeit, handlungsfähig und selbstbestimmt über den Einsatz digitaler Technologien zu entscheiden; sie liegt zwischen Fremdbestimmung und Autarkie."},
+    {"front": "Was ist Fog Computing und welche Vorteile bietet es?", "back": "Ein mehrschichtiges Modell mit Fog-Knoten zwischen Endgeräten und Cloud für dezentrale Verarbeitung am Netzwerkrand; Vorteile: niedrigere Latenz, höhere Bandbreite, bessere Zuverlässigkeit und Datenschutzunterstützung."}
+  ],
+  "quiz": [
+    {
+      "question": "Welche Architektur ordnet Präsentation, Anwendungsfunktionalität und Daten je einer eigenen Schicht zu (Beispiel SAP R/3)?",
+      "options": ["3-Tier-Architektur", "1-Tier-Architektur", "2-Tier-Architektur", "0-Tier-Architektur"],
+      "answer": 0,
+      "explanation": "Bei der 3-Tier-Architektur sind Anwendungsfunktionalität, Daten und Präsentation als je eigene Schicht umgesetzt; klassisches Beispiel ist SAP R/3."
+    },
+    {
+      "question": "Welche Aussage beschreibt Pay-per-Use korrekt?",
+      "options": ["Abrechnung nach tatsächlicher Nutzung ohne hohe Anfangsinvestitionen", "Fixe Jahreslizenz unabhängig vom Verbrauch", "Einmaliger Kauf der Hardware", "Kostenlose Nutzung ohne Vertrag"],
+      "answer": 0,
+      "explanation": "Pay-per-Use rechnet nach tatsächlichem Verbrauch (Zeit, Speicher, Rechenleistung) ab und vermeidet hohe Anfangsinvestitionen."
+    },
+    {
+      "question": "Was ist die Aufgabe eines Hypervisors?",
+      "options": ["Virtuelle Maschinen erstellen/betreiben und ihnen physische Ressourcen zuweisen", "Anwendungscode mit Bibliotheken bündeln", "HTTP-Anfragen an Ressourcen senden", "Daten als Ressource über eine URI bereitstellen"],
+      "answer": 0,
+      "explanation": "Der Hypervisor ist die Softwareschicht, die VMs erstellt und betreibt und ihnen CPU, Speicher und Storage zuweist."
+    },
+    {
+      "question": "Welches Dienstleistungsmodell stellt eine fertige Softwarelösung über den Web-Browser bereit?",
+      "options": ["SaaS", "IaaS", "PaaS", "DaaS"],
+      "answer": 0,
+      "explanation": "Software as a Service (SaaS) liefert die Anwendung über das Internet/den Browser; nötig ist lediglich ein Internetanschluss, kein IT-Fachwissen zur Einrichtung."
+    },
+    {
+      "question": "Welche Aussage trifft auf die Public Cloud zu?",
+      "options": ["Sie wird von vielen unabhängigen Kunden gleichzeitig genutzt (Multi-Tenancy)", "Sie wird ausschließlich von einer Organisation genutzt", "Sie kombiniert immer Private und Public", "Sie ist nur ohne Internet nutzbar"],
+      "answer": 0,
+      "explanation": "Die Public Cloud wird über das Internet für die Öffentlichkeit bereitgestellt und von vielen Kunden gleichzeitig genutzt (Multi-Tenancy), meist mit Pay-per-Use."
+    },
+    {
+      "question": "Worin unterscheidet sich Cloud Computing typischerweise vom traditionellen IT-Outsourcing?",
+      "options": ["Cloud bietet sofortige Skalierung (Rapid Elasticity) und Self-Service über das Internet", "Cloud nutzt ausschließlich proprietäre Netze", "Cloud sieht keine Skalierung vor", "Cloud verwendet stets eine Single-Tenant-Architektur"],
+      "answer": 0,
+      "explanation": "Cloud Computing erfüllt Rapid Elasticity und Self-Management vollständig, läuft über das Internet und nutzt Multi-Tenant-Ressourcen-Pooling, im Gegensatz zum individuellen, langsamer bereitgestellten Outsourcing."
+    },
+    {
+      "question": "Welcher Punkt ist ein Nachteil bzw. Risiko einer Cloud-Architektur?",
+      "options": ["Vendor Lock-in durch proprietäre Schnittstellen", "Geringe Eintrittsbarrieren für KMU", "Schnellere Time-to-Market", "Kostenvorteile durch Skaleneffekte"],
+      "answer": 0,
+      "explanation": "Vendor Lock-in ist ein Risiko: proprietäre Schnittstellen, eingeschränkte Datenportabilität und Wechselkosten erschweren einen Anbieterwechsel. Die übrigen Punkte sind Chancen."
+    },
+    {
+      "question": "Was kennzeichnet einen Container im Vergleich zu einer virtuellen Maschine?",
+      "options": ["Er ist ressourcenschonender und schneller und teilt sich die Container Engine", "Er enthält immer ein eigenes vollständiges Gast-Betriebssystem", "Er verwaltet die Hardwarezuweisung des Hosts", "Er ersetzt grundsätzlich den Hypervisor durch einen Browser"],
+      "answer": 0,
+      "explanation": "Container bündeln nur Anwendungscode mit Abhängigkeiten und nutzen eine gemeinsame Container Engine statt je eigenem Gast-OS; das macht sie ressourcenschonender und schneller als VMs."
+    },
+    {
+      "question": "Welche HTTP-Methoden verwenden REST-APIs zur Interaktion mit Ressourcen?",
+      "options": ["GET, PUT, HEAD, DELETE", "OPEN, CLOSE, READ, WRITE", "SELECT, INSERT, UPDATE, DROP", "START, STOP, PAUSE, RESUME"],
+      "answer": 0,
+      "explanation": "REST-APIs verwenden HTTP-Anfragen wie GET, PUT, HEAD und DELETE und stellen Daten als über URIs adressierbare Ressourcen bereit."
+    },
+    {
+      "question": "Wie ordnet die Vorlesung digitale Souveränität ein?",
+      "options": ["Zwischen Fremdbestimmung und Autarkie: handlungsfähig und selbstbestimmt entscheiden", "Als vollständige Eigenfertigung aller Technologien", "Als vollständige Abhängigkeit von Dritten", "Als reines Kostsenkungsprogramm"],
+      "answer": 0,
+      "explanation": "Digitale Souveränität liegt zwischen Fremdbestimmung (andere entscheiden) und Autarkie (alles selbst): man ist handlungsfähig und wählt selbstbestimmt zwischen vertrauenswürdigen Partnern."
+    },
+    {
+      "question": "Welcher Vorteil spricht für Fog Computing gegenüber reinem Cloud Computing?",
+      "options": ["Niedrigere Latenz durch Verarbeitung nahe am Netzwerkrand", "Zentralisierung aller Daten in einem Rechenzentrum", "Verzicht auf jegliche Endgeräte", "Höhere Latenz bei geringer Bandbreite"],
+      "answer": 0,
+      "explanation": "Fog Computing verarbeitet Daten dezentral nahe den Endgeräten (Edges) und erreicht dadurch niedrigere Latenz, höhere Bandbreite und bessere Zuverlässigkeit, z. B. für Industrie 4.0."
+    },
+    {
+      "question": "Bei welchem Modell hat der Anwender keinen Zugriff mehr auf die Basisdienste, erhält aber Laufzeitumgebungen zur Anwendungsentwicklung?",
+      "options": ["PaaS", "IaaS", "SaaS", "On-Premise"],
+      "answer": 0,
+      "explanation": "Bei Platform as a Service (PaaS) entfällt der Zugriff auf die Basisdienste; bereitgestellt werden Datenbank-/Applikationsserver und vorkonfigurierte Laufzeitumgebungen zur Weiter- und Neuentwicklung."
+    }
+  ]
+}

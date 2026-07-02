@@ -1,0 +1,432 @@
+{
+  "id": "05",
+  "title": "Customer Relationship Management (CRM)",
+  "pdf": "courses/gwi/folien/05.pdf",
+  "summary": "Die Vorlesung behandelt Customer Relationship Management (CRM) als Beispiel für überbetriebliche und unternehmensweite Informationssysteme. CRM wird sowohl als Managementkonzept (Aufbau langfristig profitabler Kundenbeziehungen) als auch als Technologiekonzept verstanden. Die Aufgaben des CRM werden entlang des Kundenbeziehungs-Lebenszyklus dargestellt (Interessenten-, Kundenbindungs- und Rückgewinnungsmanagement), und CRM-Systeme werden in operatives und analytisches CRM unterteilt. Abschließend werden Vorteile und Herausforderungen des CRM-Konzeptes beurteilt.",
+  "sections": [
+    {
+      "heading": "Grundlagen und Definition von CRM",
+      "points": [
+        "CRM umfasst den Aufbau und die Festigung langfristig profitabler Kundenbeziehungen durch abgestimmte und kundenindividuelle Marketing-, Sales- und Servicekonzepte mit Hilfe moderner Informations- und Kommunikationstechnologien (Leußer et al. 2011).",
+        "Nach Laudon et al. (2010) umfasst CRM organisatorische und technische Maßnahmen, um sämtliche Geschäftsprozesse in Vertrieb, Marketing und Kundenservice zu koordinieren, die mit den Interaktionen zwischen Unternehmen und Kunden zusammenhängen.",
+        "Zentrale Erkenntnis: CRM ist sowohl ein Managementkonzept als auch ein Technologiekonzept.",
+        "CRM begegnet uns im Alltag, z. B. bei Feedback-Aufforderungen oder individualisierbaren Produkten (Beispiel NikeID)."
+      ]
+    },
+    {
+      "heading": "Einflüsse zur Entstehung von CRM",
+      "points": [
+        "Allgemeine Umweltveränderungen: gestiegener Wettbewerb, immer ähnlichere Produkte und Dienstleistungen, Wandel vom Industrie- zum Informationszeitalter.",
+        "Probleme im Unternehmen: früher abteilungsbezogene Geschäftsprozesse, kaum Austausch von Kundendaten untereinander, Resultat war kein einheitliches Kundenbild.",
+        "Verhaltensänderungen des Kunden: Kunden werden zunehmend illoyaler und wollen das beste Produkt und den besten Service zum niedrigsten Preis.",
+        "Konsequenz: Eine Neuausrichtung der Unternehmensstrategie ist notwendig, mit Fokus auf Kundenbeziehungen als Wettbewerbsvorteil."
+      ]
+    },
+    {
+      "heading": "Strategische und taktische Ziele des CRM",
+      "points": [
+        "Oberziel: Mittels Kundenorientierung den Unternehmenserfolg bzw. den Unternehmenswert erhöhen (Hilbert 2013).",
+        "CRM-Ziel nach Swift (2001): dem richtigen Kunden das richtige Angebot (Produkt und Preis) über den richtigen Kanal zum richtigen Zeitpunkt bereitstellen.",
+        "Sub-Ziele: Kundengewinnung, Kundenbindung, Kundenwertsteigerung und Kundenrückgewinnung.",
+        "Einsatzpotenziale zur Zielerreichung: Individualisierung, Effizienzsteigerung und Kontrolle.",
+        "Grundlage ist die Zusammenführung aller Kundendaten (Integration) aus internen und externen Informationsquellen in einer Kundendatenbank sowie deren Aufbereitung und Analyse."
+      ]
+    },
+    {
+      "heading": "Aufgabenschwerpunkte: Der Kundenbeziehungs-Lebenszyklus",
+      "points": [
+        "Die Aufgaben des CRM lassen sich anhand des Lebenszyklus der Kundenbeziehung strukturieren.",
+        "Drei übergeordnete Aufgabenschwerpunkte: Interessentenmanagement, Kundenbindungsmanagement und Rückgewinnungsmanagement.",
+        "Der Kundentyp durchläuft die Phasen: potenzielle Kunden, aktuelle Kunden und verlorene Kunden.",
+        "Zu jeder Phase gehört ein Ziel: Initiieren (potenziell), Festigen/Stärken und Stabilisieren/Sichern (aktuell), Wiedergewinnen (verloren)."
+      ]
+    },
+    {
+      "heading": "Interessentenmanagement",
+      "points": [
+        "Ziel: Aufmerksamkeit und Interesse bei potenziellen Kunden wecken und diese zu einem Erstkauf bewegen (Stauss 2006).",
+        "Kundentyp sind potenzielle Kunden mit dem Beziehungsstatus 'potenziell'; das Ziel ist 'Initiieren'.",
+        "Diese Aktivität findet in der Anbahnungsphase statt.",
+        "Sie stellt den Aufgabenschwerpunkt des traditionellen (Transaktions-)Marketings dar, das sich primär der Akquisition neuer Kunden widmet."
+      ]
+    },
+    {
+      "heading": "Kundenbindungsmanagement",
+      "points": [
+        "Aufgabe: aktuelle Kunden halten und die Beziehungen zu ihnen gestalten und ausbauen (Stauss 2006).",
+        "Die Managementaufgaben unterscheiden sich nach Status der Geschäftsbeziehung (Dauer, Stabilität, Gefährdungsgrad).",
+        "Umfasst je nach Status: Neukundenmanagement (neu), Kundenbindungsmanagement i.e.S. (stabil), Beschwerdemanagement (gefährdet aufgrund Beschwerdevorfall) und Abwanderungspräventionsmanagement (gefährdet aus sonstigen Gründen).",
+        "Kundenbindung ist häufig rentabler als Neukundengewinnung: mit zunehmender Beziehungsdauer sinken durch Lerneffekte die Kosten, steigen die Wiederkaufsraten und werden Cross- und Up-Selling-Potenziale aufgedeckt.",
+        "Stammkunden tolerieren leichter Fehler und Preisänderungen und unterstützen den Aufbau eines positiven Unternehmensimages."
+      ]
+    },
+    {
+      "heading": "Rückgewinnungsmanagement",
+      "points": [
+        "Auch der konsequente Einsatz von Bindungsmaßnahmen kann Kundenabwanderungen nicht vollständig verhindern.",
+        "Ziel: Kunden, die die Geschäftsbeziehung explizit aufgekündigt oder faktisch verlassen haben, zurückgewinnen (Stauss 2006).",
+        "Kundentyp sind verlorene Kunden, unterschieden in 'verloren, aber revitalisierbar' und 'faktisch verloren'.",
+        "Umfasst das Kündigungsmanagement und das Revitalisierungsmanagement."
+      ]
+    },
+    {
+      "heading": "CRM-Systeme: Definition und Aufbau",
+      "points": [
+        "CRM-Systeme sind Anwendungssysteme, die sämtliche Interaktionen der Unternehmung mit Kunden verfolgen und analysieren, um Umsatz, Rentabilität, Kundenzufriedenheit und Kundenbindung zu optimieren.",
+        "Sie vereinen eine Vielzahl von Einzellösungen aus verschiedenen Unternehmensbereichen (Integration).",
+        "Um CRM-Aufgaben zu erfüllen, benötigt das Unternehmen Wissen über seine Kunden; dazu müssen alle an den Kontaktpunkten anfallenden Informationen gespeichert und analysiert werden.",
+        "CRM-Systeme lassen sich in zwei Teilbereiche aufteilen: operatives CRM und analytisches CRM."
+      ]
+    },
+    {
+      "heading": "Operatives CRM",
+      "points": [
+        "Operative IT: Basis für alle anderen Bereiche; umfasst die operative Kundendatenbank für strukturierte Informationen (z. B. Kundenadresse) und ggf. Content-Management-Systeme für unstrukturierte Informationen (z. B. Videodateien).",
+        "Front Office: umfasst Marketing, Vertrieb (Sales) und Service, also Bereiche des direkten Kundenkontakts; die operative IT bietet Funktionen zur Automation dieser Bereiche (Marketing-, Sales-, Service-Automation).",
+        "Anbindung an Back-Office-Lösungen (z. B. ERP-Systeme) ist nicht Teil des operativen CRM, wird aber benötigt, um verlässliche Aussagen z. B. über Liefertermine machen zu können.",
+        "Aufgabe: Unterstützung der kundenbezogenen Geschäftsprozesse (z. B. Verkaufsgespräche) durch Einbindung und Synchronisierung aller Customer Touch Points (z. B. Außendienst, Filiale) und Kanäle (z. B. Internet, Telefon, Brief).",
+        "Zwei Prinzipien: 'One face to the customer' (einheitliche Sicht des Kunden auf das Unternehmen) und 'One face of the customer' (einheitliche Sicht des Unternehmens auf den Kunden)."
+      ]
+    },
+    {
+      "heading": "Beispiel-Prozess: Kampagnenmanagement",
+      "points": [
+        "Kampagnenmanagement ist ein Prozess im operativen Bereich Marketing; Aufgabe ist Planung, Durchführung und Analyse von Kampagnen.",
+        "Eine Kampagne ist eine aktive Kundenansprache durch zeitlich versetzte, am Kunden orientierte Werbemaßnahmen unter Synchronisierung aller Customer Touch Points und Kombination einzelner Kommunikationskanäle.",
+        "Ziel: dem richtigen Kunden das richtige Informations- und Leistungsangebot im richtigen Kommunikationsstil über den richtigen Kanal zum richtigen Zeitpunkt zu vermitteln.",
+        "Automatisierung: anhand vorher definierter Regeln automatisch ausgelöste Marketing-Maßnahmen (z. B. automatisiertes Schicken einer Geburtstagskarte).",
+        "Notwendige analytische Prozesse: z. B. Zielgruppenanalyse oder Wirkungsanalyse."
+      ]
+    },
+    {
+      "heading": "Analytisches CRM",
+      "points": [
+        "Aufgaben: systematische Aufzeichnung von Kundenkontakten und -reaktionen im Customer Data Warehouse sowie Auswertung zur kontinuierlichen Optimierung der kundenbezogenen Geschäftsprozesse mit speziellen Werkzeugen (OLAP und Data Mining).",
+        "Dies ermöglicht ein lernendes System, die sogenannte 'Closed Loop Architecture'.",
+        "Der geschlossene Kreislauf: Aufzeichnung der Kundenreaktionen im CDWH, Auswertung durch OLAP/Data Mining, Verbesserung der (operativen) Kundenansprache.",
+        "Analytisches CRM baut auf dem operativen CRM auf und liefert die analytische Grundlage für dessen Verbesserung."
+      ]
+    },
+    {
+      "heading": "Customer Data Warehouse (CDWH)",
+      "points": [
+        "Ein Data Warehouse ist eine von den operativen Systemen getrennte Datenbank, damit das Tagesgeschäft nicht von rechenintensiven Analysen beeinträchtigt wird (Performanz).",
+        "Es dient der Zusammenführung aller kundenbezogenen Informationen (z. B. Kundenreaktionen auf Werbekampagnen).",
+        "Es entspricht nicht der unternehmensweiten Datenbank des Tagesgeschäftes.",
+        "Problem: mangelnde Datenqualität (z. B. unvollständig eingegebene Daten); eine Aufbereitung der Daten ist notwendig, damit diese für die Analyse vollständig und einheitlich sind.",
+        "Ziel: Aufdeckung wichtigen Wissens in den Daten durch OLAP und/oder Data Mining zur Unterstützung von Entscheidungsprozessen."
+      ]
+    },
+    {
+      "heading": "OLAP und Data Mining",
+      "points": [
+        "OLAP (On-Line Analytical Processing): Daten zu Absatz, Umsatz, Kosten etc. werden in Form eines multidimensionalen Würfels dargestellt; einfache, intuitive Benutzerführung, da Zielgruppe das Management ist.",
+        "Beispiel-Analyse mit dem OLAP-Würfel: Welche Stückzahl eines Produkts wurde in welcher Filiale in welchem Jahr verkauft?",
+        "Nachteil von OLAP: Fragen müssen vorher formuliert sein; anspruchsvolle, verborgene Fragestellungen können nicht gelöst werden. Lösung dafür ist Data Mining.",
+        "Data Mining: Muster in großen Datenbeständen finden und interessante, verborgene, anspruchsvolle Zusammenhänge aufdecken.",
+        "Data Mining basiert auf Ansätzen aus Statistik, künstlicher Intelligenz, Maschinellem Lernen und Mustererkennung, zunehmend auch Visualisierungstechniken."
+      ]
+    },
+    {
+      "heading": "Business-Intelligence-Architektur des analytischen CRM",
+      "points": [
+        "Ebene 1 (operative Anwendungssysteme): Datenquellen (eigene, fremde, Internet) aus den Transaktionsabwicklungen der Geschäftsprozesse (OLTP).",
+        "Ebene 2 (ETL-Werkzeuge): Selektion, Extraktion und Transformation (ETL) der Daten aus den Datenquellen (Integration).",
+        "Ebene 3 (Data Warehouse): Datenspeicherung der mit den ETL-Werkzeugen gewonnenen Daten.",
+        "Ebene 4 (OLAP): multidimensionale Auswertungen der Daten.",
+        "Ebene 5 (Business Intelligence): Analyse und Präsentation der Informationen durch betriebswirtschaftliche Anwendungen."
+      ]
+    },
+    {
+      "heading": "Beurteilung: Vorteile von CRM",
+      "points": [
+        "Kundenauswahl: Identifikation, Anwerbung und Beibehaltung gewinnbringender Kunden sowie Verbesserung der Kundentreue.",
+        "Kundenservice: besserer Kundendienst, Vereinfachung von Marketing-, Verkaufs- und Serviceprozessen, Unterstützung des Verkaufspersonals bei schnelleren Abschlüssen und Kostensenkung.",
+        "Produkt: gesteigerte Produktrentabilität, Steigerung der Produktnutzung, effektiverer Verkauf ergänzender Produkte (Cross-Selling) und schnellere Reaktion auf Vertriebschancen.",
+        "Weitere Vorteile: Bereitstellung von Kundeninformation für die Entwicklung neuer Produkte.",
+        "Voraussetzung für all diese Vorteile: die effektive Nutzung des CRM-Systems."
+      ]
+    },
+    {
+      "heading": "Beurteilung: Herausforderungen von CRM",
+      "points": [
+        "Teure und zeitaufwändige Implementierung mit hoher Versagensrate (55-75 %); Renditen rechtfertigen u. U. nicht die Ausgaben.",
+        "Probleme bei der Integration der CRM-Systeme mit der bestehenden IT.",
+        "Kundendatenbereinigung notwendig, damit eine unternehmensweit einheitliche Datenquelle existiert.",
+        "Änderung der Organisationskultur und Geschäftsprozesse notwendig: kundenzentrierte statt produktzentrierte Sicht; Technik allein reicht nicht aus.",
+        "Verkäufer wollen Wissen über Kunden nicht teilen (z. B. Rivalität wegen Kommission); finanzielle und operative Ziele sowie Maßstäbe für die Leistungsbewertung müssen von Anfang an klar definiert werden."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Customer Relationship Management (CRM)",
+      "definition": "Aufbau und Festigung langfristig profitabler Kundenbeziehungen durch abgestimmte, kundenindividuelle Marketing-, Sales- und Servicekonzepte mit Hilfe moderner Informations- und Kommunikationstechnologien; zugleich Management- und Technologiekonzept."
+    },
+    {
+      "term": "CRM-System",
+      "definition": "Anwendungssystem, das sämtliche Interaktionen der Unternehmung mit Kunden verfolgt und analysiert, um Umsatz, Rentabilität, Kundenzufriedenheit und Kundenbindung zu optimieren."
+    },
+    {
+      "term": "Operatives CRM",
+      "definition": "Teilbereich des CRM-Systems zur Unterstützung und Automation der kundenbezogenen Geschäftsprozesse im direkten Kundenkontakt (Marketing, Sales, Service) über alle Customer Touch Points und Kanäle."
+    },
+    {
+      "term": "Analytisches CRM",
+      "definition": "Teilbereich des CRM-Systems zur systematischen Aufzeichnung und Auswertung von Kundenkontakten und -reaktionen (im Customer Data Warehouse) zur kontinuierlichen Optimierung der kundenbezogenen Geschäftsprozesse."
+    },
+    {
+      "term": "Kundenbeziehungs-Lebenszyklus",
+      "definition": "Modell, das die Kundenbeziehung in die Phasen potenzielle, aktuelle und verlorene Kunden gliedert und ihnen die Aufgabenschwerpunkte Interessenten-, Kundenbindungs- und Rückgewinnungsmanagement zuordnet."
+    },
+    {
+      "term": "Interessentenmanagement",
+      "definition": "Aufgabenschwerpunkt zur Weckung von Aufmerksamkeit und Interesse bei potenziellen Kunden und deren Bewegung zu einem Erstkauf (Anbahnungsphase)."
+    },
+    {
+      "term": "Kundenbindungsmanagement",
+      "definition": "Aufgabenschwerpunkt, aktuelle Kunden zu halten und die Beziehungen auszubauen; umfasst je nach Status Neukunden-, Kundenbindungs- (i.e.S.), Beschwerde- und Abwanderungspräventionsmanagement."
+    },
+    {
+      "term": "Rückgewinnungsmanagement",
+      "definition": "Aufgabenschwerpunkt zur Zurückgewinnung von Kunden, die die Geschäftsbeziehung aufgekündigt oder faktisch verlassen haben; umfasst Kündigungs- und Revitalisierungsmanagement."
+    },
+    {
+      "term": "Customer Touch Points",
+      "definition": "Kontaktpunkte zwischen Kunde und Unternehmen (z. B. Außendienst, Innendienst, Filiale, Website), an denen kundenbezogene Informationen anfallen."
+    },
+    {
+      "term": "One face to the customer",
+      "definition": "Prinzip, dass der Kunde über alle Kanäle eine einheitliche Sicht auf das Unternehmen erhält."
+    },
+    {
+      "term": "One face of the customer",
+      "definition": "Prinzip, dass das Unternehmen durch Synchronisierung aller Kontaktpunkte eine einheitliche Sicht auf den Kunden bekommt."
+    },
+    {
+      "term": "Customer Data Warehouse (CDWH)",
+      "definition": "Von den operativen Systemen getrennte Datenbank, die alle kundenbezogenen Informationen zusammenführt, damit rechenintensive Analysen das Tagesgeschäft nicht beeinträchtigen (Performanz)."
+    },
+    {
+      "term": "OLAP (On-Line Analytical Processing)",
+      "definition": "Werkzeug des analytischen CRM, das Daten in einem multidimensionalen Würfel darstellt und intuitive Auswertungen ermöglicht; Nachteil: Fragen müssen vorab formuliert sein."
+    },
+    {
+      "term": "Data Mining",
+      "definition": "Verfahren zur Aufdeckung von Mustern und verborgenen Zusammenhängen in großen Datenbeständen, basierend auf Statistik, künstlicher Intelligenz, Maschinellem Lernen und Mustererkennung."
+    },
+    {
+      "term": "Closed Loop Architecture",
+      "definition": "Lernendes System des analytischen CRM: Aufzeichnung der Kundenreaktionen im CDWH, Auswertung durch OLAP/Data Mining, Verbesserung der operativen Kundenansprache."
+    },
+    {
+      "term": "ETL (Extraktion, Transformation, Laden)",
+      "definition": "Werkzeuge zur Selektion, Extraktion und Transformation der Daten aus den Datenquellen zur Integration in das Data Warehouse."
+    },
+    {
+      "term": "Integration (im CRM)",
+      "definition": "Zusammenführung aller Kundendaten aus internen und externen Informationsquellen bzw. Vereinigung vieler Einzellösungen aus verschiedenen Unternehmensbereichen zu einem einheitlichen Kundenbild."
+    },
+    {
+      "term": "Cross- und Up-Selling",
+      "definition": "Verkauf ergänzender Produkte (Cross-Selling) bzw. höherwertiger Produkte (Up-Selling); Potenziale, die mit zunehmender Dauer der Kundenbeziehung aufgedeckt und ausgeschöpft werden."
+    }
+  ],
+  "kernpunkte": [
+    "CRM ist sowohl ein Managementkonzept zum Aufbau langfristig profitabler Kundenbeziehungen als auch ein Technologiekonzept.",
+    "CRM entstand durch Umweltveränderungen, fehlendes einheitliches Kundenbild im Unternehmen und zunehmend illoyales Kundenverhalten.",
+    "Die Aufgaben des CRM gliedern sich entlang des Kundenbeziehungs-Lebenszyklus in Interessenten-, Kundenbindungs- und Rückgewinnungsmanagement.",
+    "Kundenbindung ist häufig rentabler als Neukundengewinnung, da Kosten sinken, Wiederkaufsraten steigen und Cross-/Up-Selling-Potenziale entstehen.",
+    "CRM-Systeme integrieren viele Einzellösungen und teilen sich in operatives CRM (Prozessunterstützung) und analytisches CRM (Auswertung) auf.",
+    "Das operative CRM synchronisiert alle Customer Touch Points und Kanäle nach den Prinzipien 'one face to the customer' und 'one face of the customer'.",
+    "Das analytische CRM nutzt das Customer Data Warehouse mit OLAP und Data Mining und bildet über die Closed Loop Architecture ein lernendes System.",
+    "Vorteile des CRM liegen in besserer Kundenauswahl, Kundenservice und Produktrentabilität; Voraussetzung ist die effektive Nutzung des Systems.",
+    "Herausforderungen sind teure Implementierung mit hoher Versagensrate, Integrationsprobleme und die notwendige kundenzentrierte Ausrichtung von Kultur und Prozessen."
+  ],
+  "flashcards": [
+    {
+      "front": "Wie lässt sich CRM in einem Satz definieren?",
+      "back": "CRM umfasst den Aufbau und die Festigung langfristig profitabler Kundenbeziehungen durch abgestimmte, kundenindividuelle Marketing-, Sales- und Servicekonzepte mit Hilfe moderner Informations- und Kommunikationstechnologien (Leußer et al. 2011)."
+    },
+    {
+      "front": "CRM ist sowohl ... als auch ...?",
+      "back": "Sowohl ein Managementkonzept (Aufbau profitabler Kundenbeziehungen) als auch ein Technologiekonzept (IuK-gestützte Umsetzung)."
+    },
+    {
+      "front": "Welche drei Gruppen von Einflüssen führten zur Entstehung von CRM?",
+      "back": "Allgemeine Umweltveränderungen (Wettbewerb, ähnliche Produkte, Informationszeitalter), Probleme im Unternehmen (kein einheitliches Kundenbild) und Verhaltensänderungen des Kunden (zunehmende Illoyalität)."
+    },
+    {
+      "front": "Was ist das Oberziel des CRM?",
+      "back": "Mittels Kundenorientierung den Unternehmenserfolg bzw. Unternehmenswert zu erhöhen (Hilbert 2013)."
+    },
+    {
+      "front": "Nennen Sie die 'richtigen'-Formel des CRM nach Swift (2001).",
+      "back": "Dem richtigen Kunden das richtige Angebot (Produkt und Preis) über den richtigen Kanal zum richtigen Zeitpunkt bereitstellen."
+    },
+    {
+      "front": "Welche drei Aufgabenschwerpunkte ergeben sich aus dem Kundenbeziehungs-Lebenszyklus?",
+      "back": "Interessentenmanagement (potenzielle Kunden), Kundenbindungsmanagement (aktuelle Kunden) und Rückgewinnungsmanagement (verlorene Kunden)."
+    },
+    {
+      "front": "Was ist das Ziel des Interessentenmanagements?",
+      "back": "Aufmerksamkeit und Interesse bei potenziellen Kunden wecken und diese zu einem Erstkauf bewegen (Anbahnungsphase)."
+    },
+    {
+      "front": "Welche vier Teilbereiche umfasst das Kundenbindungsmanagement?",
+      "back": "Neukundenmanagement (neu), Kundenbindungsmanagement i.e.S. (stabil), Beschwerdemanagement (gefährdet durch Beschwerde) und Abwanderungspräventionsmanagement (gefährdet aus sonstigen Gründen)."
+    },
+    {
+      "front": "Warum ist Kundenbindung häufig rentabler als Neukundengewinnung?",
+      "back": "Durch Lerneffekte sinken Kosten, Wiederkaufsraten steigen, Cross-/Up-Selling-Potenziale werden aufgedeckt, und Stammkunden tolerieren Fehler/Preisänderungen und stärken das Unternehmensimage."
+    },
+    {
+      "front": "In welche zwei Teilbereiche lassen sich CRM-Systeme aufteilen?",
+      "back": "Operatives CRM und analytisches CRM."
+    },
+    {
+      "front": "Was unterscheidet 'one face to the customer' von 'one face of the customer'?",
+      "back": "'One face to the customer' = einheitliche Sicht des Kunden auf das Unternehmen über alle Kanäle; 'one face of the customer' = einheitliche Sicht des Unternehmens auf den Kunden."
+    },
+    {
+      "front": "Was ist die Aufgabe des analytischen CRM?",
+      "back": "Systematische Aufzeichnung von Kundenkontakten und -reaktionen im Customer Data Warehouse sowie deren Auswertung mit OLAP und Data Mining zur Optimierung kundenbezogener Prozesse."
+    },
+    {
+      "front": "Was bezeichnet die 'Closed Loop Architecture'?",
+      "back": "Ein lernendes System: Aufzeichnung der Kundenreaktionen im CDWH, Auswertung durch OLAP/Data Mining, Verbesserung der operativen Kundenansprache."
+    },
+    {
+      "front": "Warum wird das Customer Data Warehouse von den operativen Systemen getrennt?",
+      "back": "Damit das Tagesgeschäft nicht durch rechenintensive Analysen beeinträchtigt wird (Performanz)."
+    },
+    {
+      "front": "Worin unterscheiden sich OLAP und Data Mining?",
+      "back": "OLAP wertet Daten in einem multidimensionalen Würfel aus, wobei Fragen vorab formuliert sein müssen; Data Mining deckt verborgene, vorher unbekannte Muster und Zusammenhänge in großen Datenbeständen auf."
+    },
+    {
+      "front": "Was bedeutet 'Integration' im Kontext von CRM?",
+      "back": "Zusammenführung aller Kundendaten aus internen und externen Quellen bzw. Vereinigung vieler Einzellösungen verschiedener Unternehmensbereiche zu einem einheitlichen Kundenbild."
+    },
+    {
+      "front": "Nennen Sie zwei Vorteile von CRM.",
+      "back": "Z. B. Identifikation gewinnbringender Kunden und besserer Kundenservice; ferner gesteigerte Produktrentabilität und effektiverer Verkauf ergänzender Produkte (Cross-Selling)."
+    },
+    {
+      "front": "Nennen Sie zwei Herausforderungen von CRM.",
+      "back": "Teure, zeitaufwändige Implementierung mit hoher Versagensrate (55-75 %) und die notwendige Änderung der Organisationskultur von produkt- zu kundenzentrierter Sicht."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Als was ist CRM laut Vorlesung zu verstehen?",
+      "options": [
+        "Nur als reines Technologiekonzept",
+        "Nur als reines Managementkonzept",
+        "Sowohl als Managementkonzept als auch als Technologiekonzept",
+        "Als reines Vertriebssteuerungswerkzeug ohne Managementbezug"
+      ],
+      "answer": 2,
+      "explanation": "Die Vorlesung betont ausdrücklich, dass CRM sowohl ein Managementkonzept (Aufbau profitabler Kundenbeziehungen) als auch ein Technologiekonzept (IuK-Unterstützung) ist."
+    },
+    {
+      "question": "Welche drei Aufgabenschwerpunkte ergeben sich aus dem Kundenbeziehungs-Lebenszyklus?",
+      "options": [
+        "Marketing-, Sales- und Servicemanagement",
+        "Interessenten-, Kundenbindungs- und Rückgewinnungsmanagement",
+        "Operatives, analytisches und kollaboratives CRM",
+        "Neukunden-, Beschwerde- und Kündigungsmanagement"
+      ],
+      "answer": 1,
+      "explanation": "Entlang der Phasen potenzielle, aktuelle und verlorene Kunden ergeben sich Interessentenmanagement, Kundenbindungsmanagement und Rückgewinnungsmanagement."
+    },
+    {
+      "question": "Welche Aussage zum Kundenbindungsmanagement ist korrekt?",
+      "options": [
+        "Es zielt darauf ab, potenzielle Kunden zum Erstkauf zu bewegen",
+        "Es umfasst u. a. Neukunden-, Beschwerde- und Abwanderungspräventionsmanagement",
+        "Es dient der Rückgewinnung faktisch verlorener Kunden",
+        "Es ist ausschließlich Aufgabe des traditionellen Transaktionsmarketings"
+      ],
+      "answer": 1,
+      "explanation": "Das Kundenbindungsmanagement betrifft aktuelle Kunden und umfasst je nach Status Neukunden-, Kundenbindungsmanagement i.e.S., Beschwerde- und Abwanderungspräventionsmanagement."
+    },
+    {
+      "question": "Warum ist die Aufrechterhaltung bestehender Kundenbeziehungen häufig rentabler als Neukundengewinnung?",
+      "options": [
+        "Weil Stammkunden grundsätzlich höhere Preise zahlen müssen",
+        "Weil durch Lerneffekte Kosten sinken und Wiederkaufsraten sowie Cross-/Up-Selling-Potenziale steigen",
+        "Weil Neukunden gesetzlich schwer zu gewinnen sind",
+        "Weil bestehende Kunden keine Werbung mehr benötigen und daher keine Kosten verursachen"
+      ],
+      "answer": 1,
+      "explanation": "Mit zunehmender Beziehungsdauer sinken durch Lerneffekte die Kosten, steigen die Wiederkaufsraten und werden Cross- und Up-Selling-Potenziale aufgedeckt; Stammkunden tolerieren zudem leichter Fehler."
+    },
+    {
+      "question": "Wodurch unterscheiden sich operatives und analytisches CRM?",
+      "options": [
+        "Operatives CRM wertet Daten aus, analytisches CRM unterstützt Verkaufsgespräche",
+        "Operatives CRM unterstützt kundenbezogene Prozesse, analytisches CRM zeichnet Kundenkontakte auf und wertet sie mit OLAP/Data Mining aus",
+        "Beide sind identisch und unterscheiden sich nur im Namen",
+        "Operatives CRM nutzt das Data Warehouse, analytisches CRM die operative Kundendatenbank"
+      ],
+      "answer": 1,
+      "explanation": "Operatives CRM unterstützt und automatisiert die kundenbezogenen Geschäftsprozesse im direkten Kontakt; analytisches CRM zeichnet Kundenkontakte im CDWH auf und wertet sie mit OLAP und Data Mining aus."
+    },
+    {
+      "question": "Was besagt das Prinzip 'one face of the customer'?",
+      "options": [
+        "Der Kunde erhält über alle Kanäle eine einheitliche Sicht auf das Unternehmen",
+        "Das Unternehmen bekommt eine einheitliche Sicht auf den Kunden",
+        "Jeder Kunde hat genau einen persönlichen Ansprechpartner",
+        "Das Unternehmen zeigt allen Kunden dieselbe Werbung"
+      ],
+      "answer": 1,
+      "explanation": "'One face of the customer' bedeutet, dass das Unternehmen durch Synchronisierung aller Kontaktpunkte eine einheitliche Sicht auf den Kunden erhält; die einheitliche Sicht des Kunden auf das Unternehmen ist dagegen 'one face to the customer'."
+    },
+    {
+      "question": "Warum wird das Customer Data Warehouse von den operativen Systemen getrennt gehalten?",
+      "options": [
+        "Aus rechtlichen Gründen des Datenschutzes",
+        "Damit rechenintensive Analysen das Tagesgeschäft nicht beeinträchtigen (Performanz)",
+        "Weil operative Daten nicht ausgewertet werden dürfen",
+        "Weil das CDWH nur unstrukturierte Daten enthalten darf"
+      ],
+      "answer": 1,
+      "explanation": "Das Data Warehouse ist eine von den operativen Systemen getrennte Datenbank, damit das Tagesgeschäft nicht durch die rechenintensiven Analysen beeinträchtigt wird."
+    },
+    {
+      "question": "Was ist ein zentraler Nachteil von OLAP gegenüber Data Mining?",
+      "options": [
+        "OLAP kann nur unstrukturierte Daten verarbeiten",
+        "Bei OLAP müssen die Fragen vorher formuliert sein; verborgene Zusammenhänge bleiben unentdeckt",
+        "OLAP benötigt kein Data Warehouse",
+        "OLAP ist für das Management zu kompliziert zu bedienen"
+      ],
+      "answer": 1,
+      "explanation": "OLAP erfordert vorab formulierte Fragen und kann anspruchsvolle, verborgene Fragestellungen nicht lösen; hierfür wird Data Mining eingesetzt, das unbekannte Muster aufdeckt."
+    },
+    {
+      "question": "Was beschreibt die 'Closed Loop Architecture' des analytischen CRM?",
+      "options": [
+        "Ein geschlossenes Netzwerk ohne Internetanbindung",
+        "Einen lernenden Kreislauf aus Aufzeichnung, Auswertung und Verbesserung der Kundenansprache",
+        "Die Trennung von Front- und Back-Office",
+        "Die Verschlüsselung aller Kundendaten"
+      ],
+      "answer": 1,
+      "explanation": "Die Closed Loop Architecture bildet ein lernendes System: Aufzeichnung der Kundenreaktionen im CDWH, Auswertung durch OLAP/Data Mining und Verbesserung der operativen Kundenansprache."
+    },
+    {
+      "question": "Welche der folgenden Aussagen zu den Herausforderungen von CRM ist korrekt?",
+      "options": [
+        "CRM-Projekte haben eine sehr geringe Versagensrate von unter 5 %",
+        "CRM erfordert eine hohe Versagensrate von 55-75 % und eine kundenzentrierte statt produktzentrierte Ausrichtung",
+        "Technik allein reicht für erfolgreiches CRM vollständig aus",
+        "Die Integration in bestehende IT ist stets problemlos"
+      ],
+      "answer": 1,
+      "explanation": "Zu den Herausforderungen zählen die hohe Versagensrate (55-75 %), Integrationsprobleme und die notwendige Umstellung auf eine kundenzentrierte Sicht; Technik allein reicht nicht aus."
+    }
+  ]
+}

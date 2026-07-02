@@ -1,0 +1,288 @@
+{
+  "id": "01",
+  "title": "Einführung: Grundbegriffe, Ziele, Erfolg & Ethik",
+  "pdf": "courses/eib/folien/01.pdf",
+  "summary": "Das Kapitel führt in die zentralen Grundbegriffe der Betriebswirtschaftslehre ein (Unternehmen, Betrieb, Umsatz, Kosten, Gewinn, Effizienz/Effektivität, Wirtschaftlichkeitsprinzip) und erklärt Wesen, Dimensionen und Funktionen von Unternehmenszielen sowie deren Zustandekommen im Koalitionsmodell von Cyert/March. Anschließend wird der Unternehmenserfolg aus ökonomischer und aus ethischer Sicht beurteilt, ergänzt um neuere Dimensionen wie Nachhaltigkeit und Corporate Social Responsibility (CSR). Abschließend skizziert das Kapitel die Entstehung von Unternehmen (Coase, Alchian/Demsetz, Resource-/Competence-based View) und die Entwicklung der deutschsprachigen BWL.",
+  "sections": [
+    {
+      "heading": "Begriffsbestimmung: Unternehmen, Betrieb, Haushalt",
+      "points": [
+        "Haushalte dienen der Eigenbedarfsdeckung; Betriebe und Unternehmen dienen der Fremdbedarfsdeckung.",
+        "Unternehmen = rechtliche Einheit (Träger von Rechten und Pflichten).",
+        "Betrieb = Ort der physischen Leistungserstellung.",
+        "Ein Unternehmen kann mehrere Betriebe (Standorte der Leistungserstellung) umfassen.",
+        "Die Vielfalt der Betriebstypen reicht 2023 vom Kleinstunternehmen (z. B. PVision TGU mit 3 Beschäftigten) über Mittelständler (Rothaus AG) bis zu Großkonzernen (VW, Bosch, Walmart, Apple, Saudi Aramco)."
+      ]
+    },
+    {
+      "heading": "Warum gibt es Unternehmen? Praxis- und Wissenschaftsantwort",
+      "points": [
+        "Antwort der Praxis: Ein/e Unternehmer/in hatte eine wertschöpfende und nützliche Idee, die zur Unternehmensgründung führte und im bzw. mit Hilfe des Unternehmens umgesetzt wurde.",
+        "Coase (1937, Transaktionskostentheorie): Hierarchien/Unternehmen entstehen, wenn Märkte für bestimmte Transaktionen zu hohe Transaktionskosten aufweisen (Unternehmen/Hierarchie vs. Markt/Kaufverträge).",
+        "Alchian/Demsetz (1972): Unternehmen entstehen, um Probleme der Erfolgsermittlung bei Teamproduktion zu lösen (Zurechnung individueller Leistungsbeiträge).",
+        "Prahalad/Hamel (1990, Resource-/Competence-based View) und Grant (1996, Knowledge-based View): Besondere Bedingungen im Unternehmen fördern den Aufbau von Ressourcen, Kompetenzen und Wissen, die im Markt nicht aufgebaut oder eingekauft werden könnten."
+      ]
+    },
+    {
+      "heading": "Unternehmensführung und Menschenführung",
+      "points": [
+        "Unternehmensführung bezeichnet alle Entscheidungen und Maßnahmen der dazu autorisierten Akteure.",
+        "Ressourcenperspektive: Entwicklung und Einsatz von Ressourcenpotenzialen.",
+        "Institutionenperspektive: effizienzorientierte Gestaltung unternehmensinterner und -übergreifender institutioneller Strukturen.",
+        "Markt- bzw. Branchenperspektive: Beeinflussung der Wettbewerbsverhältnisse durch Auswahl geeigneter Produkt-Markt-Kombinationen und Wettbewerbsstrategien sowie Anpassung an die Branche.",
+        "Diese drei Perspektiven müssen zur Verbesserung der Zielerreichung des Unternehmens abgestimmt werden.",
+        "Menschenführung = soziale Interaktion zwischen einem Führenden und einem Geführten."
+      ]
+    },
+    {
+      "heading": "Grundbegriffe I: Umsatz, Kosten, Gewinn, Effektivität, Effizienz",
+      "points": [
+        "Umsatz = mit den Verkaufspreisen bewertete Verkaufsmenge eines Wirtschaftsgutes während einer Periode.",
+        "Kosten = bewerteter Verzehr von Produktionsfaktoren und Dienstleistungen zur Erstellung/zum Absatz betrieblicher Leistungen (wertmäßiger Kostenbegriff; Achtung: verschiedene Kostenbegriffe).",
+        "Gewinn = finanzielles Ergebnis der wirtschaftlichen Aktivität; Gewinn = Umsatz − Kosten (Achtung: verschiedene Gewinnbegriffe).",
+        "Effektivität = Beurteilungskriterium, ob eine Maßnahme geeignet ist, ein vorgegebenes Ziel zu erreichen (ohne Aussage über die Art und Weise) – die richtigen Dinge tun.",
+        "Effizienz = Beurteilungskriterium, ob eine Maßnahme geeignet ist, ein Ziel in einer bestimmten Art und Weise (z. B. wirtschaftlich) zu erreichen – die Dinge richtig tun."
+      ]
+    },
+    {
+      "heading": "Grundbegriffe II: Effizienzarten, Produktivität, Wirtschaftlichkeitsprinzip",
+      "points": [
+        "Technische Effizienz = Zustand, bei dem keine Produktionsfaktoren verschwendet werden.",
+        "Ökonomische Effizienz = eine gegebene Produktionsmenge wird unter Berücksichtigung der Faktorpreise zu den geringstmöglichen Kosten hergestellt; ökonomische Effizienz setzt technische Effizienz voraus, aber nicht umgekehrt.",
+        "Produktivität = Verhältnis von Output zu den eingesetzten Inputs; z. B. Arbeitsproduktivität (Ergebnis je Arbeitsstunde) und Kapitalproduktivität (Ergebnis je eingesetztem Kapitalstock).",
+        "Wirtschaftlichkeitsprinzip (ökonomisches Prinzip) = Verhältnis von Erfolg und Mitteleinsatz, von Ertrag und Aufwand, von Ziel und Aufwand.",
+        "Minimumprinzip: gegebenes Ziel mit minimalem Mitteleinsatz erreichen; Maximumprinzip: mit gegebenen Mitteln maximalen Erfolg erzielen."
+      ]
+    },
+    {
+      "heading": "Güterarten und Instrumente/Perspektiven der Unternehmensführung",
+      "points": [
+        "Güter gliedern sich in freie Güter und Wirtschaftsgüter (knappe Güter).",
+        "Wirtschaftsgüter: Nominalgüter (Geld, Darlehenswerte, Beteiligungswerte) und Realgüter (materielle Sachgüter, immaterielle Güter wie Dienstleistungen, Arbeitsleistungen und Rechte, z. B. Patente/Lizenzen); daneben gemischte Formen (Leistungsbündel).",
+        "Funktionen/Instrumente der Unternehmensführung: Corporate Governance, Strategie, Planung und Budgetierung, Finanzierung, Personalmanagement, Prozessmanagement.",
+        "Perspektiven der Unternehmensentwicklung: Internationalisierung, Diversifikation, Organisationswandel, Innovationsorientierung, Dienstleistungsorientierung."
+      ]
+    },
+    {
+      "heading": "Wesen von Unternehmenszielen: Dimensionen",
+      "points": [
+        "Ein Unternehmensziel wird über drei Dimensionen festgelegt.",
+        "Inhalt = sachliche Festlegung des Angestrebten (was wird angestrebt?).",
+        "Ausmaß = Anspruchsniveau (wie viel/in welcher Höhe?).",
+        "Zeitlicher Bezug: kurzfristig (Periodenziel), mittelfristig (1–3 Jahre), langfristig (ca. 5 Jahre)."
+      ]
+    },
+    {
+      "heading": "Funktionen von Unternehmenszielen",
+      "points": [
+        "Entscheidungskriterium: Ziele dienen als Maßstab zur Bewertung von Handlungsalternativen.",
+        "Handlungs- und Orientierungsfunktion: Ziele geben die Richtung des Handelns vor.",
+        "Steuerungs- und Koordinationsfunktion: Ziele stimmen Aktivitäten aufeinander ab.",
+        "Motivationsfunktion: Ziele spornen Mitarbeitende an.",
+        "Legitimationsfunktion: Ziele rechtfertigen Entscheidungen nach innen und außen.",
+        "Konfliktlösung sowie (Public-Relations-Funktion) gegenüber der Öffentlichkeit."
+      ]
+    },
+    {
+      "heading": "Zielbildung: Koalitionsmodell nach Cyert/March (1963)",
+      "points": [
+        "Cyert/March sehen das Unternehmen als interessenpluralistisches System.",
+        "Unternehmen = Koalition bzw. Sozialverband mehrerer Personengruppen, der auf einem Basiskonsens aufbaut.",
+        "Merkmale: mehrere Personengruppen verfolgen teilweise unterschiedliche Ziele (Zielkonkurrenz).",
+        "Der Interessenausgleich erfolgt in der Regel über Verhandlungen; das Verhältnis der Gruppen ist weitgehend durch gesetzliche und vertragliche Regelungen geregelt.",
+        "Das Top-Management soll eine Treuhänderfunktion übernehmen.",
+        "Prozess (mehrere Runden): Jede Gruppe bringt eigene Ziele ein; über einen Verhandlungsprozess mit 'side payments', Konflikten und Allianzen sowie im Rahmen der Unternehmensverfassung entstehen die Ziele des Unternehmens."
+      ]
+    },
+    {
+      "heading": "Erfolgsbeurteilung: die ökonomische Sicht",
+      "points": [
+        "Unterscheidung zwischen absoluter und relativer Erfolgsbeurteilung (z. B. gemessen an der Branche).",
+        "Gewinn als Erfolgsmaß – aber zu fragen ist, wo und wie er entstanden ist.",
+        "Unternehmenswert als Erfolgsmaß.",
+        "Substanz- und Kapitalerhalt als Erfolgsmaß.",
+        "Wachstum als Erfolgsmaß."
+      ]
+    },
+    {
+      "heading": "Erfolgsbeurteilung: die ethische Sicht (Grundlagen)",
+      "points": [
+        "Gerade in Krisenzeiten, wenn überlieferte Moralvorstellungen ihre Selbstverständlichkeit verlieren, beschäftigen sich Menschen mit Ethik.",
+        "Ethik = Reflexion, die menschliches Handeln anhand der Kategorien 'gut/schlecht' bzw. 'gut/böse' beurteilt.",
+        "Ethik als normative Handlungstheorie: 'Was soll ich tun?'; Ethik als Theorie der Lebensführung: 'Wer/was für ein Mensch will ich sein?'.",
+        "Maßstab der ethischen Urteilsbildung ist, ob eine Handlungsweise die persönliche Integrität/Menschenwürde (Mensch als Selbstzweck, nicht als Objekt fremder Interessen) achtet und fördert bzw. missachtet/verletzt."
+      ]
+    },
+    {
+      "heading": "Max Weber: Gesinnungs- und Verantwortungsethik; Bereichsethiken",
+      "points": [
+        "Gesinnungsethik (Max Weber): Handlungen werden in erster Linie nach ihren Motiven und Maximen beurteilt.",
+        "Verantwortungsethik (Max Weber): Handlungen werden in erster Linie nach ihren tatsächlichen Folgen beurteilt; sie orientiert sich an Zukunft und Gesellschaft (H. Jonas).",
+        "Wegen der Komplexität moderner Gesellschaften bilden sich Bereichsethiken: Wissenschaftsethik, Medizinethik, Tierethik und Wirtschaftsethik.",
+        "Wirtschaftsethik gliedert sich in drei Ebenen: Makroebene (gerechtes Wirtschaftssystem), Mesoebene = Unternehmensethik (ethisches Wirtschaften von/in Unternehmen) und Mikroebene = Führungsethik (Entscheidungen einzelner Führungskräfte).",
+        "Beispiele ethischer Problemstellungen: Kündigung wegen Bagatelldelikten (Bierflaschen, Pfandbon), verzögerter Produktrückruf trotz Explosionsgefahr, schwarze Kassen/Bestechung, Kartellabsprachen über Preise und Gebiete."
+      ]
+    },
+    {
+      "heading": "Neuere Erfolgsdimensionen: Nachhaltigkeit und CSR",
+      "points": [
+        "Neuere Auffassungen ergänzen den Unternehmenserfolg um zwei Dimensionen: Sustainability (nachhaltiges Wirtschaften) und Corporate Social Responsibility (Übernahme gesellschaftlicher Verantwortung).",
+        "Drei Zieldimensionen nachhaltigen Wirtschaftens: ökologische, ökonomische und soziale Nachhaltigkeit.",
+        "Gründe für nachhaltiges Wirtschaften: ethisch-normative Gründe und privatwirtschaftliche Gründe.",
+        "CSR als Mittel: Erlangung ökonomischer Vorteile durch nachhaltiges/verantwortungsvolles Wirtschaften (nach Schreck 2011).",
+        "CSR als Zweck: Lösung gesellschaftlicher Probleme durch Instrumentalisierung unternehmerischer Gewinnabsichten."
+      ]
+    },
+    {
+      "heading": "Business Case for CSR: Vier-Felder-Matrix (Schreck)",
+      "points": [
+        "Die Matrix kreuzt zwei Dimensionen: 'gesellschaftlich erwünscht' (ja/nein) und 'ökonomisch sinnvoll/profitabel' (ja/nein).",
+        "Feld I (erwünscht + profitabel): Business Case for Corporate Social Responsibility – die anzustrebende Win-win-Situation.",
+        "Feld II (erwünscht + unprofitabel): gesellschaftlich erwünscht, aber unprofitabel.",
+        "Feld III (unerwünscht + unprofitabel): gesellschaftlich unerwünscht und unprofitabel.",
+        "Feld IV (unerwünscht + profitabel): profitabel, aber gesellschaftlich unerwünscht."
+      ]
+    },
+    {
+      "heading": "Geschichte und Entwicklung der deutschsprachigen BWL",
+      "points": [
+        "Anfang des 20. Jahrhunderts etablierte sich die moderne BWL an Handelshochschulen und später an Universitäten (erste Gründungen: Leipzig, Wien, Aachen 1898, St. Gallen 1899).",
+        "Zentrales Anfangsproblem: Spannungsverhältnis zwischen Praxis- und Theorieorientierung; wechselnde Fachbezeichnungen (Handelsbetriebslehre, Einzelwirtschaftslehre, Privatwirtschaftslehre), bis sich seit den 1920ern 'Betriebswirtschaftslehre' durchsetzte.",
+        "Wandel des Erkenntnisobjekts: vom Binnengeschehen des Unternehmens (Rieger 1928) über Marktorientierung nach dem 2. Weltkrieg hin zur weit gefassten Umwelt; seit ca. 2010 Fokus auch auf Gesellschaft und Staat – BWL als Lehre des institutionell eingebetteten Wirtschaftens.",
+        "Harter Kernbestand betriebswirtschaftlicher Hauptfächer (Witte 1998): Bilanzierung, Kosten- und Leistungsrechnung, Investition und Finanzierung, Marketing, Organisation – erweitert um Innovationsmanagement, Umweltmanagement, Wirtschaftsethik/CSR.",
+        "Trends: zunehmende Spezialisierung/Ausdifferenzierung bei Schwächung der integrierenden ABWL, Stärkung der Theoriefundierung und (seit der Jahrtausendwende) Forcierung der Empiriebasierung.",
+        "Offene Fragen: interdisziplinäre Öffnung/Schließung der BWL und Internationalisierung (nach dem 2. Weltkrieg fast nur deutscher Sprachraum; heute Frage des Aufgehens in internationaler Managementforschung)."
+      ]
+    }
+  ],
+  "glossary": [
+    {"term": "Unternehmen", "definition": "Rechtliche Einheit, die der Fremdbedarfsdeckung dient und Träger von Rechten und Pflichten ist; kann mehrere Betriebe umfassen."},
+    {"term": "Betrieb", "definition": "Ort der physischen Leistungserstellung; dient wie das Unternehmen der Fremdbedarfsdeckung."},
+    {"term": "Haushalt", "definition": "Wirtschaftseinheit, die der Eigenbedarfsdeckung dient (im Gegensatz zu Betrieb/Unternehmen)."},
+    {"term": "Umsatz", "definition": "Mit den Verkaufspreisen bewertete Verkaufsmenge eines Wirtschaftsgutes während einer Periode."},
+    {"term": "Kosten", "definition": "Bewerteter Verzehr von Produktionsfaktoren und Dienstleistungen zur Erstellung/zum Absatz betrieblicher Leistungen (wertmäßiger Kostenbegriff)."},
+    {"term": "Gewinn", "definition": "Finanzielles Ergebnis der wirtschaftlichen Aktivität eines Unternehmens; Gewinn = Umsatz − Kosten."},
+    {"term": "Effektivität", "definition": "Beurteilungskriterium, ob eine Maßnahme ein vorgegebenes Ziel erreicht (ohne Aussage über die Art und Weise) – 'die richtigen Dinge tun'."},
+    {"term": "Effizienz", "definition": "Beurteilungskriterium, ob eine Maßnahme ein Ziel in bestimmter Art und Weise (z. B. wirtschaftlich) erreicht – 'die Dinge richtig tun'."},
+    {"term": "Technische Effizienz", "definition": "Zustand, bei dem keine Produktionsfaktoren verschwendet werden."},
+    {"term": "Ökonomische Effizienz", "definition": "Herstellung einer gegebenen Produktionsmenge unter Berücksichtigung der Faktorpreise zu den geringstmöglichen Kosten; setzt technische Effizienz voraus, aber nicht umgekehrt."},
+    {"term": "Produktivität", "definition": "Verhältnis von Output zu den eingesetzten Inputs (z. B. Arbeits- oder Kapitalproduktivität)."},
+    {"term": "Wirtschaftlichkeitsprinzip", "definition": "Ökonomisches Prinzip als Verhältnis von Erfolg und Mitteleinsatz; ausgeprägt als Minimumprinzip (Ziel mit minimalen Mitteln) und Maximumprinzip (maximaler Erfolg mit gegebenen Mitteln)."},
+    {"term": "Nominalgüter", "definition": "Wirtschaftsgüter in Form von Geld, Darlehenswerten und Beteiligungswerten."},
+    {"term": "Realgüter", "definition": "Materielle Sachgüter und immaterielle Güter (Dienstleistungen, Arbeitsleistungen, Rechte wie Patente/Lizenzen)."},
+    {"term": "Transaktionskosten (Coase 1937)", "definition": "Kosten der Marktnutzung; sind sie zu hoch, entstehen Unternehmen/Hierarchien anstelle von Markttransaktionen."},
+    {"term": "Resource-/Competence-based View", "definition": "Erklärungsansatz (Prahalad/Hamel 1990), wonach Unternehmen bestehen, weil sie den Aufbau nicht marktlich beziehbarer Ressourcen, Kompetenzen und Wissens ermöglichen."},
+    {"term": "Koalitionsmodell (Cyert/March 1963)", "definition": "Modell, das das Unternehmen als interessenpluralistische Koalition mehrerer Personengruppen versteht, deren Ziele über Verhandlungen ausgeglichen werden."},
+    {"term": "Gesinnungsethik", "definition": "Ethischer Ansatz (Max Weber), der Handlungen primär nach ihren Motiven und Maximen beurteilt."},
+    {"term": "Verantwortungsethik", "definition": "Ethischer Ansatz (Max Weber), der Handlungen primär nach ihren tatsächlichen Folgen beurteilt; zukunfts- und gesellschaftsorientiert (H. Jonas)."},
+    {"term": "Corporate Social Responsibility (CSR)", "definition": "Übernahme gesellschaftlicher Verantwortung durch Unternehmen; kann als Mittel (ökonomische Vorteile) oder als Zweck (Lösung gesellschaftlicher Probleme) verstanden werden."},
+    {"term": "Nachhaltiges Wirtschaften (Sustainability)", "definition": "Wirtschaften mit den drei Zieldimensionen ökologische, ökonomische und soziale Nachhaltigkeit."},
+    {"term": "Business Case for CSR", "definition": "Feld der Schreck-Matrix, in dem eine Maßnahme sowohl gesellschaftlich erwünscht als auch ökonomisch profitabel ist (Win-win)."}
+  ],
+  "kernpunkte": [
+    "Unternehmen (rechtliche Einheit) und Betrieb (Ort der Leistungserstellung) dienen der Fremdbedarfsdeckung, Haushalte der Eigenbedarfsdeckung.",
+    "Zentrale Grundbegriffe sind Umsatz, Kosten und Gewinn (= Umsatz − Kosten) sowie die Unterscheidung von Effektivität (Zielerreichung) und Effizienz (Art der Zielerreichung).",
+    "Das Wirtschaftlichkeitsprinzip verlangt ein günstiges Verhältnis von Erfolg und Mitteleinsatz und tritt als Minimum- oder Maximumprinzip auf.",
+    "Unternehmensziele werden über die Dimensionen Inhalt, Ausmaß und zeitlichen Bezug festgelegt und erfüllen u. a. Entscheidungs-, Steuerungs-, Motivations- und Legitimationsfunktion.",
+    "Im Koalitionsmodell von Cyert/March entstehen Unternehmensziele durch Verhandlungen zwischen mehreren Personengruppen mit teils konkurrierenden Interessen.",
+    "Der Unternehmenserfolg lässt sich ökonomisch (Gewinn, Unternehmenswert, Substanz-/Kapitalerhalt, Wachstum) und ethisch (Gesinnungs- vs. Verantwortungsethik) beurteilen.",
+    "Neuere Erfolgsdimensionen sind Nachhaltigkeit (ökologisch/ökonomisch/sozial) und CSR, die als Mittel oder als Zweck verstanden werden kann.",
+    "Die Schreck-Matrix verbindet gesellschaftliche Erwünschtheit und ökonomische Sinnhaftigkeit; ihr Idealfall ist der Business Case for CSR.",
+    "Die deutschsprachige BWL entwickelte sich vom Binnenfokus zur Lehre des institutionell eingebetteten Wirtschaftens unter zunehmender Spezialisierung und Empiriebasierung."
+  ],
+  "flashcards": [
+    {"front": "Wodurch unterscheiden sich Unternehmen und Betrieb?", "back": "Unternehmen = rechtliche Einheit; Betrieb = Ort der physischen Leistungserstellung. Beide dienen der Fremdbedarfsdeckung."},
+    {"front": "Wozu dienen Haushalte im Gegensatz zu Betrieben?", "back": "Haushalte dienen der Eigenbedarfsdeckung, Betriebe/Unternehmen der Fremdbedarfsdeckung."},
+    {"front": "Definition Umsatz", "back": "Mit den Verkaufspreisen bewertete Verkaufsmenge eines Wirtschaftsgutes während einer Periode."},
+    {"front": "Definition Kosten", "back": "Bewerteter Verzehr von Produktionsfaktoren und Dienstleistungen zur Erstellung/zum Absatz betrieblicher Leistungen (wertmäßiger Kostenbegriff)."},
+    {"front": "Formel für den Gewinn", "back": "Gewinn = Umsatz − Kosten."},
+    {"front": "Effektivität vs. Effizienz", "back": "Effektivität = ob ein Ziel erreicht wird ('die richtigen Dinge tun'); Effizienz = ob es in bestimmter (wirtschaftlicher) Art und Weise erreicht wird ('die Dinge richtig tun')."},
+    {"front": "Technische vs. ökonomische Effizienz", "back": "Technische Effizienz = keine Faktoren werden verschwendet. Ökonomische Effizienz = geringstmögliche Kosten bei gegebener Menge; setzt technische Effizienz voraus, nicht umgekehrt."},
+    {"front": "Minimum- vs. Maximumprinzip", "back": "Minimumprinzip: gegebenes Ziel mit minimalem Mitteleinsatz. Maximumprinzip: mit gegebenen Mitteln maximaler Erfolg."},
+    {"front": "Warum gibt es Unternehmen (Coase 1937)?", "back": "Hierarchien/Unternehmen entstehen, wenn Märkte für bestimmte Transaktionen zu hohe Transaktionskosten aufweisen."},
+    {"front": "Erklärung von Alchian/Demsetz (1972)", "back": "Unternehmen entstehen, um Probleme der Erfolgsermittlung bei Teamproduktion zu lösen."},
+    {"front": "Drei Dimensionen von Unternehmenszielen", "back": "Inhalt (sachliche Festlegung), Ausmaß (Anspruchsniveau) und zeitlicher Bezug (kurz-/mittel-/langfristig)."},
+    {"front": "Nenne Funktionen von Unternehmenszielen", "back": "Entscheidungskriterium, Handlungs-/Orientierungs-, Steuerungs-/Koordinations-, Motivations-, Legitimationsfunktion, Konfliktlösung, (PR-Funktion)."},
+    {"front": "Kerngedanke des Koalitionsmodells (Cyert/March 1963)", "back": "Das Unternehmen ist ein interessenpluralistisches System; Ziele entstehen durch Verhandlungen mehrerer Personengruppen mit teils konkurrierenden Zielen; das Top-Management hat Treuhänderfunktion."},
+    {"front": "Ökonomische Erfolgsmaße eines Unternehmens", "back": "Gewinn, Unternehmenswert, Substanz-/Kapitalerhalt und Wachstum; absolut oder relativ (z. B. zur Branche)."},
+    {"front": "Gesinnungsethik vs. Verantwortungsethik (Max Weber)", "back": "Gesinnungsethik beurteilt nach Motiven/Maximen; Verantwortungsethik nach den tatsächlichen Folgen (zukunfts-/gesellschaftsorientiert)."},
+    {"front": "Drei Ebenen der Wirtschaftsethik", "back": "Makroebene (gerechtes Wirtschaftssystem), Mesoebene = Unternehmensethik, Mikroebene = Führungsethik."},
+    {"front": "Drei Zieldimensionen nachhaltigen Wirtschaftens", "back": "Ökologische, ökonomische und soziale Nachhaltigkeit."},
+    {"front": "CSR als Mittel vs. als Zweck", "back": "Als Mittel: ökonomische Vorteile durch verantwortungsvolles Wirtschaften. Als Zweck: Lösung gesellschaftlicher Probleme durch Instrumentalisierung von Gewinnabsichten."},
+    {"front": "Was beschreibt Feld I der Schreck-Matrix?", "back": "Den Business Case for CSR: gesellschaftlich erwünscht UND ökonomisch profitabel (Win-win)."}
+  ],
+  "quiz": [
+    {
+      "question": "Was kennzeichnet ein Unternehmen im Unterschied zum Betrieb?",
+      "options": ["Es ist der Ort der physischen Leistungserstellung", "Es ist eine rechtliche Einheit", "Es dient der Eigenbedarfsdeckung", "Es kann nur einen Standort haben"],
+      "answer": 1,
+      "explanation": "Das Unternehmen ist die rechtliche Einheit, während der Betrieb der Ort der physischen Leistungserstellung ist."
+    },
+    {
+      "question": "Wie ist der Gewinn definiert?",
+      "options": ["Umsatz + Kosten", "Kosten − Umsatz", "Umsatz − Kosten", "Ertrag + Aufwand"],
+      "answer": 2,
+      "explanation": "Der Gewinn ist das finanzielle Ergebnis der wirtschaftlichen Aktivität: Gewinn = Umsatz − Kosten."
+    },
+    {
+      "question": "Welche Aussage trifft auf die Effizienz zu?",
+      "options": ["Sie beurteilt nur, OB ein Ziel erreicht wird", "Sie beurteilt die Art und Weise der Zielerreichung (z. B. Wirtschaftlichkeit)", "Sie ist ein Synonym für Effektivität", "Sie bezieht sich ausschließlich auf ethische Fragen"],
+      "answer": 1,
+      "explanation": "Effizienz beurteilt, ob ein Ziel in einer bestimmten Art und Weise (z. B. wirtschaftlich) erreicht wird; Effektivität fragt nur nach der Zielerreichung selbst."
+    },
+    {
+      "question": "Was besagt das Verhältnis von technischer und ökonomischer Effizienz?",
+      "options": ["Technische Effizienz setzt ökonomische Effizienz voraus", "Ökonomische Effizienz setzt technische Effizienz voraus, aber nicht umgekehrt", "Beide sind identisch", "Keine der beiden setzt die andere voraus"],
+      "answer": 1,
+      "explanation": "Ökonomische Effizienz (geringstmögliche Kosten bei gegebener Menge) setzt technische Effizienz (keine Verschwendung) voraus, aber nicht umgekehrt."
+    },
+    {
+      "question": "Warum entstehen laut Coase (1937) Unternehmen?",
+      "options": ["Weil Teamproduktion die Erfolgsermittlung erleichtert", "Weil Märkte für bestimmte Transaktionen zu hohe Transaktionskosten aufweisen", "Weil der Staat es vorschreibt", "Weil Ressourcen im Markt günstiger sind"],
+      "answer": 1,
+      "explanation": "Nach Coase (Transaktionskostentheorie) entstehen Hierarchien/Unternehmen, wenn die Transaktionskosten der Marktnutzung zu hoch sind."
+    },
+    {
+      "question": "Welche drei Dimensionen legen ein Unternehmensziel fest?",
+      "options": ["Inhalt, Ausmaß, zeitlicher Bezug", "Umsatz, Kosten, Gewinn", "Motivation, Legitimation, Koordination", "Ökologie, Ökonomie, Soziales"],
+      "answer": 0,
+      "explanation": "Ein Unternehmensziel wird über Inhalt (was), Ausmaß (Anspruchsniveau) und zeitlichen Bezug (kurz-/mittel-/langfristig) bestimmt."
+    },
+    {
+      "question": "Wie beschreibt das Koalitionsmodell von Cyert/March (1963) das Unternehmen?",
+      "options": ["Als homogene Einheit mit einem einzigen Ziel", "Als interessenpluralistisches System, dessen Ziele über Verhandlungen entstehen", "Als reine Produktionsfunktion", "Als staatlich gesteuerte Organisation"],
+      "answer": 1,
+      "explanation": "Cyert/March sehen das Unternehmen als Koalition mehrerer Personengruppen mit teils konkurrierenden Zielen; der Ausgleich erfolgt über Verhandlungen."
+    },
+    {
+      "question": "Welches Erfolgsmaß gehört NICHT zur ökonomischen Erfolgsbeurteilung?",
+      "options": ["Unternehmenswert", "Wachstum", "Substanz- und Kapitalerhalt", "Menschenwürde als Selbstzweck"],
+      "answer": 3,
+      "explanation": "Gewinn, Unternehmenswert, Substanz-/Kapitalerhalt und Wachstum sind ökonomische Erfolgsmaße; die Menschenwürde ist ein Maßstab der ethischen Sicht."
+    },
+    {
+      "question": "Wodurch unterscheidet sich die Verantwortungsethik von der Gesinnungsethik (Max Weber)?",
+      "options": ["Sie beurteilt Handlungen nach Motiven und Maximen", "Sie beurteilt Handlungen nach ihren tatsächlichen Folgen", "Sie lehnt ethische Bewertung ab", "Sie gilt nur für Haushalte"],
+      "answer": 1,
+      "explanation": "Die Verantwortungsethik beurteilt Handlungen nach ihren tatsächlichen Folgen (zukunfts- und gesellschaftsorientiert), die Gesinnungsethik nach Motiven und Maximen."
+    },
+    {
+      "question": "Welche drei Zieldimensionen kennzeichnen nachhaltiges Wirtschaften?",
+      "options": ["Ökologische, ökonomische und soziale Nachhaltigkeit", "Kurz-, mittel- und langfristig", "Makro-, Meso- und Mikroebene", "Inhalt, Ausmaß und Zeitbezug"],
+      "answer": 0,
+      "explanation": "Nachhaltiges Wirtschaften umfasst die ökologische, ökonomische und soziale Nachhaltigkeit."
+    },
+    {
+      "question": "Was beschreibt das Feld 'Business Case for CSR' in der Schreck-Matrix?",
+      "options": ["Gesellschaftlich erwünscht, aber unprofitabel", "Profitabel, aber gesellschaftlich unerwünscht", "Gesellschaftlich erwünscht und ökonomisch profitabel", "Gesellschaftlich unerwünscht und unprofitabel"],
+      "answer": 2,
+      "explanation": "Der Business Case for CSR (Feld I) liegt vor, wenn eine Maßnahme sowohl gesellschaftlich erwünscht als auch ökonomisch profitabel ist (Win-win)."
+    },
+    {
+      "question": "Auf welcher Ebene der Wirtschaftsethik ist die Unternehmensethik angesiedelt?",
+      "options": ["Makroebene", "Mesoebene", "Mikroebene", "Metaebene"],
+      "answer": 1,
+      "explanation": "Die Unternehmensethik ist die Mesoebene; die Makroebene fragt nach dem gerechten Wirtschaftssystem, die Mikroebene ist die Führungsethik."
+    }
+  ]
+}

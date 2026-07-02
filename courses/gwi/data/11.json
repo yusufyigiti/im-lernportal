@@ -1,0 +1,514 @@
+{
+  "id": "11",
+  "title": "Projekt- & Lifecyclemanagement",
+  "pdf": "courses/gwi/folien/11.pdf",
+  "summary": "Die Vorlesungseinheit behandelt zwei zentrale Themen der Wirtschaftsinformatik: das Projektmanagement (Kapitel 5.1) und das Lebenszyklusmanagement (Kapitel 5.2). Im Projektmanagement werden Definition, Projektrollen, Projektorganisation und die fünf Projektphasen (Start, Planung, Durchführung, Kontrolle, Abschluss) mit ihren Techniken wie Projektstrukturplan, Gantt-Diagramm, Netzplan und Schätzklausur erläutert. Das Lebenszyklusmanagement betrachtet den Technologielebenszyklus, den Softwarelebenszyklus sowie insbesondere die Systemeinführung, den Systembetrieb, die Softwarewartung und die Softwaresanierung. Ergänzt wird dies durch das Risikomanagement als Ausblick.",
+  "sections": [
+    {
+      "heading": "Grundlagen: Was ist ein Projekt und Projektmanagement?",
+      "points": [
+        "Ein Projekt ist nach DIN 69901-5 ein Vorhaben, das im Wesentlichen durch die Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist (z. B. Zielvorgabe, zeitliche, finanzielle, personelle Begrenzungen).",
+        "Weitere Merkmale: Abgrenzung gegenüber anderen Vorhaben und eine projektspezifische Organisation.",
+        "Projektmanagement ist die Gesamtheit von Führungsaufgaben, -organisationen, -techniken und -mitteln für die Abwicklung sowohl aller Projekte als auch eines einzelnen Projekts (DIN 69901-5).",
+        "Motivation: Gescheiterte IT-Projekte wie das SAP-Riesenprojekt von Otto (Millionenschaden, zu große Komplexität, Stopp nach drei Jahren) zeigen die Notwendigkeit von Projektmanagement.",
+        "IT-Projektmanager ist ein stark nachgefragtes Jobprofil am Markt."
+      ]
+    },
+    {
+      "heading": "Projektrollen",
+      "points": [
+        "Lenkungsausschuss: überwacht die Projektdurchführung (erbrachte Leistungen, Qualität, Ressourceneinsatz, Termine), nimmt Ergebnisse verbindlich ab und setzt sich aus Mitgliedern mit Entscheidungskompetenz zusammen.",
+        "Auftraggeber: gibt die Projektziele vor und überprüft diese, hat ein Vetorecht bei finanziellen oder terminlichen Entscheidungen, kann Statusberichte einfordern und entlastet den Projektleiter bei der finalen Kundenabnahme.",
+        "Projektleiter (die wichtigste Rolle): stimmt sich mit dem Auftraggeber über alle Belange ab, prüft die Durchführbarkeit, ist verantwortlich für Infrastruktur und Arbeitsbedingungen des Teams, moderiert Sitzungen und plant das Projekt.",
+        "Der Projektleiter führt Soll-Ist-Vergleiche für Kosten, Termine und Ziele durch und muss mit entsprechenden Kompetenzen ausgestattet sein.",
+        "Weitere Rollen: Teilprojektleiter und Mitarbeiter."
+      ]
+    },
+    {
+      "heading": "Projektorganisation und Projektphasen im Überblick",
+      "points": [
+        "Die Projektorganisation ist hierarchisch aufgebaut: Auftraggeber und Lenkungsausschuss über dem Projektleiter, darunter Teilprojektleiter und Mitarbeiter.",
+        "Die fünf Projektphasen (in der Theorie sequentiell): Projektstart, Projektplanung, Projektdurchführung, Projektkontrolle, Projektabschluss.",
+        "In der Praxis verlaufen die Phasen oft nicht so geradlinig, sondern iterativ und überlappend.",
+        "Die Kenntnis der Phasenabgrenzung ist klausurrelevant, insbesondere warum manche Phasen nicht parallel laufen können (Abhängigkeiten)."
+      ]
+    },
+    {
+      "heading": "Projektstart",
+      "points": [
+        "Ausgangspunkt ist die Projektidee, gefolgt von der Ernennung eines Verantwortlichen.",
+        "Voruntersuchung des Projekts (Studie) und Festlegung von Projektumfang, -zielen und -bearbeitung.",
+        "Erstellung eines Projektantrags und Entscheidung über die Projektdurchführung.",
+        "Bei positiver Entscheidung (Ja): Projektauftrag und formeller Projektstart.",
+        "Unterscheidung zwischen informellem Projektstart (mit der Idee) und formellem Projektstart (mit dem Projektauftrag)."
+      ]
+    },
+    {
+      "heading": "Projektplanung: Strukturierung und Projektstrukturplan (PSP)",
+      "points": [
+        "Bausteine der Projektplanung: Projektstrukturierung, Meilensteinplanung, Einsatzmittelbedarfsplanung, Ablauf- und Terminplanung, Kostenplanung, Planoptimierung und Planung des Risikomanagements.",
+        "Die Projektstrukturierung dient in erster Linie der Reduktion der Komplexität und stellt Transparenz her.",
+        "Sie stellt die Struktur dar, aber keinen zeitlichen Ablauf.",
+        "Mögliche Variante: der Projektstrukturplan (PSP), der prozess-, funktions-, phasen- oder objektorientiert sein kann.",
+        "Der PSP kann in unterschiedlicher Tiefe dargestellt werden; der Detaillierungsgrad muss eine Schätzung über Kosten und Dauer zulassen und sollte bis auf die unterste Ebene (Arbeitspakete) detailliert werden."
+      ]
+    },
+    {
+      "heading": "Einsatzmittelbedarfsplanung und Aufgabentypen",
+      "points": [
+        "Ziel ist die Abschätzung der Arbeitsmenge; Einheiten können Personenmonate, Personentage oder Personenstunden sein.",
+        "Schätzungen basieren auf Erfahrung und sollten so weit wie möglich auf Rollen konkretisiert werden.",
+        "Je Arbeitspaket werden Bearbeiter, Personaleinsatz (in %), Aufwand (z. B. in PH = Personenstunden) und Dauer erfasst.",
+        "Teilbare Tätigkeiten: können bei Verdopplung des Arbeitseinsatzes in der Dauer proportional verringert werden.",
+        "Nicht-teilbare Tätigkeiten: mehr Arbeitseinsatz verringert die Dauer nicht, erhöht aber den Aufwand. Prinzipiell ist Teilung möglich, die Verringerung der Dauer aber nicht proportional."
+      ]
+    },
+    {
+      "heading": "Schätzklausur",
+      "points": [
+        "Ziel: möglichst genaue Schätzung der Gesamtkosten durch Ermittlung der voraussichtlichen Kosten der Arbeitspakete.",
+        "Weitere Ziele: Beseitigung von Missverständnissen in Arbeitspaketen und Schließung von Informationslücken.",
+        "Beteiligte: Projektleiter und alle verantwortlichen Mitglieder; ein Moderator ist von Vorteil, ebenso ein Kaufmann, um Mengenangaben in Kosten darzustellen.",
+        "Ablauf: Jedes Arbeitspaket wird vom verantwortlichen Teammitglied erläutert, dann geben die Beteiligten eine Punktschätzung ab (ähnlich wie beim Eiskunstlauf auf Papptafeln).",
+        "Die Einzelschätzwerte werden zu einem Gesamtdurchschnitt zusammengefasst. Bei starker Abweichung werden höchste und niedrigste Schätzung identifiziert, deren Gründe diskutiert und anschließend die Schätzung wiederholt."
+      ]
+    },
+    {
+      "heading": "Ablauf- und Terminplanung: Gantt-Diagramm und Netzplan",
+      "points": [
+        "Alle Aktivitäten müssen in die richtige Reihenfolge gebracht werden; wichtig ist das Aufdecken der Abhängigkeiten der Aktivitäten.",
+        "Beispiel: Arbeitspaket A muss abgeschlossen sein, bevor B startet; Arbeitspaket C kann parallel zu A und B ablaufen.",
+        "Darstellung als Balkendiagramm (Gantt-Diagramm) oder als Netzplan.",
+        "Im Netzplan wird der kritische Pfad bestimmt; für jeden Vorgang werden FAZ (Frühester Anfangszeitpunkt) und SAZ (Spätester Anfangszeitpunkt) sowie die Dauer betrachtet.",
+        "Der kritische Pfad ist die Abfolge von Vorgängen ohne Pufferzeit; Verzögerungen auf ihm verzögern das gesamte Projekt."
+      ]
+    },
+    {
+      "heading": "Planoptimierung und Belastungsdiagramm",
+      "points": [
+        "Projektoptimierung erfolgt hinsichtlich dreier Dimensionen: Personal, Termine und Kosten.",
+        "Das Hauptinteresse liegt auf den Ressourcen; der Personaleinsatz wird anhand eines Belastungsdiagramms überprüft.",
+        "Das Belastungsdiagramm besteht aus zwei Grundelementen: Personalverfügbarkeit und Personalbedarf.",
+        "Die Gegenüberstellung beider Elemente ergibt die Machbarkeit.",
+        "Übersteigt der Bedarf die Verfügbarkeit, gibt es zwei Möglichkeiten: zusätzliches Personal (z. B. Überstunden oder Fremdbezug) oder Änderung von Terminen und Verschieben von Aufgaben."
+      ]
+    },
+    {
+      "heading": "Projektdurchführung und Projektkontrolle",
+      "points": [
+        "Der Plan-Ist-Vergleich stellt Planung und aktuelle Situation gegenüber, mit dem Ziel, Transparenz bei Abweichungen zu schaffen.",
+        "Bei Änderungsbedarf wird ein Soll-Zustand definiert und dem Ist-Zustand gegenübergestellt.",
+        "Der Vergleich kann für alle Steuerungsparameter verwendet werden: Termine, Aufwände und Kosten.",
+        "Nebenwirkungen von Änderungen: Die Zielgrößen der Projektplanung (Leistung/Qualität, Kosten bzw. Ressourcen, Zeit/Termine) hängen zusammen; die Änderung einer Größe wirkt sich auf die anderen aus (magisches Dreieck des Projektmanagements)."
+      ]
+    },
+    {
+      "heading": "Projektabschluss",
+      "points": [
+        "Erfolgt nach finaler Abnahme durch den Auftraggeber.",
+        "Überleitung: Das Ergebnis des Projektes geht in die Betriebs- und Wartungsphase über; die Projektorganisation wird aufgelöst und die künftige Verwendung der Mitarbeiter muss frühzeitig geklärt werden.",
+        "Erfahrungssicherung: Dokumentation von Erfahrungen bei Planung, Durchführung und Steuerung (Lessons Learned).",
+        "Konfliktbewältigung: Bereinigung der im Projekt aufgetretenen Konflikte im Team und mit dem Auftraggeber."
+      ]
+    },
+    {
+      "heading": "Risikomanagement (Ausblick)",
+      "points": [
+        "Risikoidentifikation: Identifizierung und Erfassung von Risiken und Risikoursachen.",
+        "Risikoanalyse und Risikobewertung: Wie wahrscheinlich ist das Eintreten eines Risikos und welche Folgen ergeben sich?",
+        "Risikohandhabung: Maßnahmen und Mechanismen zur Risikobeeinflussung.",
+        "Risikoüberwachung: laufende Berichterstattung und Überwachung der Risiken und Risikosteuerungsmaßnahmen."
+      ]
+    },
+    {
+      "heading": "Technologielebenszyklus (Lifecycle Management)",
+      "points": [
+        "Technologiemanagement ist die Aufgabe, für künftige Leistungen die benötigten Technologien zum Zeitpunkt, zu dem der Kunde diese Leistungseigenschaft verlangt, zu angemessenen Kosten verfügbar zu machen.",
+        "Der Technologielebenszyklus umfasst vier Phasen entlang der Technologieverbreitung.",
+        "Einführung: Schrittmachertechnologie (frühe Phase, hohes Potenzial, geringe Verbreitung).",
+        "Penetration: Schlüsseltechnologie (wettbewerbsentscheidend, starke Verbreitung).",
+        "Reife: Basistechnologie (allgemein verfügbar, kaum noch Differenzierung); Degeneration: bedrohte Technologie (veraltet)."
+      ]
+    },
+    {
+      "heading": "Softwarelebenszyklus",
+      "points": [
+        "Die Softwareentwicklung umfasst alle Aktivitäten der Softwareplanung, Softwaredefinition, des Softwareentwurfs und der Softwareumsetzung unter Berücksichtigung von Kundenwünschen und geforderten Qualitätseigenschaften.",
+        "Phasen des Softwarelebenszyklus: Projektdefinition (Vorphase), Anforderungsanalyse, Entwurf, Implementierung, Integration und Test.",
+        "Danach folgen Betrieb sowie Wartung, Aktualisierung und Erweiterung.",
+        "Am Ende steht die Ablösung bzw. Stilllegung der Software.",
+        "Der Lebenszyklus eines Anwendungssystems umfasst analog Entwicklung, Einführung, Betrieb/Wartung und Ablösung."
+      ]
+    },
+    {
+      "heading": "Systemeinführung",
+      "points": [
+        "Ausgangspunkt: Beginn mit der Übergabe des entwickelten Anwendungssystems an die Fachabteilung; bei Individualsoftware nach erfolgreich abgeschlossenem Abnahmetest. Voraussetzung ist die formale Systemfreigabe.",
+        "Systemfreigabe und Dokumentation: Prüfung der Vollständigkeit und Qualität der Systemdokumentation (Verfahrensbeschreibungen, Handbücher, grafische Modelle wie Sollkonzept, Datenverzeichnisse). Verantwortung zunächst bei der IT-Projektleitung, später bei der Leitung der IT-Abteilung.",
+        "Abnahme und Vorbereitung des Betriebs: Prüfung, ob der Entwicklungsprozess regelkonform war, die Dokumentation korrekt und vollständig ist und IT-Sicherheitsmaßnahmen vorhanden sind. Übergabe an die Fachabteilung inkl. Einweisungen; Schulungen beginnen bereits vor der Einführung.",
+        "Erstellung eines Umstellungsplans: wer welche Aufgaben zu welchem Zeitpunkt mit welcher Verantwortung übernimmt.",
+        "Datenübernahme und Migration: manuelle Ersterfassung oder Datenmigration (z. B. vom Dateisystem in eine Datenbank).",
+        "Die Systemeinführung ist kein technischer Akt, sondern ein organisierter Veränderungsprozess (Change-Management), bei dem Barrieren zu überwinden sind."
+      ]
+    },
+    {
+      "heading": "Change-Management nach Lewin (Unfreezing, Moving, Freezing)",
+      "points": [
+        "Unfreezing: Durch Information und Kommunikation aufzeigen, wieso der aktuelle Zustand geändert werden soll.",
+        "Moving: Einführung, dabei Motivation der Beteiligten, den Prozess mitzutragen.",
+        "Freezing: Der neue Zustand soll wiederum als richtig empfunden werden, wozu z. B. Qualifizierungsmaßnahmen nötig sein können.",
+        "Dieses Drei-Phasen-Modell erklärt, warum die Systemeinführung ein organisierter Veränderungsprozess ist."
+      ]
+    },
+    {
+      "heading": "Systembetrieb, Softwarewartung und Softwaresanierung",
+      "points": [
+        "Systembetrieb: Ziel ist die Sicherstellung eines stabilen, sicheren und effizienten Einsatzes; beginnt unmittelbar nach der Systemeinführung und umfasst den größten Anteil des Softwarelebenszyklus. Aufgaben: Nutzung, Sicherstellung von Verfügbarkeit und Betriebsbereitschaft, Überwachung und Steuerung.",
+        "Softwarewartung: Ziel ist die Erhaltung von Betriebssicherheit, Verwendbarkeit und Qualität während der gesamten Nutzungsphase.",
+        "Typische Störungsursachen: technische Störungen (Hardware, Strom, Infrastruktur), Softwarefehler, Sicherheitsvorfälle (Viren, Hacker), fehlerhafte Daten und Bedienungsfehler durch Nutzer.",
+        "Vier Wartungsarten: Korrigierende Wartung (Fehlerbehebung), Adaptive Wartung (Anpassung an neue Anforderungen/Rahmenbedingungen), Enhansive Wartung (Erweiterung um neue Funktionen), Perfektionierende Wartung (Qualitätsverbesserung, z. B. Performance, Wartbarkeit).",
+        "Softwaresanierung: Ziel ist die Verbesserung der Softwarequalität, ohne die Grundfunktionalität zu verändern; relevant bei steigenden Wartungskosten, Qualitätsproblemen oder technologischer Überalterung, besonders bei Legacy Systems. Aufgaben: Analyse und Überarbeitung bestehender Systeme, Verbesserung von Struktur, Dokumentation und Wartbarkeit."
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Projekt (DIN 69901-5)",
+      "definition": "Ein Vorhaben, das im Wesentlichen durch die Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist (Zielvorgabe, zeitliche/finanzielle/personelle Begrenzungen, Abgrenzung gegenüber anderen Vorhaben, projektspezifische Organisation)."
+    },
+    {
+      "term": "Projektmanagement",
+      "definition": "Die Gesamtheit von Führungsaufgaben, -organisationen, -techniken und -mitteln für die Abwicklung sowohl aller Projekte als auch eines einzelnen Projekts (DIN 69901-5)."
+    },
+    {
+      "term": "Lenkungsausschuss",
+      "definition": "Gremium mit Entscheidungskompetenz, das die Projektdurchführung überwacht (Leistungen, Qualität, Ressourcen, Termine) und die Ergebnisse verbindlich abnimmt."
+    },
+    {
+      "term": "Auftraggeber",
+      "definition": "Gibt die Projektziele vor und überprüft sie, hat ein Vetorecht bei finanziellen und terminlichen Angelegenheiten und kann Statusberichte einfordern."
+    },
+    {
+      "term": "Projektleiter",
+      "definition": "Die wichtigste Projektrolle: stimmt sich mit dem Auftraggeber ab, prüft die Durchführbarkeit, plant das Projekt, moderiert Sitzungen und führt Soll-Ist-Vergleiche für Kosten, Termine und Ziele durch."
+    },
+    {
+      "term": "Projektstrukturplan (PSP)",
+      "definition": "Instrument zur Reduktion der Komplexität, das die Projektstruktur (nicht den zeitlichen Ablauf) darstellt und bis auf die Ebene der Arbeitspakete detailliert wird; prozess-, funktions-, phasen- oder objektorientiert."
+    },
+    {
+      "term": "Arbeitspaket",
+      "definition": "Die unterste Ebene des Projektstrukturplans; eine abgrenzbare Aufgabe, deren Detaillierungsgrad eine Schätzung von Kosten und Dauer zulässt."
+    },
+    {
+      "term": "Meilenstein",
+      "definition": "Ein wichtiges Zwischenereignis im Projektverlauf mit definiertem Ergebnis, das zur Meilensteinplanung und Fortschrittskontrolle dient."
+    },
+    {
+      "term": "Schätzklausur",
+      "definition": "Moderiertes Verfahren zur möglichst genauen Schätzung der Gesamtkosten, bei dem Teilnehmer je Arbeitspaket Punktschätzungen abgeben, diese zu einem Durchschnitt zusammengefasst und Abweichungen diskutiert werden."
+    },
+    {
+      "term": "Teilbare vs. nicht-teilbare Tätigkeit",
+      "definition": "Bei teilbaren Tätigkeiten verringert mehr Arbeitseinsatz die Dauer proportional; bei nicht-teilbaren Tätigkeiten verringert mehr Einsatz die Dauer nicht (proportional), erhöht aber den Aufwand."
+    },
+    {
+      "term": "Gantt-Diagramm",
+      "definition": "Balkendiagramm zur Ablauf- und Terminplanung, das Aktivitäten, ihre zeitliche Lage und Dauer visuell darstellt."
+    },
+    {
+      "term": "Netzplan",
+      "definition": "Grafische Darstellung von Vorgängen und ihren Abhängigkeiten zur Termin- und Ablaufplanung, in der der kritische Pfad bestimmt wird."
+    },
+    {
+      "term": "Kritischer Pfad",
+      "definition": "Die Abfolge von Vorgängen ohne Pufferzeit im Netzplan; Verzögerungen auf diesem Pfad verzögern das gesamte Projekt."
+    },
+    {
+      "term": "FAZ / SAZ",
+      "definition": "FAZ = Frühester Anfangszeitpunkt, SAZ = Spätester Anfangszeitpunkt eines Vorgangs im Netzplan; ihre Differenz kennzeichnet die Pufferzeit."
+    },
+    {
+      "term": "Belastungsdiagramm",
+      "definition": "Instrument der Planoptimierung, das Personalverfügbarkeit und Personalbedarf gegenüberstellt, um die Machbarkeit zu prüfen."
+    },
+    {
+      "term": "Plan-Ist-Vergleich (Soll-Ist-Vergleich)",
+      "definition": "Gegenüberstellung von Planung und aktueller Situation zur Schaffung von Transparenz bei Abweichungen, anwendbar auf Termine, Aufwände und Kosten."
+    },
+    {
+      "term": "Magisches Dreieck des Projektmanagements",
+      "definition": "Die zusammenhängenden Zielgrößen Leistung/Qualität, Kosten (Ressourcen) und Zeit/Termine; die Änderung einer Größe wirkt sich auf die anderen aus."
+    },
+    {
+      "term": "Technologielebenszyklus",
+      "definition": "Vier-Phasen-Modell der Technologieverbreitung: Einführung (Schrittmachertechnologie), Penetration (Schlüsseltechnologie), Reife (Basistechnologie) und Degeneration (bedrohte Technologie)."
+    },
+    {
+      "term": "Softwarelebenszyklus",
+      "definition": "Abfolge der Phasen einer Software von der Projektdefinition über Anforderungsanalyse, Entwurf, Implementierung, Integration/Test, Betrieb/Wartung bis zur Ablösung/Stilllegung."
+    },
+    {
+      "term": "Systemeinführung",
+      "definition": "Übergabe des entwickelten Anwendungssystems an die Fachabteilung nach formaler Systemfreigabe; ein organisierter Veränderungsprozess, kein rein technischer Akt."
+    },
+    {
+      "term": "Unfreezing / Moving / Freezing (Lewin)",
+      "definition": "Drei-Phasen-Modell des Change-Managements: Notwendigkeit der Änderung aufzeigen (Unfreezing), Einführung und Motivation (Moving), Verankerung des neuen Zustands (Freezing)."
+    },
+    {
+      "term": "Wartungsarten",
+      "definition": "Korrigierende (Fehlerbehebung), adaptive (Anpassung an neue Rahmenbedingungen), enhansive (Erweiterung um Funktionen) und perfektionierende Wartung (Qualitätsverbesserung)."
+    },
+    {
+      "term": "Softwaresanierung",
+      "definition": "Verbesserung der Softwarequalität (Struktur, Dokumentation, Wartbarkeit) ohne Änderung der Grundfunktionalität, besonders relevant bei Legacy Systems."
+    },
+    {
+      "term": "Legacy System",
+      "definition": "Ein bestehendes, oft technologisch überaltertes Softwaresystem mit steigenden Wartungskosten und Qualitätsproblemen, das ein Kandidat für Softwaresanierung ist."
+    },
+    {
+      "term": "Risikomanagement",
+      "definition": "Prozess aus Risikoidentifikation, Risikoanalyse/-bewertung, Risikohandhabung und Risikoüberwachung zur Beeinflussung und Kontrolle von Projektrisiken."
+    }
+  ],
+  "kernpunkte": [
+    "Ein Projekt ist durch die Einmaligkeit seiner Bedingungen gekennzeichnet, und Projektmanagement umfasst alle Führungsaufgaben, -techniken und -mittel zur Abwicklung von Projekten.",
+    "Die zentralen Projektrollen sind Auftraggeber, Lenkungsausschuss und der Projektleiter als wichtigste Rolle mit den Aufgaben Planung, Moderation und Soll-Ist-Vergleich.",
+    "Die fünf Projektphasen sind Projektstart, Projektplanung, Projektdurchführung, Projektkontrolle und Projektabschluss.",
+    "Der Projektstrukturplan reduziert Komplexität und stellt die Struktur (nicht den zeitlichen Ablauf) bis auf die Ebene der Arbeitspakete dar.",
+    "Die Ablauf- und Terminplanung nutzt Gantt-Diagramm und Netzplan, wobei im Netzplan der kritische Pfad über FAZ und SAZ bestimmt wird.",
+    "Die Zielgrößen Leistung/Qualität, Kosten und Zeit hängen zusammen, sodass Änderungen an einer Größe Nebenwirkungen auf die anderen haben.",
+    "Der Softwarelebenszyklus reicht von der Projektdefinition über Entwicklung, Betrieb und Wartung bis zur Ablösung/Stilllegung.",
+    "Die Systemeinführung ist kein technischer Akt, sondern ein organisierter Veränderungsprozess nach dem Muster Unfreezing, Moving, Freezing.",
+    "Es gibt vier Wartungsarten (korrigierend, adaptiv, enhansiv, perfektionierend), und bei überalterten Legacy Systems folgt die Softwaresanierung zur Qualitätsverbesserung."
+  ],
+  "flashcards": [
+    {
+      "front": "Wie ist ein Projekt nach DIN 69901-5 definiert?",
+      "back": "Ein Vorhaben, das im Wesentlichen durch die Einmaligkeit der Bedingungen in ihrer Gesamtheit gekennzeichnet ist (Zielvorgabe, zeitliche/finanzielle/personelle Begrenzungen, Abgrenzung gegenüber anderen Vorhaben, projektspezifische Organisation)."
+    },
+    {
+      "front": "Was ist Projektmanagement nach DIN 69901-5?",
+      "back": "Die Gesamtheit von Führungsaufgaben, -organisationen, -techniken und -mitteln für die Abwicklung sowohl aller Projekte als auch eines einzelnen Projekts."
+    },
+    {
+      "front": "Welche Aufgaben hat der Lenkungsausschuss?",
+      "back": "Er überwacht die Projektdurchführung (Leistungen, Qualität, Ressourceneinsatz, Termine), nimmt Ergebnisse verbindlich ab und besteht aus Mitgliedern mit Entscheidungskompetenz."
+    },
+    {
+      "front": "Welche Aufgaben hat der Projektleiter (die wichtigste Rolle)?",
+      "back": "Abstimmung mit dem Auftraggeber, Prüfung der Durchführbarkeit, Verantwortung für Infrastruktur/Arbeitsbedingungen, Moderation von Sitzungen, Projektplanung und Soll-Ist-Vergleiche für Kosten, Termine und Ziele."
+    },
+    {
+      "front": "Nennen Sie die fünf Projektphasen.",
+      "back": "Projektstart, Projektplanung, Projektdurchführung, Projektkontrolle und Projektabschluss."
+    },
+    {
+      "front": "Wozu dient der Projektstrukturplan (PSP) und was stellt er NICHT dar?",
+      "back": "Er dient der Reduktion der Komplexität und stellt Transparenz und die Struktur her; er stellt jedoch KEINEN zeitlichen Ablauf dar. Er wird bis auf die Arbeitspakete detailliert."
+    },
+    {
+      "front": "Welche Orientierungen kann ein PSP haben?",
+      "back": "Prozessorientiert, funktionsorientiert, phasenorientiert oder objektorientiert."
+    },
+    {
+      "front": "Unterschied zwischen teilbaren und nicht-teilbaren Tätigkeiten?",
+      "back": "Teilbar: mehr Arbeitseinsatz verringert die Dauer proportional. Nicht-teilbar: mehr Einsatz verringert die Dauer nicht (proportional), erhöht aber den Aufwand."
+    },
+    {
+      "front": "Was ist das Ziel einer Schätzklausur und wie läuft sie ab?",
+      "back": "Ziel: möglichst genaue Schätzung der Gesamtkosten. Ablauf: Erläuterung jedes Arbeitspakets, Punktschätzung der Beteiligten, Zusammenfassung zum Durchschnitt, bei Abweichung Diskussion von höchster/niedrigster Schätzung und Wiederholung."
+    },
+    {
+      "front": "Was ist der kritische Pfad im Netzplan?",
+      "back": "Die Abfolge von Vorgängen ohne Pufferzeit; Verzögerungen auf diesem Pfad verzögern das gesamte Projekt. Bestimmt über FAZ (Frühester Anfangszeitpunkt) und SAZ (Spätester Anfangszeitpunkt)."
+    },
+    {
+      "front": "Woraus besteht ein Belastungsdiagramm und wozu dient es?",
+      "back": "Aus Personalverfügbarkeit und Personalbedarf; ihre Gegenüberstellung ergibt die Machbarkeit. Bei Überschreitung: zusätzliches Personal oder Terminänderung/Aufgabenverschiebung."
+    },
+    {
+      "front": "Welche drei Zielgrößen bilden das magische Dreieck des Projektmanagements?",
+      "back": "Leistung/Qualität, Kosten (Ressourcen) und Zeit/Termine. Die Änderung einer Größe hat Nebenwirkungen auf die anderen."
+    },
+    {
+      "front": "Welche Ziele hat der Projektabschluss?",
+      "back": "Überleitung in Betrieb/Wartung und Auflösung der Projektorganisation, Erfahrungssicherung (Lessons Learned) und Konfliktbewältigung im Team und mit dem Auftraggeber."
+    },
+    {
+      "front": "Nennen Sie die vier Phasen des Technologielebenszyklus.",
+      "back": "Einführung (Schrittmachertechnologie), Penetration (Schlüsseltechnologie), Reife (Basistechnologie) und Degeneration (bedrohte Technologie)."
+    },
+    {
+      "front": "Nennen Sie die Phasen des Softwarelebenszyklus.",
+      "back": "Projektdefinition (Vorphase), Anforderungsanalyse, Entwurf, Implementierung, Integration und Test, dann Betrieb/Wartung und schließlich Ablösung/Stilllegung."
+    },
+    {
+      "front": "Was besagt das Change-Modell Unfreezing, Moving, Freezing?",
+      "back": "Unfreezing: aufzeigen, warum geändert werden soll. Moving: Einführung mit Motivation der Beteiligten. Freezing: Verankerung des neuen Zustands als richtig (z. B. durch Qualifizierung)."
+    },
+    {
+      "front": "Nennen Sie die vier Wartungsarten.",
+      "back": "Korrigierende Wartung (Fehlerbehebung), adaptive Wartung (Anpassung an neue Rahmenbedingungen), enhansive Wartung (Erweiterung um Funktionen), perfektionierende Wartung (Qualitätsverbesserung)."
+    },
+    {
+      "front": "Nennen Sie typische Störungsursachen im Betrieb eines Anwendungssystems.",
+      "back": "Technische Störungen (Hardware, Strom, Infrastruktur), Softwarefehler, Sicherheitsvorfälle (Viren, Hacker), fehlerhafte Daten und Bedienungsfehler durch Nutzer."
+    },
+    {
+      "front": "Was ist das Ziel der Softwaresanierung und wann ist sie relevant?",
+      "back": "Ziel: Verbesserung der Softwarequalität ohne Änderung der Grundfunktionalität. Relevant bei steigenden Wartungskosten, Qualitätsproblemen oder technologischer Überalterung, besonders bei Legacy Systems."
+    },
+    {
+      "front": "Nennen Sie die vier Schritte des Risikomanagements.",
+      "back": "Risikoidentifikation, Risikoanalyse/-bewertung, Risikohandhabung und Risikoüberwachung."
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Welches Merkmal ist laut DIN 69901-5 KEIN charakteristisches Kennzeichen eines Projekts?",
+      "options": [
+        "Dauerhafte Wiederholung derselben Routinetätigkeit",
+        "Einmaligkeit der Bedingungen in ihrer Gesamtheit",
+        "Zeitliche, finanzielle und personelle Begrenzungen",
+        "Projektspezifische Organisation"
+      ],
+      "answer": 0,
+      "explanation": "Ein Projekt ist gerade durch die Einmaligkeit gekennzeichnet; dauerhafte, sich wiederholende Routinetätigkeiten sind das Gegenteil eines Projekts."
+    },
+    {
+      "question": "Welche Rolle wird in der Vorlesung ausdrücklich als 'die wichtigste Rolle' bezeichnet?",
+      "options": [
+        "Der Auftraggeber",
+        "Der Lenkungsausschuss",
+        "Der Projektleiter",
+        "Der Teilprojektleiter"
+      ],
+      "answer": 2,
+      "explanation": "Der Projektleiter wird auf der Folie explizit als die wichtigste Rolle bezeichnet; er plant das Projekt, moderiert Sitzungen und führt Soll-Ist-Vergleiche durch."
+    },
+    {
+      "question": "Wer hat ein Vetorecht bei finanziellen oder terminlichen Angelegenheiten und gibt die Projektziele vor?",
+      "options": [
+        "Der Projektleiter",
+        "Der Auftraggeber",
+        "Der Mitarbeiter",
+        "Der Moderator der Schätzklausur"
+      ],
+      "answer": 1,
+      "explanation": "Der Auftraggeber gibt die Projektziele vor, überprüft sie und hat ein Vetorecht bei finanziellen oder terminlichen Entscheidungen."
+    },
+    {
+      "question": "Welche Aussage über den Projektstrukturplan (PSP) ist korrekt?",
+      "options": [
+        "Er stellt vor allem den zeitlichen Ablauf des Projekts dar.",
+        "Er dient der Reduktion der Komplexität, stellt aber keinen zeitlichen Ablauf dar.",
+        "Er darf nicht bis auf Arbeitspakete detailliert werden.",
+        "Er kann ausschließlich objektorientiert aufgebaut werden."
+      ],
+      "answer": 1,
+      "explanation": "Der PSP reduziert Komplexität und stellt die Struktur dar, jedoch keinen zeitlichen Ablauf. Er wird bis auf die Arbeitspakete detailliert und kann prozess-, funktions-, phasen- oder objektorientiert sein."
+    },
+    {
+      "question": "Was gilt für eine nicht-teilbare Tätigkeit?",
+      "options": [
+        "Mehr Arbeitseinsatz verringert die Dauer proportional.",
+        "Mehr Arbeitseinsatz verringert die Dauer nicht, erhöht aber den Aufwand.",
+        "Sie kann grundsätzlich nicht geplant werden.",
+        "Die Dauer halbiert sich bei Verdopplung des Personals."
+      ],
+      "answer": 1,
+      "explanation": "Bei nicht-teilbaren Tätigkeiten verringert mehr Arbeitseinsatz die Dauer nicht (proportional), erhöht aber den Aufwand; eine Teilung ist prinzipiell möglich, aber nicht mit proportionaler Dauerverkürzung."
+    },
+    {
+      "question": "Wie wird im Netzplan der kritische Pfad charakterisiert?",
+      "options": [
+        "Er ist die Abfolge von Vorgängen mit der größten Pufferzeit.",
+        "Er ist die Abfolge von Vorgängen ohne Pufferzeit, auf der Verzögerungen das ganze Projekt verzögern.",
+        "Er umfasst nur parallel ablaufende Vorgänge.",
+        "Er wird ausschließlich im Gantt-Diagramm bestimmt."
+      ],
+      "answer": 1,
+      "explanation": "Der kritische Pfad hat keine Pufferzeit (FAZ = SAZ); Verzögerungen auf ihm verschieben den gesamten Projektendtermin. Er wird im Netzplan bestimmt."
+    },
+    {
+      "question": "Welche zwei Grundelemente werden im Belastungsdiagramm gegenübergestellt?",
+      "options": [
+        "Kosten und Termine",
+        "Personalverfügbarkeit und Personalbedarf",
+        "Qualität und Leistung",
+        "FAZ und SAZ"
+      ],
+      "answer": 1,
+      "explanation": "Das Belastungsdiagramm stellt Personalverfügbarkeit und Personalbedarf gegenüber; ihre Gegenüberstellung ergibt die Machbarkeit."
+    },
+    {
+      "question": "Welche Reihenfolge beschreibt das Change-Modell nach Lewin für die Systemeinführung korrekt?",
+      "options": [
+        "Freezing, Moving, Unfreezing",
+        "Moving, Freezing, Unfreezing",
+        "Unfreezing, Moving, Freezing",
+        "Unfreezing, Freezing, Moving"
+      ],
+      "answer": 2,
+      "explanation": "Die korrekte Reihenfolge ist Unfreezing (Änderungsbedarf aufzeigen), Moving (Einführung mit Motivation) und Freezing (neuen Zustand verankern)."
+    },
+    {
+      "question": "Welche Zuordnung von Wartungsart zu Ziel ist korrekt?",
+      "options": [
+        "Adaptive Wartung = Fehlerbehebung",
+        "Korrigierende Wartung = Erweiterung um neue Funktionen",
+        "Perfektionierende Wartung = Qualitätsverbesserung (z. B. Performance)",
+        "Enhansive Wartung = Anpassung an neue Rahmenbedingungen"
+      ],
+      "answer": 2,
+      "explanation": "Perfektionierende Wartung zielt auf Qualitätsverbesserung (z. B. Performance, Wartbarkeit). Korrigierend = Fehlerbehebung, adaptiv = Anpassung, enhansiv = Erweiterung."
+    },
+    {
+      "question": "Welche Phase umfasst den größten Anteil des Softwarelebenszyklus?",
+      "options": [
+        "Die Anforderungsanalyse",
+        "Der Entwurf",
+        "Der Systembetrieb",
+        "Die Systemeinführung"
+      ],
+      "answer": 2,
+      "explanation": "Der Systembetrieb beginnt unmittelbar nach der Systemeinführung und umfasst den größten Anteil des Softwarelebenszyklus."
+    },
+    {
+      "question": "Welche der folgenden ist KEINE typische Störungsursache im Betrieb eines Anwendungssystems?",
+      "options": [
+        "Softwarefehler",
+        "Sicherheitsvorfälle wie Viren oder Hacker",
+        "Bedienungsfehler durch Nutzer",
+        "Erhöhung der Motivation der Beteiligten"
+      ],
+      "answer": 3,
+      "explanation": "Typische Störungsursachen sind technische Störungen, Softwarefehler, Sicherheitsvorfälle, fehlerhafte Daten und Bedienungsfehler. Motivation ist keine Störungsursache."
+    },
+    {
+      "question": "Wann ist eine Softwaresanierung besonders relevant?",
+      "options": [
+        "Direkt nach dem formellen Projektstart",
+        "Bei steigenden Wartungskosten, Qualitätsproblemen oder technologischer Überalterung (Legacy Systems)",
+        "Während der Anforderungsanalyse",
+        "Nur bei Individualsoftware vor dem Abnahmetest"
+      ],
+      "answer": 1,
+      "explanation": "Softwaresanierung wird bei steigenden Wartungskosten, Qualitätsproblemen oder technologischer Überalterung durchgeführt und ist besonders bei Legacy Systems relevant; sie verbessert die Qualität ohne Änderung der Grundfunktionalität."
+    },
+    {
+      "question": "Welche Reihenfolge beschreibt den Technologielebenszyklus von der Einführung bis zur Degeneration korrekt?",
+      "options": [
+        "Basistechnologie, Schlüsseltechnologie, Schrittmachertechnologie, bedrohte Technologie",
+        "Schrittmachertechnologie, Schlüsseltechnologie, Basistechnologie, bedrohte Technologie",
+        "Schlüsseltechnologie, Schrittmachertechnologie, bedrohte Technologie, Basistechnologie",
+        "Bedrohte Technologie, Basistechnologie, Schlüsseltechnologie, Schrittmachertechnologie"
+      ],
+      "answer": 1,
+      "explanation": "Der Technologielebenszyklus verläuft von der Schrittmachertechnologie (Einführung) über die Schlüsseltechnologie (Penetration) und Basistechnologie (Reife) bis zur bedrohten Technologie (Degeneration)."
+    }
+  ]
+}
