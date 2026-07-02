@@ -1,4 +1,4 @@
-# Informationsmanagement – Klausur-Lernportal
+# WINFO – Klausur-Lernportal
 
 Lernwebsite für die Klausur **Informationsmanagement** (Uni Stuttgart, Dr. Baars) am **21.07.2026**.
 
